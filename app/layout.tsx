@@ -3,6 +3,7 @@ import { Nunito } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import GoogleAnalytics from "@/components/GoogleAnalytics"
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${nunito.variable} h-full`}>
       <body className="min-h-full flex flex-col font-sans antialiased bg-amber-50/30">
+        <GoogleAnalytics />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

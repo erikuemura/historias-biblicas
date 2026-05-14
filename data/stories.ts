@@ -17,6 +17,8 @@ export interface Story {
   bibleReference: string
   moralLesson: string
   scenes: Scene[]
+  imageUrl?: string
+  testament: "velho" | "novo"
 }
 
 export const stories: Story[] = [
@@ -33,6 +35,7 @@ export const stories: Story[] = [
     bgColor: "bg-blue-50",
     accentColor: "text-teal-700",
     bibleReference: "Gênesis 1–2",
+    testament: "velho",
     moralLesson:
       "Deus fez um mundo lindo cheio de amor. Tudo o que Ele criou é bom — inclusive você!",
     scenes: [
@@ -121,6 +124,7 @@ E o mais importante de tudo? Você também faz parte dessa criação linda. Deus
     bgColor: "bg-indigo-50",
     accentColor: "text-indigo-700",
     bibleReference: "Gênesis 6–9",
+    testament: "velho",
     moralLesson:
       "Quando obedecemos a Deus e confiamos Nele, mesmo as situações mais difíceis têm um final lindo — como um arco-íris!",
     scenes: [
@@ -219,6 +223,7 @@ E Noé e sua família abraçaram uns aos outros, cheios de alegria e gratidão.`
     bgColor: "bg-orange-50",
     accentColor: "text-orange-700",
     bibleReference: "Gênesis 37–45",
+    testament: "velho",
     moralLesson:
       "Mesmo quando as coisas parecem muito tristes, Deus tem um plano lindo. Nunca desista!",
     scenes: [
@@ -325,6 +330,7 @@ O sonhador que nunca desistiu viu o plano de Deus se cumprir de um jeito que nun
     bgColor: "bg-green-50",
     accentColor: "text-emerald-700",
     bibleReference: "Êxodo 2:1–10",
+    testament: "velho",
     moralLesson:
       "Deus cuida de cada criança com amor. Você é muito especial para Ele!",
     scenes: [
@@ -419,6 +425,7 @@ E Moisés cresceu forte, sabendo que havia algo muito especial reservado para el
     bgColor: "bg-rose-50",
     accentColor: "text-rose-700",
     bibleReference: "1 Samuel 17",
+    testament: "velho",
     moralLesson:
       "Não importa o tamanho do problema — com Deus ao seu lado, você pode vencer qualquer gigante!",
     scenes: [
@@ -527,6 +534,606 @@ E Davi levantou os olhos para o céu e agradeceu:
 — Obrigado, Senhor! Com você, tudo é possível!
 
 E assim o mundo aprendeu uma lição para sempre: não é o tamanho do guerreiro que importa — é o tamanho da fé!`,
+      },
+    ],
+  },
+
+  // ── Novo Testamento ──────────────────────────────────────────────────────
+  {
+    slug: "o-nascimento-de-jesus",
+    title: "O Nascimento de Jesus",
+    subtitle: "A noite mais especial do mundo",
+    description:
+      "Numa noitinha estrelada em Belém, nasceu o bebê mais especial de todos os tempos. Os pastores, os anjos e os Reis Magos vieram de longe para conhecê-lo!",
+    readingTime: "8 min",
+    ageRange: "3–8 anos",
+    emoji: "⭐",
+    gradient: "from-indigo-500 via-purple-500 to-pink-500",
+    bgColor: "bg-indigo-50",
+    accentColor: "text-indigo-700",
+    bibleReference: "Lucas 2:1–20",
+    testament: "novo",
+    moralLesson:
+      "Jesus veio ao mundo porque Deus nos ama imensamente. Cada Natal é uma festa de amor!",
+    scenes: [
+      {
+        title: "A Longa Viagem",
+        text: `Havia muito tempo, numa cidadezinha chamada Nazaré, vivia uma moça muito especial chamada Maria. Ela tinha cabelos escuros, um sorriso gentil e um coração cheio de amor por Deus.
+
+Maria estava esperando um bebê muito, muito especial. Um anjo chamado Gabriel tinha visitado ela e dito:
+
+— Maria, você vai ter um filho! E ele será o Filho de Deus. Chame-o de Jesus!
+
+Maria ficou surpresa, mas aceitou com alegria:
+
+— Que seja como Deus quiser!
+
+Seu noivo, José, era um carpinteiro bondoso de mãos calejadas e coração generoso. Quando soube da notícia, também ficou feliz e prometeu cuidar de Maria e do bebê.
+
+Mas antes de o bebê nascer, chegou uma notícia: o rei queria contar todas as pessoas do país. Todo mundo precisava viajar para a cidade de sua família.
+
+Para José, isso significava ir a Belém — uma viagem longa e cansativa!`,
+      },
+      {
+        title: "Sem Lugar na Estalagem",
+        text: `José e Maria partiram para Belém. Maria ia montada num burrico paciente enquanto José andava ao lado, cuidando de cada passo.
+
+A viagem era longa e as estradas eram de terra. O sol queimava durante o dia e o frio chegava à noite.
+
+Quando finalmente chegaram em Belém, a cidade estava cheia de gente! Haviam pessoas por toda parte — nas ruas, nas praças, nas casas.
+
+José bateu na porta de uma estalagem:
+
+— Por favor, você tem um quarto? Minha esposa está para ter bebê!
+
+— Sinto muito, está tudo lotado — respondeu o dono.
+
+José tentou outra estalagem. E mais outra. E mais uma...
+
+— Não tem lugar, não.
+— Já estamos cheios!
+— Não posso ajudar.
+
+Mas um estalajadeiro de coração bom disse:
+
+— Não tenho quarto, mas tenho um estábulo aqui atrás. Está limpo e tem palha fresca. Vocês podem ficar lá.
+
+José e Maria agradeceram com o coração cheio de gratidão.`,
+      },
+      {
+        title: "O Bebê Jesus Nasce",
+        text: `Naquela noite, no estábulo quentinho, cercada pelo cheiro de palha e pelo hálito morno dos animais, Maria teve seu bebê.
+
+Era lindo! Um menino perfeito com olhinhos que pareciam carregar toda a luz do céu.
+
+Maria embrulhou o bebê Jesus com carinho em pedaços de pano e o colocou numa manjedoura — a caixinha de comida dos animais — que virou o bercinho mais especial do mundo.
+
+O burrinho, o boi e as ovelhas ficaram quietinhos, como se soubessem que algo muito sagrado estava acontecendo.
+
+Lá fora, o céu estava cheio de estrelas brilhantes. Uma delas, maior e mais linda que todas, brilhava bem em cima do estábulo.
+
+Era o nascimento mais importante de toda a história!`,
+      },
+      {
+        title: "Os Pastores e os Anjos",
+        text: `Nos campos perto de Belém, alguns pastores cuidavam de suas ovelhas durante a noite. Eles olhavam para o céu escuro e conversavam baixinho.
+
+De repente... WHOOOOSH! Uma luz enorme e dourada iluminou tudo! Os pastores pularam de susto.
+
+Era um anjo brilhante! Os pastores ficaram com tanto medo que caíram no chão.
+
+— Não tenham medo! — disse o anjo com voz tranquila e alegre. — Tenho uma boa notícia, a melhor notícia de todas! Hoje nasceu em Belém o Salvador do mundo — Jesus, o Filho de Deus! Você vão achá-lo num estábulo, embrulhado em pano e deitado numa manjedoura.
+
+E então o céu inteiro se encheu de anjos cantando:
+
+— Glória a Deus! E paz na terra para todas as pessoas!
+
+Quando os anjos foram embora, os pastores se olharam com olhos brilhando:
+
+— Vamos lá! Vamos ver esse bebê!
+
+E saíram correndo em direção a Belém!`,
+      },
+      {
+        title: "Os Reis Magos e a Estrela",
+        text: `Bem longe dali, no Oriente, sábios estudiosos das estrelas observaram o céu e viram algo nunca antes visto: uma estrela nova e enorme, mais brilhante que todas.
+
+— Essa estrela significa que nasceu um rei muito especial! — disseram eles.
+
+E partiram numa longa jornada, seguindo a estrela, levando presentes preciosos: ouro, incenso e mirra.
+
+Depois de muito tempo viajando por desertos e montanhas, a estrela parou bem em cima do lugar onde estava o menino Jesus.
+
+Os Reis Magos entraram, viram o bebê Jesus no colo de Maria e sentiram seus corações se encherem de alegria. Ajoelharam-se e ofereceram seus presentes preciosos.
+
+Aquela noite em Belém foi a noite mais especial da história do mundo inteiro.
+
+O Filho de Deus tinha chegado — não num palácio com coroa de ouro, mas num estábulo simples, com coração cheio de amor por cada pessoa deste mundo.
+
+Inclusive por você!`,
+      },
+    ],
+  },
+  {
+    slug: "jesus-e-os-pescadores",
+    title: "Jesus e os Pescadores",
+    subtitle: "Quando Jesus chamou seus amigos",
+    description:
+      "Pedro e André passaram a noite toda pescando e não pegaram nada. Até que encontraram Jesus na margem do lago e tudo mudou de um jeito incrível!",
+    readingTime: "7 min",
+    ageRange: "3–8 anos",
+    emoji: "🐟",
+    gradient: "from-cyan-400 via-blue-500 to-indigo-500",
+    bgColor: "bg-cyan-50",
+    accentColor: "text-cyan-700",
+    bibleReference: "Lucas 5:1–11",
+    testament: "novo",
+    moralLesson:
+      "Quando Jesus entra na nossa vida, tudo muda para melhor. Ele nos chama para ser seus amigos e ajudar as pessoas!",
+    scenes: [
+      {
+        title: "Uma Noite Sem Peixe",
+        text: `O lago da Galileia era lindo — azul e brilhante, rodeado de colinas verdes.
+
+Naquele lago, havia dois irmãos pescadores chamados Simão Pedro e André. Todo dia eles saíam no barco de madeira com suas redes e trabalhavam muito para pescar.
+
+Mas naquela noite... nada.
+
+Eles jogaram a rede de um lado. Nada.
+Jogaram do outro lado. Nada.
+Esperaram em silêncio. Nada.
+
+Quando o sol começou a nascer, Pedro e André voltaram para a margem cansados e com os ombros caídos. Suas redes estavam vazias.
+
+— Que noite horrível — murmurou Pedro, começando a lavar as redes.
+
+Seu parceiro Tiago e seu irmão João estavam consertando as redes no barco ao lado, também com cara de pouco caso.`,
+      },
+      {
+        title: "O Homem na Margem",
+        text: `De repente, uma multidão de pessoas veio chegando pela beira do lago — queriam ouvir um homem que estava ensinando.
+
+Era Jesus! Ele tinha olhos bondosos e uma voz que deixava as pessoas com o coração quentinho.
+
+A multidão foi crescendo e Jesus precisava de espaço. Ele olhou para Pedro e pediu:
+
+— Simão, posso entrar no seu barco? Você empurra um pouquinho para longe da margem?
+
+Pedro concordou, curioso com aquele homem.
+
+Jesus entrou no barco, sentou, e de lá dentro começou a ensinar a multidão na margem. Pedro ficou escutando enquanto segurava o barco. E as palavras de Jesus eram tão bonitas, tão cheias de amor e sabedoria, que Pedro ficou de boca aberta.
+
+Quando Jesus terminou de falar, virou para Pedro e disse com um sorriso:
+
+— Agora leva o barco para águas mais fundas e joguem as redes para pescar.`,
+      },
+      {
+        title: "A Rede Cheia",
+        text: `Pedro coçou a cabeça. Tinha pescado a noite inteira sem pegar nada. E agora de dia, quando os peixes ficam escondidos?
+
+Mas havia algo naquele homem que fazia Pedro querer obedecer. Com um suspiro, ele disse:
+
+— Mestre, trabalhamos a noite toda e não pegamos nada. Mas já que você está pedindo... vou jogar a rede!
+
+Jogaram.
+
+E então... a rede ficou PESADA! Tão pesada que Pedro mal conseguia puxar!
+
+Os peixes entraram em quantidade enorme — a rede começou a rasgar de tanto peixe!
+
+— TIAGO! JOÃO! VEM CÁ! — gritou Pedro desesperado.
+
+O outro barco veio correndo. Os dois barcos ficaram tão cheios de peixes que quase afundavam!
+
+Pedro olhou para Jesus com os olhos arregalados. Seu coração estava acelerado. Aquilo não era possível...`,
+      },
+      {
+        title: "Venham me Seguir!",
+        text: `Pedro caiu de joelhos no barco, entre os peixes saltitantes, e disse com a voz trêmula:
+
+— Senhor, eu não sou digno de estar perto de você. Sou um homem cheio de defeitos!
+
+Jesus olhou para ele com um sorriso cheio de carinho e disse:
+
+— Não tenha medo, Pedro! A partir de agora, em vez de pescar peixes, você vai ajudar pessoas a encontrar Deus!
+
+Pedro ficou olhando para Jesus. Depois olhou para o lago. Depois para os peixes.
+
+E tomou uma decisão que mudou sua vida para sempre.
+
+Ele deixou o barco, as redes e todos aqueles peixes na margem...
+
+E foi seguir Jesus.
+
+Tiago e João fizeram a mesma coisa! Os quatro amigos partiram juntos, cheios de alegria e curiosidade, sem saber ao certo o que viria pela frente — mas sabendo que ao lado de Jesus, seria incrível.`,
+      },
+      {
+        title: "Amigos de Jesus",
+        text: `Ao longo do tempo, Jesus foi chamando mais pessoas para caminhar com Ele. No total, doze amigos especiais — chamados de discípulos — foram seus companheiros de jornada.
+
+Eles andaram juntos pelas cidades e vilarejos. Viram Jesus curar pessoas doentes, ajudar os que estavam tristes e ensinar coisas maravilhosas sobre o amor de Deus.
+
+Pedro, aquele pescador que não tinha conseguido um peixe sequer naquela noite, se tornou um dos amigos mais próximos de Jesus.
+
+E sabe o que é mais lindo nessa história?
+
+Jesus ainda hoje chama as pessoas para serem suas amigas. Ele olha para você — assim como olhou para Pedro na margem do lago — e convida:
+
+— Quer ser meu amigo?
+
+E quando você diz sim para Jesus, sua vida também fica cheia, cheia, cheia... assim como aquela rede de peixe!`,
+      },
+    ],
+  },
+  {
+    slug: "jesus-acalma-a-tempestade",
+    title: "Jesus Acalma a Tempestade",
+    subtitle: "Quando Jesus mandou o vento parar",
+    description:
+      "Os discípulos estavam com muito medo dentro do barco sacudido pelas ondas enormes. Mas Jesus estava com eles — e com uma só palavra, tudo ficou em paz.",
+    readingTime: "7 min",
+    ageRange: "3–8 anos",
+    emoji: "🌊",
+    gradient: "from-slate-500 via-blue-600 to-cyan-500",
+    bgColor: "bg-slate-50",
+    accentColor: "text-blue-700",
+    bibleReference: "Marcos 4:35–41",
+    testament: "novo",
+    moralLesson:
+      "Quando você tiver medo, lembre que Jesus está sempre com você. Ele é mais forte do que qualquer tempestade!",
+    scenes: [
+      {
+        title: "Um Dia Cheio",
+        text: `Jesus tinha passado o dia inteiro ensinando multidões de pessoas à beira do lago da Galileia.
+
+Ele contou histórias lindas — sobre sementes que crescem, sobre um pai que ama seus filhos, sobre o reino de Deus.
+
+As pessoas ouviam com os olhos brilhando e o coração esperançoso.
+
+Mas quando o sol começou a se pôr, Jesus estava cansado. Cansado de um jeito muito humano — com os pés doendo e os olhos pesados.
+
+Ele olhou para seus discípulos e disse com uma voz tranquila:
+
+— Vamos para o outro lado do lago.
+
+Os discípulos toparam. Afinal, muitos deles eram pescadores e conheciam bem aquelas águas. Subiram no barco, Jesus foi com eles, e partiram enquanto o céu ficava laranja e roxo.`,
+      },
+      {
+        title: "Jesus Dormindo",
+        text: `Jesus foi para a parte de trás do barco, pegou um travesseiro e... dormiu.
+
+Sim! O Filho de Deus estava tão cansado que dormiu profundamente enquanto o barco navegava.
+
+Os discípulos remavam e conversavam baixinho para não acordá-lo.
+
+Tudo estava bem. O lago estava calmo, o céu estava estrelado.
+
+Mas então, sem aviso nenhum, tudo mudou.
+
+Uma nuvem escura e pesada cobriu as estrelas. O vento começou a soprar — primeiro devagarzinho, depois cada vez mais forte.
+
+As ondas ficaram grandes. Depois enormes.
+
+O barco começou a balançar — para um lado, para o outro, para cima, para baixo!
+
+A água entrava por cima das bordas!`,
+      },
+      {
+        title: "O Medo dos Discípulos",
+        text: `Os discípulos pescadores conheciam bem o lago. Eles sabiam quando uma tempestade era perigosa.
+
+E aquela era MUITO perigosa.
+
+Eles remavam com toda a força, tentavam tirar a água do barco, gritavam uns para os outros no meio do vento uivante.
+
+— A onda! CUIDADO COM A ONDA!
+
+— O barco vai afundar!
+
+— Estamos perdidos!
+
+E Jesus? Ainda dormindo lá atrás, balançando junto com o barco, sem se preocupar com nada.
+
+Os discípulos olharam uns para os outros. Olharam para Jesus.
+
+Pedro foi até ele e sacudiu:
+
+— MESTRE! MESTRE! Acorda! A gente vai morrer afogado! Você não liga para isso?!`,
+      },
+      {
+        title: "Paz, Aquieta-te!",
+        text: `Jesus abriu os olhos. Olhou para os discípulos apavorados. Olhou para as ondas furiosas. Olhou para o vento sacudindo tudo.
+
+Levantou-se devagar.
+
+E com uma voz calma — mas cheia de autoridade — falou para o vento e para as ondas:
+
+— Paz! Aquieta-te!
+
+E o vento parou.
+
+Assim. De repente. Completamente.
+
+As ondas foram ficando menores... menores... menores... até que o lago ficou liso como um espelho.
+
+Silêncio total. Só o barulho do barco boiando na água quieta.
+
+Os discípulos ficaram olhando para o lago, para Jesus, para o lago de novo.
+
+Estavam com a boca aberta. As mãos tremiam — mas não de medo. De espanto.
+
+— Que homem é esse? — sussurravam uns para os outros. — Até o vento e o mar obedecem a ele!`,
+      },
+      {
+        title: "Não Tenham Medo",
+        text: `Jesus olhou para cada um dos seus amigos com carinho.
+
+— Por que vocês ficaram com tanto medo? — perguntou com gentileza. — Ainda não confiam em mim?
+
+Os discípulos abaixaram a cabeça. Era verdade: eles tinham esquecido que Jesus estava com eles.
+
+E quando Jesus está com você, não há tempestade grande o suficiente para destruir você.
+
+Eles chegaram do outro lado do lago em paz, o coração ainda acelerado mas cheio de fé.
+
+E aquela história ficou guardada para sempre na memória deles — a noite em que viram Jesus mandar a tempestade parar com uma palavra.
+
+E você, sabe de uma coisa?
+
+Quando você estiver com medo — de trovão, de escuro, de qualquer coisa — pode lembrar dessa história e dizer: "Jesus está comigo." Porque está mesmo. Sempre.`,
+      },
+    ],
+  },
+  {
+    slug: "jesus-alimenta-cinco-mil",
+    title: "Jesus Alimenta 5.000 Pessoas",
+    subtitle: "O almoço de um menino que alimentou uma multidão",
+    description:
+      "Era hora do jantar e havia 5.000 pessoas com fome no campo. Um menininho tinha só 5 pãezinhos e 2 peixinhos. Mas nas mãos de Jesus, aquilo se tornou um banquete!",
+    readingTime: "8 min",
+    ageRange: "3–8 anos",
+    emoji: "🍞",
+    gradient: "from-yellow-400 via-amber-400 to-orange-500",
+    bgColor: "bg-yellow-50",
+    accentColor: "text-amber-700",
+    bibleReference: "João 6:1–14",
+    testament: "novo",
+    moralLesson:
+      "Quando damos o que temos para Jesus, mesmo que pareça pouco, Ele pode fazer algo incrível com isso!",
+    scenes: [
+      {
+        title: "Uma Multidão no Campo",
+        text: `A notícia sobre Jesus se espalhava por todas as cidades e vilarejos: ele curava pessoas doentes, ajudava os tristes e ensinava coisas maravilhosas.
+
+E por isso as pessoas iam até onde ele estivesse.
+
+Naquele dia, Jesus e seus discípulos foram para um campo tranquilo perto do lago. Queriam descansar um pouco.
+
+Mas quando chegaram... a multidão já estava lá esperando!
+
+Famílias inteiras tinham caminhado horas para ver Jesus. Havia velhinhos e bebês de colo, crianças correndo e jovens curiosos. Eram tantas pessoas que parecia uma cidadezinha inteira reunida no campo aberto.
+
+Jesus olhou para aquela gente e sentiu seu coração se encher de amor. Ele não mandou ninguém embora.
+
+Pelo contrário — ficou o dia todo ensinando, conversando e curando quem precisava.`,
+      },
+      {
+        title: "Hora do Jantar",
+        text: `O sol começou a descer no horizonte, pintando o céu de laranja e rosa.
+
+Filipe, um dos discípulos, olhou para a multidão e depois para Jesus:
+
+— Mestre... já está ficando tarde. Essas pessoas estão com fome! Acho que devemos mandá-las para as aldeias comprarem comida.
+
+Jesus olhou para Filipe com um brilho nos olhos e perguntou:
+
+— E onde vamos comprar pão para alimentar toda essa gente?
+
+Filipe fez as contas rapidamente:
+
+— Duzentos denários de pão não seriam suficientes para cada um pegar um pedacinho sequer!
+
+André, outro discípulo, veio correndo:
+
+— Mestre! Encontrei um menino aqui que tem comida. Mas é bem pouco...`,
+      },
+      {
+        title: "O Menino Corajoso",
+        text: `O menino se aproximou de Jesus. Era um garoto simples, com cabelos bagunçados e sandálias empoeiradas de tanto caminhar.
+
+Na cesta que ele carregava havia o almoço que sua mãe tinha preparado:
+
+Cinco pãezinhos de cevada — pequenos, redondos e cheirosos.
+Dois peixinhos — salgados e secos.
+
+Era a comida de um menino. Para cinco mil pessoas, não daria nem para um lanche.
+
+Os discípulos olhavam para a cesta e faziam careta:
+
+— Isso não vai adiantar nada...
+
+Mas o menino olhou para Jesus e, com um sorriso, estendeu a cesta:
+
+— Pode pegar! É tudo o que eu tenho, mas você pode usar.
+
+Jesus pegou a cesta e sorriu para o menino com um olhar que dizia: obrigado. Você não sabe o que acabou de fazer.`,
+      },
+      {
+        title: "O Milagre",
+        text: `Jesus pediu para todo mundo se sentar na grama. Cinco mil pessoas se acomodaram em grupos, como um piquenique gigante.
+
+Então Jesus pegou os cinco pães, olhou para o céu e agradeceu a Deus.
+
+Depois começou a partir os pães.
+
+E distribuiu para os discípulos. Os discípulos levaram para as pessoas.
+
+E Jesus partiu mais. E distribuiu mais.
+
+E mais. E mais. E mais.
+
+Os pães não acabavam!
+
+Os peixinhos não acabavam!
+
+As pessoas comiam, se serviam de novo e ainda sobravam!
+
+Crianças rindo, adultos boquiabertos, discípulos correndo de um lado para o outro carregando pão. Era uma festa!
+
+Quando todo mundo tinha comido até ficar satisfeito, Jesus pediu:
+
+— Recolham o que sobrou, para nada ser desperdiçado.
+
+Os discípulos foram com cestas... e encheram DOZE cestas com os pedaços que sobraram!
+
+De cinco pãezinhos e dois peixinhos!`,
+      },
+      {
+        title: "O Presente do Menino",
+        text: `Enquanto os discípulos recolhiam as sobras, o menino ficou olhando com os olhos arregalados.
+
+Ele tinha dado tudo que tinha. Uma coisa pequenininha.
+
+E Jesus tinha alimentado cinco mil pessoas com aquilo.
+
+O menino nunca mais esqueceu aquele dia.
+
+E essa história chegou até nós, milhares de anos depois, para nos lembrar de algo muito importante:
+
+Você não precisa ter muito para fazer a diferença. Um sorriso, uma palavra de carinho, um biscoitinho dividido com o amigo — nas mãos de Jesus, qualquer coisa vira algo grande.
+
+Quando você oferece o que tem com amor, coisas incríveis podem acontecer!`,
+      },
+    ],
+  },
+  {
+    slug: "a-ressurreicao-de-jesus",
+    title: "A Ressurreição de Jesus",
+    subtitle: "O maior milagre de todos os tempos",
+    description:
+      "Os amigos de Jesus estavam muito tristes. Mas na manhã do terceiro dia, algo incrível aconteceu — algo que mudou o mundo para sempre e nos enche de esperança!",
+    readingTime: "9 min",
+    ageRange: "4–8 anos",
+    emoji: "✨",
+    gradient: "from-violet-400 via-purple-500 to-pink-400",
+    bgColor: "bg-violet-50",
+    accentColor: "text-violet-700",
+    bibleReference: "Lucas 24:1–12; João 20",
+    testament: "novo",
+    moralLesson:
+      "Jesus venceu até a morte! Por isso podemos viver sem medo, cheios de alegria e esperança — porque Ele está vivo!",
+    scenes: [
+      {
+        title: "A Sexta-Feira Triste",
+        text: `Esta história começa com tristeza. Uma tristeza muito grande.
+
+Jesus, o melhor amigo que as pessoas já tiveram, tinha sido preso por pessoas que não gostavam dele. Mesmo sem ter feito nada de errado, Jesus foi colocado numa cruz.
+
+Seus amigos — Maria Madalena, os discípulos, sua mãe Maria — ficaram olhando de longe, com o coração partido.
+
+Por que isso estava acontecendo com Jesus, que só fazia o bem?
+
+Mas Jesus, mesmo na dor, olhou para o céu e disse:
+
+— Pai, perdoa eles. Eles não sabem o que estão fazendo.
+
+Até no momento mais difícil, Jesus pensava em perdoar e amar.
+
+Quando Jesus morreu, seus amigos ficaram arrasados. Colocaram seu corpo com muito carinho num túmulo — uma caverna na rocha — e rolaram uma pedra enorme na entrada.
+
+Aquela noite foi a mais triste da vida deles.`,
+      },
+      {
+        title: "A Manhã do Terceiro Dia",
+        text: `Um, dois, três dias se passaram.
+
+Bem cedinho, quando o céu ainda estava cinza e o sol mal tinha nascido, Maria Madalena e algumas outras mulheres foram até o túmulo.
+
+Elas carregavam perfumes e flores. Queriam cuidar do corpo de Jesus com carinho — era um jeito de demonstrar amor, mesmo depois da morte.
+
+O caminho era silencioso. Os pássaros mal tinham começado a cantar.
+
+Enquanto caminhavam, uma preocupação:
+
+— E a pedra enorme na entrada do túmulo? Quem vai tirar ela pra gente?
+
+Mas quando chegaram mais perto e olharam...
+
+A pedra estava rolada para o lado!
+
+O túmulo estava aberto!
+
+As mulheres olharam umas para as outras com o coração na garganta. O que tinha acontecido?`,
+      },
+      {
+        title: "O Túmulo Vazio",
+        text: `Maria Madalena correu até a abertura e olhou para dentro.
+
+O túmulo estava vazio.
+
+As tiras de pano em que Jesus tinha sido enrolado estavam ali, dobradas com cuidado, mas Jesus não estava.
+
+Dois homens com roupas que brilhavam como relâmpago estavam dentro do túmulo. Eram anjos!
+
+As mulheres caíram com o rosto no chão, com o coração acelerado.
+
+— Por que vocês procuram entre os mortos aquele que está vivo? — perguntaram os anjos com vozes cheias de alegria. — Ele não está aqui! Ele ressuscitou!
+
+Ressuscitou! Voltou à vida!
+
+As mulheres levantaram a cabeça. Olharam para o túmulo vazio. Olharam para os anjos. Olharam umas para as outras.
+
+E então saíram correndo!`,
+      },
+      {
+        title: "Jesus Aparece para Maria",
+        text: `Maria Madalena ficou perto do túmulo, chorando.
+
+Ela ainda não entendia direito o que tinha acontecido. O coração dela doía de saudade.
+
+De repente, alguém estava perto dela. Ela pensou que era o jardineiro.
+
+— Por que você está chorando? Quem você procura? — perguntou ele.
+
+— Senhor, se você sabe onde está Jesus, me diga onde colocaram ele... — respondeu Maria com a voz trêmula.
+
+E então a pessoa disse apenas uma palavra:
+
+— Maria.
+
+Só o jeito que ele falou o nome dela... ela reconheceu imediatamente!
+
+Maria virou e viu Jesus — vivo, de pé, sorrindo para ela!
+
+— Mestre! — ela exclamou, correndo para ele.
+
+Era real. Ele estava vivo de verdade!
+
+— Vai e conta para os meus amigos — disse Jesus. — Diga que eu estou vivo!`,
+      },
+      {
+        title: "A Alegria que Nunca Acaba",
+        text: `Maria Madalena saiu correndo o mais rápido que suas pernas podiam!
+
+Chegou ofegante onde estavam os discípulos, com as bochechas vermelhas e os olhos brilhando:
+
+— Eu vi Jesus! Ele está vivo! ELE RESSUSCITOU!
+
+Os discípulos ficaram olhando para ela. Alguns não acreditaram de primeira. Como podia?
+
+Mas logo Jesus apareceu para eles também — passando por portas fechadas, mostrando as marcas das mãos, comendo peixe com eles, conversando e ensinando.
+
+Era realmente Ele. Vivo. Para sempre.
+
+E essa notícia — que Jesus ressuscitou — se espalhou pelo mundo inteiro.
+
+Até hoje, quando chega a Páscoa, as pessoas celebram essa alegria:
+
+Jesus estava morto... e voltou à vida!
+
+Isso significa que o amor de Deus é mais forte do que qualquer coisa. Mais forte do que a tristeza, mais forte do que o medo, mais forte do que a própria morte.
+
+E Jesus vive até hoje. No seu coração, quando você fala com Ele, Ele ouve. Porque está vivo!`,
       },
     ],
   },

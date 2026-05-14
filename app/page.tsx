@@ -5,8 +5,8 @@ import NewsletterForm from "@/components/NewsletterForm"
 import { stories } from "@/data/stories"
 
 export default function HomePage() {
-  const featuredStories = stories.slice(0, 3)
-  const remainingStories = stories.slice(3)
+  const oldTestament = stories.filter((s) => s.testament === "velho")
+  const newTestament = stories.filter((s) => s.testament === "novo")
 
   return (
     <>
@@ -70,49 +70,51 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stories */}
+      {/* Velho Testamento */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 text-amber-600 font-semibold text-sm mb-3">
             <Star className="w-4 h-4 fill-amber-400 stroke-amber-600" />
-            HISTÓRIAS EM DESTAQUE
+            VELHO TESTAMENTO
             <Star className="w-4 h-4 fill-amber-400 stroke-amber-600" />
           </div>
           <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mb-4">
-            Aventuras do Velho Testamento
+            As Grandes Histórias de Israel
           </h2>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-            Do começo do mundo ao corajoso Davi — histórias que toda criança
-            precisa conhecer, contadas de um jeito divertido e emocionante!
+            Da criação do mundo ao corajoso Davi — histórias que toda criança
+            precisa conhecer!
           </p>
         </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
-          {featuredStories.map((story, i) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {oldTestament.map((story, i) => (
             <StoryCard key={story.slug} story={story} index={i} />
           ))}
         </div>
+      </section>
 
-        {remainingStories.length > 0 && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {remainingStories.map((story, i) => (
-              <StoryCard
-                key={story.slug}
-                story={story}
-                index={i + featuredStories.length}
-              />
+      {/* Novo Testamento */}
+      <section className="bg-white py-16 sm:py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 text-purple-600 font-semibold text-sm mb-3">
+              <Star className="w-4 h-4 fill-purple-400 stroke-purple-600" />
+              NOVO TESTAMENTO
+              <Star className="w-4 h-4 fill-purple-400 stroke-purple-600" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mb-4">
+              A Vida e os Milagres de Jesus
+            </h2>
+            <p className="text-lg text-gray-500 max-w-2xl mx-auto">
+              Do nascimento em Belém à ressurreição — as histórias mais lindas
+              já contadas!
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {newTestament.map((story, i) => (
+              <StoryCard key={story.slug} story={story} index={i} />
             ))}
           </div>
-        )}
-
-        <div className="text-center mt-10">
-          <Link
-            href="/historias"
-            className="inline-flex items-center gap-2 px-6 py-3 border-2 border-amber-400 text-amber-700 font-bold rounded-xl hover:bg-amber-50 transition-colors"
-          >
-            <BookOpen className="w-4 h-4" />
-            Ver todas as histórias
-          </Link>
         </div>
       </section>
 

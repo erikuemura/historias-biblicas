@@ -11,6 +11,7 @@ import {
   Lightbulb,
 } from "lucide-react"
 import { stories, getStoryBySlug } from "@/data/stories"
+import PrintButton from "@/components/PrintButton"
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -215,9 +216,12 @@ export default async function StoryPage({ params }: Props) {
             Ver outras histórias
           </Link>
 
-          <div className="flex items-center gap-2 text-sm text-gray-500">
-            <Heart className="w-4 h-4 text-rose-400 fill-rose-400" />
-            Compartilhe com outras famílias!
+          <div className="flex items-center gap-3">
+            <PrintButton />
+            <div className="flex items-center gap-2 text-sm text-gray-500">
+              <Heart className="w-4 h-4 text-rose-400 fill-rose-400" />
+              Compartilhe com outras famílias!
+            </div>
           </div>
         </div>
       </div>

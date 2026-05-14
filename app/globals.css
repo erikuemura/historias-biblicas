@@ -40,3 +40,22 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+@media print {
+  header, footer, nav, .print\:hidden { display: none !important; }
+
+  body { background: white !important; font-family: Georgia, serif; }
+
+  .prose-story { font-size: 13pt; line-height: 1.8; }
+
+  h1 { font-size: 22pt; margin-bottom: 6pt; }
+  h2 { font-size: 15pt; margin-top: 18pt; margin-bottom: 6pt; page-break-after: avoid; }
+
+  p { margin-bottom: 8pt; orphans: 3; widows: 3; }
+
+  .print-story-header {
+    border-bottom: 2pt solid #f59e0b;
+    padding-bottom: 12pt;
+    margin-bottom: 20pt;
+  }
+}
