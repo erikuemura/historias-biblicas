@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a65"/>
+      <stop offset="40%" stop-color="#ffb74d"/>
+      <stop offset="70%" stop-color="#ffe082"/>
+      <stop offset="100%" stop-color="#fff9c4"/>
+    </linearGradient>
+    <linearGradient id="sand3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffcc80"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+    <linearGradient id="coat3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e53935"/>
+      <stop offset="20%" stop-color="#fb8c00"/>
+      <stop offset="40%" stop-color="#fdd835"/>
+      <stop offset="60%" stop-color="#43a047"/>
+      <stop offset="80%" stop-color="#1e88e5"/>
+      <stop offset="100%" stop-color="#8e24aa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#sky3)"/>
+
+  <!-- Sun low on horizon -->
+  <circle cx="650" cy="200" r="65" fill="#ff8f00" opacity="0.9"/>
+  <circle cx="650" cy="200" r="80" fill="#ffb300" opacity="0.2"/>
+
+  <!-- Desert dunes background -->
+  <ellipse cx="150" cy="420" rx="220" ry="120" fill="#ef6c00" opacity="0.6"/>
+  <ellipse cx="700" cy="430" rx="200" ry="110" fill="#e65100" opacity="0.5"/>
+  <ellipse cx="400" cy="460" rx="300" ry="100" fill="#ff8f00" opacity="0.4"/>
+
+  <!-- Ground -->
+  <rect x="0" y="360" width="800" height="140" fill="url(#sand3)"/>
+  <!-- Sand texture -->
+  <path d="M0,370 Q100,355 200,370 Q300,385 400,370 Q500,355 600,370 Q700,385 800,370" fill="none" stroke="#ffcc80" stroke-width="2" opacity="0.4"/>
+  <path d="M0,390 Q120,378 240,390 Q360,402 480,390 Q600,378 720,390 Q760,398 800,390" fill="none" stroke="#ffcc80" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Palm tree left -->
+  <rect x="108" y="200" width="14" height="165" rx="5" fill="#795548"/>
+  <g fill="#388e3c">
+    <ellipse cx="115" cy="205" rx="55" ry="20" transform="rotate(-30,115,205)"/>
+    <ellipse cx="115" cy="205" rx="55" ry="20" transform="rotate(10,115,205)"/>
+    <ellipse cx="115" cy="205" rx="55" ry="20" transform="rotate(50,115,205)"/>
+    <ellipse cx="115" cy="205" rx="55" ry="20" transform="rotate(-70,115,205)"/>
+  </g>
+  <!-- Coconuts -->
+  <circle cx="120" cy="218" r="8" fill="#ff8f00"/>
+  <circle cx="108" cy="222" r="7" fill="#e65100"/>
+
+  <!-- Palm tree right -->
+  <rect x="658" y="220" width="14" height="145" rx="5" fill="#6d4c41"/>
+  <g fill="#2e7d32">
+    <ellipse cx="665" cy="225" rx="50" ry="18" transform="rotate(-25,665,225)"/>
+    <ellipse cx="665" cy="225" rx="50" ry="18" transform="rotate(15,665,225)"/>
+    <ellipse cx="665" cy="225" rx="50" ry="18" transform="rotate(55,665,225)"/>
+    <ellipse cx="665" cy="225" rx="50" ry="18" transform="rotate(-65,665,225)"/>
+  </g>
+
+  <!-- Small camels in background -->
+  <g transform="translate(580,310) scale(0.6)" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="35" ry="20" fill="#a1887f"/>
+    <ellipse cx="15" cy="-22" rx="12" ry="18" fill="#a1887f"/><!-- hump -->
+    <rect x="-30" y="10" width="8" height="25" rx="3" fill="#8d6e63"/>
+    <rect x="-15" y="12" width="8" height="25" rx="3" fill="#8d6e63"/>
+    <rect x="15" y="12" width="8" height="25" rx="3" fill="#8d6e63"/>
+    <rect x="28" y="10" width="8" height="25" rx="3" fill="#8d6e63"/>
+    <ellipse cx="38" cy="-8" rx="14" ry="10" fill="#a1887f"/><!-- head -->
+    <circle cx="43" cy="-12" r="3" fill="#5d4037"/>
+  </g>
+
+  <!-- José - main character -->
+  <g transform="translate(320,140)">
+    <!-- Shadow -->
+    <ellipse cx="60" cy="222" rx="45" ry="12" fill="#bf360c" opacity="0.3"/>
+    <!-- Legs -->
+    <rect x="38" y="178" width="16" height="48" rx="6" fill="#5c6bc0"/>
+    <rect x="62" y="178" width="16" height="48" rx="6" fill="#5c6bc0"/>
+    <!-- Sandals -->
+    <ellipse cx="46" cy="228" rx="14" ry="6" fill="#8d6e63"/>
+    <ellipse cx="70" cy="228" rx="14" ry="6" fill="#8d6e63"/>
+    <!-- Colorful coat -->
+    <path d="M15,70 L20,185 L100,185 L105,70 Q80,45 60,42 Q40,45 15,70Z" fill="url(#coat3)"/>
+    <!-- Coat stripes -->
+    <line x1="18" y1="95" x2="102" y2="95" stroke="white" stroke-width="1.5" opacity="0.3"/>
+    <line x1="17" y1="120" x2="103" y2="120" stroke="white" stroke-width="1.5" opacity="0.3"/>
+    <line x1="17" y1="145" x2="103" y2="145" stroke="white" stroke-width="1.5" opacity="0.3"/>
+    <line x1="18" y1="170" x2="102" y2="170" stroke="white" stroke-width="1.5" opacity="0.3"/>
+    <!-- Arms -->
+    <path d="M20,80 Q-10,110 -5,140" stroke="#e53935" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M100,80 Q130,110 125,140" stroke="#8e24aa" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <!-- Hands -->
+    <circle cx="-5" cy="142" r="10" fill="#ffccbc"/>
+    <circle cx="125" cy="142" r="10" fill="#ffccbc"/>
+    <!-- Neck -->
+    <rect x="52" y="25" width="16" height="20" rx="4" fill="#ffccbc"/>
+    <!-- Head -->
+    <circle cx="60" cy="18" r="28" fill="#ffccbc"/>
+    <!-- Hair -->
+    <path d="M35,8 Q60,-15 85,8 Q88,25 85,12 Q60,-10 35,12 Z" fill="#4e342e"/>
+    <!-- Eyes -->
+    <circle cx="50" cy="14" r="4.5" fill="#4e342e"/>
+    <circle cx="70" cy="14" r="4.5" fill="#4e342e"/>
+    <circle cx="51" cy="13" r="1.5" fill="white"/>
+    <circle cx="71" cy="13" r="1.5" fill="white"/>
+    <!-- Smile -->
+    <path d="M48,26 Q60,36 72,26" stroke="#e64a19" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Rosy cheeks -->
+    <circle cx="43" cy="22" r="6" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="77" cy="22" r="6" fill="#ef9a9a" opacity="0.4"/>
+  </g>
+
+  <!-- Stars / sparkles around coat -->
+  <g fill="#fff176" opacity="0.8">
+    <circle cx="290" cy="200" r="3"/>
+    <circle cx="300" cy="230" r="2"/>
+    <circle cx="470" cy="195" r="3"/>
+    <circle cx="465" cy="225" r="2"/>
+    <circle cx="395" cy="175" r="2.5"/>
+  </g>
+</svg>

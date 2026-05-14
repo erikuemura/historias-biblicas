@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1b4b"/>
+      <stop offset="55%" stop-color="#1a2f6e"/>
+      <stop offset="100%" stop-color="#2d4a8a"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6d4c41"/>
+      <stop offset="100%" stop-color="#3e2723"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="50%" cy="60%" r="55%">
+      <stop offset="0%" stop-color="#ffe082" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#e65100" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <g fill="white" opacity="0.8">
+    <circle cx="50" cy="40" r="2"/><circle cx="120" cy="22" r="1.5"/><circle cx="200" cy="55" r="2"/>
+    <circle cx="300" cy="28" r="1.5"/><circle cx="580" cy="35" r="2"/><circle cx="650" cy="20" r="1.5"/>
+    <circle cx="720" cy="50" r="2"/><circle cx="760" cy="30" r="1.5"/><circle cx="460" cy="45" r="1.5"/>
+  </g>
+
+  <!-- Big star -->
+  <circle cx="400" cy="68" r="45" fill="#ffe082" opacity="0.25"/>
+  <g transform="translate(400,68)" fill="white">
+    <polygon points="0,-28 3,-9 0,-5 -3,-9"/>
+    <polygon points="0,28 3,9 0,5 -3,9"/>
+    <polygon points="-28,0 -9,3 -5,0 -9,-3"/>
+    <polygon points="28,0 9,3 5,0 9,-3"/>
+    <polygon points="-18,-18 -6,-5 -5,-6" opacity="0.7"/>
+    <polygon points="18,-18 6,-5 5,-6" opacity="0.7"/>
+    <polygon points="-18,18 -6,5 -5,6" opacity="0.7"/>
+    <polygon points="18,18 6,5 5,6" opacity="0.7"/>
+    <circle cx="0" cy="0" r="7"/>
+  </g>
+  <!-- Star beam -->
+  <polygon points="396,84 404,84 408,355 392,355" fill="white" opacity="0.06"/>
+
+  <!-- Hills -->
+  <ellipse cx="180" cy="388" rx="270" ry="125" fill="#0f2248"/>
+  <ellipse cx="630" cy="382" rx="250" ry="118" fill="#122a55"/>
+  <!-- Manger warm glow -->
+  <ellipse cx="400" cy="380" rx="240" ry="128" fill="url(#warmGlow)"/>
+
+  <!-- Ground -->
+  <rect x="0" y="400" width="800" height="100" fill="url(#ground)"/>
+
+  <!-- STABLE -->
+  <polygon points="185,268 400,158 615,268" fill="#3e2723"/>
+  <rect x="215" y="268" width="370" height="140" rx="3" fill="#4e342e"/>
+  <rect x="218" y="264" width="10" height="148" rx="3" fill="#6d4c41"/>
+  <rect x="572" y="264" width="10" height="148" rx="3" fill="#6d4c41"/>
+
+  <!-- MANGER -->
+  <rect x="348" y="348" width="104" height="56" rx="7" fill="#6d4c41" stroke="#4e342e" stroke-width="2"/>
+  <ellipse cx="400" cy="356" rx="42" ry="11" fill="#ffe082" opacity="0.85"/>
+  <g stroke="#ffb300" stroke-width="1.5" opacity="0.45" stroke-linecap="round">
+    <line x1="370" y1="353" x2="386" y2="348"/><line x1="400" y1="350" x2="418" y2="355"/>
+  </g>
+
+  <!-- BABY JESUS -->
+  <g transform="translate(400,353)">
+    <ellipse cx="0" cy="2" rx="28" ry="14" fill="#fff9c4" stroke="#ffe082" stroke-width="2"/>
+    <path d="M-18,-4 Q0,-10 18,-4" stroke="#ffcc02" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <circle cx="0" cy="-18" r="14" fill="#ffccbc"/>
+    <path d="M-7,-29 Q0,-35 7,-29" stroke="#c8a068" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M-5,-20 Q-2,-17 1,-20" stroke="#6d4c41" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M1,-20 Q4,-17 7,-20" stroke="#6d4c41" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M-4,-11 Q0,-7 4,-11" stroke="#e64a19" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <circle cx="-8" cy="-15" r="4.5" fill="#ef9a9a" opacity="0.45"/>
+    <circle cx="8" cy="-15" r="4.5" fill="#ef9a9a" opacity="0.45"/>
+    <circle cx="0" cy="-18" r="19" fill="none" stroke="#ffd54f" stroke-width="2" opacity="0.5" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- MARY (left, kneeling) -->
+  <g transform="translate(220,222)">
+    <ellipse cx="50" cy="188" rx="36" ry="9" fill="#0d2045" opacity="0.2"/>
+    <!-- Blue dress -->
+    <path d="M6,50 Q2,145 -3,188 Q50,200 104,188 Q99,145 96,50 Q76,33 50,30 Q26,33 6,50Z" fill="#1565c0"/>
+    <!-- Simple white veil (just a cap shape) -->
+    <ellipse cx="50" cy="20" rx="38" ry="14" fill="white" opacity="0.9"/>
+    <path d="M14,22 Q6,72 10,118" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M86,22 Q94,72 90,118" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <!-- Belt -->
+    <rect x="5" y="107" width="90" height="9" rx="4" fill="#0d47a1" opacity="0.45"/>
+    <!-- Face -->
+    <circle cx="50" cy="28" r="24" fill="#ffccbc"/>
+    <!-- Dark hair under veil -->
+    <path d="M28,14 Q50,-2 72,14 Q70,6 50,4 Q30,6 28,14Z" fill="#4e342e"/>
+    <!-- Eyes -->
+    <circle cx="40" cy="24" r="4" fill="#4e342e"/>
+    <circle cx="60" cy="24" r="4" fill="#4e342e"/>
+    <circle cx="41" cy="23" r="1.5" fill="white"/>
+    <circle cx="61" cy="23" r="1.5" fill="white"/>
+    <!-- Brows -->
+    <path d="M34,18 Q40,14 46,18" stroke="#a1887f" stroke-width="2" fill="none"/>
+    <path d="M54,18 Q60,14 66,18" stroke="#a1887f" stroke-width="2" fill="none"/>
+    <!-- Smile -->
+    <path d="M37,38 Q50,48 63,38" stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <circle cx="32" cy="33" r="7" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="68" cy="33" r="7" fill="#ef9a9a" opacity="0.4"/>
+    <!-- Neck -->
+    <rect x="43" y="50" width="14" height="12" rx="4" fill="#ffccbc"/>
+    <!-- Arms reaching to baby -->
+    <path d="M6,60 Q-10,105 -5,134" stroke="#1565c0" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="-4" cy="136" r="10" fill="#ffccbc"/>
+    <path d="M96,60 Q112,105 108,134" stroke="#1565c0" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="108" cy="136" r="10" fill="#ffccbc"/>
+  </g>
+
+  <!-- JOSEPH (right, standing) -->
+  <g transform="translate(492,200)">
+    <ellipse cx="45" cy="210" rx="36" ry="9" fill="#0d2045" opacity="0.2"/>
+    <!-- Brown robe -->
+    <path d="M3,50 Q-6,146 -10,210 Q45,222 104,210 Q97,146 93,50 Q73,32 45,29 Q22,32 3,50Z" fill="#795548"/>
+    <!-- Cream hem -->
+    <path d="M5,186 Q45,198 88,186 Q86,210 45,217 Q5,210 5,186Z" fill="#fff8e1" opacity="0.55"/>
+    <!-- Belt -->
+    <rect x="5" y="104" width="83" height="10" rx="4" fill="#e65100"/>
+    <!-- Legs -->
+    <rect x="26" y="200" width="14" height="42" rx="5" fill="#6d4c41"/>
+    <rect x="48" y="200" width="14" height="42" rx="5" fill="#5d4037"/>
+    <!-- Sandals -->
+    <ellipse cx="33" cy="243" rx="12" ry="5" fill="#4e342e"/>
+    <ellipse cx="55" cy="243" rx="12" ry="5" fill="#4e342e"/>
+    <!-- Head -->
+    <circle cx="45" cy="26" r="24" fill="#e8a87a"/>
+    <!-- Dark hair -->
+    <path d="M24,16 Q45,-5 66,16 Q64,5 45,2 Q26,5 24,16Z" fill="#3e2723"/>
+    <!-- Beard (simple fill) -->
+    <path d="M24,36 Q27,60 45,66 Q63,60 66,36" fill="#3e2723" opacity="0.55"/>
+    <!-- Eyes -->
+    <circle cx="35" cy="20" r="4" fill="#3e2723"/>
+    <circle cx="55" cy="20" r="4" fill="#3e2723"/>
+    <circle cx="36" cy="19" r="1.5" fill="white"/>
+    <circle cx="56" cy="19" r="1.5" fill="white"/>
+    <!-- Brows -->
+    <path d="M29,13 Q35,9 41,13" stroke="#3e2723" stroke-width="2" fill="none"/>
+    <path d="M49,13 Q55,9 61,13" stroke="#3e2723" stroke-width="2" fill="none"/>
+    <!-- Smile through beard -->
+    <path d="M33,48 Q45,57 57,48" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <!-- Cheeks -->
+    <circle cx="26" cy="28" r="7" fill="#e8855a" opacity="0.3"/>
+    <circle cx="64" cy="28" r="7" fill="#e8855a" opacity="0.3"/>
+    <!-- Neck -->
+    <rect x="38" y="48" width="14" height="12" rx="4" fill="#e8a87a"/>
+    <!-- Staff -->
+    <rect x="98" y="38" width="8" height="174" rx="3" fill="#8d6e63"/>
+    <path d="M98,40 Q95,24 104,32" stroke="#6d4c41" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- Hand on staff -->
+    <path d="M89,52 Q98,66 98,88" stroke="#795548" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="98" cy="90" r="10" fill="#e8a87a"/>
+    <!-- Free arm -->
+    <path d="M5,52 Q-8,84 -3,110" stroke="#795548" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="-2" cy="112" r="10" fill="#e8a87a"/>
+  </g>
+
+  <!-- OX (left background) -->
+  <g transform="translate(155,342)" opacity="0.88">
+    <ellipse cx="0" cy="0" rx="48" ry="30" fill="#8d6e63"/>
+    <ellipse cx="44" cy="-16" rx="26" ry="20" fill="#795548"/>
+    <ellipse cx="64" cy="-9" rx="13" ry="9" fill="#a1887f"/>
+    <circle cx="59" cy="-9" r="3" fill="#5d4037"/>
+    <circle cx="70" cy="-9" r="3" fill="#5d4037"/>
+    <circle cx="48" cy="-22" r="7" fill="white"/>
+    <circle cx="49" cy="-22" r="4.5" fill="#4e342e"/>
+    <circle cx="50" cy="-23" r="1.5" fill="white"/>
+    <path d="M35,-38 Q27,-52 20,-47" stroke="#a1887f" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="20" cy="-32" rx="9" ry="6" fill="#a1887f" transform="rotate(-20,20,-32)"/>
+    <ellipse cx="20" cy="-32" rx="5.5" ry="3.5" fill="#ef9a9a" opacity="0.5" transform="rotate(-20,20,-32)"/>
+    <rect x="-33" y="24" width="15" height="33" rx="6" fill="#795548"/>
+    <rect x="-12" y="26" width="15" height="31" rx="6" fill="#6d4c41"/>
+    <rect x="12" y="26" width="15" height="31" rx="6" fill="#795548"/>
+    <ellipse cx="-25" cy="57" rx="9" ry="4.5" fill="#4e342e"/>
+    <ellipse cx="-4" cy="57" rx="9" ry="4.5" fill="#4e342e"/>
+    <ellipse cx="19" cy="57" rx="9" ry="4.5" fill="#4e342e"/>
+  </g>
+
+  <!-- DONKEY (right background) -->
+  <g transform="translate(592,346)" opacity="0.88">
+    <ellipse cx="0" cy="0" rx="46" ry="28" fill="#90a4ae"/>
+    <ellipse cx="-40" cy="-16" rx="24" ry="18" fill="#78909c"/>
+    <ellipse cx="-48" cy="-33" rx="6.5" ry="17" fill="#78909c" transform="rotate(-10,-48,-33)"/>
+    <ellipse cx="-48" cy="-33" rx="3.5" ry="11" fill="#ef9a9a" opacity="0.5" transform="rotate(-10,-48,-33)"/>
+    <ellipse cx="-32" cy="-35" rx="6.5" ry="16" fill="#78909c" transform="rotate(12,-32,-35)"/>
+    <ellipse cx="-32" cy="-35" rx="3.5" ry="10" fill="#ef9a9a" opacity="0.5" transform="rotate(12,-32,-35)"/>
+    <ellipse cx="-60" cy="-11" rx="12" ry="8" fill="#90a4ae"/>
+    <circle cx="-66" cy="-10" r="3" fill="#546e7a"/>
+    <circle cx="-55" cy="-10" r="3" fill="#546e7a"/>
+    <circle cx="-47" cy="-21" r="7" fill="white"/>
+    <circle cx="-46" cy="-21" r="4.5" fill="#37474f"/>
+    <circle cx="-45" cy="-22" r="1.8" fill="white"/>
+    <rect x="16" y="20" width="13" height="28" rx="5" fill="#78909c"/>
+    <rect x="2" y="22" width="13" height="26" rx="5" fill="#607d8b"/>
+    <rect x="-15" y="22" width="13" height="26" rx="5" fill="#78909c"/>
+    <rect x="-30" y="20" width="13" height="28" rx="5" fill="#607d8b"/>
+    <ellipse cx="22" cy="48" rx="8.5" ry="4" fill="#455a64"/>
+    <ellipse cx="8" cy="48" rx="8.5" ry="4" fill="#455a64"/>
+    <ellipse cx="-8" cy="48" rx="8.5" ry="4" fill="#455a64"/>
+    <ellipse cx="-24" cy="48" rx="8.5" ry="4" fill="#455a64"/>
+    <path d="M42,0 Q56,8 53,22" stroke="#78909c" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Shepherds silhouette (distant) -->
+  <g opacity="0.4">
+    <rect x="92" y="342" width="7" height="50" rx="2" fill="#0d2045"/>
+    <circle cx="95" cy="332" r="12" fill="#0d2045"/>
+    <path d="M99,344 Q110,337 111,350" stroke="#0d2045" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <rect x="118" y="354" width="6" height="40" rx="2" fill="#122a55"/>
+    <circle cx="121" cy="345" r="10" fill="#122a55"/>
+    <ellipse cx="144" cy="378" rx="17" ry="9" fill="#c5cae9" opacity="0.5"/>
+    <circle cx="155" cy="372" r="8" fill="#c5cae9" opacity="0.5"/>
+  </g>
+
+  <!-- Flowers on ground -->
+  <g>
+    <circle cx="148" cy="410" r="5" fill="#e91e63" opacity="0.8"/>
+    <circle cx="162" cy="405" r="4" fill="#fff176" opacity="0.8"/>
+    <circle cx="636" cy="412" r="5" fill="#e91e63" opacity="0.75"/>
+    <circle cx="650" cy="407" r="4" fill="#fff176" opacity="0.8"/>
+  </g>
+</svg>

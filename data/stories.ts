@@ -23,6 +23,7 @@ export interface Story {
 
 export const stories: Story[] = [
   {
+    imageUrl: "/images/historias/criacao-do-mundo.svg",
     slug: "criacao-do-mundo",
     title: "A Criação do Mundo",
     subtitle: "Como tudo começou",
@@ -112,6 +113,7 @@ E o mais importante de tudo? Você também faz parte dessa criação linda. Deus
     ],
   },
   {
+    imageUrl: "/images/historias/noe-e-a-grande-arca.svg",
     slug: "noe-e-a-grande-arca",
     title: "Noé e a Grande Arca",
     subtitle: "A história do homem, os animais e o arco-íris",
@@ -211,6 +213,7 @@ E Noé e sua família abraçaram uns aos outros, cheios de alegria e gratidão.`
     ],
   },
   {
+    imageUrl: "/images/historias/jose-e-o-casaco-colorido.svg",
     slug: "jose-e-o-casaco-colorido",
     title: "José e o Casaco Colorido",
     subtitle: "A história do sonhador que nunca desistiu",
@@ -318,6 +321,7 @@ O sonhador que nunca desistiu viu o plano de Deus se cumprir de um jeito que nun
     ],
   },
   {
+    imageUrl: "/images/historias/o-bebe-moises.svg",
     slug: "o-bebe-moises",
     title: "O Bebê Moisés",
     subtitle: "A criancinha da cestinha",
@@ -413,6 +417,7 @@ E Moisés cresceu forte, sabendo que havia algo muito especial reservado para el
     ],
   },
   {
+    imageUrl: "/images/historias/davi-e-golias.svg",
     slug: "davi-e-golias",
     title: "Davi e Golias",
     subtitle: "O menino corajoso que derrotou o gigante",
@@ -540,6 +545,7 @@ E assim o mundo aprendeu uma lição para sempre: não é o tamanho do guerreiro
 
   // ── Novo Testamento ──────────────────────────────────────────────────────
   {
+    imageUrl: "/images/historias/o-nascimento-de-jesus.svg",
     slug: "o-nascimento-de-jesus",
     title: "O Nascimento de Jesus",
     subtitle: "A noite mais especial do mundo",
@@ -655,6 +661,7 @@ Inclusive por você!`,
     ],
   },
   {
+    imageUrl: "/images/historias/jesus-e-os-pescadores.svg",
     slug: "jesus-e-os-pescadores",
     title: "Jesus e os Pescadores",
     subtitle: "Quando Jesus chamou seus amigos",
@@ -766,6 +773,7 @@ E quando você diz sim para Jesus, sua vida também fica cheia, cheia, cheia... 
     ],
   },
   {
+    imageUrl: "/images/historias/jesus-acalma-a-tempestade.svg",
     slug: "jesus-acalma-a-tempestade",
     title: "Jesus Acalma a Tempestade",
     subtitle: "Quando Jesus mandou o vento parar",
@@ -885,6 +893,7 @@ Quando você estiver com medo — de trovão, de escuro, de qualquer coisa — p
     ],
   },
   {
+    imageUrl: "/images/historias/jesus-alimenta-cinco-mil.svg",
     slug: "jesus-alimenta-cinco-mil",
     title: "Jesus Alimenta 5.000 Pessoas",
     subtitle: "O almoço de um menino que alimentou uma multidão",
@@ -1007,6 +1016,7 @@ Quando você oferece o que tem com amor, coisas incríveis podem acontecer!`,
     ],
   },
   {
+    imageUrl: "/images/historias/a-ressurreicao-de-jesus.svg",
     slug: "a-ressurreicao-de-jesus",
     title: "A Ressurreição de Jesus",
     subtitle: "O maior milagre de todos os tempos",

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="bg1" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a0545"/>
+      <stop offset="100%" stop-color="#04001a"/>
+    </radialGradient>
+    <radialGradient id="earth1" cx="38%" cy="32%" r="60%">
+      <stop offset="0%" stop-color="#81d4fa"/>
+      <stop offset="50%" stop-color="#29b6f6"/>
+      <stop offset="100%" stop-color="#0277bd"/>
+    </radialGradient>
+    <radialGradient id="sun1" cx="38%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#fffde7"/>
+      <stop offset="60%" stop-color="#ffe082"/>
+      <stop offset="100%" stop-color="#ffa000"/>
+    </radialGradient>
+    <radialGradient id="moon1" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#b0bec5"/>
+    </radialGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff176" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#fff176" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur1"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="blur2"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- Space background -->
+  <rect width="800" height="500" fill="url(#bg1)"/>
+
+  <!-- Nebula clouds -->
+  <ellipse cx="200" cy="150" rx="180" ry="100" fill="#7c4dff" opacity="0.12" filter="url(#blur1)"/>
+  <ellipse cx="600" cy="350" rx="200" ry="120" fill="#00bcd4" opacity="0.1" filter="url(#blur1)"/>
+  <ellipse cx="700" cy="100" rx="150" ry="80" fill="#e91e63" opacity="0.08" filter="url(#blur1)"/>
+
+  <!-- Stars -->
+  <g fill="white">
+    <circle cx="50" cy="40" r="1.5" opacity="0.9"/>
+    <circle cx="120" cy="80" r="1" opacity="0.7"/>
+    <circle cx="180" cy="30" r="2" opacity="0.8"/>
+    <circle cx="250" cy="60" r="1" opacity="0.6"/>
+    <circle cx="310" cy="20" r="1.5" opacity="0.9"/>
+    <circle cx="90" cy="150" r="1" opacity="0.7"/>
+    <circle cx="160" cy="200" r="1.5" opacity="0.8"/>
+    <circle cx="700" cy="50" r="2" opacity="0.9"/>
+    <circle cx="760" cy="100" r="1" opacity="0.7"/>
+    <circle cx="730" cy="160" r="1.5" opacity="0.8"/>
+    <circle cx="680" cy="220" r="1" opacity="0.6"/>
+    <circle cx="750" cy="280" r="2" opacity="0.9"/>
+    <circle cx="40" cy="300" r="1.5" opacity="0.7"/>
+    <circle cx="80" cy="380" r="1" opacity="0.8"/>
+    <circle cx="140" cy="420" r="1.5" opacity="0.6"/>
+    <circle cx="650" cy="400" r="1" opacity="0.7"/>
+    <circle cx="710" cy="450" r="2" opacity="0.8"/>
+    <circle cx="770" cy="390" r="1" opacity="0.9"/>
+    <circle cx="350" cy="450" r="1.5" opacity="0.7"/>
+    <circle cx="420" cy="480" r="1" opacity="0.6"/>
+    <circle cx="500" cy="460" r="1.5" opacity="0.8"/>
+  </g>
+
+  <!-- Sun glow -->
+  <circle cx="155" cy="105" r="90" fill="url(#glow1)" filter="url(#blur1)"/>
+  <!-- Sun rays -->
+  <g stroke="#ffe082" stroke-width="2.5" opacity="0.6" stroke-linecap="round">
+    <line x1="155" y1="25" x2="155" y2="5"/>
+    <line x1="220" y1="45" x2="235" y2="30"/>
+    <line x1="240" y1="110" x2="258" y2="108"/>
+    <line x1="220" y1="172" x2="235" y2="186"/>
+    <line x1="155" y1="190" x2="155" y2="208"/>
+    <line x1="90" y1="172" x2="76" y2="186"/>
+    <line x1="70" y1="110" x2="52" y2="108"/>
+    <line x1="90" y1="45" x2="76" y2="30"/>
+  </g>
+  <!-- Sun -->
+  <circle cx="155" cy="108" r="55" fill="url(#sun1)"/>
+  <!-- Sun face -->
+  <circle cx="142" cy="100" r="5" fill="#ff8f00" opacity="0.5"/>
+  <circle cx="168" cy="100" r="5" fill="#ff8f00" opacity="0.5"/>
+  <path d="M140 118 Q155 130 170 118" stroke="#ff8f00" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Earth -->
+  <circle cx="400" cy="250" r="145" fill="url(#earth1)"/>
+  <!-- Land masses -->
+  <ellipse cx="370" cy="200" rx="55" ry="40" fill="#66bb6a" opacity="0.85" transform="rotate(-20,370,200)"/>
+  <ellipse cx="430" cy="280" rx="45" ry="35" fill="#4caf50" opacity="0.8" transform="rotate(15,430,280)"/>
+  <ellipse cx="350" cy="290" rx="30" ry="25" fill="#66bb6a" opacity="0.75"/>
+  <ellipse cx="460" cy="210" rx="25" ry="20" fill="#81c784" opacity="0.8" transform="rotate(-10,460,210)"/>
+  <!-- Clouds on earth -->
+  <ellipse cx="390" cy="175" rx="30" ry="12" fill="white" opacity="0.4" filter="url(#blur2)"/>
+  <ellipse cx="440" cy="320" rx="25" ry="10" fill="white" opacity="0.35" filter="url(#blur2)"/>
+  <!-- Earth shine -->
+  <ellipse cx="360" cy="195" rx="40" ry="30" fill="white" opacity="0.08" transform="rotate(-30,360,195)"/>
+
+  <!-- Moon -->
+  <circle cx="640" cy="370" r="60" fill="#b0bec5" opacity="0.3" filter="url(#blur2)"/>
+  <circle cx="638" cy="368" r="52" fill="url(#moon1)"/>
+  <!-- Moon craters -->
+  <circle cx="620" cy="355" r="8" fill="#90a4ae" opacity="0.4"/>
+  <circle cx="655" cy="375" r="6" fill="#90a4ae" opacity="0.35"/>
+  <circle cx="635" cy="390" r="4" fill="#90a4ae" opacity="0.3"/>
+  <!-- Moon shine -->
+  <ellipse cx="622" cy="352" rx="18" ry="12" fill="white" opacity="0.2" transform="rotate(-30,622,352)"/>
+
+  <!-- Sparkles / creation energy -->
+  <g fill="#fff176" opacity="0.8">
+    <polygon points="560,140 563,150 573,150 565,156 568,166 560,160 552,166 555,156 547,150 557,150" transform="scale(0.7) translate(240,60)"/>
+    <polygon points="560,140 563,150 573,150 565,156 568,166 560,160 552,166 555,156 547,150 557,150" transform="scale(0.5) translate(900,450)"/>
+  </g>
+
+  <!-- "In the beginning" light beam -->
+  <line x1="155" y1="155" x2="260" y2="250" stroke="#fff9c4" stroke-width="2" opacity="0.3"/>
+</svg>

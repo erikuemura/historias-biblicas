@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="50%" stop-color="#ffe082"/>
+      <stop offset="100%" stop-color="#ffcc02"/>
+    </linearGradient>
+    <linearGradient id="river4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0288d1"/>
+      <stop offset="50%" stop-color="#29b6f6"/>
+      <stop offset="100%" stop-color="#0277bd"/>
+    </linearGradient>
+    <linearGradient id="pyramid4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe082"/>
+      <stop offset="100%" stop-color="#ff8f00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#sky4)"/>
+
+  <!-- Sun -->
+  <circle cx="700" cy="90" r="55" fill="#ffb300" opacity="0.9"/>
+  <circle cx="700" cy="90" r="72" fill="#ffe082" opacity="0.25"/>
+
+  <!-- Pyramids background -->
+  <polygon points="480,280 570,130 660,280" fill="url(#pyramid4)" opacity="0.8"/>
+  <polygon points="600,280 680,150 760,280" fill="#ffb300" opacity="0.65"/>
+  <polygon points="560,280 490,280 524,200" fill="#e65100" opacity="0.2"/>
+
+  <!-- Desert ground -->
+  <rect x="0" y="278" width="800" height="40" fill="#ffb300" opacity="0.5"/>
+
+  <!-- River -->
+  <path d="M0,300 Q200,285 400,300 Q600,315 800,300 L800,500 L0,500Z" fill="url(#river4)"/>
+  <!-- River shimmer -->
+  <g stroke="#81d4fa" stroke-width="1.5" fill="none" opacity="0.4">
+    <path d="M20,340 Q80,330 140,340"/>
+    <path d="M60,370 Q130,358 200,370"/>
+    <path d="M200,350 Q270,340 340,350"/>
+    <path d="M400,360 Q480,348 560,360"/>
+    <path d="M580,340 Q650,330 720,340"/>
+  </g>
+
+  <!-- Reeds / papyrus left -->
+  <g fill="#558b2f">
+    <rect x="30" y="240" width="8" height="100" rx="3"/>
+    <rect x="52" y="255" width="7" height="90" rx="3"/>
+    <rect x="72" y="235" width="8" height="110" rx="3"/>
+    <rect x="92" y="260" width="6" height="85" rx="3"/>
+    <rect x="110" y="245" width="8" height="95" rx="3"/>
+    <rect x="130" y="265" width="6" height="80" rx="3"/>
+    <rect x="148" y="240" width="7" height="100" rx="3"/>
+    <!-- Reed heads -->
+    <ellipse cx="34" cy="238" rx="10" ry="5" fill="#8bc34a" transform="rotate(-10,34,238)"/>
+    <ellipse cx="55" cy="252" rx="9" ry="4" fill="#7cb342" transform="rotate(5,55,252)"/>
+    <ellipse cx="76" cy="232" rx="10" ry="5" fill="#8bc34a" transform="rotate(-5,76,232)"/>
+    <ellipse cx="95" cy="257" rx="8" ry="4" fill="#7cb342" transform="rotate(8,95,257)"/>
+    <ellipse cx="114" cy="242" rx="10" ry="5" fill="#8bc34a" transform="rotate(-12,114,242)"/>
+    <ellipse cx="133" cy="262" rx="8" ry="4" fill="#7cb342" transform="rotate(3,133,262)"/>
+    <ellipse cx="151" cy="238" rx="9" ry="4" fill="#8bc34a" transform="rotate(-8,151,238)"/>
+  </g>
+
+  <!-- Reeds right -->
+  <g fill="#33691e">
+    <rect x="620" y="250" width="7" height="95" rx="3"/>
+    <rect x="638" y="260" width="8" height="85" rx="3"/>
+    <rect x="658" y="245" width="7" height="100" rx="3"/>
+    <ellipse cx="623" cy="248" rx="9" ry="4" fill="#558b2f" transform="rotate(5,623,248)"/>
+    <ellipse cx="642" cy="258" rx="9" ry="4" fill="#558b2f" transform="rotate(-8,642,258)"/>
+    <ellipse cx="661" cy="243" rx="9" ry="4" fill="#558b2f" transform="rotate(3,661,243)"/>
+  </g>
+
+  <!-- Lotus flowers -->
+  <g>
+    <circle cx="240" cy="315" r="5" fill="#ce93d8"/>
+    <ellipse cx="230" cy="310" rx="8" ry="5" fill="#e91e63" opacity="0.7" transform="rotate(-30,230,310)"/>
+    <ellipse cx="250" cy="310" rx="8" ry="5" fill="#e91e63" opacity="0.7" transform="rotate(30,250,310)"/>
+    <ellipse cx="240" cy="306" rx="8" ry="5" fill="#f48fb1" opacity="0.8"/>
+
+    <circle cx="520" cy="325" r="5" fill="#f48fb1"/>
+    <ellipse cx="510" cy="320" rx="8" ry="5" fill="#ec407a" opacity="0.7" transform="rotate(-25,510,320)"/>
+    <ellipse cx="530" cy="320" rx="8" ry="5" fill="#ec407a" opacity="0.7" transform="rotate(25,530,320)"/>
+    <ellipse cx="520" cy="316" rx="8" ry="5" fill="#f48fb1" opacity="0.8"/>
+  </g>
+
+  <!-- Baby basket -->
+  <g transform="translate(280,295)">
+    <!-- Basket body -->
+    <path d="M0,20 Q50,-5 100,20 Q110,45 100,55 Q50,68 0,55 Q-10,45 0,20Z" fill="#a1887f"/>
+    <!-- Basket weave -->
+    <g stroke="#6d4c41" stroke-width="1.2" fill="none" opacity="0.6">
+      <path d="M5,28 Q50,8 95,28"/>
+      <path d="M3,38 Q50,18 97,38"/>
+      <path d="M2,48 Q50,30 98,48"/>
+      <line x1="20" y1="20" x2="15" y2="58"/>
+      <line x1="40" y1="14" x2="37" y2="60"/>
+      <line x1="60" y1="12" x2="58" y2="60"/>
+      <line x1="80" y1="14" x2="78" y2="58"/>
+    </g>
+    <!-- White lining -->
+    <path d="M5,22 Q50,2 95,22 Q98,38 95,50 Q50,60 5,50 Q2,38 5,22Z" fill="white" opacity="0.6"/>
+    <!-- Baby face -->
+    <circle cx="50" cy="32" r="18" fill="#ffccbc"/>
+    <circle cx="44" cy="28" r="3" fill="#5d4037"/>
+    <circle cx="56" cy="28" r="3" fill="#5d4037"/>
+    <path d="M44,38 Q50,44 56,38" stroke="#e64a19" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="43" cy="34" r="5" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="57" cy="34" r="5" fill="#ef9a9a" opacity="0.4"/>
+    <!-- Baby hair -->
+    <path d="M34,20 Q50,10 66,20 Q62,14 50,12 Q38,14 34,20Z" fill="#5d4037"/>
+  </g>
+
+  <!-- Princess -->
+  <g transform="translate(480,175)">
+    <!-- Shadow -->
+    <ellipse cx="35" cy="188" rx="30" ry="8" fill="#0277bd" opacity="0.2"/>
+    <!-- Dress -->
+    <path d="M10,80 Q5,150 0,188 Q35,198 70,188 Q65,150 60,80Z" fill="#ce93d8"/>
+    <!-- Dress details -->
+    <path d="M10,80 Q5,130 2,168" stroke="#ab47bc" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M60,80 Q65,130 68,168" stroke="#ab47bc" stroke-width="2" fill="none" opacity="0.5"/>
+    <!-- Body -->
+    <rect x="15" y="45" width="40" height="40" rx="8" fill="#f48fb1"/>
+    <!-- Arms reaching down -->
+    <path d="M15,60 Q-5,90 10,120" stroke="#f48fb1" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="10" cy="122" r="9" fill="#ffccbc"/>
+    <!-- Head -->
+    <circle cx="35" cy="28" r="24" fill="#ffccbc"/>
+    <!-- Hair with crown -->
+    <path d="M13,18 Q35,-5 57,18 Q55,5 35,2 Q15,5 13,18Z" fill="#4e342e"/>
+    <!-- Crown -->
+    <path d="M18,16 L18,6 L25,12 L35,4 L45,12 L52,6 L52,16Z" fill="#ffd54f"/>
+    <circle cx="35" cy="5" r="3" fill="#f44336"/>
+    <!-- Eyes -->
+    <circle cx="27" cy="25" r="4" fill="#4e342e"/>
+    <circle cx="43" cy="25" r="4" fill="#4e342e"/>
+    <!-- Smile -->
+    <path d="M25,36 Q35,44 45,36" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Jewelry -->
+    <circle cx="17" cy="50" r="3" fill="#ffd54f"/>
+    <circle cx="53" cy="50" r="3" fill="#ffd54f"/>
+  </g>
+
+  <!-- Butterflies -->
+  <g transform="translate(200,240)" opacity="0.8">
+    <ellipse cx="-8" cy="0" rx="10" ry="6" fill="#f06292" transform="rotate(30,-8,0)"/>
+    <ellipse cx="8" cy="0" rx="10" ry="6" fill="#ec407a" transform="rotate(-30,8,0)"/>
+    <ellipse cx="-6" cy="3" rx="7" ry="4" fill="#f48fb1" transform="rotate(20,-6,3)"/>
+    <ellipse cx="6" cy="3" rx="7" ry="4" fill="#f48fb1" transform="rotate(-20,6,3)"/>
+    <line x1="-2" y1="-4" x2="2" y2="-4" stroke="#4a148c" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1565c0"/>
+      <stop offset="40%" stop-color="#42a5f5"/>
+      <stop offset="70%" stop-color="#90caf9"/>
+      <stop offset="100%" stop-color="#bbdefb"/>
+    </linearGradient>
+    <linearGradient id="water2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e88e5"/>
+      <stop offset="100%" stop-color="#0d47a1"/>
+    </linearGradient>
+    <linearGradient id="wood2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a1887f"/>
+      <stop offset="100%" stop-color="#5d4037"/>
+    </linearGradient>
+    <filter id="glow2"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#sky2)"/>
+
+  <!-- Clouds -->
+  <g fill="white" opacity="0.85">
+    <ellipse cx="100" cy="80" rx="70" ry="30"/>
+    <ellipse cx="150" cy="70" rx="55" ry="28"/>
+    <ellipse cx="55" cy="90" rx="45" ry="22"/>
+    <ellipse cx="660" cy="100" rx="65" ry="28"/>
+    <ellipse cx="710" cy="90" rx="50" ry="25"/>
+    <ellipse cx="615" cy="108" rx="45" ry="20"/>
+    <ellipse cx="380" cy="60" rx="55" ry="22"/>
+    <ellipse cx="420" cy="52" rx="40" ry="20"/>
+  </g>
+
+  <!-- Rainbow -->
+  <g opacity="0.75" fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M80,280 Q400,20 720,280" stroke="#e53935"/>
+    <path d="M95,285 Q400,40 705,285" stroke="#fb8c00"/>
+    <path d="M110,290 Q400,58 690,290" stroke="#fdd835"/>
+    <path d="M125,294 Q400,74 675,294" stroke="#43a047"/>
+    <path d="M140,298 Q400,90 660,298" stroke="#1e88e5"/>
+    <path d="M155,302 Q400,106 645,302" stroke="#8e24aa"/>
+  </g>
+
+  <!-- Water -->
+  <rect x="0" y="310" width="800" height="190" fill="url(#water2)"/>
+  <!-- Waves -->
+  <g fill="none" stroke="#90caf9" stroke-width="2" opacity="0.5">
+    <path d="M0,330 Q50,320 100,330 Q150,340 200,330 Q250,320 300,330 Q350,340 400,330 Q450,320 500,330 Q550,340 600,330 Q650,320 700,330 Q750,340 800,330"/>
+    <path d="M0,360 Q60,350 120,360 Q180,370 240,360 Q300,350 360,360 Q420,370 480,360 Q540,350 600,360 Q660,370 720,360 Q760,350 800,360"/>
+    <path d="M0,390 Q70,380 140,390 Q210,400 280,390 Q350,380 420,390 Q490,400 560,390 Q630,380 700,390 Q750,400 800,390"/>
+  </g>
+
+  <!-- Ark hull -->
+  <path d="M120,380 Q400,340 680,380 L700,430 Q400,450 100,430 Z" fill="#6d4c41"/>
+  <path d="M120,380 Q400,340 680,380 L680,395 Q400,355 120,395 Z" fill="#8d6e63"/>
+
+  <!-- Ark deck -->
+  <rect x="155" y="310" width="490" height="75" rx="8" fill="url(#wood2)"/>
+  <!-- Deck planks -->
+  <g stroke="#4e342e" stroke-width="1.5" opacity="0.4">
+    <line x1="155" y1="325" x2="645" y2="325"/>
+    <line x1="155" y1="340" x2="645" y2="340"/>
+    <line x1="155" y1="355" x2="645" y2="355"/>
+    <line x1="155" y1="370" x2="645" y2="370"/>
+  </g>
+
+  <!-- Ark house -->
+  <rect x="230" y="225" width="340" height="90" rx="6" fill="#a1887f"/>
+  <path d="M210,228 L400,160 L590,228 Z" fill="#8d6e63"/>
+  <!-- Roof planks -->
+  <g stroke="#6d4c41" stroke-width="1.5" opacity="0.5">
+    <line x1="280" y1="195" x2="245" y2="228"/>
+    <line x1="320" y1="178" x2="265" y2="228"/>
+    <line x1="360" y1="167" x2="295" y2="228"/>
+    <line x1="400" y1="162" x2="340" y2="228"/>
+    <line x1="440" y1="167" x2="400" y2="228"/>
+    <line x1="480" y1="178" x2="450" y2="228"/>
+    <line x1="520" y1="195" x2="510" y2="228"/>
+  </g>
+  <!-- Windows -->
+  <rect x="265" y="240" width="50" height="40" rx="4" fill="#ffcc80"/>
+  <rect x="375" y="240" width="50" height="40" rx="4" fill="#ffcc80"/>
+  <rect x="485" y="240" width="50" height="40" rx="4" fill="#ffcc80"/>
+
+  <!-- Animals peeking -->
+  <!-- Giraffe neck -->
+  <rect x="272" y="210" width="16" height="35" rx="6" fill="#ffb74d"/>
+  <ellipse cx="280" cy="207" rx="14" ry="12" fill="#ffb74d"/>
+  <ellipse cx="274" cy="201" rx="4" ry="6" fill="#ffb74d"/><!-- horn -->
+  <ellipse cx="286" cy="201" rx="4" ry="6" fill="#ffb74d"/>
+  <circle cx="277" cy="204" r="2" fill="#4e342e"/><!-- eye -->
+  <!-- Elephant -->
+  <ellipse cx="400" cy="215" rx="22" ry="18" fill="#90a4ae"/>
+  <path d="M385,225 Q378,240 382,248" stroke="#78909c" stroke-width="8" fill="none" stroke-linecap="round"/><!-- trunk -->
+  <circle cx="393" cy="210" r="3" fill="#546e7a"/><!-- eye -->
+  <path d="M382,208 Q378,200 385,205" fill="#90a4ae"/><!-- ear -->
+  <!-- Lion -->
+  <ellipse cx="500" cy="218" rx="18" ry="16" fill="#ffa726"/>
+  <ellipse cx="500" cy="218" rx="25" ry="22" fill="#ff8f00" opacity="0.5"/><!-- mane -->
+  <circle cx="494" cy="214" r="3" fill="#4e342e"/><!-- eye -->
+  <circle cx="506" cy="214" r="3" fill="#4e342e"/>
+
+  <!-- Dove with olive branch -->
+  <g transform="translate(390,130)">
+    <ellipse cx="0" cy="0" rx="16" ry="8" fill="white"/>
+    <path d="M-5,-5 Q-20,-18 -15,-8" fill="white"/><!-- wing -->
+    <path d="M5,-5 Q20,-18 15,-8" fill="white"/>
+    <ellipse cx="12" cy="-2" rx="6" ry="4" fill="white"/><!-- head -->
+    <circle cx="15" cy="-4" r="2" fill="#4e342e"/>
+    <!-- olive branch -->
+    <path d="M-8,4 Q-15,10 -22,8" stroke="#66bb6a" stroke-width="2" fill="none"/>
+    <ellipse cx="-18" cy="7" rx="5" ry="3" fill="#66bb6a" transform="rotate(-20,-18,7)"/>
+  </g>
+
+  <!-- Noah figure on deck -->
+  <g transform="translate(590,285)">
+    <circle cx="0" cy="-20" r="12" fill="#ffccbc"/><!-- head -->
+    <rect x="-10" y="-8" width="20" height="28" rx="4" fill="#5c6bc0"/><!-- body -->
+    <path d="M-5,20 L-8,42" stroke="#455a64" stroke-width="5" stroke-linecap="round"/><!-- legs -->
+    <path d="M5,20 L7,42" stroke="#455a64" stroke-width="5" stroke-linecap="round"/>
+    <!-- beard/hair -->
+    <path d="M-10,-18 Q-14,-5 -8,5" stroke="#f5f5f5" stroke-width="3" fill="none"/>
+    <path d="M10,-18 Q14,-5 8,5" stroke="#f5f5f5" stroke-width="3" fill="none"/>
+  </g>
+</svg>

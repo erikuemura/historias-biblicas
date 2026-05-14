@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
+import Image from "next/image"
 import { Metadata } from "next"
 import {
   ArrowLeft,
@@ -45,13 +46,25 @@ export default async function StoryPage({ params }: Props) {
   return (
     <div>
       {/* Hero */}
-      <div
-        className={`relative overflow-hidden bg-gradient-to-br ${story.gradient} text-white`}
-      >
-        <div className="absolute inset-0">
-          <div className="absolute top-8 left-8 w-40 h-40 rounded-full bg-white/10 blur-3xl" />
-          <div className="absolute bottom-0 right-16 w-56 h-56 rounded-full bg-white/10 blur-3xl" />
-        </div>
+      <div className={`relative overflow-hidden bg-gradient-to-br ${story.gradient} text-white`}>
+        {story.imageUrl && (
+          <div className="absolute inset-0">
+            <Image
+              src={story.imageUrl}
+              alt={story.title}
+              fill
+              className="object-cover opacity-35"
+              priority
+              sizes="100vw"
+            />
+          </div>
+        )}
+        {!story.imageUrl && (
+          <div className="absolute inset-0">
+            <div className="absolute top-8 left-8 w-40 h-40 rounded-full bg-white/10 blur-3xl" />
+            <div className="absolute bottom-0 right-16 w-56 h-56 rounded-full bg-white/10 blur-3xl" />
+          </div>
+        )}
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
           <Link
@@ -64,7 +77,6 @@ export default async function StoryPage({ params }: Props) {
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
             <div className="text-8xl sm:text-9xl drop-shadow-lg">{story.emoji}</div>
-
             <div>
               <div className="flex flex-wrap items-center gap-2 mb-3">
                 <span className="text-xs font-semibold bg-white/25 px-3 py-1 rounded-full">
@@ -78,7 +90,6 @@ export default async function StoryPage({ params }: Props) {
                   {story.readingTime}
                 </span>
               </div>
-
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight mb-2">
                 {story.title}
               </h1>
@@ -88,6 +99,20 @@ export default async function StoryPage({ params }: Props) {
             </div>
           </div>
         </div>
+
+        {/* Full illustration below title */}
+        {story.imageUrl && (
+          <div className="relative w-full h-72 sm:h-96 overflow-hidden">
+            <Image
+              src={story.imageUrl}
+              alt={story.title}
+              fill
+              className="object-cover"
+              sizes="100vw"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white/10" />
+          </div>
+        )}
       </div>
 
       {/* Content */}

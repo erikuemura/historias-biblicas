@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="skyM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4fc3f7"/>
+      <stop offset="45%" stop-color="#81d4fa"/>
+      <stop offset="100%" stop-color="#b3e5fc"/>
+    </linearGradient>
+    <linearGradient id="hillM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66bb6a"/>
+      <stop offset="100%" stop-color="#2e7d32"/>
+    </linearGradient>
+    <linearGradient id="groundM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81c784"/>
+      <stop offset="100%" stop-color="#388e3c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#skyM)"/>
+
+  <!-- Sun -->
+  <circle cx="90" cy="75" r="50" fill="#ffe082" opacity="0.88"/>
+  <circle cx="90" cy="75" r="35" fill="#fff9c4"/>
+  <g stroke="#ffe082" stroke-width="2.5" opacity="0.5" stroke-linecap="round">
+    <line x1="90" y1="16" x2="90" y2="6"/><line x1="122" y1="27" x2="129" y2="20"/>
+    <line x1="138" y1="57" x2="148" y2="54"/><line x1="50" y1="27" x2="43" y2="20"/>
+    <line x1="36" y1="57" x2="26" y2="54"/>
+  </g>
+
+  <!-- Clouds -->
+  <g fill="white" opacity="0.8">
+    <ellipse cx="600" cy="65" rx="80" ry="30"/><ellipse cx="648" cy="55" rx="62" ry="26"/>
+    <ellipse cx="555" cy="74" rx="48" ry="21"/>
+    <ellipse cx="220" cy="55" rx="70" ry="26"/><ellipse cx="265" cy="46" rx="55" ry="22"/>
+  </g>
+
+  <!-- Background hills -->
+  <ellipse cx="150" cy="345" rx="250" ry="130" fill="url(#hillM)" opacity="0.7"/>
+  <ellipse cx="680" cy="338" rx="240" ry="122" fill="#43a047" opacity="0.65"/>
+  <ellipse cx="400" cy="362" rx="460" ry="108" fill="#388e3c" opacity="0.5"/>
+
+  <!-- Ground / hillside -->
+  <rect x="0" y="388" width="800" height="112" fill="url(#groundM)"/>
+  <path d="M0,400 Q200,388 400,398 Q600,408 800,396" fill="none" stroke="#a5d6a7" stroke-width="2" opacity="0.4"/>
+
+  <!-- CROWD (simplified rows of colorful people sitting) -->
+  <!-- Row 1 (back, small) -->
+  <g opacity="0.7">
+    <g transform="translate(560,320)">
+      <ellipse cx="0" cy="0" rx="18" ry="26" fill="#ef6c00"/>
+      <circle cx="0" cy="-26" r="12" fill="#ffccbc"/>
+      <path d="M-8,-33 Q0,-40 8,-33" fill="#4e342e"/>
+    </g>
+    <g transform="translate(598,318)">
+      <ellipse cx="0" cy="0" rx="18" ry="26" fill="#8e24aa"/>
+      <circle cx="0" cy="-26" r="12" fill="#e8a87a"/>
+      <path d="M-8,-33 Q0,-40 8,-33" fill="#3e2723"/>
+    </g>
+    <g transform="translate(636,322)">
+      <ellipse cx="0" cy="0" rx="18" ry="26" fill="#1565c0"/>
+      <circle cx="0" cy="-26" r="12" fill="#ffccbc"/>
+      <path d="M-8,-33 Q0,-40 8,-33" fill="#5d4037"/>
+    </g>
+    <g transform="translate(674,316)">
+      <ellipse cx="0" cy="0" rx="18" ry="26" fill="#e53935"/>
+      <circle cx="0" cy="-26" r="12" fill="#e8a87a"/>
+      <path d="M-8,-33 Q0,-40 8,-33" fill="#3e2723"/>
+    </g>
+    <g transform="translate(712,320)">
+      <ellipse cx="0" cy="0" rx="18" ry="26" fill="#00838f"/>
+      <circle cx="0" cy="-26" r="12" fill="#ffccbc"/>
+    </g>
+    <g transform="translate(748,318)">
+      <ellipse cx="0" cy="0" rx="18" ry="26" fill="#f9a825"/>
+      <circle cx="0" cy="-26" r="12" fill="#e8a87a"/>
+    </g>
+  </g>
+  <!-- Row 2 (middle) -->
+  <g opacity="0.82">
+    <g transform="translate(490,345)">
+      <ellipse cx="0" cy="0" rx="20" ry="29" fill="#5c6bc0"/>
+      <circle cx="0" cy="-29" r="14" fill="#e8a87a"/>
+      <path d="M-9,-39 Q0,-47 9,-39" fill="#3e2723"/>
+    </g>
+    <g transform="translate(534,342)">
+      <ellipse cx="0" cy="0" rx="20" ry="29" fill="#e91e63"/>
+      <circle cx="0" cy="-29" r="14" fill="#ffccbc"/>
+      <path d="M-9,-39 Q0,-47 9,-39" fill="#5d4037"/>
+    </g>
+    <g transform="translate(578,347)">
+      <ellipse cx="0" cy="0" rx="20" ry="29" fill="#fb8c00"/>
+      <circle cx="0" cy="-29" r="14" fill="#e8a87a"/>
+      <path d="M-9,-39 Q0,-47 9,-39" fill="#3e2723"/>
+    </g>
+    <g transform="translate(622,343)">
+      <ellipse cx="0" cy="0" rx="20" ry="29" fill="#00695c"/>
+      <circle cx="0" cy="-29" r="14" fill="#ffccbc"/>
+    </g>
+    <g transform="translate(666,348)">
+      <ellipse cx="0" cy="0" rx="20" ry="29" fill="#6a1b9a"/>
+      <circle cx="0" cy="-29" r="14" fill="#e8a87a"/>
+    </g>
+    <g transform="translate(710,344)">
+      <ellipse cx="0" cy="0" rx="20" ry="29" fill="#c62828"/>
+      <circle cx="0" cy="-29" r="14" fill="#ffccbc"/>
+    </g>
+    <g transform="translate(754,346)">
+      <ellipse cx="0" cy="0" rx="20" ry="29" fill="#1565c0"/>
+      <circle cx="0" cy="-29" r="14" fill="#e8a87a"/>
+    </g>
+  </g>
+
+  <!-- BASKETS OF FOOD in foreground (left side) -->
+  <g transform="translate(138,388)">
+    <!-- Basket 1 -->
+    <path d="M-30,10 Q0,-8 30,10 Q32,28 30,35 Q0,44 -30,35 Q-32,28 -30,10Z" fill="#a1887f"/>
+    <g stroke="#6d4c41" stroke-width="1" fill="none" opacity="0.5">
+      <path d="M-28,14 Q0,0 28,14"/>
+      <path d="M-30,22 Q0,8 30,22"/>
+      <line x1="-18" y1="9" x2="-20" y2="36"/>
+      <line x1="0" y1="5" x2="0" y2="38"/>
+      <line x1="18" y1="9" x2="20" y2="36"/>
+    </g>
+    <!-- Bread loaves in basket -->
+    <ellipse cx="-10" cy="5" rx="14" ry="8" fill="#ffe082"/>
+    <ellipse cx="10" cy="3" rx="14" ry="8" fill="#ffb300"/>
+    <ellipse cx="0" cy="0" rx="12" ry="7" fill="#ffe082" opacity="0.9"/>
+    <!-- Fish on top -->
+    <ellipse cx="-5" cy="-6" rx="14" ry="6" fill="#81d4fa" transform="rotate(-15,-5,-6)"/>
+    <polygon points="-5,-10 3,-6 3,-2" fill="#0288d1" transform="rotate(-15,-5,-6)"/>
+  </g>
+
+  <g transform="translate(202,394)">
+    <!-- Basket 2 (smaller) -->
+    <path d="M-22,8 Q0,-6 22,8 Q24,22 22,28 Q0,35 -22,28 Q-24,22 -22,8Z" fill="#8d6e63"/>
+    <g stroke="#5d4037" stroke-width="1" fill="none" opacity="0.5">
+      <path d="M-20,12 Q0,2 20,12"/>
+      <path d="M-22,20 Q0,10 22,20"/>
+    </g>
+    <ellipse cx="0" cy="4" rx="16" ry="8" fill="#ffe082" opacity="0.9"/>
+    <ellipse cx="5" cy="-2" rx="12" ry="5" fill="#ffb300"/>
+    <!-- Small fish -->
+    <ellipse cx="-4" cy="-5" rx="10" ry="4" fill="#4fc3f7" transform="rotate(10,-4,-5)"/>
+  </g>
+
+  <!-- JESUS (center, holding basket with bread+fish) -->
+  <g transform="translate(270,200)">
+    <ellipse cx="55" cy="208" rx="42" ry="10" fill="#388e3c" opacity="0.2"/>
+    <!-- White robe -->
+    <path d="M10,55 Q6,152 2,208 Q55,220 108,208 Q102,152 100,55 Q80,38 55,35 Q30,38 10,55Z" fill="#f5f5f5"/>
+    <!-- Blue sash -->
+    <rect x="8" y="110" width="96" height="9" rx="4" fill="#1565c0" opacity="0.55"/>
+    <!-- Legs -->
+    <rect x="36" y="198" width="13" height="44" rx="5" fill="#f0f0f0"/>
+    <rect x="57" y="198" width="13" height="44" rx="5" fill="#e8e8e8"/>
+    <!-- Sandals -->
+    <ellipse cx="42" cy="243" rx="12" ry="5" fill="#8d6e63"/>
+    <ellipse cx="63" cy="243" rx="12" ry="5" fill="#8d6e63"/>
+    <!-- Left arm: holds BASKET -->
+    <path d="M10,65 Q-5,90 -4,118" stroke="#f5f5f5" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="-3" cy="120" r="11" fill="#ffccbc"/>
+    <!-- Basket being held -->
+    <g transform="translate(-18,108)">
+      <path d="M-22,8 Q0,-6 22,8 Q24,25 22,30 Q0,38 -22,30 Q-24,25 -22,8Z" fill="#a1887f"/>
+      <ellipse cx="0" cy="4" rx="18" ry="9" fill="#ffe082"/>
+      <ellipse cx="3" cy="-1" rx="13" ry="6" fill="#ffb300"/>
+      <ellipse cx="-2" cy="-4" rx="10" ry="4" fill="#81d4fa" transform="rotate(-15,-2,-4)"/>
+      <polygon points="-2,-8 5,-4 5,-0" fill="#0288d1" transform="rotate(-15,-2,-4)" opacity="0.8"/>
+    </g>
+    <!-- Right arm: extended in blessing -->
+    <path d="M100,65 Q128,82 132,68" stroke="#f5f5f5" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="133" cy="65" r="11" fill="#ffccbc"/>
+    <!-- Head -->
+    <circle cx="55" cy="28" r="26" fill="#ffccbc"/>
+    <!-- Hair -->
+    <path d="M30,18 Q55,-4 80,18 Q78,8 55,5 Q32,8 30,18Z" fill="#795548"/>
+    <path d="M30,20 Q24,52 28,78" stroke="#795548" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M80,20 Q86,52 82,78" stroke="#795548" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <!-- Beard -->
+    <path d="M32,44 Q35,64 55,70 Q75,64 78,44" fill="#8d6e63" opacity="0.6"/>
+    <!-- Eyes -->
+    <circle cx="43" cy="22" r="4" fill="#4e342e"/>
+    <circle cx="67" cy="22" r="4" fill="#4e342e"/>
+    <circle cx="44" cy="21" r="1.5" fill="white"/>
+    <circle cx="68" cy="21" r="1.5" fill="white"/>
+    <!-- Brows -->
+    <path d="M36,15 Q43,11 50,15" stroke="#6d4c41" stroke-width="2" fill="none"/>
+    <path d="M60,15 Q67,11 74,15" stroke="#6d4c41" stroke-width="2" fill="none"/>
+    <!-- Big smile -->
+    <path d="M40,40 Q55,52 70,40" stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <circle cx="34" cy="32" r="8" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="76" cy="32" r="8" fill="#ef9a9a" opacity="0.4"/>
+    <!-- Neck -->
+    <rect x="48" y="52" width="14" height="13" rx="4" fill="#ffccbc"/>
+  </g>
+
+  <!-- Small flowers on ground -->
+  <g>
+    <circle cx="60" cy="408" r="4" fill="#e91e63" opacity="0.8"/>
+    <circle cx="74" cy="402" r="3" fill="#fff176" opacity="0.8"/>
+    <circle cx="730" cy="406" r="4" fill="#ce93d8" opacity="0.8"/>
+    <circle cx="744" cy="400" r="3" fill="#e91e63" opacity=" 0.7"/>
+    <circle cx="440" cy="404" r="3.5" fill="#fff176" opacity="0.8"/>
+  </g>
+
+  <!-- Sparkles / blessing light -->
+  <g fill="#fff176" opacity="0.7">
+    <circle cx="418" cy="270" r="3"/>
+    <circle cx="445" cy="255" r="2"/>
+    <circle cx="432" cy="240" r="2.5"/>
+  </g>
+</svg>

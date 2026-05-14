@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="skyS" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="50%" stop-color="#283593"/>
+      <stop offset="72%" stop-color="#5c6bc0"/>
+      <stop offset="100%" stop-color="#ff8f00"/>
+    </linearGradient>
+    <linearGradient id="seaS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d47a1"/>
+      <stop offset="100%" stop-color="#01579b"/>
+    </linearGradient>
+    <radialGradient id="sunBreak" cx="90%" cy="28%" r="45%">
+      <stop offset="0%" stop-color="#ffe082" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#ff8f00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#skyS)"/>
+  <!-- Light breaking through on right -->
+  <ellipse cx="740" cy="175" r="190" fill="url(#sunBreak)"/>
+  <circle cx="748" cy="152" r="42" fill="#ffe082" opacity="0.55"/>
+  <circle cx="748" cy="152" r="28" fill="#fff9c4" opacity="0.8"/>
+
+  <!-- Storm clouds (left/center) -->
+  <g fill="#1a237e" opacity="0.85">
+    <ellipse cx="75" cy="88" rx="115" ry="52"/>
+    <ellipse cx="125" cy="68" rx="92" ry="46"/>
+    <ellipse cx="25" cy="106" rx="78" ry="38"/>
+    <ellipse cx="255" cy="78" rx="108" ry="48"/>
+    <ellipse cx="305" cy="58" rx="88" ry="40"/>
+  </g>
+  <g fill="#3949ab" opacity="0.55">
+    <ellipse cx="490" cy="82" rx="88" ry="36"/>
+    <ellipse cx="550" cy="65" rx="70" ry="30"/>
+  </g>
+
+  <!-- Lightning -->
+  <polygon points="160,92 150,148 165,145 150,208" fill="#fff176" opacity="0.82"/>
+
+  <!-- Rain (left) -->
+  <g stroke="#81d4fa" stroke-width="1.5" opacity="0.4">
+    <line x1="45" y1="138" x2="30" y2="198"/><line x1="85" y1="128" x2="70" y2="188"/>
+    <line x1="125" y1="140" x2="110" y2="200"/><line x1="165" y1="132" x2="150" y2="192"/>
+    <line x1="205" y1="138" x2="190" y2="198"/><line x1="245" y1="128" x2="230" y2="188"/>
+    <line x1="65" y1="198" x2="50" y2="258"/><line x1="105" y1="192" x2="90" y2="252"/>
+    <line x1="145" y1="196" x2="130" y2="256"/>
+  </g>
+
+  <!-- Sea with big waves -->
+  <rect x="0" y="265" width="800" height="235" fill="url(#seaS)"/>
+  <!-- Big waves -->
+  <path d="M-20,278 Q40,248 100,268 Q160,288 220,260 Q280,232 340,255 Q400,278 460,252 Q520,226 580,248 Q640,270 700,248 Q760,226 820,248 L820,290 Q760,268 700,290 Q640,312 580,290 Q520,268 460,295 Q400,322 340,295 Q280,268 220,295 Q160,322 100,295 Q40,268 -20,295Z" fill="#1565c0"/>
+  <!-- Wave foam -->
+  <g fill="white" opacity="0.7">
+    <path d="M55,260 Q95,248 135,260 Q115,253 95,256 Q75,253 55,260Z"/>
+    <path d="M220,254 Q258,242 296,254 Q278,247 258,250 Q238,247 220,254Z"/>
+    <path d="M395,272 Q428,260 461,272 Q444,265 428,268 Q412,265 395,272Z"/>
+    <path d="M542,248 Q575,236 608,248 Q592,241 575,244 Q558,241 542,248Z"/>
+  </g>
+
+  <!-- Second wave -->
+  <path d="M-20,308 Q60,288 140,306 Q220,324 300,304 Q380,284 460,304 Q540,324 620,304 Q700,284 820,304 L820,355 Q700,338 620,354 Q540,368 460,350 Q380,332 300,350 Q220,368 140,350 Q60,332 -20,350Z" fill="#0d52b8" opacity="0.75"/>
+
+  <!-- BOAT -->
+  <g transform="translate(320,264)">
+    <!-- Hull (tilted slightly) -->
+    <path d="M-125,38 Q-115,0 115,0 Q132,38 125,62 Q0,80 -125,62Z" fill="#795548"/>
+    <path d="M-125,38 Q0,30 125,38" stroke="#5d4037" stroke-width="2.5" fill="none"/>
+    <path d="M-112,40 Q0,34 112,40 Q120,58 112,60 Q0,70 -112,60Z" fill="#6d4c41"/>
+    <!-- Tilted mast -->
+    <g transform="rotate(-8,0,0)">
+      <rect x="-3" y="-78" width="7" height="98" rx="2" fill="#5d4037"/>
+    </g>
+
+    <!-- DISCIPLE 1 (scared, arms up) -->
+    <g transform="translate(-64,-2)">
+      <path d="M-13,12 L-11,74 L18,74 L20,12 Q6,2 2,0 Q-4,2 -13,12Z" fill="#5c6bc0"/>
+      <rect x="-11" y="44" width="29" height="7" rx="3" fill="#3949ab"/>
+      <rect x="-8" y="68" width="10" height="27" rx="4" fill="#a1887f"/>
+      <rect x="5" y="68" width="10" height="27" rx="4" fill="#8d6e63"/>
+      <!-- Arms raised in fear -->
+      <path d="M-13,20 Q-30,8 -34,-5" stroke="#5c6bc0" stroke-width="12" fill="none" stroke-linecap="round"/>
+      <circle cx="-34" cy="-7" r="9" fill="#ffccbc"/>
+      <path d="M20,20 Q35,8 38,-5" stroke="#5c6bc0" stroke-width="12" fill="none" stroke-linecap="round"/>
+      <circle cx="38" cy="-7" r="9" fill="#ffccbc"/>
+      <!-- Head -->
+      <circle cx="2" cy="3" r="20" fill="#ffccbc"/>
+      <path d="M-14,-3 Q2,-17 18,-3 Q16,-9 2,-11 Q-12,-9 -14,-3Z" fill="#5d4037"/>
+      <!-- Eyes wide open scared -->
+      <circle cx="-6" cy="0" r="5" fill="white"/>
+      <circle cx="10" cy="0" r="5" fill="white"/>
+      <circle cx="-6" cy="0" r="3.5" fill="#3e2723"/>
+      <circle cx="10" cy="0" r="3.5" fill="#3e2723"/>
+      <circle cx="-5" cy="-1" r="1.5" fill="white"/>
+      <circle cx="11" cy="-1" r="1.5" fill="white"/>
+      <!-- Scared open mouth -->
+      <ellipse cx="2" cy="12" rx="4" ry="4.5" fill="#c62828" opacity="0.8"/>
+      <circle cx="-13" cy="6" r="6" fill="#ef9a9a" opacity="0.35"/>
+      <circle cx="17" cy="6" r="6" fill="#ef9a9a" opacity="0.35"/>
+    </g>
+
+    <!-- DISCIPLE 2 (gripping rope) -->
+    <g transform="translate(28,-6)">
+      <path d="M-12,12 L-10,70 L18,70 L20,12 Q6,2 2,0 Q-3,2 -12,12Z" fill="#ef6c00"/>
+      <rect x="-10" y="44" width="28" height="7" rx="3" fill="#e65100"/>
+      <rect x="-8" y="64" width="10" height="26" rx="4" fill="#a1887f"/>
+      <rect x="4" y="64" width="10" height="26" rx="4" fill="#8d6e63"/>
+      <!-- Arms holding rope -->
+      <path d="M-12,20 Q-26,32 -24,48" stroke="#ef6c00" stroke-width="12" fill="none" stroke-linecap="round"/>
+      <circle cx="-23" cy="50" r="9" fill="#e8a87a"/>
+      <path d="M20,20 Q32,32 30,48" stroke="#ef6c00" stroke-width="12" fill="none" stroke-linecap="round"/>
+      <circle cx="30" cy="50" r="9" fill="#e8a87a"/>
+      <!-- Rope -->
+      <path d="M-23,52 Q-5,40 12,54" stroke="#5d4037" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <!-- Head -->
+      <circle cx="2" cy="3" r="20" fill="#e8a87a"/>
+      <path d="M-14,-2 Q2,-16 18,-2 Q16,-8 2,-10 Q-12,-8 -14,-2Z" fill="#3e2723"/>
+      <path d="M-13,-1 Q-23,42 -17,54" stroke="#fff9c4" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-13,-1 Q2,-13 17,-1" stroke="#8d6e63" stroke-width="3" fill="none"/>
+      <!-- Beard -->
+      <path d="M-12,16 Q-8,34 2,39 Q12,34 16,16" fill="#3e2723" opacity="0.55"/>
+      <!-- Eyes -->
+      <circle cx="-5" cy="1" r="4" fill="#3e2723"/>
+      <circle cx="9" cy="1" r="4" fill="#3e2723"/>
+      <circle cx="-4" cy="0" r="1.5" fill="white"/>
+      <circle cx="10" cy="0" r="1.5" fill="white"/>
+      <path d="M-4,12 Q2,18 8,12" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+    </g>
+
+    <!-- JESUS (standing, arms raised, calming storm) -->
+    <g transform="translate(74,-42)">
+      <!-- Robe -->
+      <path d="M-14,55 L-12,118 L20,118 L22,55 Q6,40 3,38 Q-2,40 -14,55Z" fill="#f5f5f5"/>
+      <rect x="-11" y="78" width="31" height="8" rx="3" fill="#1565c0" opacity="0.5"/>
+      <rect x="-8" y="112" width="10" height="34" rx="4" fill="#f0f0f0"/>
+      <rect x="6" y="112" width="10" height="34" rx="4" fill="#e8e8e8"/>
+      <!-- Arms raised commanding -->
+      <path d="M-14,64 Q-40,38 -44,16" stroke="#f5f5f5" stroke-width="14" fill="none" stroke-linecap="round"/>
+      <circle cx="-44" cy="13" r="11" fill="#ffccbc"/>
+      <path d="M22,64 Q46,38 50,16" stroke="#f5f5f5" stroke-width="14" fill="none" stroke-linecap="round"/>
+      <circle cx="50" cy="13" r="11" fill="#ffccbc"/>
+      <!-- Head -->
+      <circle cx="3" cy="24" r="24" fill="#ffccbc"/>
+      <!-- Hair -->
+      <path d="M-18,16 Q3,-4 24,16 Q22,6 3,3 Q-16,6 -18,16Z" fill="#795548"/>
+      <path d="M-18,18 Q-24,48 -20,74" stroke="#795548" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.85"/>
+      <path d="M24,18 Q30,48 26,74" stroke="#795548" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.85"/>
+      <!-- Beard -->
+      <path d="M-16,40 Q-12,60 3,65 Q18,60 21,40" fill="#8d6e63" opacity="0.6"/>
+      <!-- Eyes (calm) -->
+      <circle cx="-7" cy="20" r="4" fill="#4e342e"/>
+      <circle cx="13" cy="20" r="4" fill="#4e342e"/>
+      <circle cx="-6" cy="19" r="1.5" fill="white"/>
+      <circle cx="14" cy="19" r="1.5" fill="white"/>
+      <!-- Brows -->
+      <path d="M-14,13 Q-6,9 2,13" stroke="#6d4c41" stroke-width="2" fill="none"/>
+      <path d="M4,13 Q12,9 20,13" stroke="#6d4c41" stroke-width="2" fill="none"/>
+      <!-- Calm smile -->
+      <path d="M-6,36 Q3,45 12,36" stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <!-- Cheeks -->
+      <circle cx="-16" cy="28" r="7" fill="#ef9a9a" opacity="0.4"/>
+      <circle cx="22" cy="28" r="7" fill="#ef9a9a" opacity="0.4"/>
+      <!-- Neck -->
+      <rect x="-4" y="46" width="14" height="12" rx="4" fill="#ffccbc"/>
+    </g>
+  </g>
+
+  <!-- Glow around Jesus hands -->
+  <circle cx="276" cy="222" r="16" fill="#ffe082" opacity="0.3"/>
+  <circle cx="492" cy="222" r="16" fill="#ffe082" opacity="0.3"/>
+</svg>

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Clock, BookOpen, ChevronRight } from "lucide-react"
 import type { Story } from "@/data/stories"
 
@@ -13,19 +14,34 @@ export default function StoryCard({ story, index }: StoryCardProps) {
       href={`/historias/${story.slug}`}
       className="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
     >
-      <div
-        className={`relative h-48 bg-gradient-to-br ${story.gradient} flex items-center justify-center overflow-hidden`}
-      >
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-4 left-4 w-16 h-16 rounded-full bg-white/30 blur-xl" />
-          <div className="absolute bottom-6 right-6 w-24 h-24 rounded-full bg-white/20 blur-2xl" />
-        </div>
-
-        <div className="relative text-center">
-          <div className="text-7xl mb-2 drop-shadow-lg group-hover:scale-110 transition-transform duration-300">
-            {story.emoji}
-          </div>
-        </div>
+      <div className={`relative h-52 bg-gradient-to-br ${story.gradient} overflow-hidden`}>
+        {story.imageUrl ? (
+          <>
+            <Image
+              src={story.imageUrl}
+              alt={story.title}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-500"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+            <div className="absolute bottom-3 left-3 text-3xl drop-shadow-lg">
+              {story.emoji}
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="absolute inset-0 opacity-20">
+              <div className="absolute top-4 left-4 w-16 h-16 rounded-full bg-white/30 blur-xl" />
+              <div className="absolute bottom-6 right-6 w-24 h-24 rounded-full bg-white/20 blur-2xl" />
+            </div>
+            <div className="relative h-full flex items-center justify-center">
+              <div className="text-7xl drop-shadow-lg group-hover:scale-110 transition-transform duration-300">
+                {story.emoji}
+              </div>
+            </div>
+          </>
+        )}
 
         <div className="absolute top-3 right-3 bg-white/30 backdrop-blur-sm text-white text-xs font-semibold px-2 py-1 rounded-full">
           #{index + 1}
@@ -60,7 +76,6 @@ export default function StoryCard({ story, index }: StoryCardProps) {
               {story.scenes.length} cenas
             </span>
           </div>
-
           <span className="flex items-center gap-1 text-sm font-semibold text-amber-600 group-hover:gap-2 transition-all">
             Ler
             <ChevronRight className="w-4 h-4" />
