@@ -18,36 +18,125 @@
       <stop offset="100%" stop-color="#ffe082" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <rect width="800" height="380" fill="url(#sa4_bg)"/>
-  <!-- prison bars -->
-  <rect x="100" y="0" width="18" height="380" fill="#374151" opacity="0.8"/>
-  <rect x="200" y="0" width="18" height="380" fill="#374151" opacity="0.8"/>
-  <rect x="300" y="0" width="18" height="380" fill="#374151" opacity="0.8"/>
-  <rect x="400" y="0" width="18" height="380" fill="#374151" opacity="0.8"/>
-  <rect x="500" y="0" width="18" height="380" fill="#374151" opacity="0.8"/>
-  <rect x="600" y="0" width="18" height="380" fill="#374151" opacity="0.8"/>
-  <rect x="700" y="0" width="18" height="380" fill="#374151" opacity="0.8"/>
-  <!-- horizontal bars -->
-  <rect x="0" y="100" width="800" height="14" fill="#374151" opacity="0.5"/>
-  <rect x="0" y="280" width="800" height="14" fill="#374151" opacity="0.5"/>
-  <!-- floor glow of hope -->
-  <ellipse cx="400" cy="380" rx="300" ry="80" fill="url(#sa4_hope)"/>
-  <!-- Sansão sitting head bowed - very short hair -->
-  <ellipse cx="400" cy="250" rx="26" ry="28" fill="#fde68a"/>
-  <!-- very short hair (just cut) -->
-  <rect x="376" y="225" width="48" height="16" rx="8" fill="#78350f"/>
-  <!-- chains on wrists -->
-  <line x1="350" y1="295" x2="400" y2="280" stroke="#6b7280" stroke-width="6"/>
-  <line x1="450" y1="295" x2="400" y2="280" stroke="#6b7280" stroke-width="6"/>
-  <circle cx="350" cy="295" r="10" fill="none" stroke="#6b7280" stroke-width="5"/>
-  <circle cx="450" cy="295" r="10" fill="none" stroke="#6b7280" stroke-width="5"/>
-  <rect x="378" y="276" width="44" height="65" rx="8" fill="#78350f"/>
-  <!-- head bowed in sadness -->
-  <!-- tiny hair growth symbol - small sprouts of hope -->
-  <line x1="390" y1="222" x2="388" y2="210" stroke="#92400e" stroke-width="2.5"/>
-  <line x1="400" y1="220" x2="400" y2="208" stroke="#92400e" stroke-width="2.5"/>
-  <line x1="410" y1="222" x2="412" y2="210" stroke="#92400e" stroke-width="2.5"/>
-  <!-- small light ray from above - hope -->
-  <line x1="400" y1="0" x2="400" y2="180" stroke="#fbbf24" stroke-width="3" opacity="0.3"/>
-  <ellipse cx="400" cy="180" rx="30" ry="15" fill="#fbbf24" opacity="0.15"/>
+
+  <!-- Dark prison background -->
+  <rect width="800" height="380" fill="url(#san4_prison)"/>
+  <rect x="0" y="0" width="800" height="380" fill="url(#san4_wall)" opacity="0.8"/>
+
+  <!-- Stone block texture -->
+  <line x1="0" y1="60" x2="800" y2="60" stroke="#4a3820" stroke-width="3" opacity="0.5"/>
+  <line x1="0" y1="120" x2="800" y2="120" stroke="#4a3820" stroke-width="3" opacity="0.5"/>
+  <line x1="0" y1="180" x2="800" y2="180" stroke="#4a3820" stroke-width="3" opacity="0.5"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#4a3820" stroke-width="3" opacity="0.5"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#4a3820" stroke-width="3" opacity="0.5"/>
+  <line x1="100" y1="0" x2="100" y2="60" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="0" x2="200" y2="60" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="300" y1="0" x2="300" y2="60" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="400" y1="0" x2="400" y2="60" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="500" y1="0" x2="500" y2="60" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="0" x2="600" y2="60" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="700" y1="0" x2="700" y2="60" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="50" y1="60" x2="50" y2="120" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="150" y1="60" x2="150" y2="120" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="250" y1="60" x2="250" y2="120" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="350" y1="60" x2="350" y2="120" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="450" y1="60" x2="450" y2="120" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="550" y1="60" x2="550" y2="120" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="650" y1="60" x2="650" y2="120" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="750" y1="60" x2="750" y2="120" stroke="#4a3820" stroke-width="2" opacity="0.4"/>
+  <line x1="100" y1="120" x2="100" y2="180" stroke="#4a3820" stroke-width="2" opacity="0.35"/>
+  <line x1="200" y1="120" x2="200" y2="180" stroke="#4a3820" stroke-width="2" opacity="0.35"/>
+  <line x1="300" y1="120" x2="300" y2="180" stroke="#4a3820" stroke-width="2" opacity="0.35"/>
+  <line x1="400" y1="120" x2="400" y2="180" stroke="#4a3820" stroke-width="2" opacity="0.35"/>
+  <line x1="500" y1="120" x2="500" y2="180" stroke="#4a3820" stroke-width="2" opacity="0.35"/>
+  <line x1="600" y1="120" x2="600" y2="180" stroke="#4a3820" stroke-width="2" opacity="0.35"/>
+  <line x1="700" y1="120" x2="700" y2="180" stroke="#4a3820" stroke-width="2" opacity="0.35"/>
+
+  <!-- Prison bars left side -->
+  <rect x="0" y="0" width="12" height="380" fill="#4a3010" opacity="0.9"/>
+  <rect x="50" y="0" width="12" height="380" fill="#4a3010" opacity="0.9"/>
+  <rect x="100" y="0" width="12" height="380" fill="#4a3010" opacity="0.9"/>
+  <rect x="150" y="0" width="12" height="380" fill="#4a3010" opacity="0.9"/>
+  <rect x="200" y="0" width="12" height="380" fill="#3a2808" opacity="0.9"/>
+  <rect x="0" y="155" width="212" height="14" fill="#3a2808" opacity="0.9"/>
+  <rect x="0" y="55" width="212" height="10" fill="#3a2808" opacity="0.8"/>
+  <rect x="0" y="280" width="212" height="10" fill="#3a2808" opacity="0.8"/>
+
+  <!-- Prison floor -->
+  <rect x="0" y="315" width="800" height="65" fill="url(#san4_floor)"/>
+
+  <!-- Small high window with light beam -->
+  <rect x="620" y="50" width="80" height="55" rx="4" fill="#1a1000"/>
+  <path d="M620 50 Q660 30 700 50" fill="#1a1000"/>
+  <line x1="640" y1="50" x2="640" y2="105" stroke="#5a4010" stroke-width="4"/>
+  <line x1="660" y1="50" x2="660" y2="105" stroke="#5a4010" stroke-width="4"/>
+  <line x1="680" y1="50" x2="680" y2="105" stroke="#5a4010" stroke-width="4"/>
+  <line x1="620" y1="72" x2="700" y2="72" stroke="#5a4010" stroke-width="4"/>
+  <path d="M620 55 L540 180 L700 180 L700 55Z" fill="#ffe082" opacity="0.06"/>
+  <path d="M640 55 L570 180 L680 180 L660 55Z" fill="#ffe082" opacity="0.05"/>
+  <circle cx="620" cy="100" r="1.5" fill="#ffe082" opacity="0.5"/>
+  <circle cx="610" cy="130" r="1" fill="#ffe082" opacity="0.4"/>
+  <circle cx="628" cy="155" r="1.5" fill="#ffe082" opacity="0.45"/>
+
+  <!-- Hope light glow -->
+  <ellipse cx="450" cy="100" rx="150" ry="100" fill="url(#san4_hopelight)"/>
+
+  <!-- SANSÃO sitting against wall, chained, head bowed, short hair with tiny regrowth -->
+  <!-- Legs stretched -->
+  <line x1="370" y1="330" x2="310" y2="355" stroke="#c8956c" stroke-width="20" stroke-linecap="round"/>
+  <line x1="430" y1="330" x2="490" y2="355" stroke="#c8956c" stroke-width="20" stroke-linecap="round"/>
+  <ellipse cx="308" cy="357" rx="20" ry="9" fill="#a07050"/>
+  <ellipse cx="492" cy="357" rx="20" ry="9" fill="#a07050"/>
+
+  <!-- Torso hunched -->
+  <path d="M330 330 Q336 268 352 253 Q370 240 400 244 Q430 240 448 253 Q464 268 470 330Z" fill="#8b6030"/>
+  <path d="M326 322 Q330 272 345 257 Q328 280 326 322Z" fill="#6b4010" opacity="0.7"/>
+  <path d="M470 322 Q472 278 458 257 Q472 282 470 322Z" fill="#6b4010" opacity="0.7"/>
+
+  <!-- Head bowed down -->
+  <circle cx="400" cy="243" r="26" fill="#c8956c"/>
+  <!-- SHORT HAIR — stubble after cut -->
+  <path d="M376 235 Q380 220 400 217 Q420 220 424 235" fill="#5a3010"/>
+  <ellipse cx="378" cy="236" rx="8" ry="5" fill="#5a3010" opacity="0.7"/>
+  <ellipse cx="422" cy="236" rx="8" ry="5" fill="#5a3010" opacity="0.7"/>
+
+  <!-- HOPE SYMBOL — tiny hair growth sprouts visible -->
+  <path d="M382 222 Q380 212 383 205" stroke="#6b3e10" stroke-width="2.5" fill="none" opacity="0.85"/>
+  <path d="M392 220 Q390 209 393 201" stroke="#6b3e10" stroke-width="2.5" fill="none" opacity="0.85"/>
+  <path d="M402 220 Q400 209 403 201" stroke="#6b3e10" stroke-width="2.5" fill="none" opacity="0.85"/>
+  <path d="M412 222 Q412 211 415 204" stroke="#6b3e10" stroke-width="2.5" fill="none" opacity="0.85"/>
+  <path d="M418 225 Q420 214 422 207" stroke="#6b3e10" stroke-width="2" fill="none" opacity="0.75"/>
+  <!-- Golden glow around tiny growing hair -->
+  <ellipse cx="400" cy="210" rx="28" ry="16" fill="#ffd700" opacity="0.14"/>
+  <ellipse cx="400" cy="208" rx="18" ry="10" fill="#ffd700" opacity="0.1"/>
+
+  <!-- Eyes closed, head drooping -->
+  <path d="M388 245 Q394 242 400 245" stroke="#3a2010" stroke-width="2.5" fill="none"/>
+  <path d="M400 245 Q406 242 412 245" stroke="#3a2010" stroke-width="2.5" fill="none"/>
+  <!-- Downturned mouth -->
+  <path d="M390 256 Q400 252 410 256" stroke="#8b3a10" stroke-width="2" fill="none"/>
+  <!-- Beard -->
+  <path d="M378 256 Q384 272 400 277 Q416 272 422 256" fill="#5a3010" opacity="0.8"/>
+
+  <!-- CHAINS on wrists -->
+  <line x1="345" y1="268" x2="300" y2="260" stroke="#888" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="340" cy="267" r="9" fill="none" stroke="#888" stroke-width="4"/>
+  <ellipse cx="322" cy="261" rx="7" ry="4" fill="none" stroke="#888" stroke-width="3" transform="rotate(-20 322 261)"/>
+  <ellipse cx="310" cy="258" rx="7" ry="4" fill="none" stroke="#888" stroke-width="3" transform="rotate(-25 310 258)"/>
+  <line x1="300" y1="260" x2="270" y2="258" stroke="#888" stroke-width="4"/>
+  <rect x="262" y="254" width="12" height="10" rx="2" fill="#666"/>
+  <line x1="455" y1="268" x2="500" y2="260" stroke="#888" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="460" cy="267" r="9" fill="none" stroke="#888" stroke-width="4"/>
+  <ellipse cx="478" cy="261" rx="7" ry="4" fill="none" stroke="#888" stroke-width="3" transform="rotate(20 478 261)"/>
+  <ellipse cx="490" cy="258" rx="7" ry="4" fill="none" stroke="#888" stroke-width="3" transform="rotate(25 490 258)"/>
+  <line x1="500" y1="260" x2="530" y2="258" stroke="#888" stroke-width="4"/>
+  <rect x="530" y="254" width="12" height="10" rx="2" fill="#666"/>
+
+  <!-- Arms hanging dejected -->
+  <line x1="348" y1="262" x2="338" y2="310" stroke="#c8956c" stroke-width="16" stroke-linecap="round"/>
+  <line x1="452" y1="262" x2="462" y2="310" stroke="#c8956c" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="430" height="28" rx="14" fill="#1a1208" opacity="0.92"/>
+  <text x="225" y="363" font-family="Georgia, serif" font-size="14" fill="#ffe082" text-anchor="middle" font-weight="bold">Sansão acorrentado — mas o cabelo cresce de novo</text>
 </svg>
