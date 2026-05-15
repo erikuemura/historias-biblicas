@@ -205,7 +205,7 @@ E então começou a chover...`,
 
 Mas dentro da arca, Noé, sua família e todos os animais estavam seguros e quentinhos. Às vezes o navio balançava, mas Deus cuidava de todos.
 
-Por fim, a chuva parou. As águas foram baixando pouquinho a pouco...
+Por fim, a chuva parou. As águas foram baixando pouquinho a pouquinho...
 
 A arca encostou em uma montanha. Noé soltou um pombo que voltou carregando um galho de oliveira no bico — sinal de que havia terra seca!
 
@@ -265,7 +265,7 @@ E tirou de dentro de um baú um casaco lindo, feito com tecidos de todas as core
 
 Era o casaco mais bonito que José já tinha visto!
 
-— Obrigado, pai! — disse José, abraçando o pai com força.
+— Obrigado, papai! — disse José, abraçando o pai com força.
 
 Mas quando os irmãos viram o casaco, seus rostos ficaram vermelhos de inveja.
 
@@ -404,7 +404,7 @@ De repente, ela viu algo se mexer entre as plantas.
 
 Uma criada foi buscar. Quando abriram, o bebê olhou para a princesa com seus olhões... e começou a chorar.
 
-— Ah! É um bebê hebreuinho! — disse a princesa, pegando ele no colo com ternura.
+— Ah! É um bebê Hebreuzinho! — disse a princesa, pegando ele no colo com ternura.
 
 O coraçãozinho dela se derreteu de amor!
 
@@ -525,7 +525,7 @@ Mas Davi deu alguns passos e quase caiu.
 
 — Não consigo me mexer com tudo isso! — disse ele, tirando a armadura pesada. — Não estou acostumado.
 
-E Davi foi ao riacho. Abaixou, procurou com cuidado e escolheu cinco pedrosas lisas e redondas.
+E Davi foi ao riacho. Abaixou, procurou com cuidado e escolheu cinco pedrinhas lisas e redondas.
 
 As colocou na sua bolsa de pastor, pegou sua funda de couro — uma espécie de estilingue — e foi em direção ao gigante.
 
@@ -787,7 +787,7 @@ Ele deixou o barco, as redes e todos aqueles peixes na margem...
 
 E foi seguir Jesus.
 
-Tiago e João fizeram a mesma coisa! Os quatro amigos partiram juntos, cheios de alegria e curiosidade, sem saber ao certo o que viria pela frente — mas sabendo que ao lado de Jesus, seria incrível.`,
+André, Tiago e João fizeram a mesma coisa! Os quatro amigos partiram juntos, cheios de alegria e curiosidade, sem saber ao certo o que viria pela frente — mas sabendo que ao lado de Jesus, seria incrível.`,
       },
       {
         title: "Amigos de Jesus",
