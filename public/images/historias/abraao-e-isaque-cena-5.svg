@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="abr5_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7043"/>
+      <stop offset="35%" stop-color="#ffa726"/>
+      <stop offset="65%" stop-color="#ffcc02"/>
+      <stop offset="100%" stop-color="#ffe57f"/>
+    </linearGradient>
+    <radialGradient id="abr5_sun" cx="50%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="40%" stop-color="#ffee58"/>
+      <stop offset="100%" stop-color="#ff8f00"/>
+    </radialGradient>
+    <linearGradient id="abr5_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c89050"/>
+      <stop offset="100%" stop-color="#8b6030"/>
+    </linearGradient>
+    <radialGradient id="abr5_heartglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff8a80" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ff8a80" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Amber sunset sky -->
+  <rect width="800" height="380" fill="url(#abr5_sky)"/>
+
+  <!-- Setting sun at horizon -->
+  <ellipse cx="400" cy="310" rx="280" ry="80" fill="url(#abr5_sun)" opacity="0.6"/>
+  <circle cx="400" cy="315" r="55" fill="#fff9c4" opacity="0.85"/>
+  <circle cx="400" cy="315" r="45" fill="#ffee58"/>
+
+  <!-- Sun rays -->
+  <line x1="400" y1="258" x2="400" y2="245" stroke="#fdd835" stroke-width="3" opacity="0.7"/>
+  <line x1="352" y1="270" x2="342" y2="260" stroke="#fdd835" stroke-width="3" opacity="0.7"/>
+  <line x1="448" y1="270" x2="458" y2="260" stroke="#fdd835" stroke-width="3" opacity="0.7"/>
+  <line x1="340" y1="308" x2="328" y2="308" stroke="#fdd835" stroke-width="3" opacity="0.7"/>
+  <line x1="460" y1="308" x2="472" y2="308" stroke="#fdd835" stroke-width="3" opacity="0.7"/>
+
+  <!-- Silhouette mountains in background -->
+  <polygon points="0,310 150,200 300,310" fill="#c87030" opacity="0.5"/>
+  <polygon points="200,310 380,180 560,310" fill="#bf6020" opacity="0.45"/>
+  <polygon points="500,310 660,210 800,310" fill="#c87030" opacity="0.5"/>
+
+  <!-- Ground -->
+  <rect x="0" y="308" width="800" height="72" fill="url(#abr5_ground)"/>
+  <!-- Path -->
+  <path d="M100 370 Q400 340 700 370" stroke="#d4a060" stroke-width="6" fill="none" opacity="0.5"/>
+
+  <!-- Small tree / palm silhouette left -->
+  <rect x="95" y="240" width="8" height="75" fill="#6b4010"/>
+  <ellipse cx="99" cy="235" rx="28" ry="22" fill="#5a8020" opacity="0.8"/>
+  <ellipse cx="85" cy="245" rx="20" ry="14" fill="#4a7018" opacity="0.7"/>
+  <ellipse cx="113" cy="248" rx="18" ry="13" fill="#4a7018" opacity="0.7"/>
+
+  <!-- Heart symbols floating in sky -->
+  <ellipse cx="390" cy="120" rx="50" ry="40" fill="url(#abr5_heartglow)"/>
+  <!-- Big heart -->
+  <path d="M375 110 Q378 103 385 103 Q392 103 392 110 Q392 103 399 103 Q406 103 409 110 Q409 120 392 130 Q375 120 375 110Z" fill="#ff5252" opacity="0.85"/>
+  <!-- Medium heart left -->
+  <path d="M195 140 Q197 135 202 135 Q207 135 207 140 Q207 135 212 135 Q217 135 219 140 Q219 148 207 155 Q195 148 195 140Z" fill="#ff7070" opacity="0.7"/>
+  <!-- Small heart right -->
+  <path d="M558 125 Q560 121 564 121 Q568 121 568 125 Q568 121 572 121 Q576 121 578 125 Q578 131 568 137 Q558 131 558 125Z" fill="#ff7070" opacity="0.65"/>
+  <!-- Tiny hearts -->
+  <path d="M290 95 Q291 93 293 93 Q295 93 295 95 Q295 93 297 93 Q299 93 300 95 Q300 99 295 102 Q290 99 290 95Z" fill="#ff8a80" opacity="0.6"/>
+  <path d="M480 100 Q481 98 483 98 Q485 98 485 100 Q485 98 487 98 Q489 98 490 100 Q490 104 485 107 Q480 104 480 100Z" fill="#ff8a80" opacity="0.6"/>
+
+  <!-- Isaque (boy, left) walking -->
+  <!-- Robe -->
+  <path d="M268 315 Q272 268 282 258 Q295 250 308 256 Q320 265 322 315Z" fill="#ffe082"/>
+  <!-- Belt -->
+  <rect x="270" y="278" width="51" height="7" rx="3" fill="#c9a040"/>
+  <!-- Head -->
+  <circle cx="295" cy="252" r="20" fill="#d4956a"/>
+  <!-- Dark hair -->
+  <path d="M277 246 Q280 232 295 229 Q310 232 313 246" fill="#5a3010"/>
+  <!-- Eyes looking up at dad, happy -->
+  <circle cx="289" cy="249" r="3.5" fill="#3a2010"/>
+  <circle cx="301" cy="248" r="3.5" fill="#3a2010"/>
+  <circle cx="290" cy="248" r="1.2" fill="white"/>
+  <circle cx="302" cy="247" r="1.2" fill="white"/>
+  <!-- Big smile -->
+  <path d="M287 258 Q295 265 303 258" stroke="#8b3a10" stroke-width="2" fill="none"/>
+  <!-- Rosy cheeks -->
+  <ellipse cx="283" cy="256" rx="6" ry="4" fill="#e07060" opacity="0.45"/>
+  <ellipse cx="307" cy="256" rx="6" ry="4" fill="#e07060" opacity="0.45"/>
+  <!-- Right arm UP holding Abraão's hand -->
+  <line x1="307" y1="264" x2="340" y2="275" stroke="#d4956a" stroke-width="8" stroke-linecap="round"/>
+  <!-- Left arm swinging -->
+  <line x1="278" y1="268" x2="258" y2="288" stroke="#d4956a" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="256" cy="290" r="7" fill="#d4956a"/>
+  <!-- Legs walking -->
+  <line x1="280" y1="314" x2="268" y2="348" stroke="#d4956a" stroke-width="10" stroke-linecap="round"/>
+  <line x1="313" y1="314" x2="320" y2="348" stroke="#d4956a" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="266" cy="350" rx="13" ry="5" fill="#8b5e20"/>
+  <ellipse cx="321" cy="350" rx="13" ry="5" fill="#8b5e20"/>
+
+  <!-- Abraão (tall, right) -->
+  <!-- Robe -->
+  <path d="M378 318 Q382 255 395 242 Q412 232 428 238 Q444 248 447 318Z" fill="#c9a040"/>
+  <!-- Mantle -->
+  <path d="M373 312 Q376 265 392 248 Q376 275 373 312Z" fill="#8b6820"/>
+  <path d="M447 312 Q450 268 435 248 Q450 278 447 312Z" fill="#8b6820"/>
+  <!-- Belt -->
+  <rect x="380" y="268" width="66" height="8" rx="4" fill="#8b6820"/>
+  <!-- Head -->
+  <circle cx="412" cy="235" r="24" fill="#c8956c"/>
+  <!-- White beard -->
+  <path d="M393 246 Q398 268 412 274 Q426 268 431 246" fill="white"/>
+  <!-- White hair -->
+  <path d="M390 230 Q392 215 412 211 Q432 215 434 230" fill="#e0d0b0"/>
+  <!-- Eyes - warm, looking at son -->
+  <circle cx="404" cy="229" r="3.5" fill="#3a2010"/>
+  <circle cx="420" cy="229" r="3.5" fill="#3a2010"/>
+  <circle cx="405" cy="228" r="1.2" fill="white"/>
+  <circle cx="421" cy="228" r="1.2" fill="white"/>
+  <!-- Warm smile -->
+  <path d="M403 242 Q412 248 421 242" stroke="#8b3a10" stroke-width="2" fill="none"/>
+  <ellipse cx="400" cy="239" rx="6" ry="4" fill="#e07060" opacity="0.4"/>
+  <ellipse cx="424" cy="239" rx="6" ry="4" fill="#e07060" opacity="0.4"/>
+  <!-- Left arm holding boy's hand DOWN -->
+  <line x1="393" y1="255" x2="342" y2="278" stroke="#c8956c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="340" cy="279" r="9" fill="#c8956c"/>
+  <!-- Staff -->
+  <line x1="442" y1="258" x2="468" y2="348" stroke="#8b5e20" stroke-width="5" stroke-linecap="round"/>
+  <!-- Legs walking -->
+  <line x1="395" y1="316" x2="382" y2="350" stroke="#c8956c" stroke-width="12" stroke-linecap="round"/>
+  <line x1="430" y1="316" x2="440" y2="350" stroke="#c8956c" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="380" cy="352" rx="15" ry="6" fill="#8b5e20"/>
+  <ellipse cx="441" cy="352" rx="15" ry="6" fill="#8b5e20"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="330" height="28" rx="14" fill="#bf4400" opacity="0.75"/>
+  <text x="175" y="363" font-family="Georgia, serif" font-size="14" fill="#fff9c4" text-anchor="middle" font-weight="bold">Pai e filho descem juntos, com amor</text>
+</svg>

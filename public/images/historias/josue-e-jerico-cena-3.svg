@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="jos3_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a90d9"/>
+      <stop offset="100%" stop-color="#b0d4f0"/>
+    </linearGradient>
+    <linearGradient id="jos3_wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a060"/>
+      <stop offset="100%" stop-color="#7a5020"/>
+    </linearGradient>
+    <linearGradient id="jos3_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a060"/>
+      <stop offset="100%" stop-color="#8b5e20"/>
+    </linearGradient>
+    <linearGradient id="jos3_ark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#c8a000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#jos3_sky)"/>
+
+  <!-- Clouds -->
+  <ellipse cx="180" cy="50" rx="70" ry="22" fill="white" opacity="0.8"/>
+  <ellipse cx="500" cy="40" rx="55" ry="18" fill="white" opacity="0.75"/>
+  <ellipse cx="680" cy="60" rx="45" ry="16" fill="white" opacity="0.7"/>
+
+  <!-- Jericó walls (tall, right side background) -->
+  <rect x="540" y="40" width="260" height="290" fill="url(#jos3_wall)"/>
+  <!-- Wall stones -->
+  <rect x="540" y="40" width="260" height="16" fill="#d4b070" opacity="0.4"/>
+  <rect x="540" y="76" width="260" height="14" fill="#d4b070" opacity="0.35"/>
+  <rect x="540" y="110" width="260" height="14" fill="#d4b070" opacity="0.35"/>
+  <rect x="540" y="144" width="260" height="14" fill="#d4b070" opacity="0.35"/>
+  <rect x="540" y="178" width="260" height="14" fill="#d4b070" opacity="0.35"/>
+  <rect x="540" y="212" width="260" height="14" fill="#d4b070" opacity="0.35"/>
+  <rect x="540" y="246" width="260" height="14" fill="#d4b070" opacity="0.35"/>
+  <rect x="540" y="280" width="260" height="14" fill="#d4b070" opacity="0.35"/>
+  <!-- Vertical joints -->
+  <line x1="580" y1="40" x2="580" y2="330" stroke="#a07030" stroke-width="1.5" opacity="0.35"/>
+  <line x1="620" y1="40" x2="620" y2="330" stroke="#a07030" stroke-width="1.5" opacity="0.35"/>
+  <line x1="660" y1="40" x2="660" y2="330" stroke="#a07030" stroke-width="1.5" opacity="0.35"/>
+  <line x1="700" y1="40" x2="700" y2="330" stroke="#a07030" stroke-width="1.5" opacity="0.35"/>
+  <line x1="740" y1="40" x2="740" y2="330" stroke="#a07030" stroke-width="1.5" opacity="0.35"/>
+  <!-- Battlements -->
+  <rect x="540" y="24" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="568" y="24" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="596" y="24" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="624" y="24" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="652" y="24" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="680" y="24" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="708" y="24" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="736" y="24" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="764" y="24" width="22" height="20" rx="2" fill="#c8a060"/>
+  <!-- Guard on wall -->
+  <circle cx="620" cy="55" r="10" fill="#c8956a"/>
+  <rect x="613" y="64" width="14" height="20" rx="3" fill="#8b4010"/>
+
+  <!-- Ground / path around wall -->
+  <rect x="0" y="310" width="800" height="70" fill="url(#jos3_ground)"/>
+  <ellipse cx="400" cy="315" rx="500" ry="30" fill="#b89050" opacity="0.4"/>
+
+  <!-- Long procession of Israelites marching (left to right, silent) -->
+  <!-- Warriors at front with spears -->
+  <!-- Person 1 - front warrior -->
+  <circle cx="30" cy="278" r="13" fill="#d4956a"/>
+  <rect x="19" y="290" width="22" height="28" rx="3" fill="#e8a030"/>
+  <path d="M19 290 Q30 284 41 290" fill="#c87020"/>
+  <line x1="40" y1="265" x2="44" y2="320" stroke="#8b5e20" stroke-width="4"/>
+  <polygon points="38,265 44,250 50,265" fill="#c8a030"/>
+
+  <!-- Person 2 -->
+  <circle cx="72" cy="276" r="13" fill="#c8956a"/>
+  <rect x="61" y="288" width="22" height="28" rx="3" fill="#ffb74d"/>
+  <path d="M61 288 Q72 282 83 288" fill="#e0a030"/>
+  <line x1="82" y1="263" x2="86" y2="318" stroke="#8b5e20" stroke-width="4"/>
+  <polygon points="80,263 86,248 92,263" fill="#c8a030"/>
+
+  <!-- Person 3 -->
+  <circle cx="112" cy="278" r="13" fill="#d4a870"/>
+  <rect x="101" y="290" width="22" height="27" rx="3" fill="#ffe082"/>
+  <line x1="120" y1="265" x2="124" y2="318" stroke="#8b5e20" stroke-width="4"/>
+  <polygon points="118,265 124,250 130,265" fill="#c8a030"/>
+
+  <!-- Priests with trumpets (middle section) -->
+  <!-- Priest with trumpet 1 -->
+  <circle cx="170" cy="274" r="14" fill="#d4956a"/>
+  <rect x="158" y="287" width="24" height="30" rx="3" fill="white" opacity="0.95"/>
+  <path d="M158 287 Q170 280 182 287" fill="#e8e8d0"/>
+  <!-- Trumpet -->
+  <path d="M175 278 Q200 262 228 258 Q233 263 230 268 Q205 272 178 285" fill="#d4a030" stroke="#b08020" stroke-width="1.5"/>
+
+  <!-- Priest with trumpet 2 -->
+  <circle cx="240" cy="272" r="14" fill="#c8956a"/>
+  <rect x="228" y="285" width="24" height="30" rx="3" fill="white" opacity="0.95"/>
+  <path d="M228 285 Q240 278 252 285" fill="#e8e8d0"/>
+  <!-- Trumpet -->
+  <path d="M245 276 Q270 260 298 256 Q303 261 300 266 Q275 270 248 283" fill="#d4a030" stroke="#b08020" stroke-width="1.5"/>
+
+  <!-- ARK OF THE COVENANT — center, carried by priests -->
+  <!-- Ark poles (carried on shoulders) -->
+  <line x1="290" y1="290" x2="460" y2="290" stroke="#8b6020" stroke-width="6"/>
+  <!-- Ark box -->
+  <rect x="310" y="255" width="120" height="60" rx="6" fill="url(#jos3_ark)"/>
+  <rect x="310" y="255" width="120" height="12" rx="4" fill="#ffd700"/>
+  <!-- Ark lid detail -->
+  <rect x="316" y="248" width="108" height="14" rx="4" fill="#ffd700"/>
+  <!-- Cherubim on top (simplified wings) -->
+  <path d="M340 248 Q320 230 305 238 Q315 252 340 248Z" fill="#ffd700"/>
+  <path d="M400 248 Q420 230 435 238 Q425 252 400 248Z" fill="#ffd700"/>
+  <path d="M340 248 Q360 240 380 248" fill="#ffe57f"/>
+  <!-- Ark side details -->
+  <rect x="318" y="268" width="24" height="35" rx="3" fill="#c8a000" opacity="0.5"/>
+  <rect x="350" y="268" width="24" height="35" rx="3" fill="#c8a000" opacity="0.5"/>
+  <rect x="382" y="268" width="24" height="35" rx="3" fill="#c8a000" opacity="0.5"/>
+  <!-- Ark glow -->
+  <ellipse cx="370" cy="268" rx="65" ry="45" fill="#ffe082" opacity="0.25"/>
+  <!-- Ark carriers (4 priests) -->
+  <!-- Carrier 1 (front left) -->
+  <circle cx="300" cy="271" r="13" fill="#d4a870"/>
+  <rect x="289" y="283" width="22" height="30" rx="3" fill="white" opacity="0.9"/>
+  <!-- Carrier 2 (front right) -->
+  <circle cx="445" cy="271" r="13" fill="#d4956a"/>
+  <rect x="434" y="283" width="22" height="30" rx="3" fill="white" opacity="0.9"/>
+
+  <!-- More marchers behind ark -->
+  <!-- Person right side of procession -->
+  <circle cx="490" cy="276" r="13" fill="#c8a870"/>
+  <rect x="479" y="288" width="22" height="28" rx="3" fill="#e8c880"/>
+
+  <circle cx="528" cy="274" r="12" fill="#d4956a"/>
+  <rect x="518" y="285" width="20" height="27" rx="3" fill="#ffcc80"/>
+
+  <!-- Silent marchers — mouths closed, serious expressions -->
+  <!-- Expression on ark carrier 1 -->
+  <circle cx="296" cy="268" r="2.5" fill="#3a2010"/>
+  <circle cx="304" cy="268" r="2.5" fill="#3a2010"/>
+  <line x1="296" y1="274" x2="304" y2="274" stroke="#8b3a10" stroke-width="1.5"/>
+
+  <!-- Colorful clothing details on various marchers -->
+  <line x1="170" y1="290" x2="170" y2="317" stroke="#e07030" stroke-width="1.5" opacity="0.5"/>
+  <line x1="240" y1="288" x2="240" y2="315" stroke="#4a90d9" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="380" height="28" rx="14" fill="#2a5090" opacity="0.82"/>
+  <text x="200" y="363" font-family="Georgia, serif" font-size="14" fill="#ffe082" text-anchor="middle" font-weight="bold">O povo marcha em silêncio ao redor de Jericó</text>
+</svg>

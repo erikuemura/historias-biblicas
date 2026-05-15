@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="san3_room" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a0a"/>
+      <stop offset="100%" stop-color="#0d0806"/>
+    </linearGradient>
+    <linearGradient id="san3_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2810"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="san3_lampglow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ff8f00" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ff8f00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="san3_curtain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b1a3a"/>
+      <stop offset="100%" stop-color="#5a0a1a"/>
+    </linearGradient>
+    <linearGradient id="san3_bed" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark room background -->
+  <rect width="800" height="380" fill="url(#san3_room)"/>
+
+  <!-- Room walls — slight texture -->
+  <rect x="0" y="0" width="800" height="380" fill="#1a0d05" opacity="0.6"/>
+  <!-- Wall panels -->
+  <rect x="20" y="20" width="760" height="280" rx="8" fill="#221408" opacity="0.5"/>
+
+  <!-- Curtains / drapes on sides -->
+  <path d="M0 0 Q40 100 20 380 L0 380Z" fill="url(#san3_curtain)" opacity="0.8"/>
+  <path d="M800 0 Q760 100 780 380 L800 380Z" fill="url(#san3_curtain)" opacity="0.8"/>
+
+  <!-- Floor -->
+  <rect x="0" y="300" width="800" height="80" fill="url(#san3_floor)"/>
+  <line x1="0" y1="325" x2="800" y2="325" stroke="#4a3010" stroke-width="1.5" opacity="0.4"/>
+  <line x1="0" y1="348" x2="800" y2="348" stroke="#4a3010" stroke-width="1.5" opacity="0.4"/>
+  <line x1="150" y1="300" x2="150" y2="380" stroke="#4a3010" stroke-width="1.5" opacity="0.3"/>
+  <line x1="300" y1="300" x2="300" y2="380" stroke="#4a3010" stroke-width="1.5" opacity="0.3"/>
+  <line x1="450" y1="300" x2="450" y2="380" stroke="#4a3010" stroke-width="1.5" opacity="0.3"/>
+  <line x1="600" y1="300" x2="600" y2="380" stroke="#4a3010" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Oil lamp on table — only light source -->
+  <rect x="105" y="258" width="50" height="8" rx="3" fill="#6b4010"/>
+  <rect x="115" y="238" width="6" height="22" fill="#8b5e20"/>
+  <ellipse cx="118" cy="238" rx="16" ry="7" fill="#8b5e20"/>
+  <!-- Flame -->
+  <ellipse cx="118" cy="228" rx="9" ry="14" fill="#ff8f00" opacity="0.9"/>
+  <ellipse cx="118" cy="226" rx="5" ry="9" fill="#ffee58" opacity="0.85"/>
+  <!-- Lamp glow -->
+  <ellipse cx="118" cy="248" rx="80" ry="60" fill="url(#san3_lampglow)"/>
+
+  <!-- BED / couch — Sansão sleeping on it -->
+  <rect x="200" y="278" width="400" height="30" rx="8" fill="url(#san3_bed)"/>
+  <rect x="195" y="270" width="410" height="16" rx="6" fill="#5a3820"/>
+  <!-- Pillow -->
+  <ellipse cx="560" cy="273" rx="50" ry="18" fill="#4a2810"/>
+  <ellipse cx="560" cy="273" rx="44" ry="15" fill="#5a3018"/>
+
+  <!-- SANSÃO — sleeping, huge figure, long hair spread out -->
+  <!-- Body under thin cover -->
+  <rect x="210" y="258" width="360" height="26" rx="8" fill="#3a2010" opacity="0.5"/>
+  <!-- Large body visible under cover -->
+  <ellipse cx="390" cy="265" rx="165" ry="18" fill="#8b6030" opacity="0.6"/>
+  <!-- Arms visible -->
+  <ellipse cx="218" cy="268" rx="20" ry="12" fill="#c8956c" opacity="0.9"/>
+  <ellipse cx="560" cy="264" rx="18" ry="11" fill="#c8956c" opacity="0.9"/>
+  <!-- Head on pillow (Sansão) -->
+  <circle cx="558" cy="258" r="26" fill="#c8956c"/>
+  <!-- Eyes CLOSED — deeply asleep -->
+  <path d="M547 255 Q553 252 559 255" stroke="#3a2010" stroke-width="2.5" fill="none"/>
+  <path d="M559 255 Q565 252 571 255" stroke="#3a2010" stroke-width="2.5" fill="none"/>
+  <!-- Relaxed mouth — sleeping -->
+  <path d="M550 264 Q558 268 566 264" stroke="#8b3a10" stroke-width="1.5" fill="none"/>
+  <!-- LONG HAIR spread out on pillow/bed -->
+  <path d="M535 255 Q510 248 485 252 Q460 258 440 265 Q415 272 390 275 Q365 278 340 278 Q315 280 295 278" stroke="#5a3010" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M535 262 Q505 258 478 264 Q450 270 422 276 Q395 281 368 282 Q342 283 318 281 Q295 279 278 275" stroke="#4a2808" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M540 250 Q515 242 490 246 Q465 250 442 258 Q418 265 395 270 Q372 273 348 273" stroke="#6b3e08" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Hair highlight strands -->
+  <path d="M538 256 Q510 252 485 258" stroke="#8b5e10" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M538 260 Q505 260 475 268" stroke="#8b5e10" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Beard visible -->
+  <path d="M542 266 Q548 276 558 279 Q568 276 574 266" fill="#5a3010" opacity="0.7"/>
+
+  <!-- DALILA — crouching over him, scissors raised, sneaky expression -->
+  <!-- Dress/robe — colorful, Philistine style -->
+  <path d="M320 305 Q325 255 338 242 Q354 230 370 236 Q384 245 386 305Z" fill="#c8305a"/>
+  <!-- Dress decoration -->
+  <path d="M328 260 Q352 252 380 260" stroke="#ff6080" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Shawl -->
+  <path d="M316 298 Q320 258 334 245 Q318 268 316 298Z" fill="#a02040"/>
+  <!-- Head scarf / hair decoration -->
+  <path d="M326 235 Q332 220 352 216 Q372 220 378 235 Q372 244 352 246 Q332 244 326 235Z" fill="#ff4060"/>
+  <!-- Decorative hair piece -->
+  <ellipse cx="368" cy="222" rx="10" ry="6" fill="#ffd700" opacity="0.8"/>
+  <!-- Head -->
+  <circle cx="352" cy="230" r="22" fill="#d4a06a"/>
+  <!-- Hair falling down (dark) -->
+  <path d="M332 240 Q328 258 332 275" stroke="#3a1808" stroke-width="5" fill="none"/>
+  <path d="M372 240 Q376 258 373 275" stroke="#3a1808" stroke-width="5" fill="none"/>
+  <!-- SNEAKY EXPRESSION — sly smile, eyes narrowed -->
+  <path d="M342 226 Q347 223 352 226" stroke="#3a1808" stroke-width="2" fill="none"/>
+  <path d="M352 226 Q357 223 362 226" stroke="#3a1808" stroke-width="2" fill="none"/>
+  <!-- Narrowed eyes — sly -->
+  <ellipse cx="345" cy="228" rx="4.5" ry="3" fill="white"/>
+  <ellipse cx="359" cy="228" rx="4.5" ry="3" fill="white"/>
+  <circle cx="347" cy="228" r="2" fill="#3a1808"/>
+  <circle cx="361" cy="228" r="2" fill="#3a1808"/>
+  <!-- Sly smile -->
+  <path d="M342 238 Q352 244 362 238" stroke="#8b1a3a" stroke-width="2" fill="none"/>
+  <!-- Raised corner of mouth -->
+  <path d="M362 237 Q364 235 363 233" stroke="#8b1a3a" stroke-width="1.5" fill="none"/>
+  <!-- Arm raised with SCISSORS -->
+  <line x1="367" y1="244" x2="420" y2="205" stroke="#d4a06a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="422" cy="204" r="8" fill="#d4a06a"/>
+  <!-- Scissors in hand -->
+  <!-- Scissor blade 1 -->
+  <line x1="418" y1="198" x2="448" y2="178" stroke="#c0c0c0" stroke-width="4" stroke-linecap="round"/>
+  <!-- Scissor blade 2 -->
+  <line x1="418" y1="210" x2="450" y2="190" stroke="#c0c0c0" stroke-width="4" stroke-linecap="round"/>
+  <!-- Scissor pivot -->
+  <circle cx="425" cy="200" r="4" fill="#a0a0a0"/>
+  <!-- Scissor handles -->
+  <ellipse cx="412" cy="196" rx="7" ry="5" fill="#c8c8c8" transform="rotate(-35 412 196)"/>
+  <ellipse cx="412" cy="208" rx="7" ry="5" fill="#c8c8c8" transform="rotate(-20 412 208)"/>
+  <!-- Gleam on scissors -->
+  <circle cx="440" cy="182" r="2" fill="white" opacity="0.8"/>
+  <!-- Dalila's other hand reaching toward Sansão's hair -->
+  <line x1="330" y1="250" x2="440" y2="268" stroke="#d4a06a" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="444" cy="269" rx="10" ry="7" fill="#d4a06a"/>
+  <!-- Hair being cut — strands falling -->
+  <path d="M490 270 Q475 285 465 295" stroke="#5a3010" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M500 268 Q488 282 480 292" stroke="#4a2808" stroke-width="2.5" fill="none" opacity="0.65"/>
+  <path d="M510 266 Q500 278 494 288" stroke="#6b3e08" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="380" height="28" rx="14" fill="#5a0a1a" opacity="0.88"/>
+  <text x="200" y="363" font-family="Georgia, serif" font-size="14" fill="#ffcc80" text-anchor="middle" font-weight="bold">Dalila corta o cabelo de Sansão</text>
+</svg>

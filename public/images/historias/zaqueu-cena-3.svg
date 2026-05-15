@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="zq3_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#60C090;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#A0D8B0;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="zq3_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B0C060;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#88A030;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="zq3_halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFA0;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#80FF80;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="zq3_trunk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6A4020;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8B5A30;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#zq3_sky)"/>
+  <circle cx="120" cy="65" r="38" fill="#FFE850" opacity="0.85"/>
+  <ellipse cx="400" cy="55" rx="70" ry="25" fill="white" opacity="0.7"/>
+  <ellipse cx="650" cy="70" rx="60" ry="22" fill="white" opacity="0.65"/>
+  <!-- Ground -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#zq3_ground)"/>
+  <!-- Road -->
+  <ellipse cx="400" cy="315" rx="260" ry="18" fill="#C0B858" opacity="0.5"/>
+  <!-- Sycamore tree - right side -->
+  <rect x="560" y="155" width="70" height="155" fill="url(#zq3_trunk)" rx="8"/>
+  <ellipse cx="575" cy="210" rx="10" ry="7" fill="#5A3010" opacity="0.4"/>
+  <path d="M560,305 Q540,295 520,307" stroke="#6A4020" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M630,305 Q650,295 668,308" stroke="#6A4020" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <line x1="595" y1="178" x2="510" y2="125" stroke="#7A5030" stroke-width="16" stroke-linecap="round"/>
+  <line x1="595" y1="178" x2="685" y2="118" stroke="#7A5030" stroke-width="16" stroke-linecap="round"/>
+  <line x1="595" y1="200" x2="480" y2="162" stroke="#7A5030" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="510" cy="105" r="60" fill="#3A9050"/>
+  <circle cx="450" cy="135" r="45" fill="#2A8040"/>
+  <circle cx="685" cy="100" r="62" fill="#3A9050"/>
+  <circle cx="740" cy="132" r="46" fill="#2A8040"/>
+  <circle cx="595" cy="88" r="65" fill="#4AAA60"/>
+  <circle cx="545" cy="112" r="42" fill="#3A9050"/>
+  <circle cx="645" cy="108" r="44" fill="#3A9050"/>
+  <circle cx="595" cy="60" r="35" fill="#5ABB70"/>
+  <!-- Fig fruits -->
+  <circle cx="515" cy="118" r="6" fill="#8B4060"/>
+  <circle cx="670" cy="108" r="6" fill="#8B4060"/>
+  <circle cx="560" cy="92" r="5" fill="#8B4060"/>
+  <!-- Branch Zaqueu sits on -->
+  <line x1="480" y1="195" x2="640" y2="170" stroke="#7A5030" stroke-width="15" stroke-linecap="round"/>
+  <!-- ZAQUEU in tree - shocked and delighted -->
+  <circle cx="510" cy="172" r="18" fill="#F5C870"/>
+  <ellipse cx="510" cy="158" rx="18" ry="9" fill="#3A2010"/>
+  <polygon points="494,190 526,190 522,225 498,225" fill="#2A8A4A"/>
+  <rect x="494" y="190" width="32" height="4" fill="#D4A030"/>
+  <ellipse cx="496" cy="220" rx="13" ry="7" fill="#2A8A4A" transform="rotate(-15,496,220)"/>
+  <ellipse cx="524" cy="218" rx="13" ry="7" fill="#2A8A4A" transform="rotate(12,524,218)"/>
+  <ellipse cx="485" cy="225" rx="8" ry="5" fill="#C09040"/>
+  <ellipse cx="533" cy="222" rx="8" ry="5" fill="#C09040"/>
+  <!-- Arms - one hand to mouth in shock, one gripping -->
+  <line x1="494" y1="197" x2="476" y2="183" stroke="#F5C870" stroke-width="8" stroke-linecap="round"/>
+  <!-- Hand at mouth -->
+  <circle cx="473" cy="181" r="7" fill="#F5C870"/>
+  <line x1="526" y1="197" x2="545" y2="185" stroke="#F5C870" stroke-width="8" stroke-linecap="round"/>
+  <!-- Zaqueu shocked/delighted face - wide eyes, big smile -->
+  <ellipse cx="503" cy="171" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="517" cy="171" rx="4" ry="5" fill="#5A3820"/>
+  <!-- Bright whites of eyes - shocked -->
+  <ellipse cx="503" cy="170" rx="2" ry="2.5" fill="white" opacity="0.6"/>
+  <ellipse cx="517" cy="170" rx="2" ry="2.5" fill="white" opacity="0.6"/>
+  <!-- Big happy/surprised mouth -->
+  <path d="M503,180 Q510,187 517,180" stroke="#8B4020" stroke-width="2.5" fill="#FFB070" opacity="0.6"/>
+  <!-- Eyebrows raised high in surprise -->
+  <path d="M499,163 Q503,158 507,163" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <path d="M513,162 Q517,157 521,162" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <!-- JESUS - standing on road, looking up warmly, divine light around him -->
+  <!-- Jesus glow -->
+  <circle cx="270" cy="230" r="80" fill="url(#zq3_halo)"/>
+  <!-- Jesus robe -->
+  <circle cx="270" cy="195" r="24" fill="#F5D090"/>
+  <!-- Jesus hair and beard -->
+  <ellipse cx="270" cy="179" rx="24" ry="13" fill="#8B5020"/>
+  <path d="M258,179 Q246,200 250,215" stroke="#8B5020" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M282,179 Q294,200 290,215" stroke="#8B5020" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="270" cy="212" rx="14" ry="8" fill="#9A6030" opacity="0.8"/>
+  <!-- Jesus robe - white/cream -->
+  <polygon points="246,219 294,219 302,298 238,298" fill="#F8F0D8"/>
+  <!-- Blue outer robe -->
+  <polygon points="238,225 302,225 310,298 230,298" fill="#4870C0" opacity="0.7"/>
+  <!-- Jesus arm raised, pointing/gesturing up to Zaqueu warmly -->
+  <line x1="294" y1="232" x2="340" y2="210" stroke="#F5D090" stroke-width="11" stroke-linecap="round"/>
+  <!-- Hand open, welcoming -->
+  <circle cx="344" cy="208" r="9" fill="#F5D090"/>
+  <line x1="246" y1="232" x2="220" y2="248" stroke="#F5D090" stroke-width="11" stroke-linecap="round"/>
+  <!-- Jesus warm smile -->
+  <ellipse cx="263" cy="194" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="277" cy="194" rx="4" ry="5" fill="#5A3820"/>
+  <path d="M261,205 Q270,213 279,205" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <!-- Crowd watching in surprise on the left -->
+  <circle cx="120" cy="248" r="18" fill="#F0B080"/>
+  <ellipse cx="120" cy="234" rx="18" ry="10" fill="#4A2010"/>
+  <polygon points="104,266 136,266 139,298 101,298" fill="#C04040"/>
+  <ellipse cx="113" cy="246" rx="3" ry="4" fill="#5A3820"/>
+  <ellipse cx="127" cy="246" rx="3" ry="4" fill="#5A3820"/>
+  <!-- Open mouth surprise -->
+  <ellipse cx="120" cy="258" rx="4" ry="3" fill="#8B4020"/>
+  <circle cx="170" cy="252" r="17" fill="#E8C090"/>
+  <ellipse cx="170" cy="238" rx="17" ry="9" fill="#7A4020"/>
+  <polygon points="155,269 185,269 188,298 152,298" fill="#4080C0"/>
+  <ellipse cx="163" cy="250" rx="3" ry="3.5" fill="#5A3820"/>
+  <ellipse cx="177" cy="250" rx="3" ry="3.5" fill="#5A3820"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#2A7A40" opacity="0.6"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Zaqueu — Cena 3: Jesus o Chama</text>
+</svg>

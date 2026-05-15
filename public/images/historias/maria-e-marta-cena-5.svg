@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="mm5_wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3A1848;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1A0828;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="mm5_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6A4020;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="mm5_candle1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE880;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FF8020;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="mm5_candle2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE880;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#FF8020;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="mm5_table" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C08040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8B5020;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Warm interior -->
+  <rect width="800" height="380" fill="url(#mm5_wall)"/>
+  <!-- Floor -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#mm5_floor)"/>
+  <line x1="0" y1="318" x2="800" y2="318" stroke="#6A4020" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="342" x2="800" y2="342" stroke="#6A4020" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="295" x2="200" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="295" x2="400" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <line x1="600" y1="295" x2="600" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <!-- Candle glow 1 left -->
+  <circle cx="220" cy="160" r="90" fill="url(#mm5_candle1)" opacity="0.6"/>
+  <!-- Candle glow 2 right -->
+  <circle cx="580" cy="155" r="85" fill="url(#mm5_candle2)" opacity="0.5"/>
+  <!-- Central warm table glow -->
+  <circle cx="400" cy="220" r="130" fill="url(#mm5_candle1)" opacity="0.35"/>
+  <!-- TABLE - meal shared together -->
+  <rect x="160" y="248" width="480" height="18" fill="url(#mm5_table)" rx="4"/>
+  <rect x="178" y="266" width="12" height="36" fill="#7A4820"/>
+  <rect x="610" y="266" width="12" height="36" fill="#7A4820"/>
+  <!-- Tablecloth hint -->
+  <rect x="160" y="248" width="480" height="6" fill="white" opacity="0.12" rx="4"/>
+  <!-- FOOD on table - abundant, shared meal -->
+  <!-- Bread loaves -->
+  <ellipse cx="240" cy="244" rx="28" ry="11" fill="#E0A040"/>
+  <ellipse cx="240" cy="241" rx="22" ry="7" fill="#C88030"/>
+  <!-- Bowl of fruit -->
+  <ellipse cx="320" cy="242" rx="25" ry="10" fill="#8B5020"/>
+  <circle cx="308" cy="236" r="8" fill="#FF4060"/>
+  <circle cx="320" cy="234" r="9" fill="#9B00C0" opacity="0.8"/>
+  <circle cx="332" cy="237" r="8" fill="#FF8030"/>
+  <!-- Pot of stew -->
+  <ellipse cx="400" cy="240" rx="30" ry="12" fill="#8B5020"/>
+  <rect x="372" y="228" width="56" height="15" fill="#7A4018" rx="4"/>
+  <!-- Steam wisps gentle -->
+  <path d="M390,224 Q385,214 390,205" stroke="white" stroke-width="2.5" fill="none" opacity="0.4"/>
+  <path d="M405,222 Q410,212 405,203" stroke="white" stroke-width="2.5" fill="none" opacity="0.3"/>
+  <!-- Fish dish -->
+  <ellipse cx="490" cy="243" rx="26" ry="10" fill="#8B5020"/>
+  <ellipse cx="490" cy="240" rx="20" ry="6" fill="#E0A860"/>
+  <!-- Fish shape -->
+  <ellipse cx="488" cy="240" rx="14" ry="5" fill="#C08030"/>
+  <polygon points="502,240 512,235 512,245" fill="#C08030"/>
+  <!-- Olives bowl -->
+  <ellipse cx="570" cy="244" rx="22" ry="9" fill="#8B5020"/>
+  <circle cx="560" cy="240" r="5" fill="#4A7030"/>
+  <circle cx="572" cy="238" r="5" fill="#4A7030"/>
+  <circle cx="582" cy="241" r="5" fill="#6A5020"/>
+  <!-- Candles on table -->
+  <rect x="268" y="228" width="8" height="20" fill="#FFF8E0"/>
+  <ellipse cx="272" cy="227" rx="5" ry="7" fill="#FFD040" opacity="0.9"/>
+  <circle cx="272" cy="227" r="20" fill="url(#mm5_candle1)" opacity="0.5"/>
+  <rect x="522" y="228" width="8" height="20" fill="#FFF8E0"/>
+  <ellipse cx="526" cy="227" rx="5" ry="7" fill="#FFD040" opacity="0.9"/>
+  <circle cx="526" cy="227" r="20" fill="url(#mm5_candle2)" opacity="0.5"/>
+  <!-- Goblets -->
+  <rect x="358" y="228" width="8" height="16" fill="#C04030" rx="1"/>
+  <ellipse cx="362" cy="227" rx="7" ry="4" fill="#C04030"/>
+  <ellipse cx="362" cy="243" rx="9" ry="3" fill="#C04030"/>
+  <rect x="432" y="228" width="8" height="16" fill="#8060A0" rx="1"/>
+  <ellipse cx="436" cy="227" rx="7" ry="4" fill="#8060A0"/>
+  <!-- JESUS - center at head of table, relaxed, smiling -->
+  <circle cx="400" cy="172" r="24" fill="#F5D090"/>
+  <ellipse cx="400" cy="156" rx="24" ry="13" fill="#8B5020"/>
+  <path d="M387,156 Q373,177 377,194" stroke="#8B5020" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M413,156 Q427,177 423,194" stroke="#8B5020" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="400" cy="193" rx="15" ry="8" fill="#9A6030" opacity="0.8"/>
+  <polygon points="376,199 424,199 430,252 370,252" fill="#F8F0D8"/>
+  <polygon points="370,206 430,206 436,252 364,252" fill="#4870C0" opacity="0.6"/>
+  <!-- Arms open/relaxed at table -->
+  <line x1="424" y1="212" x2="455" y2="240" stroke="#F5D090" stroke-width="10" stroke-linecap="round"/>
+  <line x1="376" y1="212" x2="348" y2="240" stroke="#F5D090" stroke-width="10" stroke-linecap="round"/>
+  <!-- Jesus peaceful joyful face -->
+  <ellipse cx="392" cy="171" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <ellipse cx="408" cy="171" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <circle cx="391" cy="170" r="1.8" fill="white" opacity="0.6"/>
+  <circle cx="407" cy="170" r="1.8" fill="white" opacity="0.6"/>
+  <path d="M390,183 Q400,191 410,183" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <!-- MARTA LEFT - relaxed and smiling, no apron, enjoying meal -->
+  <circle cx="215" cy="185" r="22" fill="#F0B070"/>
+  <ellipse cx="215" cy="170" rx="22" ry="12" fill="#5A3010"/>
+  <!-- Head covering neat -->
+  <ellipse cx="215" cy="167" rx="24" ry="14" fill="#A07050" opacity="0.8"/>
+  <!-- Nice robe - relaxed -->
+  <polygon points="194,207 236,207 240,252 190,252" fill="#C09060"/>
+  <!-- Arms relaxed at table - one with cup -->
+  <line x1="236" y1="216" x2="260" y2="238" stroke="#F0B070" stroke-width="10" stroke-linecap="round"/>
+  <line x1="194" y1="216" x2="172" y2="228" stroke="#F0B070" stroke-width="10" stroke-linecap="round"/>
+  <!-- Cup in hand -->
+  <rect x="255" y="234" width="8" height="14" fill="#C04030" rx="1"/>
+  <ellipse cx="259" cy="233" rx="6" ry="4" fill="#C04030"/>
+  <!-- Marta RELAXED SMILING FACE - eyebrows easy, warm smile -->
+  <ellipse cx="207" cy="184" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="223" cy="184" rx="4" ry="5" fill="#5A3820"/>
+  <circle cx="206" cy="183" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="222" cy="183" r="1.5" fill="white" opacity="0.5"/>
+  <!-- Big warm relaxed smile - she is at peace! -->
+  <path d="M205,196 Q215,205 225,196" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <!-- Eyebrows relaxed -->
+  <path d="M203,177 Q207,173 211,177" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <path d="M219,177 Q223,173 227,177" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <!-- MARIA RIGHT - happy, sitting comfortably -->
+  <circle cx="585" cy="185" r="21" fill="#F0B880"/>
+  <ellipse cx="585" cy="171" rx="21" ry="11" fill="#6A3020"/>
+  <ellipse cx="585" cy="168" rx="24" ry="14" fill="#C080A0" opacity="0.8"/>
+  <polygon points="565,206 605,206 609,252 561,252" fill="#8040A0"/>
+  <line x1="605" y1="215" x2="628" y2="235" stroke="#F0B880" stroke-width="9" stroke-linecap="round"/>
+  <line x1="565" y1="215" x2="545" y2="232" stroke="#F0B880" stroke-width="9" stroke-linecap="round"/>
+  <!-- Maria happy face -->
+  <ellipse cx="577" cy="184" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <ellipse cx="593" cy="184" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <circle cx="576" cy="183" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="592" cy="183" r="1.5" fill="white" opacity="0.5"/>
+  <path d="M576,196 Q585,204 594,196" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <path d="M573,177 Q577,173 581,177" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <path d="M589,177 Q593,173 597,177" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <!-- Decorative rug under table -->
+  <rect x="120" y="293" width="560" height="8" fill="#8040A0" opacity="0.35" rx="3"/>
+  <rect x="140" y="293" width="520" height="3" fill="#D4A030" opacity="0.25" rx="2"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#5A2070" opacity="0.7"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Maria e Marta — Cena 5: À Mesa Juntas</text>
+</svg>

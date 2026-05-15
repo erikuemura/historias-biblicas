@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="fp4_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF7040;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#FFB060;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFD890;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="fp4_road" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4B070;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B08840;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="fp4_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE080;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#FF8030;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="fp4_hill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8ABB50;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6A9030;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Sunset sky -->
+  <rect width="800" height="380" fill="url(#fp4_sky)"/>
+  <!-- Sun setting -->
+  <circle cx="400" cy="310" r="90" fill="#FFD040" opacity="0.5"/>
+  <circle cx="400" cy="310" r="60" fill="#FFB030" opacity="0.4"/>
+  <!-- Sun rays -->
+  <circle cx="680" cy="80" r="50" fill="#FFE050" opacity="0.7"/>
+  <!-- Clouds lit by sunset -->
+  <ellipse cx="150" cy="80" rx="80" ry="28" fill="#FF9060" opacity="0.5"/>
+  <ellipse cx="600" cy="60" rx="90" ry="30" fill="#FF8050" opacity="0.4"/>
+  <ellipse cx="700" cy="100" rx="60" ry="22" fill="#FFB070" opacity="0.5"/>
+  <!-- Hills -->
+  <ellipse cx="150" cy="290" rx="200" ry="80" fill="url(#fp4_hill)"/>
+  <ellipse cx="650" cy="295" rx="220" ry="75" fill="#7AAA40"/>
+  <!-- Ground road -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#fp4_road)"/>
+  <!-- Road path perspective -->
+  <polygon points="300,295 500,295 420,380 380,380" fill="#C4A060" opacity="0.5"/>
+  <!-- Warm glow between father and son -->
+  <circle cx="400" cy="240" r="100" fill="url(#fp4_glow)"/>
+  <!-- House in background -->
+  <rect x="580" y="200" width="150" height="100" fill="#E8C080" opacity="0.8"/>
+  <polygon points="570,205 655,160 740,205" fill="#B04030" opacity="0.8"/>
+  <!-- Trees on sides -->
+  <rect x="80" y="220" width="12" height="80" fill="#7A5030"/>
+  <circle cx="86" cy="200" r="30" fill="#5A8030"/>
+  <rect x="700" y="225" width="12" height="75" fill="#7A5030"/>
+  <circle cx="706" cy="205" r="28" fill="#5A8030"/>
+  <!-- Father running - arms wide open -->
+  <!-- Father body leaning forward in run -->
+  <circle cx="310" cy="205" r="24" fill="#F5C870"/>
+  <!-- Father white/grey hair and beard - older man -->
+  <ellipse cx="310" cy="189" rx="24" ry="13" fill="#C8B090"/>
+  <ellipse cx="310" cy="220" rx="16" ry="9" fill="#C8B090" opacity="0.8"/>
+  <!-- Father robe flowing in run -->
+  <polygon points="286,229 334,229 350,298 270,298" fill="#8060A0"/>
+  <polygon points="292,229 328,229 330,275 294,275" fill="#9070B0"/>
+  <!-- Robe flowing back (running) -->
+  <polygon points="340,240 370,230 355,295 335,290" fill="#8060A0" opacity="0.7"/>
+  <!-- Father arms wide open -->
+  <line x1="286" y1="240" x2="245" y2="218" stroke="#F5C870" stroke-width="12" stroke-linecap="round"/>
+  <line x1="334" y1="240" x2="375" y2="218" stroke="#F5C870" stroke-width="12" stroke-linecap="round"/>
+  <!-- Father joyful face -->
+  <ellipse cx="303" cy="204" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="317" cy="204" rx="4" ry="5" fill="#5A3820"/>
+  <!-- Eyebrows raised in joy -->
+  <path d="M299,197 Q303,193 307,197" stroke="#7A5020" stroke-width="2" fill="none"/>
+  <path d="M313,197 Q317,193 321,197" stroke="#7A5020" stroke-width="2" fill="none"/>
+  <!-- Big smile -->
+  <path d="M300,214 Q310,222 320,214" stroke="#8B4020" stroke-width="2.5" fill="#FFB070" opacity="0.6"/>
+  <!-- Dust cloud from running feet -->
+  <ellipse cx="290" cy="300" rx="30" ry="10" fill="#D4B070" opacity="0.5"/>
+  <!-- Son approaching - ragged, surprised -->
+  <circle cx="490" cy="215" r="20" fill="#E8A860"/>
+  <!-- Messy hair -->
+  <ellipse cx="490" cy="200" rx="21" ry="12" fill="#4A2808"/>
+  <!-- Ragged robe -->
+  <polygon points="472,235 508,235 512,295 468,295" fill="#9A8870"/>
+  <!-- Son arms slightly raised in surprise -->
+  <line x1="472" y1="245" x2="450" y2="235" stroke="#E8A860" stroke-width="9" stroke-linecap="round"/>
+  <line x1="508" y1="245" x2="525" y2="240" stroke="#E8A860" stroke-width="9" stroke-linecap="round"/>
+  <!-- Son surprised/emotional face -->
+  <ellipse cx="483" cy="214" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <ellipse cx="497" cy="214" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <!-- Wide open mouth - surprised -->
+  <ellipse cx="490" cy="224" rx="5" ry="4" fill="#8B4020"/>
+  <!-- Eyebrows raised high -->
+  <path d="M479,207 Q483,202 487,207" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <path d="M493,207 Q497,202 501,207" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <!-- Tears of joy -->
+  <ellipse cx="480" cy="228" rx="2.5" ry="4" fill="#87CEEB" opacity="0.8"/>
+  <!-- Flowers on road -->
+  <circle cx="200" cy="302" r="7" fill="#FF8080"/>
+  <circle cx="200" cy="302" r="3.5" fill="#FFD040"/>
+  <circle cx="580" cy="298" r="6" fill="#FF9070"/>
+  <circle cx="580" cy="298" r="3" fill="#FFD040"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#C05030" opacity="0.5"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">O Filho Pródigo — Cena 4: O Reencontro</text>
+</svg>

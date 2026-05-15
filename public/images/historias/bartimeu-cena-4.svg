@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="bt4_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0C840;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F8E080;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bt4_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D0B060;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B09040;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="bt4_divine" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1"/>
+      <stop offset="40%" style="stop-color:#FFFFA0;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#FFD040;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="bt4_touch" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#FFE080;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#bt4_sky)"/>
+  <!-- Ground -->
+  <rect x="0" y="285" width="800" height="95" fill="url(#bt4_ground)"/>
+  <!-- Road -->
+  <ellipse cx="400" cy="302" rx="280" ry="16" fill="#C8A850" opacity="0.5"/>
+  <!-- Background crowd watching (simple silhouettes) -->
+  <ellipse cx="100" cy="255" rx="55" ry="30" fill="#8B6030" opacity="0.3"/>
+  <ellipse cx="680" cy="260" rx="60" ry="28" fill="#8B6030" opacity="0.3"/>
+  <!-- Divine light between Jesus and Bartimeu -->
+  <circle cx="420" cy="210" r="120" fill="url(#bt4_divine)" opacity="0.7"/>
+  <!-- Touch light burst -->
+  <circle cx="390" cy="218" r="55" fill="url(#bt4_touch)"/>
+  <!-- JESUS - kneeling/leaning toward Bartimeu, hands toward eyes -->
+  <circle cx="310" cy="185" r="26" fill="#F5D090"/>
+  <ellipse cx="310" cy="168" rx="26" ry="14" fill="#8B5020"/>
+  <path d="M297,168 Q283,190 287,207" stroke="#8B5020" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M323,168 Q337,190 333,207" stroke="#8B5020" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <ellipse cx="310" cy="205" rx="16" ry="9" fill="#9A6030" opacity="0.8"/>
+  <!-- Jesus robe - leaning forward -->
+  <polygon points="284,211 336,211 345,288 275,288" fill="#F8F0D8"/>
+  <polygon points="275,218 345,218 355,288 265,288" fill="#4870C0" opacity="0.65"/>
+  <!-- Jesus arms reaching toward Bartimeu's face -->
+  <line x1="336" y1="222" x2="390" y2="210" stroke="#F5D090" stroke-width="12" stroke-linecap="round"/>
+  <line x1="284" y1="222" x2="262" y2="230" stroke="#F5D090" stroke-width="12" stroke-linecap="round"/>
+  <!-- Hands near Bartimeu's eyes -->
+  <circle cx="393" cy="209" r="11" fill="#F5D090"/>
+  <!-- Divine light from Jesus hands -->
+  <circle cx="393" cy="209" r="28" fill="#FFE880" opacity="0.6"/>
+  <!-- Jesus compassionate expression - eyes locked on Bartimeu -->
+  <ellipse cx="302" cy="184" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <ellipse cx="318" cy="184" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <circle cx="301" cy="183" r="1.8" fill="white" opacity="0.6"/>
+  <circle cx="317" cy="183" r="1.8" fill="white" opacity="0.6"/>
+  <!-- Gentle determined expression -->
+  <path d="M300,196 Q310,202 320,196" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <path d="M298,177 Q302,173 306,177" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <path d="M314,177 Q318,173 322,177" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <!-- BARTIMEU - face tilted up, hands reaching, full of faith/anticipation -->
+  <circle cx="490" cy="210" r="22" fill="#E0A060"/>
+  <ellipse cx="490" cy="195" rx="22" ry="12" fill="#4A2808"/>
+  <!-- Worn robe -->
+  <polygon points="469,232 511,232 516,288 464,288" fill="#A09070"/>
+  <!-- Torn patches -->
+  <polygon points="474,244 484,239 482,255 472,251" fill="#888060" opacity="0.8"/>
+  <!-- Arms reaching UP toward Jesus with faith -->
+  <line x1="469" y1="242" x2="440" y2="215" stroke="#E0A060" stroke-width="11" stroke-linecap="round"/>
+  <line x1="511" y1="242" x2="530" y2="225" stroke="#E0A060" stroke-width="11" stroke-linecap="round"/>
+  <!-- Hands open, receiving -->
+  <circle cx="437" cy="212" r="10" fill="#E0A060"/>
+  <circle cx="533" cy="222" r="10" fill="#E0A060"/>
+  <!-- Blind eyes - still closed/white but face full of anticipation -->
+  <ellipse cx="483" cy="209" rx="4.5" ry="4.5" fill="#F0E8D8"/>
+  <ellipse cx="497" cy="209" rx="4.5" ry="4.5" fill="#F0E8D8"/>
+  <!-- Eyelids with hope - slightly parting -->
+  <path d="M479,209 Q483,205 487,209" stroke="#8B6040" stroke-width="2" fill="none"/>
+  <path d="M493,209 Q497,205 501,209" stroke="#8B6040" stroke-width="2" fill="none"/>
+  <!-- Eyebrows raised high - faith/anticipation -->
+  <path d="M479,202 Q483,196 487,202" stroke="#5A3820" stroke-width="2.5" fill="none"/>
+  <path d="M493,201 Q497,195 501,201" stroke="#5A3820" stroke-width="2.5" fill="none"/>
+  <!-- Open mouth - prayer/anticipation -->
+  <path d="M483,221 Q490,228 497,221" stroke="#8B5030" stroke-width="2.5" fill="none"/>
+  <!-- Discarded cloak on ground (he threw it off to run to Jesus) -->
+  <ellipse cx="560" cy="285" rx="45" ry="12" fill="#9A8868" opacity="0.7" transform="rotate(-8,560,285)"/>
+  <!-- Walking stick dropped -->
+  <line x1="540" y1="265" x2="570" y2="290" stroke="#8B6030" stroke-width="5" stroke-linecap="round" transform="rotate(20,555,278)"/>
+  <!-- Sparkle/light particles around the healing moment -->
+  <circle cx="420" cy="175" r="5" fill="#FFE040" opacity="0.9"/>
+  <circle cx="445" cy="165" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="400" cy="165" r="3" fill="#FFE040" opacity="0.7"/>
+  <circle cx="460" cy="185" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="380" cy="180" r="3" fill="#FFE040" opacity="0.7"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#B07820" opacity="0.6"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Bartimeu — Cena 4: O Toque da Fé</text>
+</svg>

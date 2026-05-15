@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <radialGradient id="abr4_divinelight" cx="50%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#fffde7" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#ffe082" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1a0a2e" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="abr4_angelglow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff9c4" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffe082" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="abr4_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b09060"/>
+      <stop offset="100%" stop-color="#7a5830"/>
+    </linearGradient>
+    <linearGradient id="abr4_rock" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9e8060"/>
+      <stop offset="100%" stop-color="#6b5030"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark dramatic sky -->
+  <rect width="800" height="380" fill="url(#abr4_divinelight)"/>
+
+  <!-- Divine light burst from top center -->
+  <ellipse cx="400" cy="60" rx="220" ry="160" fill="url(#abr4_angelglow)"/>
+  <!-- Light rays -->
+  <line x1="400" y1="0" x2="280" y2="180" stroke="#fff9c4" stroke-width="4" opacity="0.3"/>
+  <line x1="400" y1="0" x2="320" y2="200" stroke="#fff9c4" stroke-width="5" opacity="0.35"/>
+  <line x1="400" y1="0" x2="400" y2="220" stroke="#fff9c4" stroke-width="6" opacity="0.4"/>
+  <line x1="400" y1="0" x2="480" y2="200" stroke="#fff9c4" stroke-width="5" opacity="0.35"/>
+  <line x1="400" y1="0" x2="520" y2="180" stroke="#fff9c4" stroke-width="4" opacity="0.3"/>
+
+  <!-- Mountain top / rocky altar -->
+  <polygon points="100,380 300,200 500,380" fill="url(#abr4_rock)"/>
+  <polygon points="350,380 550,220 750,380" fill="url(#abr4_rock)" opacity="0.7"/>
+  <rect x="0" y="320" width="800" height="60" fill="url(#abr4_ground)"/>
+  <!-- Stone altar -->
+  <rect x="310" y="285" width="90" height="40" rx="5" fill="#8b6840"/>
+  <rect x="305" y="278" width="100" height="15" rx="4" fill="#9e7850"/>
+
+  <!-- Bush with ram caught in it -->
+  <!-- Bush -->
+  <ellipse cx="640" cy="295" rx="55" ry="35" fill="#4a7a20"/>
+  <ellipse cx="615" cy="305" rx="40" ry="28" fill="#5a8a28"/>
+  <ellipse cx="665" cy="300" rx="42" ry="30" fill="#4a7a20"/>
+  <ellipse cx="640" cy="280" rx="38" ry="25" fill="#5a8a28"/>
+  <!-- Bush thorns -->
+  <line x1="600" y1="285" x2="590" y2="275" stroke="#2a5010" stroke-width="2"/>
+  <line x1="675" y1="278" x2="685" y2="268" stroke="#2a5010" stroke-width="2"/>
+  <line x1="650" y1="270" x2="655" y2="258" stroke="#2a5010" stroke-width="2"/>
+  <!-- Ram in bush -->
+  <ellipse cx="640" cy="298" rx="28" ry="18" fill="#d4b080"/>
+  <circle cx="665" cy="288" r="14" fill="#d4b080"/>
+  <!-- Ram horns caught -->
+  <path d="M660 278 Q650 265 658 258 Q668 255 672 265 Q675 275 668 278" stroke="#8b6020" stroke-width="3" fill="none"/>
+  <path d="M670 276 Q680 263 688 260 Q696 260 698 270 Q698 280 688 282" stroke="#8b6020" stroke-width="3" fill="none"/>
+  <!-- Ram eyes -->
+  <circle cx="670" cy="289" r="3" fill="#3a2010"/>
+  <!-- Rope tangle in bush -->
+  <path d="M655 285 Q660 295 650 300" stroke="#c8a050" stroke-width="2" fill="none"/>
+
+  <!-- Abraão - kneeling with arm raised, stopped by angel -->
+  <!-- Robe -->
+  <path d="M260 320 Q262 270 272 258 Q288 248 305 252 Q320 260 325 320Z" fill="#c9a040"/>
+  <!-- Kneeling posture - one knee down -->
+  <ellipse cx="255" cy="325" rx="25" ry="12" fill="#c9a040"/>
+  <!-- Head -->
+  <circle cx="292" cy="250" r="22" fill="#c8956c"/>
+  <!-- White beard -->
+  <path d="M274 260 Q280 280 292 285 Q304 280 310 260" fill="white"/>
+  <!-- White hair -->
+  <path d="M272 245 Q274 230 292 226 Q310 230 312 245" fill="#e0d0b0"/>
+  <!-- Expression - startled, awed -->
+  <ellipse cx="284" cy="245" rx="4" ry="5" fill="white"/>
+  <ellipse cx="300" cy="245" rx="4" ry="5" fill="white"/>
+  <circle cx="285" cy="246" r="2.5" fill="#3a2010"/>
+  <circle cx="301" cy="246" r="2.5" fill="#3a2010"/>
+  <!-- Open mouth in awe -->
+  <ellipse cx="292" cy="258" rx="5" ry="4" fill="#8b3a10"/>
+  <!-- Arm raised with object (stopped) -->
+  <line x1="310" y1="262" x2="345" y2="220" stroke="#c8956c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="347" cy="218" r="9" fill="#c8956c"/>
+  <!-- Other arm bent -->
+  <line x1="275" y1="265" x2="255" y2="285" stroke="#c8956c" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Angel appearing - glowing figure from above -->
+  <!-- Angel glow aura -->
+  <ellipse cx="490" cy="180" rx="90" ry="110" fill="#fffde7" opacity="0.6"/>
+  <!-- Angel body/robe -->
+  <path d="M458 280 Q465 210 490 195 Q515 210 522 280Z" fill="white" opacity="0.95"/>
+  <!-- Angel wings -->
+  <path d="M462 230 Q420 200 400 220 Q415 240 455 245Z" fill="#fff9c4" opacity="0.9"/>
+  <path d="M462 230 Q425 215 405 235 Q418 252 458 248Z" fill="white" opacity="0.7"/>
+  <path d="M518 230 Q560 200 580 220 Q565 240 525 245Z" fill="#fff9c4" opacity="0.9"/>
+  <path d="M518 230 Q555 215 575 235 Q562 252 522 248Z" fill="white" opacity="0.7"/>
+  <!-- Wing feather details -->
+  <line x1="462" y1="230" x2="420" y2="210" stroke="#ffe082" stroke-width="1.5" opacity="0.6"/>
+  <line x1="462" y1="235" x2="415" y2="225" stroke="#ffe082" stroke-width="1.5" opacity="0.6"/>
+  <line x1="518" y1="230" x2="560" y2="210" stroke="#ffe082" stroke-width="1.5" opacity="0.6"/>
+  <line x1="518" y1="235" x2="565" y2="225" stroke="#ffe082" stroke-width="1.5" opacity="0.6"/>
+  <!-- Angel head -->
+  <circle cx="490" cy="192" r="20" fill="#fff9c4"/>
+  <!-- Angel halo -->
+  <circle cx="490" cy="192" r="28" fill="none" stroke="#ffe082" stroke-width="3" opacity="0.8"/>
+  <!-- Angel face - kind, authoritative -->
+  <circle cx="484" cy="189" r="3" fill="#c8956c"/>
+  <circle cx="496" cy="189" r="3" fill="#c8956c"/>
+  <path d="M484 197 Q490 201 496 197" stroke="#c8956c" stroke-width="1.5" fill="none"/>
+  <!-- Angel arm extended - STOPPING Abraão -->
+  <line x1="464" y1="218" x2="380" y2="228" stroke="#fff9c4" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="378" cy="228" r="9" fill="#fff9c4"/>
+  <!-- Glow around hand -->
+  <circle cx="378" cy="228" r="15" fill="#ffe082" opacity="0.4"/>
+
+  <!-- Caption -->
+  <rect x="10" y="345" width="330" height="28" rx="14" fill="#1a0a2e" opacity="0.75"/>
+  <text x="175" y="364" font-family="Georgia, serif" font-size="14" fill="#ffe082" text-anchor="middle" font-weight="bold">O anjo para a mão de Abraão</text>
+</svg>

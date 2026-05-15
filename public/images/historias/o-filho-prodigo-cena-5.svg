@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="fp5_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3A1A2A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#5A2A3A;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="fp5_glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE080;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#FF8030;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="fp5_glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFD4A3;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#FF9060;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="fp5_table" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C08040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8B5020;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Warm interior night -->
+  <rect width="800" height="380" fill="url(#fp5_bg)"/>
+  <!-- Wall -->
+  <rect x="0" y="0" width="800" height="320" fill="#5A3020" opacity="0.5"/>
+  <!-- Warm candlelight glow center -->
+  <circle cx="400" cy="180" r="180" fill="url(#fp5_glow1)"/>
+  <circle cx="400" cy="180" r="120" fill="url(#fp5_glow2)"/>
+  <!-- Colorful decorations hanging -->
+  <polygon points="80,30 95,55 110,30" fill="#FF4080"/>
+  <polygon points="110,30 125,55 140,30" fill="#40C0FF"/>
+  <polygon points="140,30 155,55 170,30" fill="#FFD040"/>
+  <polygon points="170,30 185,55 200,30" fill="#40E080"/>
+  <polygon points="200,30 215,55 230,30" fill="#FF6040"/>
+  <polygon points="230,30 245,55 260,30" fill="#C040FF"/>
+  <polygon points="260,30 275,55 290,30" fill="#FF4080"/>
+  <polygon points="290,30 305,55 320,30" fill="#FFD040"/>
+  <polygon points="320,30 335,55 350,30" fill="#40C0FF"/>
+  <polygon points="350,30 365,55 380,30" fill="#40E080"/>
+  <polygon points="380,30 395,55 410,30" fill="#FF6040"/>
+  <polygon points="410,30 425,55 440,30" fill="#C040FF"/>
+  <polygon points="440,30 455,55 470,30" fill="#FFD040"/>
+  <polygon points="470,30 485,55 500,30" fill="#FF4080"/>
+  <polygon points="500,30 515,55 530,30" fill="#40C0FF"/>
+  <polygon points="530,30 545,55 560,30" fill="#40E080"/>
+  <polygon points="560,30 575,55 590,30" fill="#FF6040"/>
+  <polygon points="590,30 605,55 620,30" fill="#C040FF"/>
+  <polygon points="620,30 635,55 650,30" fill="#FFD040"/>
+  <polygon points="650,30 665,55 680,30" fill="#FF4080"/>
+  <polygon points="680,30 695,55 710,30" fill="#40C0FF"/>
+  <!-- String line for bunting -->
+  <line x1="80" y1="30" x2="720" y2="30" stroke="#C0A060" stroke-width="2"/>
+  <!-- Long banquet table -->
+  <rect x="100" y="255" width="600" height="22" fill="url(#fp5_table)" rx="4"/>
+  <rect x="120" y="277" width="12" height="40" fill="#8B5020"/>
+  <rect x="668" y="277" width="12" height="40" fill="#8B5020"/>
+  <!-- Food on table -->
+  <ellipse cx="200" cy="252" rx="28" ry="12" fill="#E8A050"/>
+  <ellipse cx="280" cy="250" rx="22" ry="10" fill="#C05030"/>
+  <ellipse cx="350" cy="251" rx="20" ry="9" fill="#D4A030"/>
+  <ellipse cx="420" cy="252" rx="25" ry="11" fill="#9ACD50"/>
+  <ellipse cx="500" cy="251" rx="22" ry="10" fill="#E06030"/>
+  <ellipse cx="570" cy="252" rx="18" ry="8" fill="#F0C060"/>
+  <!-- Candles on table -->
+  <rect x="238" y="230" width="8" height="20" fill="#FFF8E0"/>
+  <ellipse cx="242" cy="229" rx="5" ry="8" fill="#FFD040" opacity="0.8"/>
+  <rect x="458" y="230" width="8" height="20" fill="#FFF8E0"/>
+  <ellipse cx="462" cy="229" rx="5" ry="8" fill="#FFD040" opacity="0.8"/>
+  <!-- Goblets -->
+  <rect x="310" y="235" width="8" height="16" fill="#D4A030" rx="1"/>
+  <ellipse cx="314" cy="234" rx="7" ry="4" fill="#FF4060" opacity="0.7"/>
+  <rect x="480" y="235" width="8" height="16" fill="#D4A030" rx="1"/>
+  <ellipse cx="484" cy="234" rx="7" ry="4" fill="#8B00FF" opacity="0.5"/>
+  <!-- FATHER AND SON EMBRACING at head of table (center) -->
+  <!-- Father -->
+  <circle cx="370" cy="185" r="24" fill="#F5C870"/>
+  <ellipse cx="370" cy="169" rx="24" ry="13" fill="#C8B090"/>
+  <ellipse cx="370" cy="200" rx="16" ry="9" fill="#C8B090" opacity="0.8"/>
+  <polygon points="346,209 394,209 400,258 340,258" fill="#8060A0"/>
+  <!-- Father arm hugging son -->
+  <path d="M394,218 Q430,210 435,225" stroke="#F5C870" stroke-width="11" stroke-linecap="round" fill="none"/>
+  <!-- Father joyful face -->
+  <ellipse cx="363" cy="184" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="377" cy="184" rx="4" ry="5" fill="#5A3820"/>
+  <path d="M360,195 Q370,204 380,195" stroke="#8B4020" stroke-width="2.5" fill="#FFB070" opacity="0.5"/>
+  <!-- Son -->
+  <circle cx="435" cy="192" r="21" fill="#E8A860"/>
+  <ellipse cx="435" cy="178" rx="21" ry="11" fill="#5A3010"/>
+  <!-- New robe - given by father -->
+  <polygon points="415,213 455,213 460,258 410,258" fill="#E06080"/>
+  <!-- Ring on son's finger (from father) -->
+  <circle cx="455" cy="222" r="5" fill="#D4A030"/>
+  <!-- Son arm around father -->
+  <path d="M415,222 Q380,215 376,225" stroke="#E8A860" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <!-- Son happy face -->
+  <ellipse cx="428" cy="191" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <ellipse cx="442" cy="191" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <path d="M426,202 Q435,210 444,202" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <!-- Tear of joy on son -->
+  <ellipse cx="425" cy="206" rx="2.5" ry="4" fill="#87CEEB" opacity="0.7"/>
+  <!-- Guest 1 left (clapping) -->
+  <circle cx="190" cy="205" r="18" fill="#F0A870"/>
+  <ellipse cx="190" cy="191" rx="18" ry="10" fill="#3A2010"/>
+  <polygon points="174,223 206,223 210,258 170,258" fill="#4080E0"/>
+  <line x1="174" y1="232" x2="155" y2="225" stroke="#F0A870" stroke-width="8" stroke-linecap="round"/>
+  <line x1="206" y1="232" x2="225" y2="228" stroke="#F0A870" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="183" cy="203" rx="3" ry="4" fill="#5A3820"/>
+  <ellipse cx="197" cy="203" rx="3" ry="4" fill="#5A3820"/>
+  <path d="M184,213 Q190,219 196,213" stroke="#8B4020" stroke-width="2" fill="none"/>
+  <!-- Guest 2 right -->
+  <circle cx="610" cy="205" r="18" fill="#F0C0A0"/>
+  <ellipse cx="610" cy="191" rx="18" ry="10" fill="#7A4020"/>
+  <polygon points="594,223 626,223 630,258 590,258" fill="#40B080"/>
+  <line x1="594" y1="232" x2="575" y2="228" stroke="#F0C0A0" stroke-width="8" stroke-linecap="round"/>
+  <line x1="626" y1="232" x2="645" y2="225" stroke="#F0C0A0" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="603" cy="203" rx="3" ry="4" fill="#5A3820"/>
+  <ellipse cx="617" cy="203" rx="3" ry="4" fill="#5A3820"/>
+  <path d="M604,213 Q610,219 616,213" stroke="#8B4020" stroke-width="2" fill="none"/>
+  <!-- Musician far left -->
+  <circle cx="100" cy="215" r="16" fill="#E0A080"/>
+  <polygon points="85,231 115,231 118,258 82,258" fill="#FF8040"/>
+  <!-- Harp -->
+  <path d="M70,240 Q65,210 85,205 Q90,230 80,250 Z" stroke="#C08040" stroke-width="3" fill="#E0C080" opacity="0.7"/>
+  <line x1="72" y1="238" x2="83" y2="207" stroke="#C08040" stroke-width="1.5"/>
+  <line x1="75" y1="240" x2="85" y2="208" stroke="#C08040" stroke-width="1.5"/>
+  <line x1="78" y1="241" x2="86" y2="210" stroke="#C08040" stroke-width="1.5"/>
+  <!-- Musical notes floating -->
+  <text x="55" y="195" font-family="Arial" font-size="20" fill="#FFD040" opacity="0.8">♪</text>
+  <text x="700" y="185" font-family="Arial" font-size="16" fill="#FF80C0" opacity="0.7">♫</text>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#8060A0" opacity="0.6"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">O Filho Pródigo — Cena 5: A Celebração</text>
+</svg>

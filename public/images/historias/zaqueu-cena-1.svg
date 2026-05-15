@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="zq1_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#C8E8F0;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="zq1_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8B870;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#A89850;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="zq1_robe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2A8A4A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1A6A3A;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#zq1_sky)"/>
+  <!-- Sun -->
+  <circle cx="700" cy="60" r="40" fill="#FFE850" opacity="0.9"/>
+  <!-- Clouds -->
+  <ellipse cx="200" cy="55" rx="70" ry="25" fill="white" opacity="0.8"/>
+  <ellipse cx="450" cy="45" rx="60" ry="22" fill="white" opacity="0.7"/>
+  <!-- Buildings in background - Jericho -->
+  <rect x="50" y="130" width="120" height="150" fill="#E8D090" rx="3"/>
+  <rect x="60" y="110" width="100" height="30" fill="#D4B870" rx="2"/>
+  <rect x="160" y="150" width="90" height="130" fill="#F0D8A0" rx="3"/>
+  <rect x="600" y="140" width="110" height="140" fill="#E8D090" rx="3"/>
+  <rect x="690" y="160" width="90" height="120" fill="#F0D8A0" rx="3"/>
+  <!-- Ground -->
+  <rect x="0" y="290" width="800" height="90" fill="url(#zq1_ground)"/>
+  <!-- Street stones -->
+  <ellipse cx="150" cy="305" rx="25" ry="8" fill="#B8A860" opacity="0.5"/>
+  <ellipse cx="350" cy="308" rx="30" ry="9" fill="#B8A860" opacity="0.4"/>
+  <ellipse cx="600" cy="303" rx="22" ry="7" fill="#B8A860" opacity="0.5"/>
+  <!-- CROWD - multiple people turning away from Zaqueu -->
+  <!-- Person 1 (back turned) -->
+  <circle cx="160" cy="230" r="19" fill="#F0B080"/>
+  <ellipse cx="160" cy="215" rx="19" ry="10" fill="#4A2010"/>
+  <polygon points="143,249 177,249 181,295 139,295" fill="#6080C0"/>
+  <line x1="143" y1="258" x2="122" y2="248" stroke="#F0B080" stroke-width="9" stroke-linecap="round"/>
+  <line x1="177" y1="258" x2="196" y2="252" stroke="#F0B080" stroke-width="9" stroke-linecap="round"/>
+  <!-- Person 2 (turning away) -->
+  <circle cx="240" cy="225" r="18" fill="#E8C090"/>
+  <ellipse cx="240" cy="211" rx="18" ry="10" fill="#7A4020"/>
+  <polygon points="224,243 256,243 259,292 221,292" fill="#C04040"/>
+  <!-- Person 3 -->
+  <circle cx="560" cy="228" r="19" fill="#F0A870"/>
+  <ellipse cx="560" cy="213" rx="19" ry="10" fill="#3A2010"/>
+  <polygon points="543,247 577,247 580,293 540,293" fill="#8040C0"/>
+  <line x1="543" y1="256" x2="524" y2="248" stroke="#F0A870" stroke-width="9" stroke-linecap="round"/>
+  <!-- Person 4 -->
+  <circle cx="640" cy="232" r="18" fill="#F0C0A0"/>
+  <ellipse cx="640" cy="218" rx="18" ry="10" fill="#5A3010"/>
+  <polygon points="624,250 656,250 659,294 621,294" fill="#40A060"/>
+  <!-- Dismissive hand gestures -->
+  <line x1="196" y1="252" x2="215" y2="245" stroke="#E8C090" stroke-width="8" stroke-linecap="round"/>
+  <!-- ZAQUEU - short, well-dressed, center, looking lonely -->
+  <!-- He is shorter than others - placed lower on ground -->
+  <circle cx="400" cy="252" r="18" fill="#F5C870"/>
+  <!-- Fancy hair - well groomed -->
+  <ellipse cx="400" cy="238" rx="18" ry="9" fill="#3A2010"/>
+  <!-- Fine green robe with gold trim -->
+  <polygon points="383,270 417,270 420,295 380,295" fill="url(#zq1_robe)"/>
+  <!-- Gold trim on robe -->
+  <rect x="383" y="270" width="34" height="4" fill="#D4A030"/>
+  <rect x="383" y="288" width="34" height="4" fill="#D4A030"/>
+  <!-- Fine belt -->
+  <rect x="383" y="276" width="34" height="6" fill="#D4A030"/>
+  <!-- Coin purse (he's a tax collector, well-off) -->
+  <ellipse cx="422" cy="282" rx="12" ry="10" fill="#D4A030"/>
+  <rect x="416" y="271" width="10" height="8" fill="#C09020"/>
+  <!-- Zaqueu arms - somewhat awkward, lonely -->
+  <line x1="383" y1="278" x2="364" y2="270" stroke="#F5C870" stroke-width="8" stroke-linecap="round"/>
+  <line x1="417" y1="278" x2="436" y2="271" stroke="#F5C870" stroke-width="8" stroke-linecap="round"/>
+  <!-- Zaqueu sad/lonely face -->
+  <ellipse cx="393" cy="251" rx="3.5" ry="4" fill="#5A3820"/>
+  <ellipse cx="407" cy="251" rx="3.5" ry="4" fill="#5A3820"/>
+  <!-- Downturned mouth -->
+  <path d="M394,262 Q400,258 406,262" stroke="#8B5030" stroke-width="2" fill="none"/>
+  <!-- Eyebrows - sad -->
+  <path d="M390,244 Q393,241 396,244" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <path d="M404,244 Q407,241 410,244" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <!-- Space around him - crowd keeps distance -->
+  <!-- Subtle isolation indicators - no one near him -->
+  <!-- Arrow showing crowd moving away -->
+  <path d="M330,265 Q355,265 370,265" stroke="#C04040" stroke-width="2" stroke-dasharray="4,3" fill="none" opacity="0.4"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#1A6A3A" opacity="0.6"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Zaqueu — Cena 1: O Cobrador Solitário</text>
+</svg>

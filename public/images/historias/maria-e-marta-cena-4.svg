@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="mm4_wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3A1848;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1A0828;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="mm4_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6A4020;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="mm4_lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE880;stop-opacity:1"/>
+      <stop offset="40%" style="stop-color:#FFB040;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#FF6010;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="mm4_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE8C0;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#9040C0;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Interior walls - intimate, dark -->
+  <rect width="800" height="380" fill="url(#mm4_wall)"/>
+  <!-- Floor -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#mm4_floor)"/>
+  <line x1="0" y1="318" x2="800" y2="318" stroke="#6A4020" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="342" x2="800" y2="342" stroke="#6A4020" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="295" x2="200" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="295" x2="400" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <line x1="600" y1="295" x2="600" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <!-- LAMP - central warm glow - intimate scene -->
+  <rect x="395" y="68" width="10" height="32" fill="#8B6030"/>
+  <!-- Lamp base on small table -->
+  <rect x="365" y="98" width="70" height="10" fill="#9A6030" rx="3"/>
+  <rect x="375" y="108" width="10" height="20" fill="#7A4820"/>
+  <rect x="415" y="108" width="10" height="20" fill="#7A4820"/>
+  <ellipse cx="400" cy="66" rx="16" ry="9" fill="#C08030"/>
+  <circle cx="400" cy="59" r="14" fill="url(#mm4_lamp)"/>
+  <ellipse cx="400" cy="49" rx="7" ry="11" fill="#FFD040" opacity="0.9"/>
+  <!-- Large warm lamp glow filling scene -->
+  <circle cx="400" cy="59" r="160" fill="url(#mm4_lamp)" opacity="0.5"/>
+  <circle cx="400" cy="180" r="160" fill="url(#mm4_glow)"/>
+  <!-- Decorative wall hanging -->
+  <rect x="620" y="80" width="100" height="70" fill="#703090" rx="4" opacity="0.6"/>
+  <rect x="630" y="88" width="80" height="54" fill="#503070" opacity="0.5" rx="3"/>
+  <!-- Simple geometric pattern on hanging -->
+  <line x1="640" y1="95" x2="700" y2="130" stroke="#D4A030" stroke-width="2" opacity="0.6"/>
+  <line x1="700" y1="95" x2="640" y2="130" stroke="#D4A030" stroke-width="2" opacity="0.6"/>
+  <rect x="660" y="98" width="20" height="20" fill="#D4A030" opacity="0.3" rx="2"/>
+  <!-- Books/scrolls on low shelf -->
+  <rect x="80" y="240" width="120" height="12" fill="#9A6030" rx="2"/>
+  <rect x="88" y="218" width="14" height="24" fill="#C09050" rx="2"/>
+  <rect x="105" y="215" width="16" height="27" fill="#8B5020" rx="2"/>
+  <rect x="124" y="220" width="12" height="22" fill="#A07040" rx="2"/>
+  <rect x="139" y="217" width="15" height="25" fill="#C08030" rx="2"/>
+  <rect x="157" y="219" width="13" height="23" fill="#907050" rx="2"/>
+  <!-- JESUS seated center left - speaking to both sisters -->
+  <circle cx="300" cy="180" r="25" fill="#F5D090"/>
+  <ellipse cx="300" cy="163" rx="25" ry="14" fill="#8B5020"/>
+  <path d="M287,163 Q273,185 277,202" stroke="#8B5020" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M313,163 Q327,185 323,202" stroke="#8B5020" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <ellipse cx="300" cy="202" rx="16" ry="9" fill="#9A6030" opacity="0.8"/>
+  <polygon points="275,208 325,208 333,298 267,298" fill="#F8F0D8"/>
+  <polygon points="267,215 333,215 341,298 259,298" fill="#4870C0" opacity="0.65"/>
+  <!-- Jesus arms open to both women -->
+  <line x1="325" y1="220" x2="365" y2="218" stroke="#F5D090" stroke-width="11" stroke-linecap="round"/>
+  <line x1="275" y1="220" x2="240" y2="225" stroke="#F5D090" stroke-width="11" stroke-linecap="round"/>
+  <!-- Jesus speaking with wisdom - gentle expression -->
+  <ellipse cx="292" cy="179" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <ellipse cx="308" cy="179" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <circle cx="291" cy="178" r="1.8" fill="white" opacity="0.6"/>
+  <circle cx="307" cy="178" r="1.8" fill="white" opacity="0.6"/>
+  <path d="M290,192 Q300,200 310,192" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <!-- Speech indication -->
+  <ellipse cx="340" cy="148" rx="38" ry="20" fill="#FFE880" opacity="0.5"/>
+  <text x="340" y="153" font-family="Georgia, serif" font-size="11" fill="#8B4020" text-anchor="middle">a melhor parte...</text>
+  <!-- Scroll on his lap -->
+  <rect x="272" y="292" width="55" height="10" fill="#F5E8C0" rx="3"/>
+  <line x1="285" y1="292" x2="285" y2="302" stroke="#C0A050" stroke-width="1.5"/>
+  <line x1="308" y1="292" x2="308" y2="302" stroke="#C0A050" stroke-width="1.5"/>
+  <!-- MARTA - right of Jesus, now seated and listening, apron removed, relaxed -->
+  <circle cx="490" cy="200" r="21" fill="#F0B070"/>
+  <ellipse cx="490" cy="185" rx="21" ry="11" fill="#5A3010"/>
+  <!-- Head covering now neat -->
+  <ellipse cx="490" cy="182" rx="23" ry="14" fill="#A07050" opacity="0.8"/>
+  <!-- Robe without apron - now seated listening -->
+  <polygon points="470,221 510,221 514,295 466,295" fill="#C09060"/>
+  <!-- Relaxed arms - one resting on knee, one beside body -->
+  <line x1="470" y1="230" x2="450" y2="248" stroke="#F0B070" stroke-width="9" stroke-linecap="round"/>
+  <line x1="510" y1="230" x2="528" y2="242" stroke="#F0B070" stroke-width="9" stroke-linecap="round"/>
+  <!-- Marta listening face - eyebrows softened, mouth slightly open in concentration -->
+  <ellipse cx="482" cy="199" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="498" cy="199" rx="4" ry="5" fill="#5A3820"/>
+  <circle cx="481" cy="198" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="497" cy="198" r="1.5" fill="white" opacity="0.5"/>
+  <!-- Eyebrows relaxed now - open expression -->
+  <path d="M478,192 Q482,188 486,192" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <path d="M494,191 Q498,187 502,191" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <!-- Attentive mouth slightly open -->
+  <path d="M481,211 Q490,216 499,211" stroke="#8B5030" stroke-width="2" fill="none"/>
+  <!-- MARIA - further right also listening -->
+  <circle cx="630" cy="210" r="19" fill="#F0B880"/>
+  <ellipse cx="630" cy="196" rx="19" ry="10" fill="#6A3020"/>
+  <ellipse cx="630" cy="193" rx="22" ry="14" fill="#C080A0" opacity="0.8"/>
+  <polygon points="612,229 648,229 651,295 609,295" fill="#8040A0"/>
+  <ellipse cx="614" cy="290" rx="12" ry="6" fill="#8040A0"/>
+  <ellipse cx="642" cy="288" rx="11" ry="6" fill="#8040A0"/>
+  <line x1="612" y1="238" x2="596" y2="252" stroke="#F0B880" stroke-width="8" stroke-linecap="round"/>
+  <line x1="648" y1="238" x2="662" y2="248" stroke="#F0B880" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="622" cy="209" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <ellipse cx="638" cy="209" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <circle cx="621" cy="208" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="637" cy="208" r="1.5" fill="white" opacity="0.5"/>
+  <path d="M621,221 Q630,227 639,221" stroke="#8B4020" stroke-width="2" fill="none"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#5A2070" opacity="0.7"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Maria e Marta — Cena 4: As Duas Escutam</text>
+</svg>

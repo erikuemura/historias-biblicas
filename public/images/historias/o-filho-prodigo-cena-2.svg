@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="fp2_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2A1A4A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#4A2A6A;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="fp2_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6A4020;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="fp2_lamp1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE860;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#FF9020;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="fp2_lamp2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FF8060;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#FF4080;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Night sky background -->
+  <rect width="800" height="380" fill="url(#fp2_bg)"/>
+  <!-- Stars -->
+  <circle cx="50" cy="30" r="2" fill="white" opacity="0.8"/>
+  <circle cx="150" cy="50" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="700" cy="25" r="2" fill="white" opacity="0.9"/>
+  <circle cx="750" cy="60" r="1.5" fill="white" opacity="0.6"/>
+  <!-- Party tent/building -->
+  <rect x="50" y="100" width="700" height="200" fill="#3A1A5A" rx="8"/>
+  <polygon points="30,105 400,50 770,105" fill="#6A2A8A"/>
+  <!-- Colorful bunting -->
+  <polygon points="100,105 115,120 130,105" fill="#FF4080"/>
+  <polygon points="130,105 145,120 160,105" fill="#40C0FF"/>
+  <polygon points="160,105 175,120 190,105" fill="#FFD040"/>
+  <polygon points="190,105 205,120 220,105" fill="#40E080"/>
+  <polygon points="220,105 235,120 250,105" fill="#FF6040"/>
+  <polygon points="250,105 265,120 280,105" fill="#C040FF"/>
+  <polygon points="280,105 295,120 310,105" fill="#FF4080"/>
+  <polygon points="310,105 325,120 340,105" fill="#40C0FF"/>
+  <polygon points="340,105 355,120 370,105" fill="#FFD040"/>
+  <polygon points="370,105 385,120 400,105" fill="#40E080"/>
+  <polygon points="400,105 415,120 430,105" fill="#FF6040"/>
+  <polygon points="430,105 445,120 460,105" fill="#C040FF"/>
+  <polygon points="460,105 475,120 490,105" fill="#FF4080"/>
+  <polygon points="490,105 505,120 520,105" fill="#FFD040"/>
+  <polygon points="520,105 535,120 550,105" fill="#40C0FF"/>
+  <polygon points="550,105 565,120 580,105" fill="#40E080"/>
+  <polygon points="580,105 595,120 610,105" fill="#FF6040"/>
+  <polygon points="610,105 625,120 640,105" fill="#C040FF"/>
+  <polygon points="640,105 655,120 670,105" fill="#FF4080"/>
+  <polygon points="670,105 685,120 700,105" fill="#FFD040"/>
+  <!-- Lamp glows -->
+  <circle cx="200" cy="130" r="60" fill="url(#fp2_lamp1)" opacity="0.6"/>
+  <circle cx="600" cy="130" r="60" fill="url(#fp2_lamp2)" opacity="0.5"/>
+  <!-- Floor -->
+  <rect x="50" y="280" width="700" height="20" fill="url(#fp2_floor)"/>
+  <!-- Big table with food -->
+  <rect x="250" y="230" width="300" height="18" fill="#8B5030" rx="3"/>
+  <rect x="270" y="248" width="12" height="35" fill="#6A3820"/>
+  <rect x="518" y="248" width="12" height="35" fill="#6A3820"/>
+  <!-- Food on table -->
+  <ellipse cx="310" cy="228" rx="25" ry="10" fill="#F5A050"/>
+  <ellipse cx="360" cy="225" rx="20" ry="8" fill="#E06030"/>
+  <ellipse cx="400" cy="227" rx="18" ry="7" fill="#D4A030"/>
+  <ellipse cx="445" cy="228" rx="22" ry="9" fill="#9ACD50"/>
+  <!-- Roast chicken -->
+  <ellipse cx="310" cy="224" rx="18" ry="7" fill="#C05020"/>
+  <!-- Bread -->
+  <ellipse cx="360" cy="222" rx="14" ry="5" fill="#E0A040"/>
+  <!-- Fruits -->
+  <circle cx="445" cy="222" r="10" fill="#FF4060"/>
+  <circle cx="460" cy="220" r="9" fill="#8B00FF" opacity="0.8"/>
+  <!-- Money bags on ground -->
+  <ellipse cx="150" cy="275" rx="20" ry="16" fill="#D4A030"/>
+  <rect x="143" y="258" width="14" height="10" fill="#C09020"/>
+  <text x="150" y="279" font-family="Arial" font-size="12" fill="#8B6000" text-anchor="middle">$</text>
+  <ellipse cx="650" cy="272" rx="18" ry="14" fill="#D4A030"/>
+  <rect x="643" y="257" width="14" height="10" fill="#C09020"/>
+  <text x="650" y="276" font-family="Arial" font-size="12" fill="#8B6000" text-anchor="middle">$</text>
+  <!-- Son (center, happy, arms up) -->
+  <circle cx="400" cy="175" r="22" fill="#F5C870"/>
+  <ellipse cx="400" cy="160" rx="22" ry="11" fill="#5A3010"/>
+  <!-- Crown/headband -->
+  <rect x="378" y="156" width="44" height="8" fill="#D4A030" rx="3"/>
+  <!-- Son robe - colorful party outfit -->
+  <polygon points="378,197 422,197 430,270 370,270" fill="#E06080"/>
+  <!-- Son arms up in celebration -->
+  <line x1="378" y1="210" x2="345" y2="185" stroke="#F5C870" stroke-width="10" stroke-linecap="round"/>
+  <line x1="422" y1="210" x2="455" y2="185" stroke="#F5C870" stroke-width="10" stroke-linecap="round"/>
+  <!-- Son happy face -->
+  <ellipse cx="393" cy="174" rx="3.5" ry="4" fill="#5A3820"/>
+  <ellipse cx="407" cy="174" rx="3.5" ry="4" fill="#5A3820"/>
+  <path d="M391,183 Q400,190 409,183" stroke="#8B4030" stroke-width="2.5" fill="none"/>
+  <!-- Friend 1 (left) -->
+  <circle cx="255" cy="185" r="19" fill="#F0A870"/>
+  <ellipse cx="255" cy="171" rx="19" ry="10" fill="#3A2010"/>
+  <polygon points="237,204 273,204 278,265 232,265" fill="#4080E0"/>
+  <line x1="237" y1="216" x2="215" y2="200" stroke="#F0A870" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="248" cy="183" rx="3" ry="4" fill="#5A3820"/>
+  <ellipse cx="262" cy="183" rx="3" ry="4" fill="#5A3820"/>
+  <path d="M249,192 Q255,198 261,192" stroke="#8B4030" stroke-width="2" fill="none"/>
+  <!-- Wine cup in hand -->
+  <rect x="207" y="198" width="10" height="14" fill="#C04040" rx="2"/>
+  <rect x="205" y="195" width="14" height="5" fill="#C04040" rx="2"/>
+  <!-- Friend 2 (right) -->
+  <circle cx="545" cy="188" r="19" fill="#F0C0A0"/>
+  <ellipse cx="545" cy="174" rx="19" ry="10" fill="#7A4020"/>
+  <polygon points="527,207 563,207 568,268 522,268" fill="#40B080"/>
+  <line x1="563" y1="218" x2="585" y2="202" stroke="#F0C0A0" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="538" cy="186" rx="3" ry="4" fill="#5A3820"/>
+  <ellipse cx="552" cy="186" rx="3" ry="4" fill="#5A3820"/>
+  <path d="M539,195 Q545,201 551,195" stroke="#8B4030" stroke-width="2" fill="none"/>
+  <!-- Musician (far left) -->
+  <circle cx="120" cy="195" r="17" fill="#E0A080"/>
+  <polygon points="104,212 136,212 140,265 100,265" fill="#FF8040"/>
+  <!-- Lute shape -->
+  <ellipse cx="100" cy="230" rx="14" ry="18" fill="#C08040"/>
+  <rect x="99" y="212" width="5" height="20" fill="#8B5020"/>
+  <!-- Musical notes -->
+  <text x="85" y="185" font-family="Arial" font-size="18" fill="#FFD040" opacity="0.9">♪</text>
+  <text x="135" y="170" font-family="Arial" font-size="14" fill="#FF80C0" opacity="0.8">♫</text>
+  <!-- Decorative streamers -->
+  <path d="M100,105 Q120,150 100,180" stroke="#FF4080" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M700,105 Q680,150 700,180" stroke="#40C0FF" stroke-width="3" fill="none" opacity="0.7"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#6A2A8A" opacity="0.6"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">O Filho Pródigo — Cena 2: A Festa</text>
+</svg>

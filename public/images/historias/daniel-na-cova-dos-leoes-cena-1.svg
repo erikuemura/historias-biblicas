@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="dan1_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a1060"/>
+      <stop offset="50%" stop-color="#7b2d8b"/>
+      <stop offset="100%" stop-color="#ff9a5c"/>
+    </linearGradient>
+    <radialGradient id="dan1_sun" cx="80%" cy="90%" r="40%">
+      <stop offset="0%" stop-color="#ffcc02"/>
+      <stop offset="40%" stop-color="#ff8f00"/>
+      <stop offset="100%" stop-color="#7b2d8b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dan1_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8060a0"/>
+      <stop offset="100%" stop-color="#4a2060"/>
+    </linearGradient>
+    <linearGradient id="dan1_wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9070b0"/>
+      <stop offset="100%" stop-color="#5a3080"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sunset / purple sky -->
+  <rect width="800" height="380" fill="url(#dan1_sky)"/>
+  <ellipse cx="650" cy="340" rx="300" ry="120" fill="url(#dan1_sun)"/>
+
+  <!-- Stars beginning to appear -->
+  <circle cx="80" cy="40" r="2" fill="white" opacity="0.7"/>
+  <circle cx="160" cy="25" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="240" cy="55" r="2" fill="white" opacity="0.6"/>
+  <circle cx="130" cy="80" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="50" cy="100" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="200" cy="100" r="1" fill="white" opacity="0.7"/>
+
+  <!-- Jerusalem city in distance (background) -->
+  <!-- City buildings silhouette -->
+  <rect x="480" y="200" width="40" height="80" fill="#c8a060" opacity="0.6"/>
+  <rect x="530" y="185" width="35" height="95" fill="#d4aa70" opacity="0.55"/>
+  <rect x="575" y="210" width="50" height="70" fill="#c8a060" opacity="0.6"/>
+  <rect x="635" y="195" width="30" height="85" fill="#d4aa70" opacity="0.55"/>
+  <rect x="675" y="205" width="45" height="75" fill="#c09050" opacity="0.6"/>
+  <rect x="730" y="190" width="38" height="90" fill="#d4aa70" opacity="0.55"/>
+  <!-- Temple / dome shape -->
+  <ellipse cx="548" cy="183" rx="22" ry="10" fill="#d4aa70" opacity="0.6"/>
+  <!-- City walls -->
+  <rect x="460" y="270" width="340" height="20" fill="#b89050" opacity="0.55"/>
+
+  <!-- Room interior — stone walls -->
+  <rect x="0" y="0" width="430" height="380" fill="url(#dan1_wall)" opacity="0.7"/>
+  <!-- Room floor -->
+  <rect x="0" y="300" width="430" height="80" fill="url(#dan1_floor)"/>
+  <!-- Floor tiles -->
+  <line x1="0" y1="325" x2="430" y2="325" stroke="#6a4090" stroke-width="1.5" opacity="0.5"/>
+  <line x1="0" y1="350" x2="430" y2="350" stroke="#6a4090" stroke-width="1.5" opacity="0.5"/>
+  <line x1="80" y1="300" x2="80" y2="380" stroke="#6a4090" stroke-width="1.5" opacity="0.5"/>
+  <line x1="160" y1="300" x2="160" y2="380" stroke="#6a4090" stroke-width="1.5" opacity="0.5"/>
+  <line x1="240" y1="300" x2="240" y2="380" stroke="#6a4090" stroke-width="1.5" opacity="0.5"/>
+  <line x1="320" y1="300" x2="320" y2="380" stroke="#6a4090" stroke-width="1.5" opacity="0.5"/>
+  <line x1="400" y1="300" x2="400" y2="380" stroke="#6a4090" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- OPEN WINDOW toward Jerusalem -->
+  <!-- Window frame -->
+  <rect x="290" y="100" width="120" height="160" rx="8" fill="#1a0a30"/>
+  <!-- Window arch -->
+  <path d="M290 100 Q350 70 410 100" fill="#1a0a30"/>
+  <!-- Window opening — shows the sunset/Jerusalem scene -->
+  <rect x="298" y="108" width="104" height="144" rx="5" fill="none" stroke="#c8a060" stroke-width="3"/>
+  <!-- Window bars -->
+  <line x1="350" y1="108" x2="350" y2="252" stroke="#8b6020" stroke-width="3"/>
+  <line x1="298" y1="180" x2="402" y2="180" stroke="#8b6020" stroke-width="3"/>
+
+  <!-- Warm light coming through window onto floor -->
+  <path d="M298 252 L240 320 L410 320 L402 252Z" fill="#ff9a5c" opacity="0.15"/>
+
+  <!-- Prayer mat on floor -->
+  <ellipse cx="185" cy="330" rx="75" ry="22" fill="#8040a0" opacity="0.8"/>
+  <ellipse cx="185" cy="330" rx="60" ry="17" fill="#9050b0" opacity="0.6"/>
+  <!-- Mat border pattern -->
+  <ellipse cx="185" cy="330" rx="60" ry="17" fill="none" stroke="#c080d0" stroke-width="2" opacity="0.6"/>
+
+  <!-- DANIEL — kneeling in prayer, facing window -->
+  <!-- Robe -->
+  <path d="M140 318 Q145 265 158 252 Q175 242 192 248 Q208 258 212 318Z" fill="#9060c0"/>
+  <!-- Mantle -->
+  <path d="M136 312 Q140 268 155 255 Q140 278 136 312Z" fill="#6a3080"/>
+  <path d="M212 312 Q214 270 202 255 Q214 280 212 312Z" fill="#6a3080"/>
+  <!-- Head bowed in prayer -->
+  <circle cx="175" cy="248" r="22" fill="#c8956c"/>
+  <!-- Dark hair -->
+  <path d="M155 243 Q158 228 175 225 Q192 228 195 243" fill="#3a2010"/>
+  <!-- Eyes closed in prayer -->
+  <path d="M165 246 Q170 243 175 246" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <path d="M175 246 Q180 243 185 246" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <!-- Calm expression -->
+  <path d="M167 254 Q175 258 183 254" stroke="#8b3a10" stroke-width="1.5" fill="none"/>
+  <!-- Short beard -->
+  <path d="M157 254 Q162 268 175 272 Q188 268 193 254" fill="#5a3010" opacity="0.7"/>
+  <!-- Hands clasped in prayer, raised toward window -->
+  <line x1="192" y1="265" x2="220" y2="240" stroke="#c8956c" stroke-width="9" stroke-linecap="round"/>
+  <line x1="158" y1="265" x2="220" y2="240" stroke="#c8956c" stroke-width="9" stroke-linecap="round"/>
+  <!-- Clasped hands -->
+  <ellipse cx="222" cy="238" rx="14" ry="10" fill="#c8956c"/>
+  <!-- Light on praying hands from window -->
+  <ellipse cx="222" cy="238" rx="20" ry="14" fill="#ff9a5c" opacity="0.3"/>
+
+  <!-- Peaceful expression glow -->
+  <ellipse cx="175" cy="248" rx="30" ry="25" fill="#c080d0" opacity="0.15"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="360" height="28" rx="14" fill="#4a1060" opacity="0.85"/>
+  <text x="190" y="363" font-family="Georgia, serif" font-size="14" fill="#e0b0ff" text-anchor="middle" font-weight="bold">Daniel ora três vezes por dia</text>
+</svg>

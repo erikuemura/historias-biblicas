@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="dnh_sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2e1065"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient>
+    <radialGradient id="dnh_glow" cx="50%" cy="30%"><stop offset="0%" stop-color="#fef3c7" stop-opacity="0.7"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#dnh_sky)"/>
+  <ellipse cx="400" cy="150" rx="300" ry="200" fill="url(#dnh_glow)"/>
+  <!-- cave floor -->
+  <ellipse cx="400" cy="410" rx="500" ry="100" fill="#1c0a00"/>
+  <ellipse cx="400" cy="390" rx="400" ry="70" fill="#2d1200"/>
+  <!-- cave walls -->
+  <path d="M0,400 Q100,200 200,250 L200,400Z" fill="#1c0a00"/>
+  <path d="M800,400 Q700,200 600,250 L600,400Z" fill="#1c0a00"/>
+  <!-- angel glow -->
+  <ellipse cx="400" cy="220" rx="80" ry="120" fill="#fef3c7" opacity="0.25"/>
+  <!-- Daniel kneeling -->
+  <ellipse cx="400" cy="290" rx="20" ry="25" fill="#fde68a"/>
+  <rect x="382" y="312" width="36" height="45" rx="7" fill="#5b21b6"/>
+  <!-- lion silhouettes on sides - peaceful -->
+  <ellipse cx="200" cy="320" rx="50" ry="30" fill="#78350f" opacity="0.8"/>
+  <ellipse cx="165" cy="300" rx="25" ry="22" fill="#92400e" opacity="0.8"/>
+  <!-- lion mane -->
+  <circle cx="165" cy="295" r="20" fill="#451a03" opacity="0.9"/>
+  <ellipse cx="600" cy="320" rx="50" ry="30" fill="#78350f" opacity="0.8"/>
+  <ellipse cx="635" cy="300" rx="25" ry="22" fill="#92400e" opacity="0.8"/>
+  <circle cx="635" cy="295" r="20" fill="#451a03" opacity="0.9"/>
+  <!-- stars -->
+  <circle cx="100" cy="50" r="2" fill="white" opacity="0.8"/>
+  <circle cx="700" cy="40" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="500" cy="30" r="2" fill="white" opacity="0.7"/>
+  <circle cx="300" cy="60" r="1.5" fill="white" opacity="0.8"/>
+</svg>

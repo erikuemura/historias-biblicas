@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="bs5_wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8A050;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#A07830;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bs5_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9A7040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7A5020;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="bs5_lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE880;stop-opacity:1"/>
+      <stop offset="40%" style="stop-color:#FFB040;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#FF6010;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="bs5_bed" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8D090;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#C8A860;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Inn interior - warm walls -->
+  <rect width="800" height="380" fill="url(#bs5_wall)"/>
+  <!-- Floor -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#bs5_floor)"/>
+  <!-- Floor tiles -->
+  <line x1="0" y1="318" x2="800" y2="318" stroke="#7A5020" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="342" x2="800" y2="342" stroke="#7A5020" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="295" x2="200" y2="380" stroke="#7A5020" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="295" x2="400" y2="380" stroke="#7A5020" stroke-width="2" opacity="0.3"/>
+  <line x1="600" y1="295" x2="600" y2="380" stroke="#7A5020" stroke-width="2" opacity="0.3"/>
+  <!-- Window with warm exterior light -->
+  <rect x="60" y="70" width="110" height="85" fill="#E8C870" rx="5"/>
+  <rect x="70" y="80" width="90" height="65" fill="#FFD060" opacity="0.6" rx="3"/>
+  <!-- Window frame -->
+  <rect x="60" y="70" width="8" height="85" fill="#9A6030"/>
+  <rect x="162" y="70" width="8" height="85" fill="#9A6030"/>
+  <rect x="60" y="70" width="110" height="8" fill="#9A6030"/>
+  <rect x="60" y="147" width="110" height="8" fill="#9A6030"/>
+  <rect x="111" y="70" width="8" height="85" fill="#9A6030"/>
+  <!-- Warm lamp on wall bracket right side -->
+  <rect x="695" y="78" width="7" height="25" fill="#8B6030"/>
+  <ellipse cx="698" cy="76" rx="13" ry="8" fill="#C08030"/>
+  <circle cx="698" cy="70" r="11" fill="url(#bs5_lamp)"/>
+  <ellipse cx="698" cy="62" rx="6" ry="8" fill="#FFD040" opacity="0.9"/>
+  <circle cx="698" cy="70" r="70" fill="url(#bs5_lamp)" opacity="0.55"/>
+  <!-- Second lamp left wall -->
+  <rect x="108" y="165" width="6" height="22" fill="#8B6030"/>
+  <ellipse cx="111" cy="163" rx="12" ry="7" fill="#C08030"/>
+  <circle cx="111" cy="158" r="10" fill="url(#bs5_lamp)"/>
+  <ellipse cx="111" cy="150" rx="5" ry="8" fill="#FFD040" opacity="0.9"/>
+  <circle cx="111" cy="158" r="55" fill="url(#bs5_lamp)" opacity="0.4"/>
+  <!-- BED - injured man resting comfortably right side -->
+  <!-- Bed frame -->
+  <rect x="450" y="195" width="300" height="110" fill="#9A6030" rx="6"/>
+  <!-- Mattress -->
+  <rect x="458" y="195" width="284" height="95" fill="url(#bs5_bed)" rx="5"/>
+  <!-- Pillow -->
+  <ellipse cx="720" cy="215" rx="30" ry="18" fill="#F0E8D0"/>
+  <!-- Blanket -->
+  <rect x="458" y="240" width="284" height="52" fill="#D07040" rx="0 0 5 5" opacity="0.8"/>
+  <!-- Blanket pattern -->
+  <rect x="458" y="248" width="284" height="6" fill="#C06030" opacity="0.4"/>
+  <rect x="458" y="262" width="284" height="6" fill="#C06030" opacity="0.4"/>
+  <!-- INJURED MAN resting in bed - much better, awake, comfortable -->
+  <circle cx="700" cy="208" r="20" fill="#E0A060"/>
+  <ellipse cx="700" cy="194" rx="20" ry="11" fill="#4A2808"/>
+  <!-- Bandage on head -->
+  <rect x="680" y="196" width="40" height="10" fill="#F8F0E0" rx="3" opacity="0.85"/>
+  <!-- Eyes open, peaceful -->
+  <ellipse cx="693" cy="207" rx="3.5" ry="4" fill="#5A3820"/>
+  <ellipse cx="707" cy="207" rx="3.5" ry="4" fill="#5A3820"/>
+  <circle cx="692" cy="206" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="706" cy="206" r="1.5" fill="white" opacity="0.6"/>
+  <!-- Gentle peaceful smile - recovering -->
+  <path d="M692,218 Q700,224 708,218" stroke="#8B5030" stroke-width="2" fill="none"/>
+  <!-- Arm on blanket -->
+  <line x1="680" y1="225" x2="640" y2="238" stroke="#E0A060" stroke-width="9" stroke-linecap="round"/>
+  <!-- Bandage on arm -->
+  <rect x="645" y="233" width="22" height="8" fill="#F8F0E0" rx="3" opacity="0.8"/>
+  <!-- SAMARITAN - paying innkeeper, center foreground -->
+  <!-- Samaritan standing -->
+  <circle cx="310" cy="175" r="23" fill="#E8B070"/>
+  <ellipse cx="310" cy="159" rx="23" ry="12" fill="#6A3820"/>
+  <!-- Samaritan warm colored robe -->
+  <polygon points="287,198 333,198 340,295 280,295" fill="#D07040"/>
+  <!-- Belt -->
+  <rect x="287" y="207" width="46" height="7" fill="#9A5020"/>
+  <!-- Samaritan arm extending coins to innkeeper -->
+  <line x1="333" y1="210" x2="375" y2="218" stroke="#E8B070" stroke-width="11" stroke-linecap="round"/>
+  <!-- Hand with coins -->
+  <circle cx="378" cy="220" r="11" fill="#E8B070"/>
+  <!-- Coins transferring -->
+  <circle cx="390" cy="215" r="8" fill="#D4A030"/>
+  <circle cx="400" cy="220" r="7" fill="#D4A030"/>
+  <circle cx="395" cy="210" r="7" fill="#C09020"/>
+  <text x="390" y="218" font-family="Arial" font-size="7" fill="#8B6000" text-anchor="middle">$</text>
+  <text x="400" y="223" font-family="Arial" font-size="7" fill="#8B6000" text-anchor="middle">$</text>
+  <!-- Other arm gesture toward bed - entrusting the man's care -->
+  <line x1="287" y1="210" x2="258" y2="220" stroke="#E8B070" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="255" cy="222" r="10" fill="#E8B070"/>
+  <!-- Samaritan caring expression -->
+  <ellipse cx="302" cy="174" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <ellipse cx="318" cy="174" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <circle cx="301" cy="173" r="1.8" fill="white" opacity="0.6"/>
+  <circle cx="317" cy="173" r="1.8" fill="white" opacity="0.6"/>
+  <path d="M300,186 Q310,194 320,186" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <path d="M298,167 Q302,163 306,167" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <path d="M314,167 Q318,163 322,167" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <!-- INNKEEPER - receiving coins, nodding -->
+  <circle cx="460" cy="180" r="22" fill="#F0C090"/>
+  <ellipse cx="460" cy="165" rx="22" ry="12" fill="#7A5020"/>
+  <!-- Innkeeper hat/cap -->
+  <ellipse cx="460" cy="162" rx="24" ry="13" fill="#8B5020" opacity="0.7"/>
+  <rect x="438" y="158" width="44" height="8" fill="#7A4018"/>
+  <!-- Innkeeper robe - simple work clothes -->
+  <polygon points="438,202 482,202 488,295 432,295" fill="#C09050"/>
+  <!-- Apron -->
+  <rect x="443" y="210" width="30" height="50" fill="#E0C080" opacity="0.6"/>
+  <!-- Innkeeper receiving hand -->
+  <line x1="438" y1="212" x2="410" y2="220" stroke="#F0C090" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="407" cy="222" r="10" fill="#F0C090"/>
+  <!-- Purse to put coins in -->
+  <ellipse cx="490" cy="220" rx="16" ry="12" fill="#C09030"/>
+  <rect x="482" y="207" width="14" height="10" fill="#B07020" rx="2"/>
+  <line x1="482" y1="215" x2="490" y2="220" stroke="#F0C090" stroke-width="8" stroke-linecap="round"/>
+  <!-- Innkeeper nodding/agreeable face -->
+  <ellipse cx="452" cy="179" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="468" cy="179" rx="4" ry="5" fill="#5A3820"/>
+  <circle cx="451" cy="178" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="467" cy="178" r="1.5" fill="white" opacity="0.5"/>
+  <!-- Agreeable smile -->
+  <path d="M450,192 Q460,199 470,192" stroke="#8B5030" stroke-width="2.5" fill="none"/>
+  <!-- Nodding brow - neutral friendly -->
+  <path d="M448,172 Q452,168 456,172" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <path d="M464,172 Q468,168 472,172" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <!-- Speech bubble - Samaritan's promise -->
+  <ellipse cx="225" cy="138" rx="70" ry="26" fill="#FFE880" opacity="0.75"/>
+  <text x="225" y="133" font-family="Georgia, serif" font-size="10" fill="#8B4020" text-anchor="middle">Cuide dele, e no</text>
+  <text x="225" y="148" font-family="Georgia, serif" font-size="10" fill="#8B4020" text-anchor="middle">regresso pagarei mais.</text>
+  <!-- Small triangle pointing to Samaritan -->
+  <polygon points="260,160 280,152 272,165" fill="#FFE880" opacity="0.75"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#C05820" opacity="0.65"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">O Bom Samaritano — Cena 5: Na Hospedaria</text>
+</svg>

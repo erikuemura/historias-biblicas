@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="bs4_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0B840;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F8D070;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bs4_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8A850;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#A88030;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="bs4_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE880;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#FF8020;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="bs4_cliff" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C0A050;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E0B860;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Warm orange sky -->
+  <rect width="800" height="380" fill="url(#bs4_sky)"/>
+  <!-- Sun lower - late afternoon warm -->
+  <circle cx="120" cy="85" r="52" fill="#FFD030" opacity="0.8"/>
+  <circle cx="120" cy="85" r="75" fill="#FFE040" opacity="0.18"/>
+  <!-- Clouds lit orange -->
+  <ellipse cx="500" cy="65" rx="80" ry="28" fill="#FFD080" opacity="0.6"/>
+  <ellipse cx="700" cy="80" rx="65" ry="24" fill="#FFC060" opacity="0.5"/>
+  <!-- Rocky road context -->
+  <polygon points="0,0 140,0 165,130 85,185 0,195" fill="url(#bs4_cliff)"/>
+  <polygon points="800,0 660,0 635,120 715,170 800,180" fill="url(#bs4_cliff)"/>
+  <!-- Boulders -->
+  <ellipse cx="80" cy="275" rx="42" ry="22" fill="#C0A050"/>
+  <ellipse cx="720" cy="272" rx="40" ry="21" fill="#C0A050"/>
+  <!-- Ground -->
+  <rect x="0" y="268" width="800" height="112" fill="url(#bs4_ground)"/>
+  <ellipse cx="400" cy="282" rx="240" ry="13" fill="#D4B060" opacity="0.5"/>
+  <!-- Warm compassion glow around the two -->
+  <circle cx="390" cy="255" r="120" fill="url(#bs4_glow)"/>
+  <!-- DONKEY waiting patiently to right -->
+  <!-- Donkey body -->
+  <ellipse cx="620" cy="278" rx="60" ry="28" fill="#A09080"/>
+  <!-- Donkey head -->
+  <ellipse cx="674" cy="258" rx="22" ry="18" fill="#A09080"/>
+  <!-- Donkey snout -->
+  <ellipse cx="693" cy="262" rx="12" ry="9" fill="#908070"/>
+  <!-- Donkey nostril -->
+  <circle cx="698" cy="261" r="3" fill="#7A6060"/>
+  <!-- Donkey ear -->
+  <ellipse cx="668" cy="244" rx="7" ry="14" fill="#B0A090" transform="rotate(-15,668,244)"/>
+  <ellipse cx="678" cy="242" rx="7" ry="14" fill="#B0A090" transform="rotate(10,678,242)"/>
+  <!-- Donkey eye -->
+  <circle cx="678" cy="255" r="4" fill="#3A2818"/>
+  <circle cx="677" cy="254" r="1.5" fill="white" opacity="0.5"/>
+  <!-- Donkey legs -->
+  <rect x="578" y="300" width="12" height="30" fill="#908070" rx="3"/>
+  <rect x="600" y="302" width="12" height="28" fill="#908070" rx="3"/>
+  <rect x="638" y="300" width="12" height="30" fill="#908070" rx="3"/>
+  <rect x="658" y="298" width="12" height="32" fill="#908070" rx="3"/>
+  <!-- Donkey tail -->
+  <path d="M565,275 Q548,280 550,295" stroke="#908070" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Saddle bags on donkey -->
+  <ellipse cx="600" cy="265" rx="25" ry="16" fill="#8B6030" opacity="0.8"/>
+  <ellipse cx="570" cy="268" rx="20" ry="14" fill="#7A5020" opacity="0.8"/>
+  <!-- GOOD SAMARITAN - kneeling beside injured man, wrapping wounds -->
+  <!-- Samaritan kneeling - one knee down -->
+  <circle cx="310" cy="218" r="22" fill="#E8B070"/>
+  <ellipse cx="310" cy="203" rx="22" ry="12" fill="#6A3820"/>
+  <!-- Samaritan clothing - ordinary traveler, warm colors -->
+  <polygon points="288,240 332,240 338,282 282,282" fill="#D07040"/>
+  <!-- Belt -->
+  <rect x="288" y="248" width="44" height="7" fill="#9A5020"/>
+  <!-- Samaritan kneeling - body leaning forward over injured man -->
+  <ellipse cx="290" cy="278" rx="18" ry="9" fill="#D07040" transform="rotate(-20,290,278)"/>
+  <!-- Arms reaching down to tend wounds -->
+  <line x1="288" y1="250" x2="258" y2="270" stroke="#E8B070" stroke-width="11" stroke-linecap="round"/>
+  <!-- Hand with bandage -->
+  <circle cx="255" cy="272" r="10" fill="#E8B070"/>
+  <!-- Bandage strip in hand -->
+  <rect x="240" y="268" width="28" height="7" fill="#F8F0E0" rx="3" opacity="0.9"/>
+  <line x1="332" y1="250" x2="355" y2="260" stroke="#E8B070" stroke-width="11" stroke-linecap="round"/>
+  <!-- Other hand gentle on injured man -->
+  <circle cx="358" cy="262" r="9" fill="#E8B070"/>
+  <!-- Samaritan compassionate face looking down at man -->
+  <ellipse cx="302" cy="217" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="318" cy="217" rx="4" ry="5" fill="#5A3820"/>
+  <circle cx="301" cy="216" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="317" cy="216" r="1.5" fill="white" opacity="0.5"/>
+  <!-- Gentle concerned brows -->
+  <path d="M298,209 Q302,205 306,209" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <path d="M314,209 Q318,205 322,209" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <!-- Compassionate expression - mouth tight with care -->
+  <path d="M300,229 Q310,234 320,229" stroke="#8B5030" stroke-width="2.5" fill="none"/>
+  <!-- Oil bottle / wine flask beside him - first aid supplies -->
+  <ellipse cx="270" cy="288" rx="10" ry="14" fill="#8B6030"/>
+  <rect x="264" y="274" width="12" height="8" fill="#7A5020" rx="2"/>
+  <!-- Bandage roll -->
+  <circle cx="248" cy="290" r="8" fill="#F8F0E0" opacity="0.8"/>
+  <!-- INJURED MAN - lying down, now being helped -->
+  <ellipse cx="400" cy="275" rx="62" ry="15" fill="#C09060" transform="rotate(-5,400,275)"/>
+  <circle cx="450" cy="263" r="17" fill="#E0A060"/>
+  <ellipse cx="450" cy="250" rx="17" ry="10" fill="#4A2808"/>
+  <!-- Face - slightly more at peace, eyes still barely open -->
+  <ellipse cx="443" cy="262" rx="3.5" ry="3" fill="#5A3820" opacity="0.5"/>
+  <ellipse cx="456" cy="261" rx="3.5" ry="2.5" fill="#5A3820" opacity="0.4"/>
+  <!-- Mouth slightly relaxed -->
+  <path d="M443,272 Q450,275 457,272" stroke="#8B5030" stroke-width="1.5" fill="none"/>
+  <!-- Arm limp but slightly less tense -->
+  <line x1="450" y1="272" x2="480" y2="285" stroke="#E0A060" stroke-width="8" stroke-linecap="round"/>
+  <!-- Bandage already being applied to arm -->
+  <rect x="462" y="280" width="22" height="8" fill="#F8F0E0" rx="3" opacity="0.8" transform="rotate(20,473,284)"/>
+  <!-- Legs -->
+  <ellipse cx="365" cy="282" rx="38" ry="10" fill="#A08060" transform="rotate(-8,365,282)"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#C05820" opacity="0.65"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">O Bom Samaritano — Cena 4: O Cuidado</text>
+</svg>

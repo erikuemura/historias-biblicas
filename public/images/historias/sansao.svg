@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="sanh_sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fef3c7"/><stop offset="100%" stop-color="#f59e0b"/></linearGradient>
+    <linearGradient id="sanh_ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d97706"/><stop offset="100%" stop-color="#92400e"/></linearGradient>
+    <radialGradient id="sanh_sun" cx="50%" cy="50%"><stop offset="0%" stop-color="#fef3c7"/><stop offset="100%" stop-color="#f59e0b"/></radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#sanh_sky)"/>
+  <!-- sun rays -->
+  <circle cx="400" cy="80" r="50" fill="url(#sanh_sun)" opacity="0.9"/>
+  <line x1="400" y1="10" x2="400" y2="0" stroke="#fbbf24" stroke-width="3"/>
+  <line x1="450" y1="25" x2="470" y2="10" stroke="#fbbf24" stroke-width="3"/>
+  <line x1="480" y1="70" x2="510" y2="60" stroke="#fbbf24" stroke-width="3"/>
+  <line x1="350" y1="25" x2="330" y2="10" stroke="#fbbf24" stroke-width="3"/>
+  <line x1="320" y1="70" x2="290" y2="60" stroke="#fbbf24" stroke-width="3"/>
+  <!-- ground -->
+  <ellipse cx="400" cy="420" rx="600" ry="100" fill="url(#sanh_ground)"/>
+  <!-- pillars -->
+  <rect x="200" y="150" width="40" height="220" rx="4" fill="#78350f"/>
+  <rect x="560" y="150" width="40" height="220" rx="4" fill="#78350f"/>
+  <!-- Sansão strong figure with long hair -->
+  <ellipse cx="400" cy="195" rx="28" ry="32" fill="#fde68a"/>
+  <!-- long flowing hair -->
+  <path d="M372,190 Q350,230 355,290 Q370,270 380,290 Q390,270 400,295 Q410,270 420,290 Q430,270 445,290 Q450,230 428,190Z" fill="#78350f"/>
+  <!-- body - strong/wide -->
+  <rect x="370" y="224" width="60" height="70" rx="8" fill="#d97706"/>
+  <!-- strong arms reaching out -->
+  <line x1="370" y1="240" x2="240" y2="230" stroke="#d97706" stroke-width="14" stroke-linecap="round"/>
+  <line x1="430" y1="240" x2="560" y2="230" stroke="#d97706" stroke-width="14" stroke-linecap="round"/>
+  <!-- hands on pillars -->
+  <circle cx="240" cy="230" r="14" fill="#fde68a"/>
+  <circle cx="560" cy="230" r="14" fill="#fde68a"/>
+  <!-- dramatic light from above -->
+  <ellipse cx="400" cy="150" rx="120" ry="50" fill="#fef3c7" opacity="0.3"/>
+</svg>

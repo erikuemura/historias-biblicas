@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="bs2_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8B050;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F0C870;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bs2_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8A850;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#A88030;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bs2_cliff" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C0A050;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E0B860;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Hot dusty sky -->
+  <rect width="800" height="380" fill="url(#bs2_sky)"/>
+  <!-- Sun blazing -->
+  <circle cx="700" cy="60" r="50" fill="#FFD030" opacity="0.85"/>
+  <circle cx="700" cy="60" r="72" fill="#FFE040" opacity="0.2"/>
+  <!-- Hazy horizon -->
+  <ellipse cx="400" cy="200" rx="500" ry="50" fill="#E0B850" opacity="0.2"/>
+  <!-- Rocky desert road cliffs / boulders -->
+  <!-- Left cliff face -->
+  <polygon points="0,0 180,0 200,150 120,200 0,210" fill="url(#bs2_cliff)"/>
+  <!-- Rock texture on cliff -->
+  <ellipse cx="80" cy="80" rx="40" ry="25" fill="#B89040" opacity="0.5"/>
+  <ellipse cx="140" cy="140" rx="30" ry="18" fill="#A87830" opacity="0.4"/>
+  <!-- Right cliff face -->
+  <polygon points="800,0 620,0 600,140 680,190 800,200" fill="url(#bs2_cliff)"/>
+  <ellipse cx="720" cy="90" rx="38" ry="22" fill="#B89040" opacity="0.5"/>
+  <ellipse cx="660" cy="150" rx="28" ry="16" fill="#A87830" opacity="0.4"/>
+  <!-- Boulders on road sides -->
+  <ellipse cx="150" cy="290" rx="55" ry="30" fill="#C0A050"/>
+  <ellipse cx="130" cy="278" rx="40" ry="22" fill="#B09040"/>
+  <ellipse cx="650" cy="285" rx="50" ry="28" fill="#C0A050"/>
+  <ellipse cx="670" cy="274" rx="35" ry="20" fill="#B09040"/>
+  <ellipse cx="350" cy="305" rx="30" ry="15" fill="#C0A850" opacity="0.7"/>
+  <!-- Rocky ground / road -->
+  <rect x="0" y="270" width="800" height="110" fill="url(#bs2_ground)"/>
+  <!-- Road dust -->
+  <ellipse cx="400" cy="285" rx="250" ry="15" fill="#D4B060" opacity="0.5"/>
+  <!-- Scattered rocks on road -->
+  <ellipse cx="280" cy="285" rx="15" ry="8" fill="#B09040" opacity="0.7"/>
+  <ellipse cx="520" cy="290" rx="12" ry="7" fill="#B09040" opacity="0.6"/>
+  <!-- INJURED MAN - lying on road, beaten -->
+  <!-- Man lying sprawled on ground -->
+  <!-- Body -->
+  <ellipse cx="400" cy="282" rx="70" ry="18" fill="#C09060" transform="rotate(-8,400,282)"/>
+  <!-- Head -->
+  <circle cx="455" cy="268" r="18" fill="#E0A060"/>
+  <!-- Hair messy/disheveled -->
+  <ellipse cx="455" cy="254" rx="19" ry="11" fill="#4A2808"/>
+  <!-- Torn robe -->
+  <ellipse cx="385" cy="284" rx="55" ry="14" fill="#A08060" transform="rotate(-8,385,284)"/>
+  <!-- Torn patches and scrapes visible -->
+  <polygon points="390,275 405,270 402,285 387,282" fill="#888060" opacity="0.7"/>
+  <!-- Wounds / bruises on face -->
+  <ellipse cx="448" cy="268" rx="5" ry="4" fill="#8B3020" opacity="0.6"/>
+  <ellipse cx="462" cy="272" rx="4" ry="3" fill="#8B3020" opacity="0.5"/>
+  <!-- Eye barely open, pained -->
+  <ellipse cx="449" cy="265" rx="3.5" ry="3" fill="#5A3820" opacity="0.7"/>
+  <ellipse cx="462" cy="264" rx="3.5" ry="3" fill="#F0E8D8"/>
+  <!-- Arm stretched out on ground -->
+  <line x1="455" y1="278" x2="490" y2="295" stroke="#E0A060" stroke-width="9" stroke-linecap="round"/>
+  <line x1="375" y1="280" x2="342" y2="295" stroke="#E0A060" stroke-width="9" stroke-linecap="round"/>
+  <!-- Legs -->
+  <ellipse cx="355" cy="292" rx="40" ry="12" fill="#A08060" transform="rotate(-12,355,292)"/>
+  <!-- Scattered belongings -->
+  <!-- Torn bag -->
+  <ellipse cx="330" cy="278" rx="18" ry="12" fill="#9A7040" opacity="0.7"/>
+  <path d="M325,272 Q330,268 340,275" stroke="#7A5020" stroke-width="3" fill="none"/>
+  <!-- Coin on ground -->
+  <circle cx="310" cy="282" r="6" fill="#D4A030" opacity="0.8"/>
+  <!-- Sandal left behind -->
+  <ellipse cx="480" cy="298" rx="15" ry="7" fill="#C09040" opacity="0.8" transform="rotate(20,480,298)"/>
+  <!-- ROBBERS running away in background distance -->
+  <!-- Robber 1 - small, running right background -->
+  <circle cx="640" cy="210" r="12" fill="#5A3820" opacity="0.75"/>
+  <polygon points="630,222 650,222 654,255 626,255" fill="#4A3020" opacity="0.75"/>
+  <line x1="630" y1="230" x2="618" y2="250" stroke="#5A3820" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <line x1="650" y1="230" x2="658" y2="248" stroke="#5A3820" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <!-- Robber 2 - running away, behind rocks -->
+  <circle cx="690" cy="215" r="11" fill="#5A3820" opacity="0.65"/>
+  <polygon points="681,226 699,226 703,255 677,255" fill="#4A3020" opacity="0.65"/>
+  <!-- Money bag robber carries -->
+  <ellipse cx="660" cy="235" rx="10" ry="8" fill="#D4A030" opacity="0.6"/>
+  <!-- Dust cloud from their running -->
+  <ellipse cx="670" cy="260" rx="40" ry="14" fill="#D4B060" opacity="0.4"/>
+  <!-- Dramatic rocky shadow on left cliff -->
+  <polygon points="0,0 180,0 200,150 0,210" fill="#8B6020" opacity="0.2"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#C05820" opacity="0.65"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="17" fill="white" text-anchor="middle" font-weight="bold">O Bom Samaritano — Cena 2: O Homem Ferido</text>
+</svg>

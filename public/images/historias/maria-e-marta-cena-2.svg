@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="mm2_wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A2840;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2A1020;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="mm2_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7A5030;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#5A3010;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="mm2_fire" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFD040;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#FF6010;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#FF2000;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="mm2_lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE880;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#FF9030;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Dark kitchen interior -->
+  <rect width="800" height="380" fill="url(#mm2_wall)"/>
+  <!-- Floor -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#mm2_floor)"/>
+  <!-- Floor tiles -->
+  <line x1="0" y1="318" x2="800" y2="318" stroke="#5A3010" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="338" x2="800" y2="338" stroke="#5A3010" stroke-width="2" opacity="0.4"/>
+  <!-- Cooking fire on left -->
+  <ellipse cx="140" cy="280" rx="50" ry="18" fill="#8B5020"/>
+  <ellipse cx="140" cy="278" rx="45" ry="15" fill="#6A3810"/>
+  <!-- Stones forming hearth -->
+  <ellipse cx="100" cy="282" rx="20" ry="10" fill="#7A6040"/>
+  <ellipse cx="140" cy="286" rx="18" ry="9" fill="#8A7050"/>
+  <ellipse cx="180" cy="283" rx="20" ry="10" fill="#7A6040"/>
+  <!-- Fire -->
+  <circle cx="140" cy="262" r="35" fill="url(#mm2_fire)"/>
+  <ellipse cx="130" cy="258" rx="12" ry="18" fill="#FF8020" opacity="0.8"/>
+  <ellipse cx="150" cy="255" rx="10" ry="20" fill="#FFD040" opacity="0.9"/>
+  <ellipse cx="140" cy="252" rx="8" ry="16" fill="#FFFF80" opacity="0.7"/>
+  <!-- Large pot over fire -->
+  <ellipse cx="140" cy="240" rx="38" ry="15" fill="#8B5020"/>
+  <rect x="105" y="225" width="70" height="20" fill="#7A4018" rx="4"/>
+  <!-- Steam -->
+  <path d="M125,218 Q118,202 124,188" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.5"/>
+  <path d="M140,215 Q133,198 139,182" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M155,218 Q162,202 156,188" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.5"/>
+  <!-- Shelf on wall with jars -->
+  <rect x="300" y="120" width="200" height="14" fill="#7A5030" rx="3"/>
+  <rect x="310" y="88" width="22" height="35" fill="#9A7050" rx="5"/>
+  <ellipse cx="321" cy="87" rx="11" ry="7" fill="#8A6040"/>
+  <rect x="345" y="92" width="18" height="30" fill="#7080A0" rx="5"/>
+  <ellipse cx="354" cy="91" rx="9" ry="6" fill="#6070908"/>
+  <rect x="376" y="86" width="24" height="36" fill="#C07040" rx="5"/>
+  <ellipse cx="388" cy="85" rx="12" ry="7" fill="#A05030"/>
+  <rect x="415" y="90" width="20" height="32" fill="#A09060" rx="5"/>
+  <ellipse cx="425" cy="89" rx="10" ry="6" fill="#908050"/>
+  <rect x="450" y="88" width="18" height="34" fill="#8B5020" rx="5"/>
+  <ellipse cx="459" cy="87" rx="9" ry="6" fill="#7A4018"/>
+  <!-- Lamp on shelf -->
+  <rect x="560" y="100" width="6" height="22" fill="#8B6030"/>
+  <ellipse cx="563" cy="98" rx="12" ry="7" fill="#C08030"/>
+  <circle cx="563" cy="92" r="10" fill="url(#mm2_lamp)"/>
+  <ellipse cx="563" cy="85" rx="5" ry="7" fill="#FFD040" opacity="0.9"/>
+  <circle cx="563" cy="92" r="55" fill="url(#mm2_lamp)" opacity="0.5"/>
+  <!-- Work table / counter -->
+  <rect x="280" y="230" width="320" height="20" fill="#9A6030" rx="3"/>
+  <rect x="295" y="250" width="10" height="50" fill="#7A4820"/>
+  <rect x="575" y="250" width="10" height="50" fill="#7A4820"/>
+  <!-- Flour on table, bread dough -->
+  <ellipse cx="380" cy="226" rx="40" ry="12" fill="#F5F0D8" opacity="0.7"/>
+  <!-- Flour puff -->
+  <ellipse cx="380" cy="218" rx="25" ry="10" fill="white" opacity="0.3"/>
+  <!-- Rolling pin -->
+  <rect x="430" y="218" width="80" height="10" fill="#C09050" rx="4"/>
+  <ellipse cx="430" cy="223" rx="7" ry="10" fill="#B07840"/>
+  <ellipse cx="510" cy="223" rx="7" ry="10" fill="#B07840"/>
+  <!-- Cutting board with vegetables -->
+  <rect x="490" y="218" width="80" height="14" fill="#C09050" rx="3"/>
+  <ellipse cx="510" cy="222" rx="8" ry="4" fill="#FF6040"/>
+  <ellipse cx="530" cy="220" rx="7" ry="5" fill="#9ACD50"/>
+  <ellipse cx="548" cy="222" rx="6" ry="4" fill="#FF8030"/>
+  <!-- MARTA - frazzled, sweating, busy -->
+  <circle cx="480" cy="180" r="22" fill="#F0B070"/>
+  <ellipse cx="480" cy="165" rx="22" ry="12" fill="#5A3010"/>
+  <!-- Head covering messy -->
+  <ellipse cx="480" cy="162" rx="24" ry="14" fill="#A07050" opacity="0.75"/>
+  <!-- Apron with flour -->
+  <polygon points="458,202 502,202 506,262 454,262" fill="#C09060"/>
+  <rect x="458" y="202" width="44" height="5" fill="white" opacity="0.6"/>
+  <!-- Flour smudges -->
+  <ellipse cx="472" cy="225" rx="14" ry="8" fill="white" opacity="0.35"/>
+  <ellipse cx="494" cy="240" rx="10" ry="6" fill="white" opacity="0.25"/>
+  <!-- Sweat drops on face -->
+  <ellipse cx="466" cy="188" rx="3" ry="5" fill="#87CEEB" opacity="0.7"/>
+  <!-- Marta arms - one stirring, one wiping brow -->
+  <!-- Arm stirring pot -->
+  <line x1="458" y1="212" x2="420" y2="225" stroke="#F0B070" stroke-width="10" stroke-linecap="round"/>
+  <!-- Ladle in hand -->
+  <line x1="416" y1="222" x2="395" y2="240" stroke="#8B5020" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="392" cy="243" r="8" fill="#8B5020"/>
+  <!-- Arm wiping brow -->
+  <line x1="502" y1="212" x2="525" y2="198" stroke="#F0B070" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="527" cy="196" r="9" fill="#F0B070"/>
+  <!-- Marta frazzled face - furrowed brows, stressed expression -->
+  <ellipse cx="472" cy="179" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="488" cy="179" rx="4" ry="5" fill="#5A3820"/>
+  <!-- Very furrowed brows -->
+  <path d="M467,171 Q472,166 477,171" stroke="#5A3820" stroke-width="3" fill="none"/>
+  <path d="M483,170 Q488,165 493,170" stroke="#5A3820" stroke-width="3" fill="none"/>
+  <!-- Stressed tight mouth -->
+  <path d="M471,192 Q480,188 489,192" stroke="#8B5030" stroke-width="2.5" fill="none"/>
+  <!-- Looking through doorway toward other room -->
+  <path d="M469,192 Q480,189 491,192" stroke="#8B5030" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Doorway to other room on right with warm glow -->
+  <rect x="660" y="100" width="80" height="200" fill="#5A3060" rx="3"/>
+  <rect x="665" y="105" width="70" height="190" fill="#7A4080" opacity="0.5"/>
+  <!-- Glow from other room -->
+  <rect x="660" y="100" width="80" height="200" fill="#FFE080" opacity="0.15"/>
+  <!-- Maria silhouette visible through doorway -->
+  <ellipse cx="700" cy="200" rx="15" ry="18" fill="#9060B0" opacity="0.5"/>
+  <ellipse cx="700" cy="178" rx="13" ry="9" fill="#7A4060" opacity="0.5"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#5A2070" opacity="0.7"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Maria e Marta — Cena 2: Marta na Cozinha</text>
+</svg>

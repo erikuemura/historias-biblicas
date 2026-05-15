@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <radialGradient id="abr1_sky" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="60%" stop-color="#0d1b4a"/>
+      <stop offset="100%" stop-color="#0a0820"/>
+    </radialGradient>
+    <radialGradient id="abr1_moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="100%" stop-color="#f9e04b"/>
+    </radialGradient>
+    <radialGradient id="abr1_fire" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#fff176"/>
+      <stop offset="40%" stop-color="#ff9800"/>
+      <stop offset="100%" stop-color="#bf360c"/>
+    </radialGradient>
+    <radialGradient id="abr1_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff9800" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ff9800" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="abr1_sand" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a96e"/>
+      <stop offset="100%" stop-color="#a0784a"/>
+    </linearGradient>
+    <linearGradient id="abr1_dune" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b8945a"/>
+      <stop offset="100%" stop-color="#8b6335"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Night sky -->
+  <rect width="800" height="380" fill="url(#abr1_sky)"/>
+
+  <!-- Stars scattered -->
+  <circle cx="50" cy="30" r="2" fill="white" opacity="0.9"/>
+  <circle cx="120" cy="15" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="200" cy="45" r="2" fill="white" opacity="0.9"/>
+  <circle cx="310" cy="20" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="400" cy="10" r="2" fill="white" opacity="0.9"/>
+  <circle cx="480" cy="35" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="560" cy="15" r="2" fill="white" opacity="0.9"/>
+  <circle cx="650" cy="40" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="730" cy="20" r="2" fill="white" opacity="0.9"/>
+  <circle cx="780" cy="55" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="80" cy="70" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="160" cy="90" r="2" fill="white" opacity="0.9"/>
+  <circle cx="260" cy="60" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="360" cy="80" r="2" fill="white" opacity="0.9"/>
+  <circle cx="450" cy="55" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="530" cy="85" r="2" fill="white" opacity="0.9"/>
+  <circle cx="610" cy="65" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="690" cy="75" r="2" fill="white" opacity="0.9"/>
+  <circle cx="760" cy="90" r="1.5" fill="white" opacity="0.7"/>
+  <!-- Bright stars -->
+  <polygon points="100,50 103,60 113,60 105,66 108,77 100,71 92,77 95,66 87,60 97,60" fill="white" opacity="0.9" transform="scale(0.4) translate(150,60)"/>
+  <polygon points="100,50 103,60 113,60 105,66 108,77 100,71 92,77 95,66 87,60 97,60" fill="#fff9c4" opacity="0.9" transform="scale(0.4) translate(900,80)"/>
+  <polygon points="100,50 103,60 113,60 105,66 108,77 100,71 92,77 95,66 87,60 97,60" fill="white" opacity="0.9" transform="scale(0.4) translate(1400,40)"/>
+  <!-- Many more small stars -->
+  <circle cx="35" cy="100" r="1" fill="white" opacity="0.6"/>
+  <circle cx="95" cy="120" r="1" fill="white" opacity="0.7"/>
+  <circle cx="175" cy="110" r="1" fill="white" opacity="0.6"/>
+  <circle cx="240" cy="130" r="1" fill="white" opacity="0.7"/>
+  <circle cx="325" cy="105" r="1" fill="white" opacity="0.6"/>
+  <circle cx="395" cy="125" r="1" fill="white" opacity="0.7"/>
+  <circle cx="475" cy="100" r="1" fill="white" opacity="0.6"/>
+  <circle cx="555" cy="120" r="1" fill="white" opacity="0.7"/>
+  <circle cx="625" cy="110" r="1" fill="white" opacity="0.6"/>
+  <circle cx="705" cy="130" r="1" fill="white" opacity="0.7"/>
+  <circle cx="765" cy="115" r="1" fill="white" opacity="0.6"/>
+
+  <!-- Moon -->
+  <circle cx="680" cy="60" r="35" fill="url(#abr1_moon)"/>
+  <circle cx="665" cy="52" r="28" fill="#1a0a2e"/>
+
+  <!-- Desert ground -->
+  <ellipse cx="400" cy="420" rx="500" ry="130" fill="url(#abr1_sand)"/>
+  <!-- Dunes -->
+  <ellipse cx="150" cy="340" rx="200" ry="60" fill="url(#abr1_dune)"/>
+  <ellipse cx="620" cy="355" rx="250" ry="55" fill="url(#abr1_dune)"/>
+  <rect x="0" y="305" width="800" height="75" fill="url(#abr1_sand)"/>
+
+  <!-- Fire glow on ground -->
+  <ellipse cx="560" cy="320" rx="60" ry="20" fill="url(#abr1_glow)"/>
+
+  <!-- Campfire rocks -->
+  <ellipse cx="540" cy="325" rx="8" ry="5" fill="#555"/>
+  <ellipse cx="565" cy="328" rx="7" ry="5" fill="#666"/>
+  <ellipse cx="555" cy="330" rx="9" ry="4" fill="#444"/>
+
+  <!-- Fire flames -->
+  <ellipse cx="555" cy="305" rx="18" ry="28" fill="url(#abr1_fire)"/>
+  <ellipse cx="548" cy="310" rx="10" ry="20" fill="#fff176" opacity="0.7"/>
+  <ellipse cx="562" cy="308" rx="8" ry="16" fill="#ffeb3b" opacity="0.8"/>
+  <!-- Flame tips -->
+  <path d="M548 285 Q552 295 555 288 Q558 295 562 285 Q560 300 555 308 Q550 300 548 285Z" fill="#ffeb3b"/>
+
+  <!-- Abraão - old man sitting, looking up at stars -->
+  <!-- Body/robe -->
+  <ellipse cx="340" cy="330" rx="35" ry="18" fill="#8d6e3a" opacity="0.5"/>
+  <path d="M310 330 Q325 260 340 255 Q355 260 370 330Z" fill="#c9a05c"/>
+  <!-- Robe detail -->
+  <path d="M325 280 Q340 270 355 280" stroke="#a07840" stroke-width="1.5" fill="none"/>
+  <!-- Mantle/cloak -->
+  <path d="M305 325 Q310 280 330 265 Q315 295 310 325Z" fill="#8b5e2a"/>
+  <!-- Arms raised in wonder -->
+  <line x1="315" y1="285" x2="285" y2="255" stroke="#c8956c" stroke-width="8" stroke-linecap="round"/>
+  <line x1="365" y1="285" x2="395" y2="250" stroke="#c8956c" stroke-width="8" stroke-linecap="round"/>
+  <!-- Hands -->
+  <circle cx="283" cy="253" r="7" fill="#c8956c"/>
+  <circle cx="397" cy="248" r="7" fill="#c8956c"/>
+  <!-- Head -->
+  <circle cx="340" cy="250" r="22" fill="#c8956c"/>
+  <!-- White beard -->
+  <path d="M322 258 Q330 278 340 282 Q350 278 358 258" fill="white"/>
+  <path d="M325 260 Q340 285 355 260" fill="#e8e8e8"/>
+  <!-- Hair (white) -->
+  <path d="M320 242 Q318 230 325 228 Q340 224 355 228 Q362 230 360 242" fill="white"/>
+  <!-- Eyes - wide looking up -->
+  <ellipse cx="333" cy="246" rx="4" ry="3" fill="white"/>
+  <ellipse cx="347" cy="246" rx="4" ry="3" fill="white"/>
+  <circle cx="334" cy="246" r="2" fill="#3a2010"/>
+  <circle cx="348" cy="246" r="2" fill="#3a2010"/>
+  <!-- Eyebrows raised -->
+  <path d="M329 241 Q333 238 337 241" stroke="white" stroke-width="1.5" fill="none"/>
+  <path d="M343 241 Q347 238 351 241" stroke="white" stroke-width="1.5" fill="none"/>
+  <!-- Smile of wonder -->
+  <path d="M333 256 Q340 261 347 256" stroke="#8b4513" stroke-width="1.5" fill="none"/>
+
+  <!-- Tent in background (left) -->
+  <polygon points="90,300 160,230 230,300" fill="#8b6335" opacity="0.8"/>
+  <polygon points="90,300 160,240 230,300" fill="#a0784a" opacity="0.6"/>
+  <line x1="160" y1="230" x2="160" y2="305" stroke="#6b4c22" stroke-width="2"/>
+
+  <!-- Stars ray lines from Abraão's gaze direction -->
+  <line x1="360" y1="240" x2="420" y2="150" stroke="white" stroke-width="0.5" opacity="0.3"/>
+  <line x1="350" y1="235" x2="430" y2="120" stroke="white" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Title -->
+  <rect x="10" y="345" width="280" height="28" rx="14" fill="#1a0a2e" opacity="0.7"/>
+  <text x="150" y="364" font-family="Georgia, serif" font-size="14" fill="#f9e04b" text-anchor="middle" font-weight="bold">Abraão olha para as estrelas</text>
+</svg>

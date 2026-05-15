@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="bt1_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8C870;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F0DC98;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bt1_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4B870;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B89040;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bt1_road" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C8A850;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E0C070;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Dusty amber sky -->
+  <rect width="800" height="380" fill="url(#bt1_sky)"/>
+  <!-- Sun hazy/hot -->
+  <circle cx="680" cy="70" r="50" fill="#FFD030" opacity="0.8"/>
+  <circle cx="680" cy="70" r="70" fill="#FFE050" opacity="0.2"/>
+  <!-- Hazy clouds -->
+  <ellipse cx="200" cy="70" rx="80" ry="25" fill="#F5E0A0" opacity="0.6"/>
+  <ellipse cx="450" cy="55" rx="65" ry="20" fill="#F5E0A0" opacity="0.5"/>
+  <!-- Distant buildings - Jericho -->
+  <rect x="560" y="150" width="100" height="140" fill="#E0C880" rx="3"/>
+  <rect x="650" y="165" width="80" height="125" fill="#D8C070" rx="3"/>
+  <rect x="720" y="175" width="80" height="115" fill="#E0C880" rx="3"/>
+  <!-- Desert hills in background -->
+  <ellipse cx="150" cy="280" rx="200" ry="60" fill="#D4B060" opacity="0.5"/>
+  <ellipse cx="650" cy="275" rx="220" ry="55" fill="#C8A850" opacity="0.4"/>
+  <!-- Dusty road -->
+  <rect x="0" y="280" width="800" height="100" fill="url(#bt1_ground)"/>
+  <rect x="0" y="280" width="800" height="30" fill="url(#bt1_road)" opacity="0.7"/>
+  <!-- Road stones -->
+  <ellipse cx="120" cy="292" rx="20" ry="7" fill="#B89840" opacity="0.5"/>
+  <ellipse cx="320" cy="288" rx="25" ry="8" fill="#B89840" opacity="0.4"/>
+  <ellipse cx="550" cy="294" rx="18" ry="6" fill="#B89840" opacity="0.5"/>
+  <ellipse cx="700" cy="289" rx="22" ry="7" fill="#B89840" opacity="0.4"/>
+  <!-- Dust particles -->
+  <circle cx="200" cy="278" r="3" fill="#D4B060" opacity="0.5"/>
+  <circle cx="450" cy="275" r="2" fill="#D4B060" opacity="0.4"/>
+  <circle cx="650" cy="280" r="3" fill="#D4B060" opacity="0.5"/>
+  <!-- BARTIMEU - blind man sitting by road, left side -->
+  <!-- Sitting position -->
+  <circle cx="200" cy="225" r="21" fill="#E0A060"/>
+  <!-- Messy hair, unkempt -->
+  <ellipse cx="200" cy="209" rx="22" ry="12" fill="#4A2808"/>
+  <!-- Worn robe -->
+  <polygon points="180,246 220,246 225,290 175,290" fill="#A09070"/>
+  <!-- Torn patches -->
+  <polygon points="185,258 196,253 193,268 182,264" fill="#888060" opacity="0.8"/>
+  <!-- Legs folded -->
+  <ellipse cx="185" cy="286" rx="20" ry="10" fill="#A09070"/>
+  <ellipse cx="215" cy="284" rx="18" ry="9" fill="#A09070"/>
+  <!-- Arms resting on knees, passive -->
+  <line x1="180" y1="255" x2="165" y2="272" stroke="#E0A060" stroke-width="9" stroke-linecap="round"/>
+  <line x1="220" y1="255" x2="235" y2="268" stroke="#E0A060" stroke-width="9" stroke-linecap="round"/>
+  <!-- Bartimeu blind eyes - closed/white -->
+  <ellipse cx="193" cy="224" rx="4" ry="4" fill="#F0E8D8"/>
+  <ellipse cx="207" cy="224" rx="4" ry="4" fill="#F0E8D8"/>
+  <!-- Closed eyelids -->
+  <path d="M189,224 Q193,220 197,224" stroke="#8B6040" stroke-width="2" fill="none"/>
+  <path d="M203,224 Q207,220 211,224" stroke="#8B6040" stroke-width="2" fill="none"/>
+  <!-- Sad neutral mouth -->
+  <path d="M194,235 Q200,232 206,235" stroke="#8B5030" stroke-width="2" fill="none"/>
+  <!-- Walking stick beside him -->
+  <line x1="240" y1="232" x2="250" y2="295" stroke="#8B6030" stroke-width="5" stroke-linecap="round"/>
+  <!-- Cloth/mat in front for begging -->
+  <ellipse cx="200" cy="296" rx="45" ry="12" fill="#C0A860" opacity="0.7"/>
+  <!-- A few coins on cloth -->
+  <circle cx="185" cy="295" r="5" fill="#D4A030" opacity="0.8"/>
+  <circle cx="198" cy="293" r="4" fill="#D4A030" opacity="0.7"/>
+  <circle cx="210" cy="296" r="4" fill="#C09020" opacity="0.7"/>
+  <!-- PEOPLE walking past - ignoring him -->
+  <!-- Person 1 walking right, looking away -->
+  <circle cx="430" cy="228" r="20" fill="#F0B080"/>
+  <ellipse cx="430" cy="213" rx="20" ry="11" fill="#5A3010"/>
+  <polygon points="411,248 449,248 453,292 407,292" fill="#6080C0"/>
+  <!-- Walking pose - one leg forward -->
+  <line x1="411" y1="258" x2="395" y2="290" stroke="#6080C0" stroke-width="10" stroke-linecap="round"/>
+  <line x1="449" y1="258" x2="455" y2="290" stroke="#6080C0" stroke-width="10" stroke-linecap="round"/>
+  <!-- Head turned away -->
+  <ellipse cx="436" cy="227" rx="3.5" ry="4" fill="#5A3820"/>
+  <ellipse cx="447" cy="226" rx="3.5" ry="4" fill="#5A3820"/>
+  <!-- Person 2 walking, hurrying past -->
+  <circle cx="580" cy="235" r="19" fill="#F0C090"/>
+  <ellipse cx="580" cy="221" rx="19" ry="10" fill="#7A4020"/>
+  <polygon points="562,253 598,253 601,292 559,292" fill="#C04040"/>
+  <line x1="562" y1="263" x2="548" y2="292" stroke="#C04040" stroke-width="9" stroke-linecap="round"/>
+  <line x1="598" y1="263" x2="606" y2="292" stroke="#C04040" stroke-width="9" stroke-linecap="round"/>
+  <!-- Person looking at scroll, completely ignoring Bartimeu -->
+  <rect x="598" y="238" width="22" height="28" fill="#F5E8C0" rx="2"/>
+  <line x1="609" y1="238" x2="609" y2="266" stroke="#C0A050" stroke-width="1.5"/>
+  <!-- Dust cloud from passing feet -->
+  <ellipse cx="410" cy="292" rx="35" ry="10" fill="#D4B060" opacity="0.4"/>
+  <!-- Rock beside road -->
+  <ellipse cx="330" cy="288" rx="25" ry="14" fill="#C0A850"/>
+  <ellipse cx="320" cy="283" rx="18" ry="10" fill="#B89840"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#B07820" opacity="0.6"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Bartimeu — Cena 1: À Beira do Caminho</text>
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="mm3_wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A2850;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2A1030;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="mm3_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6A4020;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="mm3_lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE880;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#FF9030;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="mm3_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE8C0;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#C080FF;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Interior -->
+  <rect width="800" height="380" fill="url(#mm3_wall)"/>
+  <!-- Floor -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#mm3_floor)"/>
+  <!-- Floor tiles -->
+  <line x1="0" y1="315" x2="800" y2="315" stroke="#6A4020" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="340" x2="800" y2="340" stroke="#6A4020" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="295" x2="200" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="295" x2="400" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <line x1="600" y1="295" x2="600" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <!-- Oil lamp warm glow center -->
+  <rect x="388" y="75" width="8" height="28" fill="#8B6030"/>
+  <ellipse cx="392" cy="73" rx="14" ry="8" fill="#C08030"/>
+  <circle cx="392" cy="67" r="12" fill="url(#mm3_lamp)"/>
+  <ellipse cx="392" cy="58" rx="6" ry="9" fill="#FFD040" opacity="0.9"/>
+  <circle cx="392" cy="67" r="80" fill="url(#mm3_lamp)" opacity="0.55"/>
+  <!-- General scene glow -->
+  <circle cx="430" cy="220" r="150" fill="url(#mm3_glow)"/>
+  <!-- Doorway on left - Marta entering from kitchen -->
+  <rect x="50" y="80" width="20" height="230" fill="#3A1840" rx="3"/>
+  <rect x="50" y="80" width="140" height="230" fill="#4A2050" opacity="0.4" rx="3"/>
+  <!-- Kitchen glow behind doorway -->
+  <rect x="50" y="80" width="140" height="230" fill="#FF8030" opacity="0.08"/>
+  <!-- MARTA - standing in doorway, arms crossed, looking at Maria with complaint -->
+  <circle cx="170" cy="195" r="21" fill="#F0B070"/>
+  <ellipse cx="170" cy="180" rx="21" ry="11" fill="#5A3010"/>
+  <!-- Head covering - slightly askew still -->
+  <ellipse cx="170" cy="177" rx="23" ry="14" fill="#A07050" opacity="0.75"/>
+  <!-- Apron still on -->
+  <polygon points="150,216 190,216 193,282 147,282" fill="#C09060"/>
+  <rect x="150" y="216" width="40" height="5" fill="white" opacity="0.5"/>
+  <!-- Flour still on apron -->
+  <ellipse cx="168" cy="238" rx="11" ry="7" fill="white" opacity="0.3"/>
+  <!-- ARMS CROSSED - frustrated posture -->
+  <line x1="150" y1="225" x2="195" y2="225" stroke="#F0B070" stroke-width="11" stroke-linecap="round"/>
+  <line x1="158" y1="232" x2="195" y2="228" stroke="#F0B070" stroke-width="11" stroke-linecap="round"/>
+  <!-- Marta frustrated face looking at Maria -->
+  <ellipse cx="162" cy="194" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="178" cy="194" rx="4" ry="5" fill="#5A3820"/>
+  <!-- Furrowed brows - annoyed -->
+  <path d="M158,186 Q162,181 166,186" stroke="#5A3820" stroke-width="2.5" fill="none"/>
+  <path d="M174,185 Q178,180 182,185" stroke="#5A3820" stroke-width="2.5" fill="none"/>
+  <!-- Tight slightly open mouth, complaining expression -->
+  <path d="M160,205 Q170,200 180,205" stroke="#8B5030" stroke-width="2" fill="none"/>
+  <!-- JESUS - center, seated, speaking gently to Marta, calm hand gesture -->
+  <circle cx="420" cy="175" r="24" fill="#F5D090"/>
+  <ellipse cx="420" cy="159" rx="24" ry="13" fill="#8B5020"/>
+  <path d="M407,159 Q393,180 397,197" stroke="#8B5020" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M433,159 Q447,180 443,197" stroke="#8B5020" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="420" cy="196" rx="15" ry="8" fill="#9A6030" opacity="0.8"/>
+  <polygon points="396,203 444,203 451,295 389,295" fill="#F8F0D8"/>
+  <polygon points="389,210 451,210 458,295 382,295" fill="#4870C0" opacity="0.65"/>
+  <!-- Jesus hand raised gently toward Marta - calming gesture -->
+  <line x1="444" y1="214" x2="475" y2="205" stroke="#F5D090" stroke-width="11" stroke-linecap="round"/>
+  <!-- Open palm toward Marta - gentle stop/calm -->
+  <circle cx="478" cy="203" r="10" fill="#F5D090"/>
+  <line x1="396" y1="214" x2="372" y2="220" stroke="#F5D090" stroke-width="11" stroke-linecap="round"/>
+  <!-- Jesus gentle compassionate eyes directed at Marta -->
+  <ellipse cx="412" cy="174" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <ellipse cx="428" cy="174" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <circle cx="411" cy="173" r="1.8" fill="white" opacity="0.6"/>
+  <circle cx="427" cy="173" r="1.8" fill="white" opacity="0.6"/>
+  <!-- Gentle smile - understanding -->
+  <path d="M410,186 Q420,194 430,186" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <!-- Eyebrows gentle, not stern -->
+  <path d="M408,167 Q412,163 416,167" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <path d="M424,167 Q428,163 432,167" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <!-- MARIA - seated at Jesus' feet, looking up calmly -->
+  <circle cx="580" cy="238" r="19" fill="#F0B880"/>
+  <ellipse cx="580" cy="224" rx="19" ry="10" fill="#6A3020"/>
+  <!-- Head covering -->
+  <ellipse cx="580" cy="221" rx="22" ry="14" fill="#C080A0" opacity="0.8"/>
+  <!-- Purple robe -->
+  <polygon points="562,257 598,257 601,295 559,295" fill="#8040A0"/>
+  <!-- Sitting, looking at Jesus with calm peace -->
+  <ellipse cx="564" cy="290" rx="13" ry="7" fill="#8040A0"/>
+  <ellipse cx="592" cy="288" rx="12" ry="6" fill="#8040A0"/>
+  <line x1="562" y1="265" x2="548" y2="280" stroke="#F0B880" stroke-width="8" stroke-linecap="round"/>
+  <line x1="598" y1="265" x2="610" y2="275" stroke="#F0B880" stroke-width="8" stroke-linecap="round"/>
+  <!-- Maria serene face - peaceful -->
+  <ellipse cx="573" cy="237" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <ellipse cx="587" cy="237" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <circle cx="572" cy="236" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="586" cy="236" r="1.5" fill="white" opacity="0.5"/>
+  <!-- Peaceful content smile -->
+  <path d="M572,248 Q580,254 588,248" stroke="#8B4020" stroke-width="2" fill="none"/>
+  <!-- Scroll open beside Maria -->
+  <rect x="610" y="278" width="45" height="12" fill="#F5E8C0" rx="3" transform="rotate(-5,632,284)"/>
+  <line x1="622" y1="276" x2="620" y2="289" stroke="#C0A050" stroke-width="1.5"/>
+  <line x1="636" y1="275" x2="634" y2="288" stroke="#C0A050" stroke-width="1.5"/>
+  <!-- Decorative rug -->
+  <rect x="300" y="292" width="280" height="10" fill="#9040A0" opacity="0.35" rx="3"/>
+  <rect x="320" y="292" width="240" height="4" fill="#FFD040" opacity="0.2" rx="2"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#5A2070" opacity="0.7"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Maria e Marta — Cena 3: Jesus Fala com Marta</text>
+</svg>

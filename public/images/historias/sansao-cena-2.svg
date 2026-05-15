@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="san2_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff8f00"/>
+      <stop offset="40%" stop-color="#ffb300"/>
+      <stop offset="100%" stop-color="#ffe57f"/>
+    </linearGradient>
+    <radialGradient id="san2_sun" cx="50%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="40%" stop-color="#ffee58"/>
+      <stop offset="100%" stop-color="#ff8f00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="san2_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a060"/>
+      <stop offset="100%" stop-color="#8b6020"/>
+    </linearGradient>
+    <radialGradient id="san2_bodyglow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffd700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Blazing golden sky -->
+  <rect width="800" height="380" fill="url(#san2_sky)"/>
+  <ellipse cx="400" cy="80" rx="350" ry="200" fill="url(#san2_sun)"/>
+
+  <!-- Sun large and bright -->
+  <circle cx="400" cy="50" r="50" fill="#fff9c4"/>
+  <circle cx="400" cy="50" r="40" fill="#ffee58"/>
+  <!-- Sun rays -->
+  <line x1="400" y1="-5" x2="400" y2="-18" stroke="#fdd835" stroke-width="4"/>
+  <line x1="400" y1="105" x2="400" y2="118" stroke="#fdd835" stroke-width="4"/>
+  <line x1="345" y1="50" x2="332" y2="50" stroke="#fdd835" stroke-width="4"/>
+  <line x1="455" y1="50" x2="468" y2="50" stroke="#fdd835" stroke-width="4"/>
+  <line x1="361" y1="11" x2="352" y2="2" stroke="#fdd835" stroke-width="3"/>
+  <line x1="439" y1="89" x2="448" y2="98" stroke="#fdd835" stroke-width="3"/>
+  <line x1="439" y1="11" x2="448" y2="2" stroke="#fdd835" stroke-width="3"/>
+  <line x1="361" y1="89" x2="352" y2="98" stroke="#fdd835" stroke-width="3"/>
+  <line x1="352" y1="21" x2="342" y2="12" stroke="#fdd835" stroke-width="2.5" opacity="0.7"/>
+  <line x1="448" y1="79" x2="458" y2="88" stroke="#fdd835" stroke-width="2.5" opacity="0.7"/>
+
+  <!-- Clouds -->
+  <ellipse cx="130" cy="75" rx="70" ry="22" fill="#ffe082" opacity="0.6"/>
+  <ellipse cx="650" cy="65" rx="65" ry="20" fill="#ffe082" opacity="0.6"/>
+
+  <!-- Ground / rocky terrain -->
+  <rect x="0" y="305" width="800" height="75" fill="url(#san2_ground)"/>
+  <!-- Rocks -->
+  <ellipse cx="120" cy="312" rx="45" ry="18" fill="#9e7a4a"/>
+  <ellipse cx="680" cy="318" rx="40" ry="15" fill="#9e7a4a"/>
+  <ellipse cx="750" cy="310" rx="30" ry="12" fill="#8b6835"/>
+
+  <!-- Background cliffs / landscape -->
+  <polygon points="0,305 120,200 240,305" fill="#b09060" opacity="0.6"/>
+  <polygon points="580,305 700,195 800,305" fill="#b09060" opacity="0.55"/>
+  <polygon points="200,305 320,220 440,305" fill="#c8a070" opacity="0.5"/>
+
+  <!-- SANSÃO — giant muscular figure, heroic pose, long flowing hair -->
+  <!-- Body glow -->
+  <ellipse cx="400" cy="230" rx="120" ry="130" fill="url(#san2_bodyglow)"/>
+
+  <!-- Legs — wide strong stance -->
+  <line x1="370" y1="318" x2="345" y2="358" stroke="#c8956c" stroke-width="28" stroke-linecap="round"/>
+  <line x1="430" y1="318" x2="455" y2="358" stroke="#c8956c" stroke-width="28" stroke-linecap="round"/>
+  <!-- Sandals -->
+  <ellipse cx="342" cy="360" rx="22" ry="9" fill="#8b5e20"/>
+  <ellipse cx="458" cy="360" rx="22" ry="9" fill="#8b5e20"/>
+  <!-- Sandal straps -->
+  <line x1="330" y1="354" x2="354" y2="354" stroke="#6b3e08" stroke-width="3"/>
+  <line x1="446" y1="354" x2="470" y2="354" stroke="#6b3e08" stroke-width="3"/>
+
+  <!-- Torso / tunic -->
+  <path d="M320 318 Q326 228 345 210 Q370 192 400 196 Q430 192 455 210 Q474 228 480 318Z" fill="#e8a030"/>
+  <!-- Tunic belt -->
+  <rect x="326" y="255" width="148" height="14" rx="7" fill="#c87820"/>
+  <!-- Tunic muscle definition (chest lines) -->
+  <path d="M356 222 Q370 215 385 218" stroke="#c87820" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M415 218 Q430 215 444 222" stroke="#c87820" stroke-width="2" fill="none" opacity="0.5"/>
+  <line x1="400" y1="218" x2="400" y2="255" stroke="#c87820" stroke-width="2" opacity="0.4"/>
+  <!-- Abs suggestion -->
+  <ellipse cx="390" cy="268" rx="12" ry="8" fill="#c87820" opacity="0.3"/>
+  <ellipse cx="410" cy="268" rx="12" ry="8" fill="#c87820" opacity="0.3"/>
+  <ellipse cx="390" cy="283" rx="12" ry="8" fill="#c87820" opacity="0.3"/>
+  <ellipse cx="410" cy="283" rx="12" ry="8" fill="#c87820" opacity="0.3"/>
+
+  <!-- HUGE muscular arms — FLEXING both biceps -->
+  <!-- Left arm flexed up -->
+  <line x1="328" y1="230" x2="268" y2="195" stroke="#c8956c" stroke-width="30" stroke-linecap="round"/>
+  <!-- Left forearm bent up -->
+  <line x1="268" y1="195" x2="248" y2="148" stroke="#c8956c" stroke-width="26" stroke-linecap="round"/>
+  <!-- Left bicep bump (flex) -->
+  <ellipse cx="260" cy="188" rx="22" ry="16" fill="#d4a07a" opacity="0.8"/>
+  <!-- Left fist -->
+  <circle cx="248" cy="145" r="20" fill="#c8956c"/>
+  <line x1="235" y1="140" x2="260" y2="140" stroke="#b07050" stroke-width="3" opacity="0.5"/>
+  <line x1="233" y1="148" x2="260" y2="148" stroke="#b07050" stroke-width="3" opacity="0.5"/>
+
+  <!-- Right arm flexed up -->
+  <line x1="472" y1="230" x2="532" y2="195" stroke="#c8956c" stroke-width="30" stroke-linecap="round"/>
+  <!-- Right forearm bent up -->
+  <line x1="532" y1="195" x2="552" y2="148" stroke="#c8956c" stroke-width="26" stroke-linecap="round"/>
+  <!-- Right bicep bump -->
+  <ellipse cx="540" cy="188" rx="22" ry="16" fill="#d4a07a" opacity="0.8"/>
+  <!-- Right fist -->
+  <circle cx="552" cy="145" r="20" fill="#c8956c"/>
+  <line x1="540" y1="140" x2="565" y2="140" stroke="#b07050" stroke-width="3" opacity="0.5"/>
+  <line x1="540" y1="148" x2="567" y2="148" stroke="#b07050" stroke-width="3" opacity="0.5"/>
+
+  <!-- HEAD — strong, proud expression -->
+  <circle cx="400" cy="185" r="32" fill="#c8956c"/>
+  <!-- LONG FLOWING HAIR — the source of his strength, dramatic -->
+  <!-- Hair flowing left -->
+  <path d="M372 168 Q330 185 295 210 Q270 228 260 255 Q265 240 290 220 Q320 200 365 180Z" fill="#5a3010"/>
+  <path d="M368 172 Q325 195 290 225 Q265 248 255 275 Q262 255 285 235 Q315 210 362 185Z" fill="#4a2808"/>
+  <path d="M372 165 Q340 178 310 195 Q280 215 268 240" stroke="#6b3e08" stroke-width="4" fill="none"/>
+  <!-- Hair center/top flowing back -->
+  <path d="M380 155 Q370 130 365 108 Q375 125 390 145Z" fill="#5a3010"/>
+  <path d="M400 152 Q398 125 400 100 Q402 125 402 152Z" fill="#4a2808"/>
+  <path d="M420 155 Q430 130 435 108 Q425 125 410 145Z" fill="#5a3010"/>
+  <!-- Hair flowing right -->
+  <path d="M428 168 Q470 185 505 210 Q530 228 540 255 Q535 240 510 220 Q480 200 435 180Z" fill="#5a3010"/>
+  <path d="M432 172 Q475 195 510 225 Q535 248 545 275 Q538 255 515 235 Q485 210 438 185Z" fill="#4a2808"/>
+  <!-- Hair highlights -->
+  <path d="M385 158 Q375 140 370 120" stroke="#8b5e10" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M415 158 Q425 140 430 120" stroke="#8b5e10" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- Headband -->
+  <rect x="372" y="168" width="56" height="10" rx="5" fill="#c87020"/>
+
+  <!-- Face — strong, confident, slight smile -->
+  <!-- Eyebrows bold -->
+  <path d="M382 175 Q390 170 398 175" stroke="#4a2808" stroke-width="3" fill="none"/>
+  <path d="M402 175 Q410 170 418 175" stroke="#4a2808" stroke-width="3" fill="none"/>
+  <!-- Eyes — strong, confident -->
+  <ellipse cx="390" cy="180" rx="5" ry="5.5" fill="white"/>
+  <ellipse cx="410" cy="180" rx="5" ry="5.5" fill="white"/>
+  <circle cx="391" cy="181" r="3" fill="#3a2010"/>
+  <circle cx="411" cy="181" r="3" fill="#3a2010"/>
+  <circle cx="392" cy="180" r="1.2" fill="white"/>
+  <circle cx="412" cy="180" r="1.2" fill="white"/>
+  <!-- Confident smile / smirk -->
+  <path d="M388 193 Q400 200 412 193" stroke="#8b3a10" stroke-width="2.5" fill="none"/>
+  <!-- Strong jaw beard -->
+  <path d="M372 190 Q378 208 400 214 Q422 208 428 190" fill="#5a3010" opacity="0.8"/>
+  <!-- Rosy cheeks from exertion -->
+  <ellipse cx="378" cy="187" rx="7" ry="5" fill="#e07060" opacity="0.4"/>
+  <ellipse cx="422" cy="187" rx="7" ry="5" fill="#e07060" opacity="0.4"/>
+
+  <!-- Power lines / energy around Sansão -->
+  <line x1="248" y1="145" x2="220" y2="120" stroke="#ffd700" stroke-width="2" opacity="0.5"/>
+  <line x1="245" y1="155" x2="215" y2="140" stroke="#ffd700" stroke-width="1.5" opacity="0.4"/>
+  <line x1="552" y1="145" x2="580" y2="120" stroke="#ffd700" stroke-width="2" opacity="0.5"/>
+  <line x1="555" y1="155" x2="585" y2="140" stroke="#ffd700" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="340" height="28" rx="14" fill="#bf4400" opacity="0.85"/>
+  <text x="180" y="363" font-family="Georgia, serif" font-size="14" fill="#fff9c4" text-anchor="middle" font-weight="bold">Sansão — o homem mais forte!</text>
+</svg>

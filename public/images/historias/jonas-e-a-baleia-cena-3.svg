@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <radialGradient id="jon3_belly" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1a4a6a"/>
+      <stop offset="60%" stop-color="#0a2a4a"/>
+      <stop offset="100%" stop-color="#030d18"/>
+    </radialGradient>
+    <radialGradient id="jon3_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#48cae4" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#48cae4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="jon3_prayerglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff9c4" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fff9c4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="jon3_wall" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a3050"/>
+      <stop offset="50%" stop-color="#1a5070"/>
+      <stop offset="100%" stop-color="#0a3050"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Whale belly interior — dark blue-black -->
+  <rect width="800" height="380" fill="url(#jon3_belly)"/>
+
+  <!-- Whale belly walls — curved organic shape -->
+  <ellipse cx="400" cy="190" rx="370" ry="185" fill="#0a2a3a" opacity="0.5"/>
+  <!-- Belly ribs / ridges -->
+  <path d="M60 190 Q80 120 130 100 Q200 80 400 75 Q600 80 670 100 Q720 120 740 190" stroke="#0d3a55" stroke-width="8" fill="none" opacity="0.8"/>
+  <path d="M80 210 Q95 150 140 128 Q210 108 400 103 Q590 108 660 128 Q705 150 720 210" stroke="#0d3a55" stroke-width="6" fill="none" opacity="0.7"/>
+  <path d="M100 240 Q110 185 150 160 Q220 138 400 132 Q580 138 650 160 Q690 185 700 240" stroke="#0d3a55" stroke-width="5" fill="none" opacity="0.6"/>
+  <!-- Bottom of belly -->
+  <ellipse cx="400" cy="390" rx="360" ry="100" fill="#061828" opacity="0.9"/>
+  <!-- Belly floor (slightly lighter) -->
+  <ellipse cx="400" cy="360" rx="340" ry="50" fill="#0a2030" opacity="0.8"/>
+
+  <!-- Water on floor of belly -->
+  <ellipse cx="400" cy="355" rx="320" ry="30" fill="#0d3050" opacity="0.7"/>
+  <!-- Water ripple -->
+  <ellipse cx="400" cy="355" rx="280" ry="22" fill="none" stroke="#1a5070" stroke-width="2" opacity="0.5"/>
+  <ellipse cx="400" cy="355" rx="220" ry="16" fill="none" stroke="#1a5070" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Seaweed hanging from walls -->
+  <path d="M120 95 Q115 130 125 160 Q118 190 128 220" stroke="#0d5020" stroke-width="4" fill="none"/>
+  <path d="M160 85 Q168 120 155 150 Q165 185 155 215" stroke="#0a4018" stroke-width="3.5" fill="none"/>
+  <path d="M640 90 Q645 125 635 155 Q642 188 632 218" stroke="#0d5020" stroke-width="4" fill="none"/>
+  <path d="M680 88 Q672 122 685 152 Q675 185 682 215" stroke="#0a4018" stroke-width="3.5" fill="none"/>
+  <!-- Seaweed leaves -->
+  <ellipse cx="125" cy="155" rx="12" ry="6" fill="#0d5020" transform="rotate(30 125 155)"/>
+  <ellipse cx="155" cy="148" rx="10" ry="5" fill="#0a4018" transform="rotate(-25 155 148)"/>
+  <ellipse cx="635" cy="150" rx="12" ry="6" fill="#0d5020" transform="rotate(-30 635 150)"/>
+  <ellipse cx="682" cy="148" rx="10" ry="5" fill="#0a4018" transform="rotate(25 682 148)"/>
+
+  <!-- Small fish swimming around -->
+  <!-- Fish 1 -->
+  <ellipse cx="180" cy="200" rx="18" ry="9" fill="#00b4d8" opacity="0.6"/>
+  <polygon points="162,200 148,193 148,207" fill="#00b4d8" opacity="0.6"/>
+  <circle cx="188" cy="198" r="2" fill="white" opacity="0.7"/>
+  <!-- Fish 2 -->
+  <ellipse cx="600" cy="180" rx="15" ry="7" fill="#48cae4" opacity="0.55"/>
+  <polygon points="585,180 573,174 573,186" fill="#48cae4" opacity="0.55"/>
+  <circle cx="607" cy="178" r="1.8" fill="white" opacity="0.7"/>
+  <!-- Fish 3 -->
+  <ellipse cx="680" cy="230" rx="12" ry="6" fill="#0096c7" opacity="0.5"/>
+  <polygon points="668,230 658,225 658,235" fill="#0096c7" opacity="0.5"/>
+  <!-- Fish 4 small -->
+  <ellipse cx="130" cy="270" rx="10" ry="5" fill="#00b4d8" opacity="0.45"/>
+  <polygon points="120,270 112,266 112,274" fill="#00b4d8" opacity="0.45"/>
+  <!-- Fish 5 -->
+  <ellipse cx="660" cy="285" rx="14" ry="7" fill="#48cae4" opacity="0.5"/>
+  <polygon points="646,285 635,280 635,290" fill="#48cae4" opacity="0.5"/>
+
+  <!-- Bioluminescent spots on belly walls -->
+  <circle cx="200" cy="145" r="4" fill="#48cae4" opacity="0.4"/>
+  <circle cx="250" cy="120" r="3" fill="#00b4d8" opacity="0.35"/>
+  <circle cx="560" cy="130" r="4" fill="#48cae4" opacity="0.4"/>
+  <circle cx="610" cy="148" r="3" fill="#00b4d8" opacity="0.35"/>
+  <circle cx="350" cy="108" r="3.5" fill="#48cae4" opacity="0.3"/>
+  <circle cx="450" cy="110" r="3" fill="#00b4d8" opacity="0.3"/>
+
+  <!-- Prayer glow around Jonas -->
+  <ellipse cx="400" cy="265" rx="100" ry="80" fill="url(#jon3_prayerglow)"/>
+  <ellipse cx="400" cy="265" rx="60" ry="50" fill="url(#jon3_glow)"/>
+
+  <!-- JONAS — sitting/kneeling in belly, praying, glowing light around him -->
+  <!-- Sitting on a raised part of the belly floor -->
+  <ellipse cx="400" cy="328" rx="50" ry="12" fill="#0a2030" opacity="0.6"/>
+  <!-- Robe -->
+  <path d="M362 325 Q366 278 378 265 Q393 255 410 260 Q424 268 426 325Z" fill="#0077b6"/>
+  <!-- Mantle -->
+  <path d="M358 318 Q362 275 375 262 Q359 282 358 318Z" fill="#023e8a"/>
+  <!-- Head bowed in prayer -->
+  <circle cx="395" cy="257" r="21" fill="#c8956c"/>
+  <!-- Hair -->
+  <path d="M376 251 Q379 239 395 236 Q411 239 414 251" fill="#3a2010"/>
+  <!-- Eyes closed — deep prayer -->
+  <path d="M385 254 Q390 251 395 254" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <path d="M395 254 Q400 251 405 254" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <!-- Peaceful despite darkness -->
+  <path d="M386 263 Q395 268 404 263" stroke="#8b3a10" stroke-width="1.5" fill="none"/>
+  <!-- Short beard -->
+  <path d="M378 262 Q382 273 395 277 Q408 273 412 262" fill="#5a3010" opacity="0.7"/>
+  <!-- Hands raised in prayer above head -->
+  <line x1="378" y1="272" x2="358" y2="248" stroke="#c8956c" stroke-width="9" stroke-linecap="round"/>
+  <line x1="412" y1="272" x2="432" y2="248" stroke="#c8956c" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="356" cy="246" r="8" fill="#c8956c"/>
+  <circle cx="434" cy="246" r="8" fill="#c8956c"/>
+  <!-- Light glow on hands -->
+  <circle cx="356" cy="246" r="14" fill="#fff9c4" opacity="0.3"/>
+  <circle cx="434" cy="246" r="14" fill="#fff9c4" opacity="0.3"/>
+
+  <!-- Light ray from above (divine presence) -->
+  <line x1="395" y1="80" x2="395" y2="230" stroke="#fff9c4" stroke-width="3" opacity="0.25"/>
+  <ellipse cx="395" cy="160" rx="20" ry="80" fill="#fff9c4" opacity="0.08"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="420" height="28" rx="14" fill="#03045e" opacity="0.9"/>
+  <text x="220" y="363" font-family="Georgia, serif" font-size="14" fill="#90e0ef" text-anchor="middle" font-weight="bold">Jonas ora dentro da barriga da baleia</text>
+</svg>

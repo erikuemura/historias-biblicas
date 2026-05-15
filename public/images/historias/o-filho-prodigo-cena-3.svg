@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="fp3_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8A9AAA;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B0B8C0;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="fp3_mud" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7A6040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#5A4020;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="fp3_mem" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFD4A3;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#FFB4C3;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="fp3_fence" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9A7040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7A5020;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Gloomy sky -->
+  <rect width="800" height="380" fill="url(#fp3_sky)"/>
+  <!-- Grey clouds -->
+  <ellipse cx="150" cy="60" rx="90" ry="35" fill="#8A8A8A" opacity="0.6"/>
+  <ellipse cx="200" cy="45" rx="70" ry="30" fill="#9A9A9A" opacity="0.5"/>
+  <ellipse cx="500" cy="70" rx="100" ry="38" fill="#888888" opacity="0.6"/>
+  <ellipse cx="560" cy="55" rx="75" ry="28" fill="#999999" opacity="0.5"/>
+  <ellipse cx="720" cy="50" rx="80" ry="32" fill="#8A8A8A" opacity="0.5"/>
+  <!-- Muddy ground / pig pen -->
+  <rect x="0" y="250" width="800" height="130" fill="url(#fp3_mud)"/>
+  <!-- Mud puddles -->
+  <ellipse cx="300" cy="290" rx="80" ry="20" fill="#5A4020" opacity="0.6"/>
+  <ellipse cx="550" cy="310" rx="60" ry="15" fill="#5A4020" opacity="0.5"/>
+  <ellipse cx="150" cy="305" rx="45" ry="12" fill="#5A4020" opacity="0.4"/>
+  <!-- Fence posts -->
+  <rect x="60" y="210" width="14" height="80" fill="url(#fp3_fence)" rx="2"/>
+  <rect x="130" y="208" width="14" height="80" fill="url(#fp3_fence)" rx="2"/>
+  <rect x="200" y="210" width="14" height="80" fill="url(#fp3_fence)" rx="2"/>
+  <rect x="600" y="210" width="14" height="80" fill="url(#fp3_fence)" rx="2"/>
+  <rect x="670" y="208" width="14" height="80" fill="url(#fp3_fence)" rx="2"/>
+  <rect x="740" y="210" width="14" height="80" fill="url(#fp3_fence)" rx="2"/>
+  <!-- Fence rails -->
+  <rect x="60" y="220" width="155" height="8" fill="#8A6030" rx="2"/>
+  <rect x="60" y="248" width="155" height="8" fill="#8A6030" rx="2"/>
+  <rect x="600" y="220" width="155" height="8" fill="#8A6030" rx="2"/>
+  <rect x="600" y="248" width="155" height="8" fill="#8A6030" rx="2"/>
+  <!-- Memory glow (pink/warm bubble in top right - contrast) -->
+  <circle cx="680" cy="100" r="80" fill="url(#fp3_mem)"/>
+  <!-- Memory scene inside bubble -->
+  <ellipse cx="680" cy="105" rx="50" ry="25" fill="#FFE8C0" opacity="0.4"/>
+  <text x="680" y="95" font-family="Arial" font-size="11" fill="#C05030" text-anchor="middle" opacity="0.8">lar...</text>
+  <!-- Pig 1 -->
+  <ellipse cx="500" cy="295" rx="45" ry="25" fill="#F0A0A0"/>
+  <circle cx="542" cy="285" r="18" fill="#F0A0A0"/>
+  <!-- Pig snout -->
+  <ellipse cx="556" cy="288" rx="9" ry="7" fill="#E08080"/>
+  <circle cx="553" cy="287" r="2" fill="#C06060"/>
+  <circle cx="558" cy="287" r="2" fill="#C06060"/>
+  <!-- Pig eye -->
+  <circle cx="548" cy="282" r="3" fill="#5A3020"/>
+  <!-- Pig ear -->
+  <polygon points="536,272 526,260 546,268" fill="#E08888"/>
+  <!-- Pig tail -->
+  <path d="M460,290 Q450,280 455,270 Q460,260 455,255" stroke="#E08080" stroke-width="4" fill="none"/>
+  <!-- Pig 2 (smaller, eating) -->
+  <ellipse cx="620" cy="310" rx="35" ry="20" fill="#F0A8A8"/>
+  <circle cx="652" cy="302" r="14" fill="#F0A8A8"/>
+  <ellipse cx="664" cy="305" rx="7" ry="6" fill="#E08888"/>
+  <circle cx="662" cy="304" r="1.5" fill="#C06060"/>
+  <circle cx="666" cy="304" r="1.5" fill="#C06060"/>
+  <!-- Feed trough -->
+  <rect x="590" y="318" width="70" height="20" fill="#8B5030" rx="3"/>
+  <!-- Pig eating from trough -->
+  <line x1="655" y1="308" x2="628" y2="320" stroke="#F0A8A8" stroke-width="5"/>
+  <!-- Sad son sitting in mud -->
+  <!-- Son body - ragged, thin -->
+  <circle cx="320" cy="218" r="20" fill="#E8A860"/>
+  <!-- Dirty/messy hair -->
+  <ellipse cx="320" cy="203" rx="21" ry="12" fill="#4A2808"/>
+  <!-- Ragged robe - torn, grey -->
+  <polygon points="302,238 338,238 342,288 298,288" fill="#9A8870"/>
+  <!-- Torn patches -->
+  <polygon points="308,250 320,245 318,262 306,258" fill="#7A6850" opacity="0.8"/>
+  <!-- Son sitting - knees up -->
+  <ellipse cx="305" cy="285" rx="18" ry="10" fill="#9A8870"/>
+  <ellipse cx="335" cy="285" rx="18" ry="10" fill="#9A8870"/>
+  <!-- Son arms hugging knees -->
+  <path d="M302,248 Q285,270 300,285" stroke="#E8A860" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M338,248 Q355,270 340,285" stroke="#E8A860" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <!-- Son sad eyes - looking down -->
+  <ellipse cx="313" cy="218" rx="3" ry="4" fill="#5A3820"/>
+  <ellipse cx="327" cy="218" rx="3" ry="4" fill="#5A3820"/>
+  <!-- Eyebrows sad -->
+  <path d="M309,212 Q313,209 317,212" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <path d="M323,212 Q327,209 331,212" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <!-- Mouth sad -->
+  <path d="M313,228 Q320,224 327,228" stroke="#8B5030" stroke-width="2" fill="none"/>
+  <!-- Tears -->
+  <ellipse cx="311" cy="232" rx="2.5" ry="4" fill="#87CEEB" opacity="0.8"/>
+  <!-- Empty money bag -->
+  <ellipse cx="265" cy="275" rx="15" ry="12" fill="#C8A840" opacity="0.6"/>
+  <rect x="258" y="262" width="14" height="8" fill="#A88020" opacity="0.6"/>
+  <!-- Empty indication -->
+  <line x1="258" y1="270" x2="278" y2="270" stroke="#8B6000" stroke-width="2" opacity="0.8"/>
+  <!-- Scattered pods/husks on ground -->
+  <ellipse cx="380" cy="270" rx="15" ry="5" fill="#9A7040" opacity="0.7" transform="rotate(-20,380,270)"/>
+  <ellipse cx="420" cy="285" rx="12" ry="4" fill="#9A7040" opacity="0.6" transform="rotate(15,420,285)"/>
+  <ellipse cx="350" cy="280" rx="10" ry="4" fill="#9A7040" opacity="0.5" transform="rotate(-10,350,280)"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#5A5060" opacity="0.6"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">O Filho Pródigo — Cena 3: No Chiqueiro</text>
+</svg>

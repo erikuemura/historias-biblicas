@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="brth_sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fef3c7"/><stop offset="100%" stop-color="#fcd34d"/></linearGradient>
+    <radialGradient id="brth_sun" cx="50%" cy="50%"><stop offset="0%" stop-color="#fef9c3"/><stop offset="100%" stop-color="#f59e0b"/></radialGradient>
+    <radialGradient id="brth_glow" cx="50%" cy="50%"><stop offset="0%" stop-color="#fef3c7" stop-opacity="0.9"/><stop offset="100%" stop-color="#fcd34d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#brth_sky)"/>
+  <!-- sun -->
+  <circle cx="400" cy="100" r="55" fill="url(#brth_sun)"/>
+  <ellipse cx="400" cy="180" rx="150" ry="80" fill="url(#brth_glow)"/>
+  <!-- rays of light from sun (representing sight returning) -->
+  <line x1="400" y1="50" x2="400" y2="20" stroke="#fbbf24" stroke-width="4" opacity="0.7"/>
+  <line x1="445" y1="60" x2="470" y2="38" stroke="#fbbf24" stroke-width="4" opacity="0.7"/>
+  <line x1="470" y1="100" x2="510" y2="90" stroke="#fbbf24" stroke-width="4" opacity="0.7"/>
+  <line x1="355" y1="60" x2="330" y2="38" stroke="#fbbf24" stroke-width="4" opacity="0.7"/>
+  <line x1="330" y1="100" x2="290" y2="90" stroke="#fbbf24" stroke-width="4" opacity="0.7"/>
+  <!-- road/ground -->
+  <ellipse cx="400" cy="420" rx="600" ry="100" fill="#d97706"/>
+  <rect x="0" y="360" width="800" height="80" fill="#b45309"/>
+  <!-- Bartimeu standing with arms raised in joy -->
+  <ellipse cx="400" cy="260" rx="24" ry="28" fill="#fde68a"/>
+  <rect x="378" y="285" width="44" height="60" rx="8" fill="#b45309"/>
+  <!-- eyes wide open with joy - wide expression -->
+  <circle cx="390" cy="252" r="6" fill="white"/>
+  <circle cx="410" cy="252" r="6" fill="white"/>
+  <circle cx="391" cy="253" r="3.5" fill="#92400e"/>
+  <circle cx="411" cy="253" r="3.5" fill="#92400e"/>
+  <!-- arms raised up in celebration -->
+  <line x1="378" y1="295" x2="340" y2="255" stroke="#b45309" stroke-width="10" stroke-linecap="round"/>
+  <line x1="422" y1="295" x2="460" y2="255" stroke="#b45309" stroke-width="10" stroke-linecap="round"/>
+  <!-- sparkle effects -->
+  <text x="340" y="240" font-size="20" fill="#fbbf24">✦</text>
+  <text x="460" y="235" font-size="16" fill="#fbbf24">✦</text>
+  <text x="400" y="200" font-size="24" fill="#fef3c7" opacity="0.8">✦</text>
+</svg>

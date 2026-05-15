@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="mm1_wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5A3060;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#3A1840;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="mm1_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6A4020;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="mm1_lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE880;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FF9030;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="mm1_kitchen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FF8030;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#FF4000;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Interior walls -->
+  <rect width="800" height="380" fill="url(#mm1_wall)"/>
+  <!-- Floor -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#mm1_floor)"/>
+  <!-- Floor tiles pattern -->
+  <line x1="0" y1="315" x2="800" y2="315" stroke="#6A4020" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="335" x2="800" y2="335" stroke="#6A4020" stroke-width="2" opacity="0.4"/>
+  <line x1="160" y1="295" x2="160" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <line x1="320" y1="295" x2="320" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <line x1="480" y1="295" x2="480" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <line x1="640" y1="295" x2="640" y2="380" stroke="#6A4020" stroke-width="2" opacity="0.3"/>
+  <!-- Room divider / archway to kitchen on right -->
+  <rect x="580" y="0" width="20" height="320" fill="#4A2850" rx="3"/>
+  <!-- Kitchen glow on far right -->
+  <circle cx="720" cy="200" r="120" fill="url(#mm1_kitchen)"/>
+  <!-- Kitchen background details -->
+  <rect x="600" y="180" width="160" height="80" fill="#3A1830" opacity="0.5"/>
+  <!-- Pots steaming in kitchen -->
+  <ellipse cx="640" cy="225" rx="25" ry="15" fill="#8B5020"/>
+  <rect x="628" y="200" width="24" height="28" fill="#7A4018" rx="3"/>
+  <!-- Steam wisps -->
+  <path d="M635,195 Q630,180 635,168" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M645,192 Q650,178 645,166" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M655,194 Q660,180 655,168" stroke="#FFFFFF" stroke-width="2.5" fill="none" opacity="0.5"/>
+  <!-- Second pot -->
+  <ellipse cx="700" cy="232" rx="22" ry="12" fill="#8B5020"/>
+  <rect x="688" y="210" width="22" height="24" fill="#7A4018" rx="3"/>
+  <path d="M695,205 Q690,192 695,180" stroke="#FFFFFF" stroke-width="2.5" fill="none" opacity="0.5"/>
+  <path d="M705,203 Q710,190 705,178" stroke="#FFFFFF" stroke-width="2.5" fill="none" opacity="0.4"/>
+  <!-- OIL LAMP center left area - warm lamplight glow -->
+  <rect x="158" y="108" width="8" height="30" fill="#8B6030"/>
+  <ellipse cx="162" cy="106" rx="14" ry="8" fill="#C08030"/>
+  <circle cx="162" cy="100" r="12" fill="url(#mm1_lamp)"/>
+  <ellipse cx="162" cy="92" rx="6" ry="9" fill="#FFD040" opacity="0.9"/>
+  <circle cx="162" cy="100" r="70" fill="url(#mm1_lamp)" opacity="0.6"/>
+  <!-- JESUS - seated in chair, speaking gently -->
+  <circle cx="280" cy="185" r="25" fill="#F5D090"/>
+  <ellipse cx="280" cy="168" rx="25" ry="14" fill="#8B5020"/>
+  <path d="M267,168 Q253,190 257,208" stroke="#8B5020" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M293,168 Q307,190 303,208" stroke="#8B5020" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <ellipse cx="280" cy="207" rx="16" ry="9" fill="#9A6030" opacity="0.8"/>
+  <!-- Jesus in chair -->
+  <polygon points="255,213 305,213 313,298 247,298" fill="#F8F0D8"/>
+  <polygon points="247,220 313,220 321,298 239,298" fill="#4870C0" opacity="0.65"/>
+  <!-- Chair -->
+  <rect x="238" y="212" width="84" height="10" fill="#7A5030" rx="3"/>
+  <rect x="238" y="222" width="8" height="75" fill="#6A4020" rx="2"/>
+  <rect x="314" y="222" width="8" height="75" fill="#6A4020" rx="2"/>
+  <rect x="236" y="198" width="8" height="100" fill="#6A4020" rx="2"/>
+  <!-- Jesus arms - one gesturing, speaking -->
+  <line x1="305" y1="225" x2="335" y2="215" stroke="#F5D090" stroke-width="11" stroke-linecap="round"/>
+  <line x1="255" y1="225" x2="232" y2="235" stroke="#F5D090" stroke-width="11" stroke-linecap="round"/>
+  <!-- Jesus warm expression -->
+  <ellipse cx="272" cy="184" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <ellipse cx="288" cy="184" rx="4.5" ry="5.5" fill="#5A3820"/>
+  <circle cx="271" cy="183" r="1.8" fill="white" opacity="0.6"/>
+  <circle cx="287" cy="183" r="1.8" fill="white" opacity="0.6"/>
+  <path d="M270,196 Q280,204 290,196" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <!-- Scroll open on Jesus' lap / nearby -->
+  <rect x="248" y="290" width="50" height="12" fill="#F5E8C0" rx="3"/>
+  <line x1="260" y1="290" x2="260" y2="302" stroke="#C0A050" stroke-width="1.5"/>
+  <line x1="275" y1="290" x2="275" y2="302" stroke="#C0A050" stroke-width="1.5"/>
+  <!-- MARIA - sitting at Jesus' feet, listening attentively -->
+  <!-- Maria seated on floor, close to Jesus -->
+  <circle cx="420" cy="240" r="20" fill="#F0B880"/>
+  <ellipse cx="420" cy="225" rx="20" ry="11" fill="#6A3020"/>
+  <!-- Head covering -->
+  <ellipse cx="420" cy="222" rx="24" ry="15" fill="#C080A0" opacity="0.8"/>
+  <!-- Purple robe -->
+  <polygon points="401,260 439,260 442,298 398,298" fill="#8040A0"/>
+  <!-- Maria seated - knees tucked, leaning forward attentively -->
+  <ellipse cx="402" cy="293" rx="15" ry="8" fill="#8040A0"/>
+  <ellipse cx="430" cy="291" rx="13" ry="7" fill="#8040A0"/>
+  <!-- Arms resting on knees, chin tilted up listening -->
+  <line x1="401" y1="268" x2="385" y2="285" stroke="#F0B880" stroke-width="8" stroke-linecap="round"/>
+  <line x1="439" y1="268" x2="452" y2="278" stroke="#F0B880" stroke-width="8" stroke-linecap="round"/>
+  <!-- Maria attentive face, looking up at Jesus -->
+  <ellipse cx="413" cy="239" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <ellipse cx="427" cy="239" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <!-- Wide open listening eyes -->
+  <circle cx="412" cy="238" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="426" cy="238" r="1.5" fill="white" opacity="0.6"/>
+  <path d="M413,250 Q420,255 427,250" stroke="#8B4020" stroke-width="2" fill="none"/>
+  <!-- Eyebrows gently raised - wonder -->
+  <path d="M409,232 Q413,228 417,232" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <path d="M423,232 Q427,228 431,232" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <!-- MARTA - in background rushing, flour on apron -->
+  <circle cx="680" cy="195" r="19" fill="#F0B070"/>
+  <ellipse cx="680" cy="181" rx="19" ry="10" fill="#5A3010"/>
+  <!-- Head covering slightly askew -->
+  <ellipse cx="680" cy="178" rx="21" ry="13" fill="#A07050" opacity="0.7"/>
+  <!-- Apron over robe -->
+  <polygon points="662,214 698,214 701,270 659,270" fill="#C09060"/>
+  <rect x="662" y="214" width="36" height="5" fill="white" opacity="0.5"/>
+  <!-- Flour smudge on apron -->
+  <ellipse cx="678" cy="235" rx="12" ry="7" fill="white" opacity="0.3"/>
+  <!-- Marta rushing - arms carrying/moving -->
+  <line x1="662" y1="222" x2="640" y2="215" stroke="#F0B070" stroke-width="9" stroke-linecap="round"/>
+  <!-- Carrying bowl -->
+  <ellipse cx="634" cy="213" rx="14" ry="8" fill="#C08030"/>
+  <line x1="698" y1="222" x2="718" y2="218" stroke="#F0B070" stroke-width="9" stroke-linecap="round"/>
+  <!-- Marta frazzled look - glancing toward the other room -->
+  <ellipse cx="672" cy="194" rx="3.5" ry="4" fill="#5A3820"/>
+  <ellipse cx="686" cy="194" rx="3.5" ry="4" fill="#5A3820"/>
+  <!-- Furrowed brow busy -->
+  <path d="M668,187 Q672,183 676,187" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <path d="M682,186 Q686,182 690,186" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <!-- Looking toward left room - glancing -->
+  <path d="M670,204 Q679,200 688,204" stroke="#8B5030" stroke-width="2" fill="none"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#5A2070" opacity="0.7"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Maria e Marta — Cena 1: Ouvindo e Servindo</text>
+</svg>

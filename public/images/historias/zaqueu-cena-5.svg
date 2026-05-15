@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="zq5_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#60C890;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#A8E8C0;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="zq5_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8D070;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#90B040;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="zq5_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE880;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#80FF80;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#zq5_sky)"/>
+  <circle cx="680" cy="65" r="42" fill="#FFE850" opacity="0.9"/>
+  <ellipse cx="200" cy="55" rx="75" ry="27" fill="white" opacity="0.75"/>
+  <ellipse cx="480" cy="45" rx="65" ry="22" fill="white" opacity="0.7"/>
+  <!-- Ground -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#zq5_ground)"/>
+  <!-- Stone path -->
+  <ellipse cx="400" cy="315" rx="240" ry="16" fill="#C0B858" opacity="0.5"/>
+  <!-- Building background -->
+  <rect x="580" y="130" width="180" height="170" fill="#E8D090" rx="4"/>
+  <polygon points="570,135 670,85 770,135" fill="#C05030"/>
+  <!-- Door of building -->
+  <rect x="642" y="230" width="40" height="60" fill="#8B5020" rx="3"/>
+  <!-- Tree on left side -->
+  <rect x="75" y="210" width="14" height="95" fill="#6A4020"/>
+  <circle cx="82" cy="190" r="38" fill="#3A9050"/>
+  <circle cx="60" cy="210" r="25" fill="#2A8040"/>
+  <!-- Jesus in background right, smiling -->
+  <circle cx="620" cy="220" r="40" fill="url(#zq5_glow)"/>
+  <circle cx="620" cy="205" r="20" fill="#F5D090"/>
+  <ellipse cx="620" cy="193" rx="20" ry="11" fill="#8B5020"/>
+  <path d="M611,193 Q603,208 606,218" stroke="#8B5020" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M629,193 Q637,208 634,218" stroke="#8B5020" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <ellipse cx="620" cy="216" rx="11" ry="6" fill="#9A6030" opacity="0.8"/>
+  <polygon points="602,225 638,225 643,295 597,295" fill="#F8F0D8"/>
+  <polygon points="597,230 643,230 648,295 592,295" fill="#4870C0" opacity="0.65"/>
+  <!-- Jesus warm smile -->
+  <ellipse cx="614" cy="204" rx="3" ry="4" fill="#5A3820"/>
+  <ellipse cx="626" cy="204" rx="3" ry="4" fill="#5A3820"/>
+  <path d="M612,213 Q620,219 628,213" stroke="#8B4020" stroke-width="2" fill="none"/>
+  <!-- ZAQUEU giving coins - center, big smile -->
+  <circle cx="340" cy="195" r="22" fill="#F5C870"/>
+  <ellipse cx="340" cy="181" rx="22" ry="11" fill="#3A2010"/>
+  <polygon points="319,217 361,217 365,298 315,298" fill="#2A8A4A"/>
+  <rect x="319" y="217" width="42" height="5" fill="#D4A030"/>
+  <rect x="319" y="232" width="42" height="5" fill="#D4A030"/>
+  <!-- Arms outstretched giving coins -->
+  <line x1="319" y1="228" x2="275" y2="245" stroke="#F5C870" stroke-width="11" stroke-linecap="round"/>
+  <line x1="361" y1="228" x2="400" y2="238" stroke="#F5C870" stroke-width="11" stroke-linecap="round"/>
+  <!-- Handful of coins -->
+  <circle cx="272" cy="247" r="10" fill="#F5C870"/>
+  <circle cx="258" cy="250" r="7" fill="#D4A030"/>
+  <circle cx="268" cy="258" r="6" fill="#D4A030"/>
+  <circle cx="280" cy="255" r="6" fill="#D4A030"/>
+  <text x="265" y="253" font-family="Arial" font-size="8" fill="#8B6000" text-anchor="middle">$</text>
+  <!-- Zaqueu huge smile -->
+  <ellipse cx="333" cy="194" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="347" cy="194" rx="4" ry="5" fill="#5A3820"/>
+  <circle cx="332" cy="193" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="346" cy="193" r="1.5" fill="white" opacity="0.7"/>
+  <path d="M330,206 Q340,215 350,206" stroke="#8B4020" stroke-width="3" fill="#FFB070" opacity="0.5"/>
+  <path d="M328,187 Q333,183 338,187" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <path d="M342,187 Q347,183 352,187" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <!-- POOR PERSON 1 receiving coins - left -->
+  <circle cx="175" cy="220" r="19" fill="#E0A070"/>
+  <ellipse cx="175" cy="206" rx="19" ry="10" fill="#4A2808"/>
+  <!-- Worn simple robe -->
+  <polygon points="158,239 192,239 195,298 155,298" fill="#A08060"/>
+  <!-- Torn patches -->
+  <polygon points="163,250 172,246 170,260 161,256" fill="#888050" opacity="0.8"/>
+  <!-- Hands reaching out to receive -->
+  <line x1="192" y1="248" x2="215" y2="248" stroke="#E0A070" stroke-width="9" stroke-linecap="round"/>
+  <line x1="158" y1="248" x2="140" y2="255" stroke="#E0A070" stroke-width="9" stroke-linecap="round"/>
+  <!-- Cup/bowl in hands -->
+  <ellipse cx="218" cy="250" rx="12" ry="6" fill="#8B6030"/>
+  <!-- Happy grateful face -->
+  <ellipse cx="168" cy="219" rx="3.5" ry="4" fill="#5A3820"/>
+  <ellipse cx="182" cy="219" rx="3.5" ry="4" fill="#5A3820"/>
+  <path d="M167,230 Q175,237 183,230" stroke="#8B4020" stroke-width="2" fill="none"/>
+  <!-- POOR PERSON 2 - woman with child -->
+  <circle cx="470" cy="215" r="18" fill="#E8B080"/>
+  <ellipse cx="470" cy="201" rx="18" ry="10" fill="#6A3020"/>
+  <!-- Head covering -->
+  <ellipse cx="470" cy="198" rx="22" ry="14" fill="#C08040" opacity="0.7"/>
+  <polygon points="453,233 487,233 490,297 450,297" fill="#B07050"/>
+  <!-- Child held in arms -->
+  <circle cx="492" cy="238" r="12" fill="#F5C870"/>
+  <ellipse cx="492" cy="229" rx="12" ry="6" fill="#5A3010"/>
+  <ellipse cx="490" cy="248" rx="10" ry="6" fill="#D09060"/>
+  <!-- Arms holding child and reaching -->
+  <line x1="487" y1="242" x2="505" y2="248" stroke="#E8B080" stroke-width="8" stroke-linecap="round"/>
+  <line x1="453" y1="242" x2="435" y2="250" stroke="#E8B080" stroke-width="8" stroke-linecap="round"/>
+  <!-- Grateful smile -->
+  <ellipse cx="463" cy="214" rx="3" ry="3.5" fill="#5A3820"/>
+  <ellipse cx="477" cy="214" rx="3" ry="3.5" fill="#5A3820"/>
+  <path d="M462,224 Q470,231 478,224" stroke="#8B4020" stroke-width="2" fill="none"/>
+  <!-- Floating coins being given -->
+  <circle cx="405" cy="232" r="8" fill="#D4A030"/>
+  <text x="405" y="235" font-family="Arial" font-size="8" fill="#8B6000" text-anchor="middle">$</text>
+  <circle cx="418" cy="240" r="7" fill="#D4A030"/>
+  <!-- Golden light rays from Zaqueu outward -->
+  <line x1="340" y1="195" x2="180" y2="215" stroke="#FFD040" stroke-width="2" opacity="0.3"/>
+  <line x1="340" y1="195" x2="470" y2="212" stroke="#FFD040" stroke-width="2" opacity="0.3"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#2A7A40" opacity="0.6"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Zaqueu — Cena 5: A Transformação</text>
+</svg>

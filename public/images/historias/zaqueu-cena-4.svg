@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="zq4_wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8D090;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#C8B060;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="zq4_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B09050;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#907030;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="zq4_lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE880;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#FF9030;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="zq4_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFC0;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#80FF80;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Interior wall -->
+  <rect width="800" height="380" fill="url(#zq4_wall)"/>
+  <!-- Floor -->
+  <rect x="0" y="300" width="800" height="80" fill="url(#zq4_floor)"/>
+  <!-- Floor tiles -->
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#907030" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="340" x2="800" y2="340" stroke="#907030" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#907030" stroke-width="2" opacity="0.4"/>
+  <line x1="100" y1="300" x2="100" y2="380" stroke="#907030" stroke-width="2" opacity="0.3"/>
+  <line x1="200" y1="300" x2="200" y2="380" stroke="#907030" stroke-width="2" opacity="0.3"/>
+  <line x1="300" y1="300" x2="300" y2="380" stroke="#907030" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="300" x2="400" y2="380" stroke="#907030" stroke-width="2" opacity="0.3"/>
+  <line x1="500" y1="300" x2="500" y2="380" stroke="#907030" stroke-width="2" opacity="0.3"/>
+  <line x1="600" y1="300" x2="600" y2="380" stroke="#907030" stroke-width="2" opacity="0.3"/>
+  <line x1="700" y1="300" x2="700" y2="380" stroke="#907030" stroke-width="2" opacity="0.3"/>
+  <!-- Window with view outside -->
+  <rect x="620" y="60" width="130" height="100" fill="#87CEEB" rx="5"/>
+  <rect x="632" y="72" width="106" height="76" fill="#A8E0C0" rx="3"/>
+  <!-- Green outside view -->
+  <ellipse cx="685" cy="105" rx="40" ry="30" fill="#3A9050" opacity="0.7"/>
+  <rect x="630" y="60" width="8" height="100" fill="#C09040"/>
+  <rect x="742" y="60" width="8" height="100" fill="#C09040"/>
+  <rect x="620" y="105" width="130" height="8" fill="#C09040"/>
+  <rect x="620" y="60" width="130" height="8" fill="#C09040"/>
+  <!-- Oil lamp on wall bracket -->
+  <rect x="680" y="40" width="6" height="22" fill="#8B6030"/>
+  <ellipse cx="683" cy="38" rx="12" ry="7" fill="#C08030"/>
+  <circle cx="683" cy="35" r="10" fill="url(#zq4_lamp)"/>
+  <!-- Lamp flame -->
+  <ellipse cx="683" cy="28" rx="5" ry="8" fill="#FFD040" opacity="0.9"/>
+  <!-- Warm lamp glow -->
+  <circle cx="683" cy="35" r="60" fill="url(#zq4_lamp)" opacity="0.5"/>
+  <!-- Jesus glow subtle -->
+  <circle cx="250" cy="195" r="90" fill="url(#zq4_glow)"/>
+  <!-- TABLE between them -->
+  <rect x="300" y="248" width="250" height="16" fill="#9A6030" rx="3"/>
+  <rect x="318" y="264" width="10" height="38" fill="#7A4820"/>
+  <rect x="522" y="264" width="10" height="38" fill="#7A4820"/>
+  <!-- Food on table - warm meal -->
+  <ellipse cx="360" cy="244" rx="22" ry="9" fill="#E8A050"/>
+  <ellipse cx="425" cy="242" rx="18" ry="8" fill="#9ACD50"/>
+  <ellipse cx="485" cy="244" rx="20" ry="9" fill="#E06030"/>
+  <!-- Bread loaf -->
+  <ellipse cx="360" cy="241" rx="15" ry="6" fill="#E0A040"/>
+  <!-- Grapes -->
+  <circle cx="430" cy="238" r="5" fill="#8B00C0" opacity="0.8"/>
+  <circle cx="440" cy="237" r="5" fill="#8B00C0" opacity="0.8"/>
+  <circle cx="435" cy="230" r="5" fill="#9B10D0" opacity="0.8"/>
+  <!-- Wine cup -->
+  <rect x="472" y="228" width="8" height="16" fill="#C04030" rx="1"/>
+  <ellipse cx="476" cy="227" rx="7" ry="4" fill="#C04030"/>
+  <ellipse cx="476" cy="243" rx="9" ry="3" fill="#C04030"/>
+  <!-- Water jug -->
+  <ellipse cx="540" cy="240" rx="14" ry="18" fill="#7080C0"/>
+  <rect x="540" y="222" width="6" height="10" fill="#6070B0"/>
+  <!-- JESUS seated left -->
+  <circle cx="245" cy="185" r="24" fill="#F5D090"/>
+  <ellipse cx="245" cy="169" rx="24" ry="13" fill="#8B5020"/>
+  <path d="M233,169 Q220,190 224,207" stroke="#8B5020" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M257,169 Q270,190 266,207" stroke="#8B5020" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="245" cy="202" rx="14" ry="8" fill="#9A6030" opacity="0.8"/>
+  <polygon points="220,209 270,209 278,302 212,302" fill="#F8F0D8"/>
+  <polygon points="212,216 278,216 286,302 204,302" fill="#4870C0" opacity="0.65"/>
+  <!-- Jesus arms - one on table, one gesturing warmly -->
+  <line x1="270" y1="222" x2="300" y2="245" stroke="#F5D090" stroke-width="10" stroke-linecap="round"/>
+  <line x1="220" y1="222" x2="195" y2="235" stroke="#F5D090" stroke-width="10" stroke-linecap="round"/>
+  <!-- Jesus warm smile -->
+  <ellipse cx="238" cy="184" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="252" cy="184" rx="4" ry="5" fill="#5A3820"/>
+  <path d="M236,196 Q245,204 254,196" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <!-- ZAQUEU seated right - transformed, happy -->
+  <circle cx="560" cy="188" r="20" fill="#F5C870"/>
+  <ellipse cx="560" cy="174" rx="20" ry="10" fill="#3A2010"/>
+  <!-- Robe still fine but now relaxed -->
+  <polygon points="541,208 579,208 583,302 537,302" fill="#2A8A4A"/>
+  <rect x="541" y="208" width="38" height="4" fill="#D4A030"/>
+  <!-- Arms leaning on table, engaged -->
+  <line x1="541" y1="218" x2="510" y2="245" stroke="#F5C870" stroke-width="9" stroke-linecap="round"/>
+  <line x1="579" y1="218" x2="600" y2="230" stroke="#F5C870" stroke-width="9" stroke-linecap="round"/>
+  <!-- Zaqueu genuinely happy, transformed face -->
+  <ellipse cx="553" cy="187" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <ellipse cx="567" cy="187" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <!-- Bright eyes with highlight -->
+  <circle cx="552" cy="186" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="566" cy="186" r="1.5" fill="white" opacity="0.7"/>
+  <!-- Big warm smile -->
+  <path d="M551,198 Q560,206 569,198" stroke="#8B4020" stroke-width="2.5" fill="none"/>
+  <!-- Eyebrows relaxed and friendly -->
+  <path d="M549,180 Q553,177 557,180" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <path d="M563,180 Q567,177 571,180" stroke="#5A3820" stroke-width="1.5" fill="none"/>
+  <!-- Decorative rug on floor -->
+  <rect x="160" y="298" width="480" height="12" fill="#C04040" opacity="0.4" rx="3"/>
+  <rect x="180" y="298" width="440" height="4" fill="#FFD040" opacity="0.3" rx="2"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#2A7A40" opacity="0.6"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Zaqueu — Cena 4: Uma Conversa que Transforma</text>
+</svg>

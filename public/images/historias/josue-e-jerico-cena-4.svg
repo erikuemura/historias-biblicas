@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="jos4_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff6f00"/>
+      <stop offset="50%" stop-color="#ffa726"/>
+      <stop offset="100%" stop-color="#ffe0b2"/>
+    </linearGradient>
+    <linearGradient id="jos4_wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a060"/>
+      <stop offset="100%" stop-color="#7a5020"/>
+    </linearGradient>
+    <linearGradient id="jos4_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a060"/>
+      <stop offset="100%" stop-color="#8b5e20"/>
+    </linearGradient>
+    <radialGradient id="jos4_soundwave" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6f00" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ff6f00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Dramatic orange sky -->
+  <rect width="800" height="380" fill="url(#jos4_sky)"/>
+
+  <!-- Walls of Jericó in background -->
+  <rect x="450" y="50" width="350" height="280" fill="url(#jos4_wall)"/>
+  <rect x="450" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="478" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="506" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="534" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="562" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="590" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="618" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="646" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="674" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="702" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="730" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <rect x="758" y="34" width="22" height="20" rx="2" fill="#c8a060"/>
+  <!-- Wall stones -->
+  <line x1="450" y1="90" x2="800" y2="90" stroke="#a07030" stroke-width="2" opacity="0.4"/>
+  <line x1="450" y1="130" x2="800" y2="130" stroke="#a07030" stroke-width="2" opacity="0.4"/>
+  <line x1="450" y1="170" x2="800" y2="170" stroke="#a07030" stroke-width="2" opacity="0.4"/>
+  <line x1="450" y1="210" x2="800" y2="210" stroke="#a07030" stroke-width="2" opacity="0.4"/>
+  <line x1="450" y1="250" x2="800" y2="250" stroke="#a07030" stroke-width="2" opacity="0.4"/>
+  <line x1="450" y1="290" x2="800" y2="290" stroke="#a07030" stroke-width="2" opacity="0.4"/>
+
+  <!-- Ground -->
+  <rect x="0" y="315" width="800" height="65" fill="url(#jos4_ground)"/>
+
+  <!-- Sound wave circles emanating from trumpets -->
+  <ellipse cx="280" cy="230" rx="60" ry="40" fill="none" stroke="#ff6f00" stroke-width="3" opacity="0.6"/>
+  <ellipse cx="280" cy="230" rx="100" ry="65" fill="none" stroke="#ff8f00" stroke-width="2.5" opacity="0.45"/>
+  <ellipse cx="280" cy="230" rx="145" ry="95" fill="none" stroke="#ffa726" stroke-width="2" opacity="0.35"/>
+  <ellipse cx="280" cy="230" rx="195" ry="125" fill="none" stroke="#ffb74d" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Second set from right trumpet -->
+  <ellipse cx="420" cy="220" rx="55" ry="38" fill="none" stroke="#ff6f00" stroke-width="3" opacity="0.55"/>
+  <ellipse cx="420" cy="220" rx="90" ry="60" fill="none" stroke="#ff8f00" stroke-width="2" opacity="0.4"/>
+
+  <!-- Crowd shouting — mouths wide open, arms up -->
+  <!-- Person 1 - arms up, mouth open -->
+  <circle cx="35" cy="278" r="13" fill="#d4956a"/>
+  <rect x="24" y="290" width="22" height="30" rx="3" fill="#e8a030"/>
+  <ellipse cx="35" cy="285" rx="4" ry="3.5" fill="#c03010"/>
+  <line x1="24" y1="278" x2="12" y2="258" stroke="#d4956a" stroke-width="7" stroke-linecap="round"/>
+  <line x1="46" y1="278" x2="58" y2="258" stroke="#d4956a" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Person 2 -->
+  <circle cx="80" cy="275" r="13" fill="#c8a870"/>
+  <rect x="69" y="287" width="22" height="30" rx="3" fill="#ffcc80"/>
+  <ellipse cx="80" cy="282" rx="4" ry="3.5" fill="#c03010"/>
+  <line x1="69" y1="275" x2="57" y2="255" stroke="#c8a870" stroke-width="7" stroke-linecap="round"/>
+  <line x1="91" y1="275" x2="103" y2="255" stroke="#c8a870" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Person 3 -->
+  <circle cx="125" cy="277" r="13" fill="#d4a060"/>
+  <rect x="114" y="289" width="22" height="29" rx="3" fill="#ffe082"/>
+  <ellipse cx="125" cy="284" rx="4" ry="3.5" fill="#c03010"/>
+  <line x1="114" y1="277" x2="102" y2="257" stroke="#d4a060" stroke-width="7" stroke-linecap="round"/>
+  <line x1="136" y1="277" x2="148" y2="257" stroke="#d4a060" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Priest 1 blowing long trumpet — center left -->
+  <circle cx="200" cy="265" r="16" fill="#d4956a"/>
+  <rect x="186" y="280" width="28" height="40" rx="3" fill="white" opacity="0.95"/>
+  <path d="M186 280 Q200 272 214 280" fill="#e0e0c8"/>
+  <!-- Head tilted blowing -->
+  <!-- Cheeks puffed -->
+  <ellipse cx="192" cy="264" rx="7" ry="6" fill="#e07060" opacity="0.6"/>
+  <ellipse cx="208" cy="264" rx="7" ry="6" fill="#e07060" opacity="0.5"/>
+  <!-- Eyes squeezed shut -->
+  <path d="M193 260 Q197 258 201 260" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <path d="M205 260 Q209 258 213 260" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <!-- Long trumpet -->
+  <path d="M208 267 Q240 252 280 248 Q300 252 298 260 Q280 262 248 272 Q230 278 212 272Z" fill="#d4a030"/>
+  <ellipse cx="300" cy="254" rx="12" ry="8" fill="#d4a030"/>
+  <line x1="210" y1="269" x2="298" y2="254" stroke="#b08020" stroke-width="1.5"/>
+
+  <!-- Priest 2 blowing trumpet -->
+  <circle cx="340" cy="260" r="15" fill="#c8956a"/>
+  <rect x="327" y="274" width="26" height="40" rx="3" fill="white" opacity="0.95"/>
+  <path d="M327 274 Q340 266 353 274" fill="#e0e0c8"/>
+  <!-- Puffed cheeks -->
+  <ellipse cx="332" cy="259" rx="6" ry="5.5" fill="#e07060" opacity="0.55"/>
+  <ellipse cx="348" cy="259" rx="6" ry="5.5" fill="#e07060" opacity="0.5"/>
+  <!-- Long trumpet pointing right toward wall -->
+  <path d="M348 263 Q380 248 420 244 Q440 248 438 256 Q418 258 385 268 Q368 274 350 270Z" fill="#d4a030"/>
+  <ellipse cx="440" cy="250" rx="11" ry="7" fill="#d4a030"/>
+
+  <!-- More crowd right side -->
+  <!-- Person 4 -->
+  <circle cx="390" cy="278" r="13" fill="#d4a870"/>
+  <rect x="379" y="290" width="22" height="28" rx="3" fill="#ffb74d"/>
+  <ellipse cx="390" cy="285" rx="4" ry="3.5" fill="#c03010"/>
+  <line x1="379" y1="278" x2="367" y2="258" stroke="#d4a870" stroke-width="7" stroke-linecap="round"/>
+  <line x1="401" y1="278" x2="413" y2="258" stroke="#d4a870" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Person 5 -->
+  <circle cx="435" cy="275" r="13" fill="#c8956a"/>
+  <rect x="424" y="287" width="22" height="30" rx="3" fill="#e8c880"/>
+  <ellipse cx="435" cy="282" rx="4" ry="3.5" fill="#c03010"/>
+  <line x1="424" y1="275" x2="412" y2="255" stroke="#c8956a" stroke-width="7" stroke-linecap="round"/>
+  <line x1="446" y1="275" x2="458" y2="255" stroke="#c8956a" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Energy lines suggesting sound/vibration -->
+  <line x1="300" y1="254" x2="450" y2="200" stroke="#ff8f00" stroke-width="2" opacity="0.4" stroke-dasharray="8,4"/>
+  <line x1="440" y1="252" x2="510" y2="180" stroke="#ff8f00" stroke-width="2" opacity="0.35" stroke-dasharray="8,4"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="350" height="28" rx="14" fill="#bf4000" opacity="0.85"/>
+  <text x="185" y="363" font-family="Georgia, serif" font-size="14" fill="#fff9c4" text-anchor="middle" font-weight="bold">As trombetas soam e o povo grita!</text>
+</svg>

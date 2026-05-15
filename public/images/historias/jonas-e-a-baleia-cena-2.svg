@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="jon2_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="50%" stop-color="#1b3a5c"/>
+      <stop offset="100%" stop-color="#2d6a8f"/>
+    </linearGradient>
+    <linearGradient id="jon2_sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#023e8a"/>
+      <stop offset="100%" stop-color="#03045e"/>
+    </linearGradient>
+    <linearGradient id="jon2_wave1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0096c7"/>
+      <stop offset="100%" stop-color="#023e8a"/>
+    </linearGradient>
+    <linearGradient id="jon2_ship" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a060"/>
+      <stop offset="100%" stop-color="#7a5020"/>
+    </linearGradient>
+    <radialGradient id="jon2_lightning" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#fff9c4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fff9c4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Dark stormy sky -->
+  <rect width="800" height="380" fill="url(#jon2_sky)"/>
+
+  <!-- Storm clouds — dark and dramatic -->
+  <ellipse cx="100" cy="60" rx="120" ry="55" fill="#1a2a3a" opacity="0.95"/>
+  <ellipse cx="220" cy="45" rx="110" ry="50" fill="#162030" opacity="0.9"/>
+  <ellipse cx="370" cy="55" rx="130" ry="58" fill="#1a2a3a" opacity="0.95"/>
+  <ellipse cx="520" cy="40" rx="115" ry="52" fill="#162030" opacity="0.9"/>
+  <ellipse cx="660" cy="58" rx="120" ry="55" fill="#1a2a3a" opacity="0.95"/>
+  <ellipse cx="780" cy="48" rx="90" ry="45" fill="#162030" opacity="0.9"/>
+  <!-- Lower darker clouds -->
+  <ellipse cx="150" cy="110" rx="150" ry="60" fill="#0d1520" opacity="0.85"/>
+  <ellipse cx="400" cy="100" rx="200" ry="65" fill="#0d1520" opacity="0.85"/>
+  <ellipse cx="680" cy="105" rx="160" ry="58" fill="#0d1520" opacity="0.85"/>
+
+  <!-- Lightning bolt 1 -->
+  <polygon points="240,50 225,120 238,118 218,185 238,182 208,240" fill="#fff9c4" opacity="0.85"/>
+  <ellipse cx="220" cy="150" rx="40" ry="80" fill="url(#jon2_lightning)" opacity="0.4"/>
+
+  <!-- Lightning bolt 2 -->
+  <polygon points="600,40 588,105 600,102 582,160 598,157 575,210" fill="#fff9c4" opacity="0.75"/>
+  <ellipse cx="588" cy="130" rx="35" ry="70" fill="url(#jon2_lightning)" opacity="0.3"/>
+
+  <!-- Rain streaks -->
+  <line x1="50" y1="150" x2="30" y2="220" stroke="#90e0ef" stroke-width="1.5" opacity="0.4"/>
+  <line x1="100" y1="140" x2="80" y2="210" stroke="#90e0ef" stroke-width="1.5" opacity="0.4"/>
+  <line x1="150" y1="155" x2="130" y2="225" stroke="#90e0ef" stroke-width="1.5" opacity="0.35"/>
+  <line x1="200" y1="145" x2="180" y2="215" stroke="#90e0ef" stroke-width="1.5" opacity="0.4"/>
+  <line x1="300" y1="150" x2="280" y2="220" stroke="#90e0ef" stroke-width="1.5" opacity="0.35"/>
+  <line x1="380" y1="140" x2="360" y2="210" stroke="#90e0ef" stroke-width="1.5" opacity="0.4"/>
+  <line x1="450" y1="155" x2="430" y2="225" stroke="#90e0ef" stroke-width="1.5" opacity="0.35"/>
+  <line x1="520" y1="145" x2="500" y2="215" stroke="#90e0ef" stroke-width="1.5" opacity="0.4"/>
+  <line x1="620" y1="150" x2="600" y2="220" stroke="#90e0ef" stroke-width="1.5" opacity="0.35"/>
+  <line x1="700" y1="145" x2="680" y2="215" stroke="#90e0ef" stroke-width="1.5" opacity="0.4"/>
+  <line x1="760" y1="155" x2="740" y2="225" stroke="#90e0ef" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Rough sea -->
+  <rect x="0" y="240" width="800" height="140" fill="url(#jon2_sea)"/>
+
+  <!-- Large waves -->
+  <path d="M0 250 Q40 225 80 250 Q120 275 160 250 Q200 225 240 250 Q280 275 320 250 Q360 225 400 250 Q440 275 480 250 Q520 225 560 250 Q600 275 640 250 Q680 225 720 250 Q760 275 800 250" fill="url(#jon2_wave1)" stroke="none"/>
+  <path d="M0 268 Q50 242 100 268 Q150 294 200 268 Q250 242 300 268 Q350 294 400 268 Q450 242 500 268 Q550 294 600 268 Q650 242 700 268 Q750 294 800 268" fill="#0077b6" opacity="0.7"/>
+  <!-- White wave caps -->
+  <path d="M20 248 Q40 238 60 248" stroke="white" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M160 244 Q180 234 200 244" stroke="white" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M310 248 Q330 238 350 248" stroke="white" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M460 244 Q480 234 500 244" stroke="white" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M620 248 Q640 238 660 248" stroke="white" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M730 244 Q760 234 790 244" stroke="white" stroke-width="2.5" fill="none" opacity="0.6"/>
+
+  <!-- SHIP — tilting dangerously to the right on the waves -->
+  <g transform="rotate(18, 430, 280)">
+    <!-- Hull -->
+    <path d="M290 265 Q300 295 310 308 Q400 320 490 308 Q500 295 510 265Z" fill="url(#jon2_ship)"/>
+    <path d="M290 265 Q400 257 510 265" fill="#d4aa70"/>
+    <!-- Hull planks -->
+    <line x1="300" y1="272" x2="500" y2="272" stroke="#8b5e20" stroke-width="1.5" opacity="0.5"/>
+    <line x1="303" y1="284" x2="498" y2="284" stroke="#8b5e20" stroke-width="1.5" opacity="0.5"/>
+    <line x1="306" y1="296" x2="495" y2="296" stroke="#8b5e20" stroke-width="1.5" opacity="0.5"/>
+    <!-- Mast (bent/leaning) -->
+    <line x1="400" y1="140" x2="400" y2="267" stroke="#6b4010" stroke-width="7"/>
+    <!-- Torn sail -->
+    <path d="M400 148 Q440 165 445 210 Q415 218 400 212Z" fill="white" opacity="0.7"/>
+    <path d="M400 148 Q360 165 355 210 Q385 218 400 212Z" fill="#e8e8d0" opacity="0.65"/>
+    <!-- Sail tear -->
+    <path d="M420 162 Q428 178 422 192" stroke="#ccc" stroke-width="2" fill="none" opacity="0.6"/>
+    <!-- Rope flying -->
+    <path d="M400 148 Q450 130 480 145" stroke="#8b5e20" stroke-width="2" fill="none" opacity="0.7"/>
+    <!-- Deck railing -->
+    <line x1="300" y1="267" x2="500" y2="267" stroke="#8b5e20" stroke-width="3"/>
+  </g>
+
+  <!-- Frightened sailors on tilted deck -->
+  <!-- Sailor 1 — clinging to mast -->
+  <circle cx="430" cy="215" r="12" fill="#d4956a"/>
+  <rect x="420" y="226" width="20" height="25" rx="3" fill="#ff8f00" opacity="0.9"/>
+  <!-- Eyes wide with fear -->
+  <ellipse cx="424" cy="211" rx="3.5" ry="4" fill="white"/>
+  <ellipse cx="435" cy="211" rx="3.5" ry="4" fill="white"/>
+  <circle cx="425" cy="212" r="2" fill="#1a0a30"/>
+  <circle cx="436" cy="212" r="2" fill="#1a0a30"/>
+  <!-- Open mouth screaming -->
+  <ellipse cx="429" cy="219" rx="4" ry="3.5" fill="#8b1a1a"/>
+  <!-- Arms hugging mast -->
+  <line x1="420" y1="228" x2="408" y2="240" stroke="#d4956a" stroke-width="7" stroke-linecap="round"/>
+  <line x1="440" y1="228" x2="452" y2="240" stroke="#d4956a" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Sailor 2 — sliding on deck, arms flailing -->
+  <circle cx="370" cy="248" r="11" fill="#c8a870"/>
+  <rect x="361" y="258" width="18" height="22" rx="3" fill="#0077b6" opacity="0.9"/>
+  <ellipse cx="363" cy="244" rx="3" ry="3.5" fill="white"/>
+  <ellipse cx="374" cy="244" rx="3" ry="3.5" fill="white"/>
+  <circle cx="364" cy="245" r="1.8" fill="#1a0a30"/>
+  <circle cx="375" cy="245" r="1.8" fill="#1a0a30"/>
+  <ellipse cx="368" cy="252" rx="3.5" ry="3" fill="#8b1a1a"/>
+  <line x1="361" y1="262" x2="345" y2="252" stroke="#c8a870" stroke-width="7" stroke-linecap="round"/>
+  <line x1="379" y1="262" x2="393" y2="250" stroke="#c8a870" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Sailor 3 — praying with hands clasped -->
+  <circle cx="480" cy="245" r="11" fill="#d4a060"/>
+  <rect x="472" y="255" width="18" height="22" rx="3" fill="#e8c880" opacity="0.9"/>
+  <ellipse cx="474" cy="241" rx="3" ry="3.5" fill="white"/>
+  <ellipse cx="485" cy="241" rx="3" ry="3.5" fill="white"/>
+  <circle cx="475" cy="242" r="1.8" fill="#1a0a30"/>
+  <circle cx="486" cy="242" r="1.8" fill="#1a0a30"/>
+  <!-- Clasped hands upward -->
+  <line x1="472" y1="260" x2="460" y2="248" stroke="#d4a060" stroke-width="6" stroke-linecap="round"/>
+  <line x1="490" y1="260" x2="460" y2="248" stroke="#d4a060" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="459" cy="247" rx="9" ry="7" fill="#d4a060"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="380" height="28" rx="14" fill="#03045e" opacity="0.88"/>
+  <text x="200" y="363" font-family="Georgia, serif" font-size="14" fill="#90e0ef" text-anchor="middle" font-weight="bold">Uma grande tempestade agita o mar!</text>
+</svg>

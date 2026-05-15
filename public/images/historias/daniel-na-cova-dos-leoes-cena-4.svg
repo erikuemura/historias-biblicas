@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <radialGradient id="dan4_angelglow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#fffde7" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#e0b0ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a0830" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dan4_cave" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0830"/>
+      <stop offset="100%" stop-color="#0a0418"/>
+    </linearGradient>
+    <linearGradient id="dan4_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2060"/>
+      <stop offset="100%" stop-color="#1a0830"/>
+    </linearGradient>
+    <radialGradient id="dan4_lionglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffd700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Dark cave background -->
+  <rect width="800" height="380" fill="url(#dan4_cave)"/>
+
+  <!-- Cave walls — rocky shapes -->
+  <ellipse cx="0" cy="200" rx="120" ry="250" fill="#2a1040" opacity="0.8"/>
+  <ellipse cx="800" cy="200" rx="120" ry="250" fill="#2a1040" opacity="0.8"/>
+  <ellipse cx="150" cy="0" rx="180" ry="100" fill="#1e0c38" opacity="0.7"/>
+  <ellipse cx="650" cy="0" rx="180" ry="100" fill="#1e0c38" opacity="0.7"/>
+  <!-- Rocky ceiling stalactites -->
+  <polygon points="80,0 100,60 120,0" fill="#2a1040"/>
+  <polygon points="180,0 205,80 230,0" fill="#241038"/>
+  <polygon points="600,0 625,70 650,0" fill="#2a1040"/>
+  <polygon points="680,0 700,55 720,0" fill="#241038"/>
+  <polygon points="350,0 375,50 400,0" fill="#2a1040"/>
+
+  <!-- Ground of cave -->
+  <ellipse cx="400" cy="400" rx="500" ry="100" fill="url(#dan4_ground)"/>
+  <rect x="0" y="325" width="800" height="55" fill="#1a0830"/>
+  <!-- Ground rocks -->
+  <ellipse cx="100" cy="338" rx="35" ry="12" fill="#2a1040"/>
+  <ellipse cx="680" cy="342" rx="30" ry="10" fill="#2a1040"/>
+  <ellipse cx="740" cy="332" rx="22" ry="8" fill="#241038"/>
+
+  <!-- Angel divine glow — center top -->
+  <ellipse cx="400" cy="120" rx="200" ry="180" fill="url(#dan4_angelglow)"/>
+
+  <!-- ANGEL — glowing, wings spread, holding lions' mouths -->
+  <!-- Angel wings — large, glowing -->
+  <path d="M310 160 Q240 110 190 130 Q200 170 270 185 Q290 180 310 170Z" fill="#e0b0ff" opacity="0.85"/>
+  <path d="M310 160 Q245 125 200 150 Q210 185 275 192 Q295 188 312 175Z" fill="white" opacity="0.6"/>
+  <!-- Wing feather lines -->
+  <line x1="308" y1="165" x2="245" y2="140" stroke="#c080d0" stroke-width="1.5" opacity="0.5"/>
+  <line x1="308" y1="172" x2="240" y2="158" stroke="#c080d0" stroke-width="1.5" opacity="0.5"/>
+  <line x1="308" y1="179" x2="245" y2="172" stroke="#c080d0" stroke-width="1.5" opacity="0.5"/>
+
+  <path d="M490 160 Q560 110 610 130 Q600 170 530 185 Q510 180 490 170Z" fill="#e0b0ff" opacity="0.85"/>
+  <path d="M490 160 Q555 125 600 150 Q590 185 525 192 Q505 188 488 175Z" fill="white" opacity="0.6"/>
+  <line x1="492" y1="165" x2="555" y2="140" stroke="#c080d0" stroke-width="1.5" opacity="0.5"/>
+  <line x1="492" y1="172" x2="560" y2="158" stroke="#c080d0" stroke-width="1.5" opacity="0.5"/>
+  <line x1="492" y1="179" x2="555" y2="172" stroke="#c080d0" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Angel body/robe -->
+  <path d="M360 250 Q365 175 385 162 Q400 155 415 162 Q435 175 440 250Z" fill="white" opacity="0.92"/>
+  <!-- Angel shining belt -->
+  <rect x="368" y="198" width="64" height="10" rx="5" fill="#ffe082" opacity="0.9"/>
+  <!-- Angel head -->
+  <circle cx="400" cy="155" r="22" fill="#fff9c4"/>
+  <!-- Halo -->
+  <circle cx="400" cy="155" r="30" fill="none" stroke="#ffd700" stroke-width="4" opacity="0.85"/>
+  <!-- Angel hair (golden) -->
+  <path d="M380 148 Q383 136 400 133 Q417 136 420 148" fill="#ffd700" opacity="0.8"/>
+  <!-- Angel eyes — calm, authoritative -->
+  <circle cx="393" cy="152" r="3.5" fill="#7040a0"/>
+  <circle cx="407" cy="152" r="3.5" fill="#7040a0"/>
+  <circle cx="394" cy="151" r="1.2" fill="white"/>
+  <circle cx="408" cy="151" r="1.2" fill="white"/>
+  <!-- Calm smile -->
+  <path d="M393 161 Q400 166 407 161" stroke="#c8956c" stroke-width="1.5" fill="none"/>
+
+  <!-- Angel arms extended downward — holding lions' mouths closed -->
+  <line x1="368" y1="185" x2="300" y2="255" stroke="#fff9c4" stroke-width="11" stroke-linecap="round"/>
+  <line x1="432" y1="185" x2="500" y2="255" stroke="#fff9c4" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="298" cy="257" r="12" fill="#fff9c4"/>
+  <circle cx="502" cy="257" r="12" fill="#fff9c4"/>
+  <!-- Glow on hands -->
+  <circle cx="298" cy="257" r="20" fill="#e0b0ff" opacity="0.35"/>
+  <circle cx="502" cy="257" r="20" fill="#e0b0ff" opacity="0.35"/>
+
+  <!-- LION LEFT — mouth closed, calm, glowing -->
+  <ellipse cx="210" cy="310" rx="80" ry="40" fill="#c8a030"/>
+  <!-- Lion mane -->
+  <ellipse cx="270" cy="295" rx="40" ry="38" fill="#8b5e10"/>
+  <ellipse cx="270" cy="295" rx="32" ry="30" fill="#c8901a"/>
+  <!-- Lion head -->
+  <circle cx="270" cy="292" r="28" fill="#d4a830"/>
+  <!-- Lion face — CALM, mouth closed, held by angel -->
+  <ellipse cx="261" cy="288" rx="5" ry="5.5" fill="#2a1a08"/>
+  <ellipse cx="279" cy="288" rx="5" ry="5.5" fill="#2a1a08"/>
+  <circle cx="262" cy="287" r="2" fill="#ff8" opacity="0.6"/>
+  <circle cx="280" cy="287" r="2" fill="#ff8" opacity="0.6"/>
+  <!-- Nose -->
+  <ellipse cx="270" cy="298" rx="7" ry="5" fill="#a06020"/>
+  <!-- Closed mouth (held shut) -->
+  <path d="M258 306 Q270 308 282 306" stroke="#8b5010" stroke-width="2.5" fill="none"/>
+  <!-- Angel hand on lion muzzle -->
+  <ellipse cx="270" cy="307" rx="18" ry="10" fill="#fff9c4" opacity="0.5"/>
+  <!-- Lion tail -->
+  <path d="M140 308 Q120 290 115 278 Q120 268 128 272 Q135 280 145 300" stroke="#c8a030" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="130" cy="270" rx="12" ry="8" fill="#8b5e10"/>
+  <!-- Lion paws -->
+  <ellipse cx="180" cy="342" rx="22" ry="12" fill="#c09020"/>
+  <ellipse cx="230" cy="346" rx="20" ry="11" fill="#c09020"/>
+
+  <!-- LION RIGHT — also calm -->
+  <ellipse cx="590" cy="310" rx="80" ry="40" fill="#c8a030"/>
+  <!-- Lion mane -->
+  <ellipse cx="530" cy="295" rx="40" ry="38" fill="#8b5e10"/>
+  <ellipse cx="530" cy="295" rx="32" ry="30" fill="#c8901a"/>
+  <!-- Lion head -->
+  <circle cx="530" cy="292" r="28" fill="#d4a830"/>
+  <!-- Calm eyes -->
+  <ellipse cx="521" cy="288" rx="5" ry="5.5" fill="#2a1a08"/>
+  <ellipse cx="539" cy="288" rx="5" ry="5.5" fill="#2a1a08"/>
+  <circle cx="522" cy="287" r="2" fill="#ff8" opacity="0.6"/>
+  <circle cx="540" cy="287" r="2" fill="#ff8" opacity="0.6"/>
+  <!-- Nose -->
+  <ellipse cx="530" cy="298" rx="7" ry="5" fill="#a06020"/>
+  <!-- Closed mouth -->
+  <path d="M518 306 Q530 308 542 306" stroke="#8b5010" stroke-width="2.5" fill="none"/>
+  <ellipse cx="530" cy="307" rx="18" ry="10" fill="#fff9c4" opacity="0.5"/>
+  <!-- Tail -->
+  <path d="M660 308 Q680 290 685 278 Q680 268 672 272 Q665 280 655 300" stroke="#c8a030" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="670" cy="270" rx="12" ry="8" fill="#8b5e10"/>
+  <!-- Paws -->
+  <ellipse cx="570" cy="342" rx="20" ry="11" fill="#c09020"/>
+  <ellipse cx="620" cy="346" rx="22" ry="12" fill="#c09020"/>
+
+  <!-- DANIEL — kneeling peacefully between lions, praying -->
+  <!-- Robe -->
+  <path d="M370 340 Q374 290 384 278 Q397 268 413 274 Q426 283 428 340Z" fill="#7040a0"/>
+  <!-- Head -->
+  <circle cx="400" cy="270" r="20" fill="#c8956c"/>
+  <!-- Hair -->
+  <path d="M382 264 Q385 252 400 249 Q415 252 418 264" fill="#3a2010"/>
+  <!-- Eyes CLOSED peacefully -->
+  <path d="M391 267 Q396 264 401 267" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <path d="M399 267 Q404 264 409 267" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <!-- Peaceful smile -->
+  <path d="M392 276 Q400 281 408 276" stroke="#8b3a10" stroke-width="1.5" fill="none"/>
+  <!-- Short beard -->
+  <path d="M383 275 Q387 286 400 289 Q413 286 417 275" fill="#5a3010" opacity="0.7"/>
+  <!-- Hands clasped -->
+  <line x1="384" y1="286" x2="400" y2="296" stroke="#c8956c" stroke-width="8" stroke-linecap="round"/>
+  <line x1="416" y1="286" x2="400" y2="296" stroke="#c8956c" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="400" cy="298" rx="14" ry="9" fill="#c8956c"/>
+  <!-- Purple/gold light on Daniel -->
+  <ellipse cx="400" cy="300" rx="50" ry="55" fill="#e0b0ff" opacity="0.18"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="420" height="28" rx="14" fill="#1a0830" opacity="0.9"/>
+  <text x="220" y="363" font-family="Georgia, serif" font-size="14" fill="#e0b0ff" text-anchor="middle" font-weight="bold">O anjo protege Daniel e fecha as bocas dos leões</text>
+</svg>

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="abr2_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe082"/>
+      <stop offset="60%" stop-color="#ffca28"/>
+      <stop offset="100%" stop-color="#f9a825"/>
+    </linearGradient>
+    <radialGradient id="abr2_glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fff9e6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffca28" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="abr2_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4a05a"/>
+      <stop offset="100%" stop-color="#a07030"/>
+    </linearGradient>
+    <linearGradient id="abr2_tent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a050"/>
+      <stop offset="100%" stop-color="#8b6020"/>
+    </linearGradient>
+    <radialGradient id="abr2_baby_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff9c4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#fff9c4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="800" height="380" fill="url(#abr2_bg)"/>
+  <!-- Golden glow center -->
+  <ellipse cx="400" cy="180" rx="300" ry="200" fill="url(#abr2_glow)"/>
+
+  <!-- Ground -->
+  <ellipse cx="400" cy="430" rx="500" ry="120" fill="url(#abr2_ground)"/>
+  <rect x="0" y="310" width="800" height="70" fill="url(#abr2_ground)"/>
+
+  <!-- Tent background -->
+  <polygon points="120,310 320,160 520,310" fill="url(#abr2_tent)"/>
+  <polygon points="130,310 320,170 510,310" fill="#d4aa60" opacity="0.5"/>
+  <!-- Tent entrance curtain -->
+  <rect x="270" y="230" width="100" height="80" fill="#8b5e20" rx="5"/>
+  <path d="M270 230 Q320 250 370 230" fill="#a07030"/>
+  <!-- Tent rope lines -->
+  <line x1="120" y1="310" x2="80" y2="340" stroke="#8b6020" stroke-width="2"/>
+  <line x1="520" y1="310" x2="560" y2="340" stroke="#8b6020" stroke-width="2"/>
+
+  <!-- Golden light rays from above -->
+  <line x1="400" y1="0" x2="350" y2="150" stroke="#fff9c4" stroke-width="3" opacity="0.4"/>
+  <line x1="400" y1="0" x2="400" y2="160" stroke="#fff9c4" stroke-width="4" opacity="0.5"/>
+  <line x1="400" y1="0" x2="450" y2="150" stroke="#fff9c4" stroke-width="3" opacity="0.4"/>
+
+  <!-- Baby glow aura -->
+  <ellipse cx="400" cy="255" rx="80" ry="70" fill="url(#abr2_baby_glow)"/>
+
+  <!-- Sara (woman, left) -->
+  <!-- Body -->
+  <path d="M255 310 Q260 255 270 245 Q285 240 295 245 Q310 255 315 310Z" fill="#e8c880"/>
+  <!-- Dress detail -->
+  <path d="M268 270 Q280 265 292 270" stroke="#c9a040" stroke-width="1.5" fill="none"/>
+  <!-- Head scarf -->
+  <path d="M258 240 Q270 225 285 222 Q300 225 308 240 Q300 248 285 250 Q270 248 258 240Z" fill="#c9a040"/>
+  <!-- Head -->
+  <circle cx="283" cy="238" r="20" fill="#d4956a"/>
+  <!-- Hair under scarf -->
+  <path d="M263 240 Q270 255 283 258 Q296 255 303 240" fill="#8b5520" opacity="0.6"/>
+  <!-- Eyes - happy, squinting -->
+  <path d="M275 233 Q279 230 283 233" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <path d="M289 233 Q293 230 297 233" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <!-- Big smile -->
+  <path d="M274 242 Q283 250 292 242" stroke="#8b3a10" stroke-width="2" fill="#ff9a7a" opacity="0.5"/>
+  <!-- Rosy cheeks -->
+  <ellipse cx="272" cy="240" rx="6" ry="4" fill="#e07060" opacity="0.4"/>
+  <ellipse cx="294" cy="240" rx="6" ry="4" fill="#e07060" opacity="0.4"/>
+  <!-- Arms holding baby -->
+  <path d="M258 268 Q250 280 255 295" stroke="#d4956a" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M308 268 Q320 280 315 295" stroke="#d4956a" stroke-width="9" stroke-linecap="round" fill="none"/>
+
+  <!-- Baby (Isaque) being held between them -->
+  <!-- Baby wrap/blanket -->
+  <ellipse cx="400" cy="268" rx="32" ry="22" fill="#fff9c4"/>
+  <path d="M372 260 Q400 250 428 260 Q428 280 400 288 Q372 280 372 260Z" fill="#fffde7"/>
+  <!-- Baby head -->
+  <circle cx="400" cy="250" r="16" fill="#e8b88a"/>
+  <!-- Baby hair wisps -->
+  <path d="M392 238 Q400 234 408 238" stroke="#c8956a" stroke-width="2" fill="none"/>
+  <!-- Baby eyes closed (sleeping) -->
+  <path d="M393 248 Q397 246 401 248" stroke="#3a2010" stroke-width="1.5" fill="none"/>
+  <path d="M403 248 Q407 246 411 248" stroke="#3a2010" stroke-width="1.5" fill="none"/>
+  <!-- Baby tiny smile -->
+  <path d="M396 254 Q400 257 404 254" stroke="#c87060" stroke-width="1.2" fill="none"/>
+  <!-- Baby little hands peeking -->
+  <circle cx="378" cy="275" r="6" fill="#e8b88a"/>
+  <circle cx="422" cy="275" r="6" fill="#e8b88a"/>
+
+  <!-- Abraão (man, right) -->
+  <!-- Body/robe -->
+  <path d="M480 310 Q485 255 495 245 Q510 238 525 245 Q538 255 540 310Z" fill="#c89a40"/>
+  <!-- Robe stripes -->
+  <path d="M487 270 Q508 262 535 270" stroke="#a07828" stroke-width="1.5" fill="none"/>
+  <!-- Cloak -->
+  <path d="M475 305 Q478 265 492 250 Q478 275 475 305Z" fill="#8b6820"/>
+  <!-- Head -->
+  <circle cx="510" cy="240" r="22" fill="#c8956c"/>
+  <!-- White beard - long -->
+  <path d="M492 250 Q498 275 510 282 Q522 275 528 250" fill="white"/>
+  <path d="M494 252 Q510 285 526 252" fill="#e8e8e8"/>
+  <!-- White hair -->
+  <path d="M490 237 Q492 222 510 218 Q528 222 530 237" fill="white"/>
+  <!-- Eyes squinting with joy -->
+  <path d="M501 235 Q505 232 509 235" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <path d="M515 235 Q519 232 523 235" stroke="#3a2010" stroke-width="2" fill="none"/>
+  <!-- Big smile through beard -->
+  <path d="M500 247 Q510 254 520 247" stroke="#8b3a10" stroke-width="2" fill="#ff9a7a" opacity="0.4"/>
+  <!-- Rosy cheeks -->
+  <ellipse cx="498" cy="243" rx="6" ry="4" fill="#e07060" opacity="0.4"/>
+  <ellipse cx="522" cy="243" rx="6" ry="4" fill="#e07060" opacity="0.4"/>
+  <!-- Arms stretched toward baby -->
+  <path d="M483 268 Q460 278 445 285" stroke="#c8956c" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M537 268 Q555 280 545 290" stroke="#c8956c" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <!-- Hands near baby -->
+  <circle cx="442" cy="286" r="8" fill="#c8956c"/>
+  <circle cx="546" cy="291" r="8" fill="#c8956c"/>
+
+  <!-- Stars on ground (symbolic) -->
+  <text x="160" y="345" font-size="18" fill="#f9a825" opacity="0.6">✦</text>
+  <text x="600" y="340" font-size="16" fill="#f9a825" opacity="0.6">✦</text>
+  <text x="630" y="360" font-size="12" fill="#f9a825" opacity="0.5">✦</text>
+
+  <!-- Heart symbols floating -->
+  <path d="M350 180 Q353 176 357 180 Q361 176 364 180 Q364 186 357 192 Q350 186 350 180Z" fill="#e07060" opacity="0.7"/>
+  <path d="M430 170 Q434 165 439 170 Q444 165 448 170 Q448 177 439 184 Q430 177 430 170Z" fill="#e07060" opacity="0.6"/>
+  <path d="M386 155 Q390 150 395 155 Q400 150 404 155 Q404 163 395 170 Q386 163 386 155Z" fill="#e07060" opacity="0.8"/>
+
+  <!-- Caption -->
+  <rect x="10" y="345" width="310" height="28" rx="14" fill="#f9a825" opacity="0.8"/>
+  <text x="165" y="364" font-family="Georgia, serif" font-size="14" fill="#3a2010" text-anchor="middle" font-weight="bold">Abraão e Sara recebem Isaque</text>
+</svg>

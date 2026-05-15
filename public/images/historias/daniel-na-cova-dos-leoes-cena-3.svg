@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="dan3_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d0020"/>
+      <stop offset="60%" stop-color="#2a0848"/>
+      <stop offset="100%" stop-color="#4a1860"/>
+    </linearGradient>
+    <linearGradient id="dan3_palace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7050a0"/>
+      <stop offset="100%" stop-color="#3a1860"/>
+    </linearGradient>
+    <linearGradient id="dan3_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3080"/>
+      <stop offset="100%" stop-color="#2a0840"/>
+    </linearGradient>
+    <radialGradient id="dan3_lampglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffcc02" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ffcc02" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Night sky -->
+  <rect width="800" height="380" fill="url(#dan3_sky)"/>
+
+  <!-- Stars -->
+  <circle cx="60" cy="30" r="2" fill="white" opacity="0.8"/>
+  <circle cx="140" cy="18" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="220" cy="45" r="2" fill="white" opacity="0.8"/>
+  <circle cx="320" cy="22" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="420" cy="12" r="2" fill="white" opacity="0.8"/>
+  <circle cx="500" cy="38" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="580" cy="20" r="2" fill="white" opacity="0.8"/>
+  <circle cx="660" cy="45" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="740" cy="25" r="2" fill="white" opacity="0.8"/>
+  <circle cx="100" cy="70" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="180" cy="88" r="1" fill="white" opacity="0.7"/>
+  <circle cx="260" cy="65" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="370" cy="80" r="1" fill="white" opacity="0.7"/>
+  <circle cx="460" cy="58" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="540" cy="82" r="1" fill="white" opacity="0.7"/>
+  <circle cx="620" cy="68" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="700" cy="75" r="1" fill="white" opacity="0.7"/>
+
+  <!-- Moon -->
+  <circle cx="700" cy="55" r="30" fill="#fff9c4"/>
+  <circle cx="688" cy="46" r="24" fill="#2a0848"/>
+
+  <!-- Palace exterior — columns and facade -->
+  <rect x="100" y="80" width="600" height="250" fill="url(#dan3_palace)"/>
+  <!-- Palace roof -->
+  <rect x="80" y="68" width="640" height="20" rx="4" fill="#5a3080"/>
+  <!-- Roof detail triangles (pediment) -->
+  <polygon points="300,40 400,68 500,68" fill="#6a4090"/>
+  <!-- Columns -->
+  <rect x="140" y="88" width="28" height="235" fill="#7060a8"/>
+  <ellipse cx="154" cy="88" rx="18" ry="9" fill="#8070b8"/>
+  <rect x="220" y="88" width="28" height="235" fill="#7060a8"/>
+  <ellipse cx="234" cy="88" rx="18" ry="9" fill="#8070b8"/>
+  <rect x="300" y="88" width="28" height="235" fill="#7060a8"/>
+  <ellipse cx="314" cy="88" rx="18" ry="9" fill="#8070b8"/>
+  <rect x="472" y="88" width="28" height="235" fill="#7060a8"/>
+  <ellipse cx="486" cy="88" rx="18" ry="9" fill="#8070b8"/>
+  <rect x="552" y="88" width="28" height="235" fill="#7060a8"/>
+  <ellipse cx="566" cy="88" rx="18" ry="9" fill="#8070b8"/>
+  <rect x="632" y="88" width="28" height="235" fill="#7060a8"/>
+  <ellipse cx="646" cy="88" rx="18" ry="9" fill="#8070b8"/>
+
+  <!-- Palace floor -->
+  <rect x="100" y="310" width="600" height="70" fill="url(#dan3_floor)"/>
+  <!-- Floor tiles -->
+  <line x1="100" y1="335" x2="700" y2="335" stroke="#6a3090" stroke-width="1.5" opacity="0.4"/>
+  <line x1="100" y1="358" x2="700" y2="358" stroke="#6a3090" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Lamp on stand — giving warm glow -->
+  <rect x="620" y="260" width="10" height="60" fill="#8b6020"/>
+  <ellipse cx="625" cy="260" rx="22" ry="8" fill="#8b6020"/>
+  <!-- Flame -->
+  <ellipse cx="625" cy="248" rx="10" ry="16" fill="#ff8f00"/>
+  <ellipse cx="625" cy="246" rx="6" ry="11" fill="#ffee58"/>
+  <ellipse cx="625" cy="260" rx="35" ry="25" fill="url(#dan3_lampglow)"/>
+
+  <!-- Guards at door (right side, standing stiff) -->
+  <!-- Guard 1 -->
+  <circle cx="660" cy="265" r="14" fill="#c8956a"/>
+  <rect x="648" y="278" width="24" height="45" rx="3" fill="#8040a0"/>
+  <path d="M648 278 Q660 270 672 278" fill="#6030a0"/>
+  <!-- Spear -->
+  <line x1="670" y1="250" x2="675" y2="330" stroke="#8b5e20" stroke-width="5"/>
+  <polygon points="667,250 675,232 683,250" fill="#c8a030"/>
+  <!-- Stern face -->
+  <circle cx="655" cy="261" r="2.5" fill="#3a2010"/>
+  <circle cx="665" cy="261" r="2.5" fill="#3a2010"/>
+  <line x1="656" y1="269" x2="664" y2="269" stroke="#8b3a10" stroke-width="1.5"/>
+
+  <!-- Guard 2 -->
+  <circle cx="710" cy="263" r="14" fill="#d4a870"/>
+  <rect x="698" y="276" width="24" height="47" rx="3" fill="#8040a0"/>
+  <path d="M698 276 Q710 268 722 276" fill="#6030a0"/>
+  <line x1="720" y1="248" x2="725" y2="332" stroke="#8b5e20" stroke-width="5"/>
+  <polygon points="717,248 725,230 733,248" fill="#c8a030"/>
+  <circle cx="704" cy="259" r="2.5" fill="#3a2010"/>
+  <circle cx="716" cy="259" r="2.5" fill="#3a2010"/>
+  <line x1="705" y1="267" x2="715" y2="267" stroke="#8b3a10" stroke-width="1.5"/>
+
+  <!-- KING DARIO — seated on throne, worried expression -->
+  <!-- Throne -->
+  <rect x="330" y="180" width="140" height="130" rx="8" fill="#5a3080"/>
+  <rect x="318" y="175" width="164" height="18" rx="6" fill="#7050a0"/>
+  <!-- Throne armrests -->
+  <rect x="320" y="225" width="22" height="60" rx="5" fill="#6a4090"/>
+  <rect x="458" y="225" width="22" height="60" rx="5" fill="#6a4090"/>
+  <!-- Throne back ornaments -->
+  <ellipse cx="400" cy="175" rx="20" ry="12" fill="#9060c0"/>
+  <circle cx="400" cy="163" r="10" fill="#c080d0"/>
+
+  <!-- King's robe -->
+  <path d="M348 310 Q352 235 368 220 Q385 208 400 212 Q415 208 432 220 Q448 235 452 310Z" fill="#7040a8"/>
+  <!-- Royal mantle -->
+  <path d="M342 305 Q346 248 362 228 Q346 262 342 305Z" fill="#5030a0"/>
+  <path d="M458 305 Q460 252 446 228 Q460 264 458 305Z" fill="#5030a0"/>
+  <!-- Royal collar/chest piece -->
+  <rect x="368" y="228" width="64" height="30" rx="5" fill="#9060c0" opacity="0.8"/>
+  <ellipse cx="400" cy="243" rx="20" ry="12" fill="#b080e0" opacity="0.6"/>
+  <!-- Crown -->
+  <rect x="378" y="198" width="44" height="16" rx="3" fill="#ffd700"/>
+  <polygon points="378,198 385,182 392,198" fill="#ffd700"/>
+  <polygon points="393,198 400,180 407,198" fill="#ffd700"/>
+  <polygon points="408,198 415,182 422,198" fill="#ffd700"/>
+  <circle cx="400" cy="184" r="5" fill="#e53935"/>
+  <circle cx="386" cy="188" r="4" fill="#1565c0"/>
+  <circle cx="414" cy="188" r="4" fill="#2e7d32"/>
+
+  <!-- King's head -->
+  <circle cx="400" cy="210" r="22" fill="#c8956c"/>
+  <!-- White/grey beard — older king -->
+  <path d="M382 220 Q387 240 400 245 Q413 240 418 220" fill="#d0d0d0"/>
+  <!-- Hair under crown -->
+  <path d="M380 208 Q383 198 400 196 Q417 198 420 208" fill="#888"/>
+  <!-- WORRIED expression — brow furrowed, mouth downturned -->
+  <path d="M386 204 Q390 200 394 204" stroke="#5a3010" stroke-width="2.5" fill="none"/>
+  <path d="M406 204 Q410 200 414 204" stroke="#5a3010" stroke-width="2.5" fill="none"/>
+  <!-- Furrowed brow lines -->
+  <line x1="395" y1="202" x2="398" y2="205" stroke="#5a3010" stroke-width="1.5" opacity="0.6"/>
+  <line x1="405" y1="202" x2="402" y2="205" stroke="#5a3010" stroke-width="1.5" opacity="0.6"/>
+  <!-- Sad eyes — looking down -->
+  <ellipse cx="390" cy="207" rx="4" ry="4.5" fill="white"/>
+  <ellipse cx="410" cy="207" rx="4" ry="4.5" fill="white"/>
+  <circle cx="391" cy="209" r="2.5" fill="#3a2010"/>
+  <circle cx="411" cy="209" r="2.5" fill="#3a2010"/>
+  <!-- Downturned mouth — frown -->
+  <path d="M389 220 Q400 216 411 220" stroke="#8b3a10" stroke-width="2" fill="none"/>
+  <!-- Hand on cheek — worried gesture -->
+  <line x1="382" y1="228" x2="365" y2="218" stroke="#c8956c" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="363" cy="217" r="9" fill="#c8956c"/>
+  <!-- Other arm on armrest -->
+  <line x1="418" y1="230" x2="448" y2="240" stroke="#c8956c" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="450" cy="241" r="8" fill="#c8956c"/>
+
+  <!-- Worry lines / thought bubble (stars = sleepless) -->
+  <circle cx="350" cy="175" r="4" fill="#e0b0ff" opacity="0.6"/>
+  <circle cx="335" cy="165" r="3" fill="#e0b0ff" opacity="0.5"/>
+  <circle cx="325" cy="152" r="2" fill="#e0b0ff" opacity="0.4"/>
+  <text x="290" y="148" font-family="Georgia, serif" font-size="22" fill="#e0b0ff" opacity="0.5">?</text>
+  <text x="270" y="130" font-family="Georgia, serif" font-size="18" fill="#e0b0ff" opacity="0.4">?</text>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="390" height="28" rx="14" fill="#1a0830" opacity="0.88"/>
+  <text x="205" y="363" font-family="Georgia, serif" font-size="14" fill="#e0b0ff" text-anchor="middle" font-weight="bold">O rei Dario passa a noite preocupado</text>
+</svg>

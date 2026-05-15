@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="san1_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87ceeb"/>
+      <stop offset="55%" stop-color="#c8e8f8"/>
+      <stop offset="100%" stop-color="#ffe0b2"/>
+    </linearGradient>
+    <radialGradient id="san1_angelglow" cx="60%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#fffde7" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#ffe082" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#87ceeb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="san1_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8dc63f"/>
+      <stop offset="40%" stop-color="#6aaa1e"/>
+      <stop offset="100%" stop-color="#4a8010"/>
+    </linearGradient>
+    <linearGradient id="san1_field" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8d860"/>
+      <stop offset="100%" stop-color="#8aaa20"/>
+    </linearGradient>
+    <radialGradient id="san1_sun" cx="30%" cy="15%" r="40%">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="50%" stop-color="#ffee58"/>
+      <stop offset="100%" stop-color="#87ceeb" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Golden countryside sky -->
+  <rect width="800" height="380" fill="url(#san1_sky)"/>
+  <ellipse cx="240" cy="100" rx="300" ry="200" fill="url(#san1_sun)"/>
+
+  <!-- Sun -->
+  <circle cx="140" cy="65" r="40" fill="#fff9c4"/>
+  <circle cx="140" cy="65" r="32" fill="#ffee58"/>
+
+  <!-- Clouds -->
+  <ellipse cx="400" cy="55" rx="70" ry="22" fill="white" opacity="0.8"/>
+  <ellipse cx="370" cy="61" rx="48" ry="18" fill="white" opacity="0.85"/>
+  <ellipse cx="435" cy="61" rx="52" ry="17" fill="white" opacity="0.8"/>
+  <ellipse cx="620" cy="45" rx="55" ry="20" fill="white" opacity="0.7"/>
+
+  <!-- Green countryside field -->
+  <rect x="0" y="280" width="800" height="100" fill="url(#san1_ground)"/>
+  <!-- Field hills -->
+  <ellipse cx="200" cy="285" rx="280" ry="60" fill="url(#san1_field)" opacity="0.7"/>
+  <ellipse cx="600" cy="290" rx="260" ry="55" fill="url(#san1_field)" opacity="0.65"/>
+  <!-- Grass tufts -->
+  <line x1="100" y1="282" x2="96" y2="270" stroke="#5a9010" stroke-width="2.5"/>
+  <line x1="108" y1="282" x2="110" y2="270" stroke="#5a9010" stroke-width="2.5"/>
+  <line x1="200" y1="280" x2="196" y2="268" stroke="#5a9010" stroke-width="2.5"/>
+  <line x1="208" y1="280" x2="210" y2="268" stroke="#5a9010" stroke-width="2.5"/>
+  <line x1="320" y1="282" x2="316" y2="270" stroke="#5a9010" stroke-width="2.5"/>
+  <line x1="500" y1="280" x2="496" y2="268" stroke="#5a9010" stroke-width="2.5"/>
+  <line x1="650" y1="282" x2="646" y2="270" stroke="#5a9010" stroke-width="2.5"/>
+  <line x1="720" y1="280" x2="718" y2="268" stroke="#5a9010" stroke-width="2.5"/>
+  <!-- Wildflowers -->
+  <circle cx="150" cy="278" r="4" fill="#ff8f00" opacity="0.8"/>
+  <circle cx="280" cy="276" r="3.5" fill="#ff6f00" opacity="0.7"/>
+  <circle cx="420" cy="278" r="4" fill="#ffd700" opacity="0.8"/>
+  <circle cx="560" cy="276" r="3.5" fill="#ff8f00" opacity="0.7"/>
+  <circle cx="680" cy="278" r="4" fill="#ffd700" opacity="0.8"/>
+
+  <!-- Background trees -->
+  <rect x="60" y="220" width="12" height="70" fill="#6b4010"/>
+  <ellipse cx="66" cy="215" rx="28" ry="22" fill="#4a8020"/>
+  <ellipse cx="55" cy="225" rx="20" ry="16" fill="#3a7018"/>
+  <ellipse cx="77" cy="228" rx="22" ry="15" fill="#3a7018"/>
+  <rect x="700" y="215" width="12" height="75" fill="#6b4010"/>
+  <ellipse cx="706" cy="210" rx="30" ry="24" fill="#4a8020"/>
+  <ellipse cx="694" cy="220" rx="22" ry="17" fill="#3a7018"/>
+  <ellipse cx="718" cy="223" rx="22" ry="16" fill="#3a7018"/>
+  <!-- Smaller background trees -->
+  <rect x="580" y="235" width="9" height="55" fill="#6b4010" opacity="0.7"/>
+  <ellipse cx="584" cy="230" rx="22" ry="18" fill="#4a8020" opacity="0.7"/>
+  <rect x="180" y="240" width="9" height="50" fill="#6b4010" opacity="0.7"/>
+  <ellipse cx="184" cy="236" rx="20" ry="16" fill="#4a8020" opacity="0.7"/>
+
+  <!-- Angel divine glow from upper right -->
+  <ellipse cx="580" cy="100" rx="220" ry="180" fill="url(#san1_angelglow)"/>
+  <!-- Light rays -->
+  <line x1="580" y1="0" x2="480" y2="160" stroke="#fffde7" stroke-width="4" opacity="0.35"/>
+  <line x1="580" y1="0" x2="530" y2="180" stroke="#fffde7" stroke-width="5" opacity="0.4"/>
+  <line x1="580" y1="0" x2="580" y2="190" stroke="#fffde7" stroke-width="6" opacity="0.45"/>
+  <line x1="580" y1="0" x2="630" y2="175" stroke="#fffde7" stroke-width="5" opacity="0.4"/>
+
+  <!-- ANGEL — glowing, floating, upper right -->
+  <!-- Angel glow aura -->
+  <ellipse cx="590" cy="140" rx="75" ry="90" fill="#fffde7" opacity="0.4"/>
+  <!-- Wings -->
+  <path d="M545 155 Q500 120 480 138 Q492 165 538 168Z" fill="#fff9c4" opacity="0.9"/>
+  <path d="M545 155 Q504 135 485 155 Q496 178 540 175Z" fill="white" opacity="0.6"/>
+  <path d="M635 155 Q680 120 700 138 Q688 165 642 168Z" fill="#fff9c4" opacity="0.9"/>
+  <path d="M635 155 Q676 135 695 155 Q684 178 640 175Z" fill="white" opacity="0.6"/>
+  <!-- Wing feather lines -->
+  <line x1="543" y1="160" x2="498" y2="138" stroke="#ffe082" stroke-width="1.5" opacity="0.6"/>
+  <line x1="543" y1="167" x2="494" y2="153" stroke="#ffe082" stroke-width="1.5" opacity="0.6"/>
+  <line x1="637" y1="160" x2="682" y2="138" stroke="#ffe082" stroke-width="1.5" opacity="0.6"/>
+  <line x1="637" y1="167" x2="686" y2="153" stroke="#ffe082" stroke-width="1.5" opacity="0.6"/>
+  <!-- Angel body/robe -->
+  <path d="M558 235 Q562 168 580 155 Q598 168 622 235Z" fill="white" opacity="0.95"/>
+  <!-- Shining belt -->
+  <rect x="566" y="192" width="48" height="8" rx="4" fill="#ffe082" opacity="0.9"/>
+  <!-- Angel head -->
+  <circle cx="590" cy="148" r="20" fill="#fff9c4"/>
+  <!-- Halo -->
+  <circle cx="590" cy="148" r="28" fill="none" stroke="#ffd700" stroke-width="3.5" opacity="0.85"/>
+  <!-- Golden hair -->
+  <path d="M572 142 Q575 130 590 127 Q605 130 608 142" fill="#ffd700" opacity="0.8"/>
+  <!-- Angel face — kind, speaking -->
+  <circle cx="583" cy="145" r="3" fill="#c8956c"/>
+  <circle cx="597" cy="145" r="3" fill="#c8956c"/>
+  <path d="M583 154 Q590 158 597 154" stroke="#c8956c" stroke-width="1.5" fill="none"/>
+  <!-- Angel arm extended pointing downward — delivering message -->
+  <line x1="563" y1="200" x2="510" y2="235" stroke="#fff9c4" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="508" cy="236" r="8" fill="#fff9c4"/>
+  <ellipse cx="508" cy="236" rx="14" ry="10" fill="#ffe082" opacity="0.4"/>
+
+  <!-- WOMAN (Manoah's wife) — in the field, looking up in amazement -->
+  <!-- Robe -->
+  <path d="M270 290 Q274 238 286 225 Q302 213 318 219 Q332 228 334 290Z" fill="#ff8f00"/>
+  <!-- Mantle/head covering -->
+  <path d="M266 284 Q270 242 282 228 Q267 252 266 284Z" fill="#e07010"/>
+  <!-- Head scarf -->
+  <path d="M272 220 Q278 206 296 202 Q314 206 320 220 Q314 228 296 230 Q278 228 272 220Z" fill="#ff6f00"/>
+  <!-- Head -->
+  <circle cx="296" cy="216" r="21" fill="#d4956a"/>
+  <!-- Eyes WIDE open — amazed looking at angel -->
+  <ellipse cx="287" cy="211" rx="4.5" ry="5.5" fill="white"/>
+  <ellipse cx="305" cy="211" rx="4.5" ry="5.5" fill="white"/>
+  <circle cx="288" cy="212" r="2.5" fill="#3a2010"/>
+  <circle cx="306" cy="212" r="2.5" fill="#3a2010"/>
+  <!-- Eyebrows raised high -->
+  <path d="M283 204 Q287 200 291 204" stroke="#5a3010" stroke-width="2" fill="none"/>
+  <path d="M301 204 Q305 200 309 204" stroke="#5a3010" stroke-width="2" fill="none"/>
+  <!-- Open mouth in amazement -->
+  <ellipse cx="296" cy="222" rx="5" ry="4.5" fill="#8b1a1a"/>
+  <!-- Rosy cheeks -->
+  <ellipse cx="282" cy="219" rx="6" ry="4" fill="#e07060" opacity="0.5"/>
+  <ellipse cx="310" cy="219" rx="6" ry="4" fill="#e07060" opacity="0.5"/>
+  <!-- Hand raised to face — surprised gesture -->
+  <line x1="282" y1="232" x2="260" y2="218" stroke="#d4956a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="258" cy="217" r="8" fill="#d4956a"/>
+  <!-- Other hand raised toward angel -->
+  <line x1="320" y1="232" x2="345" y2="215" stroke="#d4956a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="347" cy="214" r="8" fill="#d4956a"/>
+  <!-- Glow on her from angel light -->
+  <ellipse cx="296" cy="240" rx="55" ry="50" fill="#ffe082" opacity="0.2"/>
+
+  <!-- Basket of produce on ground (she was in the field working) -->
+  <ellipse cx="240" cy="293" rx="22" ry="12" fill="#c8a040"/>
+  <ellipse cx="240" cy="285" rx="18" ry="10" fill="#d4aa50"/>
+  <!-- Grapes / fruit in basket -->
+  <circle cx="234" cy="283" r="5" fill="#7040a0" opacity="0.8"/>
+  <circle cx="242" cy="281" r="5" fill="#7040a0" opacity="0.8"/>
+  <circle cx="250" cy="283" r="5" fill="#7040a0" opacity="0.8"/>
+  <circle cx="237" cy="278" r="4.5" fill="#8050b0" opacity="0.7"/>
+  <circle cx="245" cy="277" r="4.5" fill="#8050b0" opacity="0.7"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="360" height="28" rx="14" fill="#bf4400" opacity="0.82"/>
+  <text x="185" y="363" font-family="Georgia, serif" font-size="14" fill="#fff9c4" text-anchor="middle" font-weight="bold">Um anjo anuncia o nascimento de Sansão</text>
+</svg>

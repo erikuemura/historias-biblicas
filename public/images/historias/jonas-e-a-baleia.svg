@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="jwh_sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0369a1"/><stop offset="100%" stop-color="#0c4a6e"/></linearGradient>
+    <radialGradient id="jwh_whale" cx="50%" cy="50%"><stop offset="0%" stop-color="#1d4ed8"/><stop offset="100%" stop-color="#1e3a8a"/></radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="#0369a1"/>
+  <!-- sea waves -->
+  <ellipse cx="400" cy="400" rx="600" ry="120" fill="url(#jwh_sea)"/>
+  <!-- whale body -->
+  <ellipse cx="380" cy="280" rx="220" ry="100" fill="url(#jwh_whale)"/>
+  <!-- whale tail -->
+  <path d="M590,280 Q660,230 680,270 Q660,310 590,280Z" fill="#1e40af"/>
+  <!-- whale eye -->
+  <circle cx="210" cy="260" r="14" fill="white"/>
+  <circle cx="215" cy="258" r="8" fill="#1e3a8a"/>
+  <circle cx="218" cy="255" r="3" fill="white"/>
+  <!-- whale mouth/smile -->
+  <path d="M150,290 Q180,315 220,300" stroke="#93c5fd" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- spout -->
+  <path d="M550,185 Q560,140 555,100 Q570,130 575,160 Q565,155 570,185" fill="#93c5fd" opacity="0.7"/>
+  <ellipse cx="562" cy="95" rx="18" ry="8" fill="#bae6fd" opacity="0.8"/>
+  <!-- sky -->
+  <rect width="800" height="180" fill="#0ea5e9"/>
+  <rect width="800" height="60" fill="#38bdf8" opacity="0.5"/>
+  <!-- clouds -->
+  <ellipse cx="150" cy="60" rx="60" ry="25" fill="white" opacity="0.8"/>
+  <ellipse cx="650" cy="80" rx="70" ry="22" fill="white" opacity="0.7"/>
+  <!-- sun -->
+  <circle cx="680" cy="50" r="35" fill="#fbbf24"/>
+  <!-- Jonas tiny figure on back of whale -->
+  <ellipse cx="480" cy="184" rx="10" ry="13" fill="#fde68a"/>
+  <rect x="471" y="195" width="18" height="22" rx="4" fill="#0369a1"/>
+</svg>

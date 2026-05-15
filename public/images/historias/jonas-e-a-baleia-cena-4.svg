@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="jon4_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0096c7"/>
+      <stop offset="50%" stop-color="#48cae4"/>
+      <stop offset="100%" stop-color="#90e0ef"/>
+    </linearGradient>
+    <radialGradient id="jon4_sun" cx="75%" cy="15%" r="40%">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="40%" stop-color="#ffee58"/>
+      <stop offset="100%" stop-color="#0096c7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="jon4_sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0096c7"/>
+      <stop offset="100%" stop-color="#023e8a"/>
+    </linearGradient>
+    <linearGradient id="jon4_sand" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d080"/>
+      <stop offset="100%" stop-color="#c8a040"/>
+    </linearGradient>
+    <linearGradient id="jon4_whale" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a5a7a"/>
+      <stop offset="100%" stop-color="#0a2a3a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bright sunny sky -->
+  <rect width="800" height="380" fill="url(#jon4_sky)"/>
+  <ellipse cx="600" cy="60" rx="280" ry="180" fill="url(#jon4_sun)"/>
+
+  <!-- Sun -->
+  <circle cx="680" cy="55" r="42" fill="#fff9c4"/>
+  <circle cx="680" cy="55" r="34" fill="#ffee58"/>
+  <!-- Sun rays -->
+  <line x1="680" y1="8" x2="680" y2="-2" stroke="#fdd835" stroke-width="3"/>
+  <line x1="680" y1="102" x2="680" y2="112" stroke="#fdd835" stroke-width="3"/>
+  <line x1="633" y1="55" x2="623" y2="55" stroke="#fdd835" stroke-width="3"/>
+  <line x1="727" y1="55" x2="737" y2="55" stroke="#fdd835" stroke-width="3"/>
+  <line x1="647" y1="21" x2="640" y2="14" stroke="#fdd835" stroke-width="3"/>
+  <line x1="713" y1="89" x2="720" y2="96" stroke="#fdd835" stroke-width="3"/>
+  <line x1="713" y1="21" x2="720" y2="14" stroke="#fdd835" stroke-width="3"/>
+  <line x1="647" y1="89" x2="640" y2="96" stroke="#fdd835" stroke-width="3"/>
+
+  <!-- Fluffy clouds -->
+  <ellipse cx="150" cy="55" rx="75" ry="26" fill="white" opacity="0.85"/>
+  <ellipse cx="120" cy="62" rx="50" ry="22" fill="white" opacity="0.9"/>
+  <ellipse cx="185" cy="62" rx="55" ry="20" fill="white" opacity="0.85"/>
+  <ellipse cx="380" cy="45" rx="60" ry="22" fill="white" opacity="0.75"/>
+
+  <!-- Sea (left portion) -->
+  <rect x="0" y="230" width="450" height="150" fill="url(#jon4_sea)"/>
+  <!-- Calm waves -->
+  <path d="M0 240 Q55 232 110 240 Q165 248 220 240 Q275 232 330 240 Q385 248 440 240" stroke="#48cae4" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M0 258 Q60 250 120 258 Q180 266 240 258 Q300 250 360 258 Q420 266 440 258" stroke="#90e0ef" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- Beach / sandy shore -->
+  <path d="M350 230 Q450 215 800 225 L800 380 L350 380Z" fill="url(#jon4_sand)"/>
+  <!-- Sand texture -->
+  <ellipse cx="550" cy="300" rx="120" ry="20" fill="#e8c870" opacity="0.4"/>
+  <ellipse cx="700" cy="320" rx="90" ry="15" fill="#e8c870" opacity="0.35"/>
+  <!-- Wet sand near water -->
+  <path d="M350 230 Q450 218 800 228 Q800 245 450 240 Q360 243 350 235Z" fill="#d4b050" opacity="0.5"/>
+  <!-- Small shells on beach -->
+  <ellipse cx="520" cy="265" rx="6" ry="4" fill="#fff9c4" opacity="0.8"/>
+  <ellipse cx="580" cy="275" rx="5" ry="3" fill="#ffe082" opacity="0.8"/>
+  <ellipse cx="640" cy="258" rx="7" ry="4" fill="#fff9c4" opacity="0.7"/>
+  <ellipse cx="720" cy="270" rx="5" ry="3" fill="#ffe082" opacity="0.8"/>
+  <!-- Seaweed bits -->
+  <path d="M500 270 Q510 265 520 272" stroke="#2a7a20" stroke-width="2.5" fill="none" opacity="0.7"/>
+  <path d="M660 280 Q668 274 676 281" stroke="#2a7a20" stroke-width="2" fill="none" opacity="0.7"/>
+
+  <!-- GIANT WHALE — beached at shore, mouth WIDE OPEN -->
+  <!-- Whale body -->
+  <ellipse cx="180" cy="280" rx="200" ry="75" fill="url(#jon4_whale)"/>
+  <!-- Whale belly (lighter) -->
+  <ellipse cx="180" cy="308" rx="175" ry="45" fill="#3a7090" opacity="0.6"/>
+  <!-- Whale tail -->
+  <path d="M-20 275 Q-50 240 -70 220 Q-55 248 -30 258Z" fill="#1a4a6a"/>
+  <path d="M-20 285 Q-55 310 -75 335 Q-58 315 -28 298Z" fill="#1a4a6a"/>
+  <!-- Whale tail fluke lines -->
+  <line x1="-20" y1="280" x2="-65" y2="228" stroke="#0a2a3a" stroke-width="2" opacity="0.5"/>
+  <line x1="-20" y1="280" x2="-68" y2="328" stroke="#0a2a3a" stroke-width="2" opacity="0.5"/>
+  <!-- Whale flipper -->
+  <path d="M100 335 Q80 360 60 370 Q75 355 95 342Z" fill="#1a4a6a"/>
+  <!-- Whale eye -->
+  <circle cx="300" cy="258" r="12" fill="#1a3a52"/>
+  <circle cx="300" cy="258" r="8" fill="#0a1a28"/>
+  <circle cx="303" cy="255" r="3" fill="white" opacity="0.6"/>
+  <!-- Whale skin texture lines -->
+  <path d="M80 240 Q120 230 200 235 Q260 238 320 250" stroke="#1a4a6a" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M70 265 Q100 255 180 260 Q240 263 310 272" stroke="#1a4a6a" stroke-width="1.5" fill="none" opacity="0.35"/>
+
+  <!-- WHALE MOUTH OPEN WIDE -->
+  <!-- Upper jaw -->
+  <path d="M330 240 Q370 220 400 215 Q420 218 400 240Z" fill="#2a5a7a"/>
+  <!-- Lower jaw -->
+  <path d="M330 240 Q360 268 390 275 Q410 272 400 250Z" fill="#1a3a5a"/>
+  <!-- Inside mouth — pinkish -->
+  <ellipse cx="365" cy="248" rx="35" ry="22" fill="#8a4a6a" opacity="0.7"/>
+  <!-- Tongue -->
+  <ellipse cx="358" cy="260" rx="20" ry="10" fill="#c06080" opacity="0.8"/>
+  <!-- Teeth / baleen -->
+  <line x1="338" y1="242" x2="342" y2="255" stroke="#d0d0d0" stroke-width="2.5" opacity="0.7"/>
+  <line x1="350" y1="238" x2="352" y2="253" stroke="#d0d0d0" stroke-width="2.5" opacity="0.7"/>
+  <line x1="362" y1="236" x2="362" y2="252" stroke="#d0d0d0" stroke-width="2.5" opacity="0.7"/>
+  <line x1="374" y1="237" x2="372" y2="252" stroke="#d0d0d0" stroke-width="2.5" opacity="0.7"/>
+  <line x1="385" y1="240" x2="382" y2="254" stroke="#d0d0d0" stroke-width="2.5" opacity="0.7"/>
+
+  <!-- Water spout from blowhole -->
+  <ellipse cx="245" cy="210" rx="8" ry="5" fill="#2a5a7a"/>
+  <path d="M240 210 Q235 185 230 165 Q238 170 245 155 Q252 170 258 165 Q255 185 250 210Z" fill="#90e0ef" opacity="0.8"/>
+  <ellipse cx="245" cy="155" rx="18" ry="12" fill="#90e0ef" opacity="0.6"/>
+  <!-- Water droplets from spout -->
+  <circle cx="228" cy="148" r="3" fill="#48cae4" opacity="0.7"/>
+  <circle cx="258" cy="145" r="2.5" fill="#48cae4" opacity="0.7"/>
+  <circle cx="242" cy="138" r="2" fill="#48cae4" opacity="0.65"/>
+  <circle cx="233" cy="160" r="2" fill="#90e0ef" opacity="0.6"/>
+  <circle cx="256" cy="158" r="2.5" fill="#90e0ef" opacity="0.6"/>
+
+  <!-- JONAS — being expelled from mouth, landing on beach -->
+  <!-- Mid-air, tumbling out -->
+  <!-- Robe -->
+  <path d="M430 235 Q440 210 455 205 Q468 202 478 210 Q488 220 485 245Z" fill="#0077b6" transform="rotate(-25 458 225)"/>
+  <!-- Head -->
+  <circle cx="462" cy="200" r="19" fill="#c8956c" transform="rotate(-25 458 225)"/>
+  <!-- Hair -->
+  <path d="M445 195 Q448 183 462 180 Q476 183 479 195" fill="#3a2010" transform="rotate(-25 458 225)"/>
+  <!-- Expression — surprised, gasping, but relieved -->
+  <ellipse cx="455" cy="197" rx="4" ry="5" fill="white" transform="rotate(-25 458 225)"/>
+  <ellipse cx="469" cy="197" rx="4" ry="5" fill="white" transform="rotate(-25 458 225)"/>
+  <circle cx="456" cy="199" r="2.5" fill="#1a0a30" transform="rotate(-25 458 225)"/>
+  <circle cx="470" cy="199" r="2.5" fill="#1a0a30" transform="rotate(-25 458 225)"/>
+  <!-- Open mouth — gasp -->
+  <ellipse cx="462" cy="207" rx="4.5" ry="4" fill="#8b1a1a" transform="rotate(-25 458 225)"/>
+  <!-- Arms flailing -->
+  <line x1="443" y1="215" x2="420" y2="200" stroke="#c8956c" stroke-width="9" stroke-linecap="round" transform="rotate(-25 458 225)"/>
+  <line x1="480" y1="215" x2="500" y2="202" stroke="#c8956c" stroke-width="9" stroke-linecap="round" transform="rotate(-25 458 225)"/>
+  <!-- Water/slime dripping off Jonas -->
+  <path d="M460 240 Q455 258 458 270" stroke="#48cae4" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M475 235 Q480 252 477 265" stroke="#48cae4" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <!-- Motion lines -->
+  <line x1="395" y1="240" x2="420" y2="232" stroke="#0096c7" stroke-width="2" stroke-dasharray="5,4" opacity="0.5"/>
+  <line x1="392" y1="250" x2="418" y2="244" stroke="#0096c7" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.45"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="400" height="28" rx="14" fill="#023e8a" opacity="0.88"/>
+  <text x="210" y="363" font-family="Georgia, serif" font-size="14" fill="#90e0ef" text-anchor="middle" font-weight="bold">A baleia cospe Jonas na praia!</text>
+</svg>

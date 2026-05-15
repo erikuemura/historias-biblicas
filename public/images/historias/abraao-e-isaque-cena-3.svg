@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="abr3_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87ceeb"/>
+      <stop offset="60%" stop-color="#b0dff5"/>
+      <stop offset="100%" stop-color="#e0f4ff"/>
+    </linearGradient>
+    <linearGradient id="abr3_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a96e"/>
+      <stop offset="100%" stop-color="#8b6335"/>
+    </linearGradient>
+    <linearGradient id="abr3_mountain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9e7a4a"/>
+      <stop offset="100%" stop-color="#6b4c22"/>
+    </linearGradient>
+    <radialGradient id="abr3_sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="60%" stop-color="#ffee58"/>
+      <stop offset="100%" stop-color="#fdd835"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#abr3_sky)"/>
+
+  <!-- Sun -->
+  <circle cx="680" cy="70" r="45" fill="url(#abr3_sun)"/>
+  <!-- Sun rays -->
+  <line x1="680" y1="15" x2="680" y2="5" stroke="#fdd835" stroke-width="3"/>
+  <line x1="680" y1="125" x2="680" y2="135" stroke="#fdd835" stroke-width="3"/>
+  <line x1="625" y1="70" x2="615" y2="70" stroke="#fdd835" stroke-width="3"/>
+  <line x1="735" y1="70" x2="745" y2="70" stroke="#fdd835" stroke-width="3"/>
+  <line x1="641" y1="31" x2="634" y2="24" stroke="#fdd835" stroke-width="3"/>
+  <line x1="719" y1="109" x2="726" y2="116" stroke="#fdd835" stroke-width="3"/>
+  <line x1="719" y1="31" x2="726" y2="24" stroke="#fdd835" stroke-width="3"/>
+  <line x1="641" y1="109" x2="634" y2="116" stroke="#fdd835" stroke-width="3"/>
+
+  <!-- Clouds -->
+  <ellipse cx="150" cy="60" rx="70" ry="25" fill="white" opacity="0.85"/>
+  <ellipse cx="120" cy="65" rx="45" ry="20" fill="white" opacity="0.9"/>
+  <ellipse cx="185" cy="65" rx="50" ry="18" fill="white" opacity="0.85"/>
+  <ellipse cx="420" cy="45" rx="55" ry="20" fill="white" opacity="0.75"/>
+  <ellipse cx="390" cy="50" rx="40" ry="17" fill="white" opacity="0.8"/>
+  <ellipse cx="450" cy="50" rx="45" ry="16" fill="white" opacity="0.75"/>
+
+  <!-- Mountain in background -->
+  <polygon points="500,310 620,120 740,310" fill="url(#abr3_mountain)"/>
+  <polygon points="520,310 620,140 720,310" fill="#b09060" opacity="0.4"/>
+  <!-- Mountain path winding up -->
+  <path d="M540 310 Q560 280 570 250 Q580 230 600 210" stroke="#8b6020" stroke-width="3" fill="none" stroke-dasharray="8,4" opacity="0.6"/>
+
+  <!-- Rocky terrain -->
+  <ellipse cx="200" cy="340" rx="80" ry="25" fill="#b09060"/>
+  <ellipse cx="450" cy="355" rx="120" ry="20" fill="#c8a050"/>
+  <rect x="0" y="315" width="800" height="65" fill="url(#abr3_ground)"/>
+
+  <!-- Some desert rocks -->
+  <ellipse cx="100" cy="318" rx="30" ry="12" fill="#9e7a4a"/>
+  <ellipse cx="680" cy="322" rx="25" ry="10" fill="#9e7a4a"/>
+  <ellipse cx="730" cy="316" rx="18" ry="8" fill="#8b6835"/>
+
+  <!-- Path they walk on -->
+  <path d="M50 350 Q200 330 400 325 Q550 320 700 330" stroke="#d4aa60" stroke-width="5" fill="none" opacity="0.6"/>
+
+  <!-- Donkey (behind them, right side) -->
+  <!-- Body -->
+  <ellipse cx="580" cy="300" rx="45" ry="25" fill="#a08060"/>
+  <!-- Head -->
+  <ellipse cx="620" cy="285" rx="18" ry="14" fill="#a08060"/>
+  <!-- Ears -->
+  <ellipse cx="615" cy="272" rx="5" ry="10" fill="#a08060"/>
+  <ellipse cx="626" cy="271" rx="5" ry="10" fill="#a08060"/>
+  <ellipse cx="615" cy="272" rx="3" ry="7" fill="#c8a080" opacity="0.5"/>
+  <!-- Eye -->
+  <circle cx="625" cy="284" r="3" fill="#3a2010"/>
+  <circle cx="626" cy="283" r="1" fill="white"/>
+  <!-- Nostrils -->
+  <ellipse cx="633" cy="291" rx="2.5" ry="1.5" fill="#8b6040"/>
+  <!-- Legs -->
+  <rect x="548" y="318" width="10" height="22" rx="4" fill="#907050"/>
+  <rect x="564" y="320" width="10" height="20" rx="4" fill="#907050"/>
+  <rect x="582" y="319" width="10" height="21" rx="4" fill="#907050"/>
+  <rect x="598" y="317" width="10" height="23" rx="4" fill="#907050"/>
+  <!-- Tail -->
+  <path d="M538 298 Q525 305 522 315" stroke="#907050" stroke-width="4" fill="none"/>
+  <!-- Wood bundle on donkey's back -->
+  <rect x="555" y="268" width="50" height="12" rx="3" fill="#8b5e20" transform="rotate(-5 555 268)"/>
+  <line x1="558" y1="272" x2="600" y2="268" stroke="#6b4010" stroke-width="2"/>
+  <line x1="560" y1="276" x2="602" y2="272" stroke="#6b4010" stroke-width="2"/>
+
+  <!-- Isaque (boy, in front left) -->
+  <!-- Robe/tunic -->
+  <path d="M230 315 Q235 275 245 265 Q258 258 268 265 Q278 275 280 315Z" fill="#ffe082"/>
+  <!-- Belt -->
+  <rect x="232" y="283" width="47" height="6" rx="3" fill="#c9a040"/>
+  <!-- Head -->
+  <circle cx="255" cy="258" r="19" fill="#d4956a"/>
+  <!-- Hair (dark, young) -->
+  <path d="M237 252 Q240 238 255 235 Q270 238 273 252" fill="#5a3010"/>
+  <!-- Eyes -->
+  <circle cx="249" cy="255" r="3.5" fill="#3a2010"/>
+  <circle cx="261" cy="255" r="3.5" fill="#3a2010"/>
+  <circle cx="250" cy="254" r="1.2" fill="white"/>
+  <circle cx="262" cy="254" r="1.2" fill="white"/>
+  <!-- Happy expression -->
+  <path d="M248 262 Q255 267 262 262" stroke="#8b3a10" stroke-width="1.5" fill="none"/>
+  <!-- Carrying wood bundle on shoulder -->
+  <line x1="265" y1="270" x2="300" y2="265" stroke="#c8956c" stroke-width="9" stroke-linecap="round"/>
+  <!-- Wood bundle -->
+  <rect x="295" y="255" width="45" height="14" rx="4" fill="#8b5e20"/>
+  <line x1="298" y1="259" x2="336" y2="259" stroke="#6b4010" stroke-width="1.5"/>
+  <line x1="298" y1="263" x2="336" y2="263" stroke="#6b4010" stroke-width="1.5"/>
+  <!-- Left arm swings forward -->
+  <line x1="237" y1="272" x2="215" y2="295" stroke="#c8956c" stroke-width="8" stroke-linecap="round"/>
+  <!-- Legs walking -->
+  <line x1="242" y1="314" x2="232" y2="348" stroke="#d4956a" stroke-width="10" stroke-linecap="round"/>
+  <line x1="268" y1="314" x2="275" y2="348" stroke="#d4956a" stroke-width="10" stroke-linecap="round"/>
+  <!-- Sandals -->
+  <ellipse cx="230" cy="350" rx="12" ry="5" fill="#8b5e20"/>
+  <ellipse cx="276" cy="350" rx="12" ry="5" fill="#8b5e20"/>
+
+  <!-- Abraão (tall, behind right of boy) -->
+  <!-- Robe -->
+  <path d="M320 318 Q325 255 340 242 Q358 232 372 242 Q388 255 390 318Z" fill="#c9a040"/>
+  <!-- Mantle -->
+  <path d="M314 312 Q318 265 335 248 Q318 275 314 312Z" fill="#8b6820"/>
+  <path d="M390 312 Q392 268 377 248 Q392 275 390 312Z" fill="#8b6820"/>
+  <!-- Belt -->
+  <rect x="322" y="272" width="67" height="8" rx="4" fill="#8b6820"/>
+  <!-- Head -->
+  <circle cx="355" cy="236" r="24" fill="#c8956c"/>
+  <!-- White beard -->
+  <path d="M335 247 Q340 270 355 276 Q370 270 375 247" fill="white"/>
+  <!-- White hair/turban -->
+  <path d="M332 232 Q335 215 355 212 Q375 215 378 232" fill="#e0d0b0"/>
+  <!-- Eyes focused ahead -->
+  <circle cx="347" cy="231" r="3.5" fill="#3a2010"/>
+  <circle cx="363" cy="231" r="3.5" fill="#3a2010"/>
+  <circle cx="348" cy="230" r="1.2" fill="white"/>
+  <circle cx="364" cy="230" r="1.2" fill="white"/>
+  <!-- Calm expression -->
+  <path d="M347 242 Q355 246 363 242" stroke="#8b3a10" stroke-width="1.5" fill="none"/>
+  <!-- Hand holding boy's hand -->
+  <line x1="335" y1="265" x2="298" y2="285" stroke="#c8956c" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="296" cy="286" r="8" fill="#c8956c"/>
+  <!-- Isaque's hand connecting -->
+  <circle cx="213" cy="296" r="7" fill="#d4956a"/>
+  <!-- Staff in other hand -->
+  <line x1="375" y1="265" x2="405" y2="345" stroke="#8b5e20" stroke-width="5" stroke-linecap="round"/>
+  <!-- Legs walking (Abraão) -->
+  <line x1="338" y1="316" x2="325" y2="348" stroke="#c8956c" stroke-width="12" stroke-linecap="round"/>
+  <line x1="372" y1="316" x2="382" y2="348" stroke="#c8956c" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="323" cy="350" rx="14" ry="6" fill="#8b5e20"/>
+  <ellipse cx="383" cy="350" rx="14" ry="6" fill="#8b5e20"/>
+
+  <!-- Caption -->
+  <rect x="10" y="345" width="340" height="28" rx="14" fill="#f9a825" opacity="0.85"/>
+  <text x="180" y="364" font-family="Georgia, serif" font-size="14" fill="#3a2010" text-anchor="middle" font-weight="bold">Abraão e Isaque caminham juntos</text>
+</svg>

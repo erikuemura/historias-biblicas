@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="bt2_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8C060;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F5D888;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bt2_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D0B060;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B09040;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#bt2_sky)"/>
+  <circle cx="680" cy="65" r="46" fill="#FFD030" opacity="0.8"/>
+  <ellipse cx="200" cy="65" rx="75" ry="26" fill="#F5E0A0" opacity="0.6"/>
+  <ellipse cx="480" cy="50" rx="60" ry="20" fill="#F5E0A0" opacity="0.5"/>
+  <!-- Ground -->
+  <rect x="0" y="285" width="800" height="95" fill="url(#bt2_ground)"/>
+  <!-- Road -->
+  <ellipse cx="400" cy="305" rx="280" ry="18" fill="#C8A850" opacity="0.5"/>
+  <!-- Dust cloud at feet -->
+  <ellipse cx="300" cy="292" rx="100" ry="20" fill="#D4B060" opacity="0.35"/>
+  <!-- BARTIMEU standing, arms raised, shouting - determined -->
+  <circle cx="300" cy="195" r="22" fill="#E0A060"/>
+  <!-- Hair wild -->
+  <ellipse cx="300" cy="179" rx="23" ry="13" fill="#4A2808"/>
+  <!-- Worn robe -->
+  <polygon points="278,217 322,217 328,288 272,288" fill="#A09070"/>
+  <!-- Torn patches -->
+  <polygon points="284,230 295,225 292,242 281,238" fill="#888060" opacity="0.8"/>
+  <!-- Arms RAISED HIGH - shouting -->
+  <line x1="278" y1="228" x2="248" y2="195" stroke="#E0A060" stroke-width="11" stroke-linecap="round"/>
+  <line x1="322" y1="228" x2="352" y2="195" stroke="#E0A060" stroke-width="11" stroke-linecap="round"/>
+  <!-- Hands open, reaching -->
+  <circle cx="246" cy="192" r="10" fill="#E0A060"/>
+  <circle cx="354" cy="192" r="10" fill="#E0A060"/>
+  <!-- Blind eyes but face turned upward - shouting -->
+  <ellipse cx="293" cy="194" rx="4" ry="4" fill="#F0E8D8"/>
+  <ellipse cx="307" cy="194" rx="4" ry="4" fill="#F0E8D8"/>
+  <!-- Wide open shouting mouth -->
+  <ellipse cx="300" cy="208" rx="7" ry="6" fill="#8B4020"/>
+  <ellipse cx="300" cy="207" rx="5" ry="3" fill="#C05030" opacity="0.5"/>
+  <!-- Eyebrows raised, determined -->
+  <path d="M289,187 Q293,182 297,187" stroke="#5A3820" stroke-width="2.5" fill="none"/>
+  <path d="M303,187 Q307,182 311,187" stroke="#5A3820" stroke-width="2.5" fill="none"/>
+  <!-- Speech/shout lines radiating -->
+  <line x1="265" y1="178" x2="240" y2="162" stroke="#FF8030" stroke-width="2.5" opacity="0.6"/>
+  <line x1="300" y1="172" x2="300" y2="150" stroke="#FF8030" stroke-width="2.5" opacity="0.6"/>
+  <line x1="335" y1="178" x2="360" y2="162" stroke="#FF8030" stroke-width="2.5" opacity="0.6"/>
+  <line x1="255" y1="190" x2="225" y2="185" stroke="#FF8030" stroke-width="2" opacity="0.5"/>
+  <line x1="345" y1="190" x2="375" y2="185" stroke="#FF8030" stroke-width="2" opacity="0.5"/>
+  <!-- Shout text bubble hint -->
+  <ellipse cx="300" cy="140" rx="65" ry="28" fill="#FFE880" opacity="0.7"/>
+  <text x="300" y="145" font-family="Georgia, serif" font-size="13" fill="#C05020" text-anchor="middle" font-weight="bold">Filho de Davi!</text>
+  <!-- CROWD around him with shushing gestures -->
+  <!-- Person 1 left - shushing finger to lips -->
+  <circle cx="150" cy="220" r="20" fill="#F0B080"/>
+  <ellipse cx="150" cy="205" rx="20" ry="11" fill="#5A3010"/>
+  <polygon points="131,240 169,240 172,288 128,288" fill="#6080C0"/>
+  <line x1="131" y1="250" x2="112" y2="242" stroke="#F0B080" stroke-width="9" stroke-linecap="round"/>
+  <line x1="169" y1="250" x2="185" y2="240" stroke="#F0B080" stroke-width="9" stroke-linecap="round"/>
+  <!-- Shushing hand at mouth -->
+  <circle cx="188" cy="238" r="8" fill="#F0B080"/>
+  <!-- Shushing expression -->
+  <ellipse cx="143" cy="219" rx="3.5" ry="4" fill="#5A3820"/>
+  <ellipse cx="157" cy="219" rx="3.5" ry="4" fill="#5A3820"/>
+  <!-- Furrowed brows annoyed -->
+  <path d="M139,212 Q143,208 147,212" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <path d="M153,212 Q157,208 161,212" stroke="#5A3820" stroke-width="2" fill="none"/>
+  <path d="M141,229 Q150,233 159,229" stroke="#8B4020" stroke-width="2" fill="none"/>
+  <!-- Person 2 right - hand out stop gesture -->
+  <circle cx="460" cy="218" r="20" fill="#E8C090"/>
+  <ellipse cx="460" cy="203" rx="20" ry="11" fill="#7A4020"/>
+  <polygon points="441,238 479,238 482,288 438,288" fill="#C04040"/>
+  <line x1="479" y1="248" x2="502" y2="238" stroke="#E8C090" stroke-width="9" stroke-linecap="round"/>
+  <!-- Stop/shush hand open palm -->
+  <circle cx="504" cy="236" r="10" fill="#E8C090"/>
+  <ellipse cx="441" cy="217" rx="3.5" ry="4" fill="#5A3820"/>
+  <ellipse cx="455" cy="217" rx="3.5" ry="4" fill="#5A3820"/>
+  <!-- Annoyed frown -->
+  <path d="M443,228 Q452,224 461,228" stroke="#8B4020" stroke-width="2" fill="none"/>
+  <!-- Person 3 further right - dismissive wave -->
+  <circle cx="570" cy="225" r="18" fill="#F0A870"/>
+  <ellipse cx="570" cy="211" rx="18" ry="10" fill="#3A2010"/>
+  <polygon points="553,243 587,243 590,288 550,288" fill="#40A060"/>
+  <line x1="553" y1="252" x2="535" y2="244" stroke="#F0A870" stroke-width="8" stroke-linecap="round"/>
+  <!-- Dismissive wave - hand flicking away -->
+  <circle cx="532" cy="242" r="7" fill="#F0A870"/>
+  <path d="M525,238 Q532,235 538,240" stroke="#F0A870" stroke-width="4" fill="none"/>
+  <!-- Person 4 - looking back at Bartimeu, irritated -->
+  <circle cx="670" cy="230" r="18" fill="#F0C0A0"/>
+  <ellipse cx="670" cy="216" rx="18" ry="10" fill="#5A3010"/>
+  <polygon points="653,248 687,248 690,288 650,288" fill="#8040C0"/>
+  <line x1="653" y1="257" x2="636" y2="252" stroke="#F0C0A0" stroke-width="8" stroke-linecap="round"/>
+  <!-- Walking stick still on ground -->
+  <line x1="328" y1="240" x2="340" y2="292" stroke="#8B6030" stroke-width="5" stroke-linecap="round"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#B07820" opacity="0.6"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Bartimeu — Cena 2: Gritando Mais Alto</text>
+</svg>

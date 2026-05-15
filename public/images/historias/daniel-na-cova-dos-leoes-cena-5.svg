@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="dan5_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff8f00"/>
+      <stop offset="40%" stop-color="#ffcc02"/>
+      <stop offset="100%" stop-color="#fff9c4"/>
+    </linearGradient>
+    <radialGradient id="dan5_sun" cx="20%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="50%" stop-color="#ffee58"/>
+      <stop offset="100%" stop-color="#ff8f00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dan5_cave" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1860"/>
+      <stop offset="100%" stop-color="#1a0830"/>
+    </linearGradient>
+    <linearGradient id="dan5_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a060"/>
+      <stop offset="100%" stop-color="#8b6030"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Morning sky -->
+  <rect width="800" height="380" fill="url(#dan5_sky)"/>
+  <ellipse cx="150" cy="80" rx="250" ry="200" fill="url(#dan5_sun)"/>
+
+  <!-- Sun -->
+  <circle cx="100" cy="60" r="42" fill="#fff9c4"/>
+  <circle cx="100" cy="60" r="34" fill="#ffee58"/>
+  <!-- Sun rays -->
+  <line x1="100" y1="14" x2="100" y2="4" stroke="#fdd835" stroke-width="3"/>
+  <line x1="100" y1="106" x2="100" y2="116" stroke="#fdd835" stroke-width="3"/>
+  <line x1="54" y1="60" x2="44" y2="60" stroke="#fdd835" stroke-width="3"/>
+  <line x1="146" y1="60" x2="156" y2="60" stroke="#fdd835" stroke-width="3"/>
+  <line x1="67" y1="27" x2="60" y2="20" stroke="#fdd835" stroke-width="3"/>
+  <line x1="133" y1="93" x2="140" y2="100" stroke="#fdd835" stroke-width="3"/>
+  <line x1="133" y1="27" x2="140" y2="20" stroke="#fdd835" stroke-width="3"/>
+  <line x1="67" y1="93" x2="60" y2="100" stroke="#fdd835" stroke-width="3"/>
+
+  <!-- Ground outside -->
+  <rect x="0" y="305" width="800" height="75" fill="url(#dan5_ground)"/>
+
+  <!-- Cave entrance — dark opening in rock face -->
+  <ellipse cx="680" cy="270" rx="120" ry="100" fill="#1a0830"/>
+  <ellipse cx="680" cy="270" rx="105" ry="88" fill="#0a0418"/>
+  <!-- Cave rocky edges -->
+  <ellipse cx="565" cy="230" rx="30" ry="50" fill="#3a1860" opacity="0.8"/>
+  <ellipse cx="795" cy="240" rx="30" ry="50" fill="#3a1860" opacity="0.8"/>
+  <!-- Cave mouth top rocks -->
+  <ellipse cx="640" cy="172" rx="45" ry="25" fill="#3a1860"/>
+  <ellipse cx="695" cy="168" rx="40" ry="22" fill="#2a1040"/>
+  <ellipse cx="745" cy="175" rx="35" ry="20" fill="#3a1860"/>
+
+  <!-- Lions visible in cave background — calm, seated -->
+  <!-- Lion left in cave -->
+  <ellipse cx="615" cy="295" rx="40" ry="22" fill="#a07820" opacity="0.7"/>
+  <circle cx="645" cy="280" r="20" fill="#b08820" opacity="0.7"/>
+  <ellipse cx="645" cy="280" rx="25" ry="23" fill="#7a5010" opacity="0.6"/>
+  <circle cx="648" cy="278" r="2.5" fill="#ff8" opacity="0.5"/>
+  <!-- Lion right in cave -->
+  <ellipse cx="740" cy="295" rx="40" ry="22" fill="#a07820" opacity="0.7"/>
+  <circle cx="718" cy="280" r="20" fill="#b08820" opacity="0.7"/>
+  <ellipse cx="718" cy="280" rx="25" ry="23" fill="#7a5010" opacity="0.6"/>
+  <circle cx="715" cy="278" r="2.5" fill="#ff8" opacity="0.5"/>
+
+  <!-- DANIEL coming out of cave — alive, joyful -->
+  <!-- Robe -->
+  <path d="M460 318 Q464 265 476 252 Q492 240 510 246 Q526 255 528 318Z" fill="#7040a0"/>
+  <!-- Mantle -->
+  <path d="M456 312 Q460 268 473 254 Q458 278 456 312Z" fill="#5030a0"/>
+  <!-- Belt -->
+  <rect x="464" y="270" width="63" height="8" rx="4" fill="#c080d0"/>
+  <!-- Head -->
+  <circle cx="493" cy="243" r="22" fill="#c8956c"/>
+  <!-- Hair -->
+  <path d="M474 237 Q477 224 493 221 Q509 224 512 237" fill="#3a2010"/>
+  <!-- Bright happy eyes -->
+  <circle cx="485" cy="239" r="3.5" fill="#3a2010"/>
+  <circle cx="501" cy="239" r="3.5" fill="#3a2010"/>
+  <circle cx="486" cy="238" r="1.3" fill="white"/>
+  <circle cx="502" cy="238" r="1.3" fill="white"/>
+  <!-- Big joyful smile -->
+  <path d="M483 251 Q493 258 503 251" stroke="#8b3a10" stroke-width="2.5" fill="none"/>
+  <!-- Rosy cheeks -->
+  <ellipse cx="480" cy="249" rx="6" ry="4" fill="#e07060" opacity="0.5"/>
+  <ellipse cx="506" cy="249" rx="6" ry="4" fill="#e07060" opacity="0.5"/>
+  <!-- Short beard -->
+  <path d="M475 251 Q480 264 493 268 Q506 264 511 251" fill="#5a3010" opacity="0.7"/>
+  <!-- Arms open wide — walking out freely -->
+  <line x1="475" y1="262" x2="445" y2="248" stroke="#c8956c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="443" cy="247" r="9" fill="#c8956c"/>
+  <line x1="511" y1="262" x2="541" y2="248" stroke="#c8956c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="543" cy="247" r="9" fill="#c8956c"/>
+  <!-- Legs walking out -->
+  <line x1="474" y1="316" x2="462" y2="350" stroke="#c8956c" stroke-width="12" stroke-linecap="round"/>
+  <line x1="508" y1="316" x2="518" y2="350" stroke="#c8956c" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="460" cy="352" rx="14" ry="6" fill="#8b5e20"/>
+  <ellipse cx="519" cy="352" rx="14" ry="6" fill="#8b5e20"/>
+
+  <!-- KING DARIO — rushing toward Daniel, arms open for hug -->
+  <!-- Robe -->
+  <path d="M260 320 Q265 258 278 244 Q296 232 315 238 Q332 248 335 320Z" fill="#7040a8"/>
+  <!-- Royal mantle -->
+  <path d="M255 314 Q260 268 275 250 Q258 278 255 314Z" fill="#5030a0"/>
+  <!-- Royal collar -->
+  <rect x="278" y="252" width="58" height="26" rx="5" fill="#9060c0" opacity="0.8"/>
+  <!-- Crown slightly askew — rushed out excitedly -->
+  <rect x="285" y="218" width="42" height="14" rx="3" fill="#ffd700" transform="rotate(-8 306 225)"/>
+  <polygon points="285,218 292,204 299,218" fill="#ffd700" transform="rotate(-8 306 225)"/>
+  <polygon points="299,218 306,202 313,218" fill="#ffd700" transform="rotate(-8 306 225)"/>
+  <polygon points="313,218 320,204 327,218" fill="#ffd700" transform="rotate(-8 306 225)"/>
+  <!-- Head -->
+  <circle cx="297" cy="230" r="22" fill="#c8956c"/>
+  <!-- Grey beard -->
+  <path d="M279 241 Q284 260 297 265 Q310 260 315 241" fill="#c0c0c0"/>
+  <!-- Grey hair -->
+  <path d="M277 226 Q280 213 297 210 Q314 213 317 226" fill="#a0a0a0"/>
+  <!-- JOY expression — eyes wide, huge smile -->
+  <ellipse cx="289" cy="225" rx="4.5" ry="5" fill="white"/>
+  <ellipse cx="305" cy="225" rx="4.5" ry="5" fill="white"/>
+  <circle cx="290" cy="226" r="2.5" fill="#3a2010"/>
+  <circle cx="306" cy="226" r="2.5" fill="#3a2010"/>
+  <!-- Smile showing teeth -->
+  <path d="M286 238 Q297 247 308 238" stroke="#8b3a10" stroke-width="2.5" fill="none"/>
+  <path d="M287 239 Q297 247 307 239" fill="#fff" opacity="0.5"/>
+  <!-- Rosy cheeks -->
+  <ellipse cx="282" cy="235" rx="7" ry="5" fill="#e07060" opacity="0.55"/>
+  <ellipse cx="312" cy="235" rx="7" ry="5" fill="#e07060" opacity="0.55"/>
+  <!-- Arms WIDE open — running to hug Daniel -->
+  <line x1="280" y1="252" x2="248" y2="228" stroke="#c8956c" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="246" cy="226" r="10" fill="#c8956c"/>
+  <line x1="330" y1="252" x2="400" y2="235" stroke="#c8956c" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="402" cy="234" r="10" fill="#c8956c"/>
+  <!-- Legs running -->
+  <line x1="278" y1="318" x2="262" y2="352" stroke="#c8956c" stroke-width="13" stroke-linecap="round"/>
+  <line x1="315" y1="318" x2="330" y2="352" stroke="#c8956c" stroke-width="13" stroke-linecap="round"/>
+  <ellipse cx="260" cy="354" rx="15" ry="6" fill="#8b5e20"/>
+  <ellipse cx="331" cy="354" rx="15" ry="6" fill="#8b5e20"/>
+
+  <!-- Meeting point — hands about to touch, glow between them -->
+  <ellipse cx="425" cy="240" rx="30" ry="20" fill="#ffe082" opacity="0.4"/>
+
+  <!-- Joy sparkles -->
+  <circle cx="200" cy="180" r="5" fill="#ffd700" opacity="0.7"/>
+  <circle cx="185" cy="165" r="3" fill="#ffd700" opacity="0.6"/>
+  <circle cx="220" cy="160" r="4" fill="#ff8f00" opacity="0.65"/>
+  <circle cx="560" cy="170" r="5" fill="#ffd700" opacity="0.7"/>
+  <circle cx="575" cy="155" r="3" fill="#ffd700" opacity="0.6"/>
+  <!-- Stars of joy -->
+  <path d="M150 140 L153 150 L163 150 L155 156 L158 166 L150 160 L142 166 L145 156 L137 150 L147 150Z" fill="#ffd700" opacity="0.6" transform="scale(0.5) translate(154,138)"/>
+  <path d="M150 140 L153 150 L163 150 L155 156 L158 166 L150 160 L142 166 L145 156 L137 150 L147 150Z" fill="#ffd700" opacity="0.55" transform="scale(0.45) translate(1100,260)"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="400" height="28" rx="14" fill="#4a1060" opacity="0.85"/>
+  <text x="210" y="363" font-family="Georgia, serif" font-size="14" fill="#e0b0ff" text-anchor="middle" font-weight="bold">O rei Dario abraça Daniel — ele está salvo!</text>
+</svg>

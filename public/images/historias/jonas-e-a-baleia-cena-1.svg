@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="jon1_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0077b6"/>
+      <stop offset="60%" stop-color="#48cae4"/>
+      <stop offset="100%" stop-color="#90e0ef"/>
+    </linearGradient>
+    <linearGradient id="jon1_sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0096c7"/>
+      <stop offset="100%" stop-color="#023e8a"/>
+    </linearGradient>
+    <linearGradient id="jon1_dock" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b6020"/>
+      <stop offset="100%" stop-color="#5a3a10"/>
+    </linearGradient>
+    <linearGradient id="jon1_ship" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a060"/>
+      <stop offset="100%" stop-color="#7a5020"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#jon1_sky)"/>
+
+  <!-- Sun -->
+  <circle cx="700" cy="70" r="40" fill="#fff9c4"/>
+  <circle cx="700" cy="70" r="32" fill="#ffee58"/>
+
+  <!-- Clouds -->
+  <ellipse cx="200" cy="55" rx="70" ry="22" fill="white" opacity="0.8"/>
+  <ellipse cx="170" cy="60" rx="48" ry="18" fill="white" opacity="0.85"/>
+  <ellipse cx="235" cy="60" rx="52" ry="17" fill="white" opacity="0.8"/>
+  <ellipse cx="480" cy="45" rx="55" ry="18" fill="white" opacity="0.7"/>
+
+  <!-- City/port buildings in background (Jaffa) -->
+  <rect x="0" y="155" width="50" height="120" fill="#e0c890" opacity="0.8"/>
+  <rect x="55" y="140" width="55" height="135" fill="#d4b870" opacity="0.8"/>
+  <rect x="115" y="160" width="45" height="115" fill="#e0c890" opacity="0.75"/>
+  <rect x="165" y="148" width="40" height="127" fill="#c8aa60" opacity="0.8"/>
+  <rect x="210" y="158" width="50" height="117" fill="#d4b870" opacity="0.75"/>
+  <!-- Building details -->
+  <rect x="65" y="150" width="12" height="18" rx="2" fill="#5a3010" opacity="0.7"/>
+  <rect x="82" y="150" width="12" height="18" rx="2" fill="#5a3010" opacity="0.7"/>
+  <rect x="125" y="168" width="10" height="16" rx="2" fill="#5a3010" opacity="0.7"/>
+  <rect x="175" y="158" width="10" height="16" rx="2" fill="#5a3010" opacity="0.7"/>
+  <!-- Dome on one building -->
+  <ellipse cx="82" cy="138" rx="20" ry="10" fill="#c0a050" opacity="0.8"/>
+
+  <!-- Port dock / pier -->
+  <rect x="0" y="268" width="350" height="18" fill="url(#jon1_dock)"/>
+  <rect x="40" y="248" width="12" height="38" fill="#6b4010"/>
+  <rect x="90" y="248" width="12" height="38" fill="#6b4010"/>
+  <rect x="140" y="248" width="12" height="38" fill="#6b4010"/>
+  <rect x="190" y="248" width="12" height="38" fill="#6b4010"/>
+  <rect x="240" y="248" width="12" height="38" fill="#6b4010"/>
+  <rect x="290" y="248" width="12" height="38" fill="#6b4010"/>
+
+  <!-- Sea -->
+  <rect x="0" y="278" width="800" height="102" fill="url(#jon1_sea)"/>
+  <!-- Waves -->
+  <path d="M0 290 Q50 282 100 290 Q150 298 200 290 Q250 282 300 290 Q350 298 400 290 Q450 282 500 290 Q550 298 600 290 Q650 282 700 290 Q750 298 800 290" stroke="#48cae4" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M0 308 Q60 300 120 308 Q180 316 240 308 Q300 300 360 308 Q420 316 480 308 Q540 300 600 308 Q660 316 720 308 Q760 300 800 308" stroke="#90e0ef" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- SHIP at dock — wooden sailing vessel -->
+  <!-- Hull -->
+  <path d="M420 260 Q430 295 440 305 Q540 318 640 305 Q650 295 660 260Z" fill="url(#jon1_ship)"/>
+  <path d="M420 260 Q540 252 660 260" fill="#d4aa70"/>
+  <!-- Hull planks -->
+  <line x1="430" y1="268" x2="650" y2="268" stroke="#8b5e20" stroke-width="1.5" opacity="0.5"/>
+  <line x1="433" y1="280" x2="648" y2="280" stroke="#8b5e20" stroke-width="1.5" opacity="0.5"/>
+  <line x1="436" y1="292" x2="645" y2="292" stroke="#8b5e20" stroke-width="1.5" opacity="0.5"/>
+  <!-- Mast -->
+  <line x1="540" y1="140" x2="540" y2="262" stroke="#6b4010" stroke-width="7"/>
+  <!-- Sail -->
+  <path d="M540 148 Q600 172 605 220 Q560 228 540 220Z" fill="white" opacity="0.9"/>
+  <path d="M540 148 Q480 172 475 220 Q520 228 540 220Z" fill="#e8e8d0" opacity="0.85"/>
+  <!-- Sail stripes -->
+  <line x1="540" y1="165" x2="595" y2="178" stroke="#c8a060" stroke-width="1.5" opacity="0.5"/>
+  <line x1="540" y1="183" x2="598" y2="198" stroke="#c8a060" stroke-width="1.5" opacity="0.5"/>
+  <line x1="540" y1="165" x2="485" y2="178" stroke="#c8a060" stroke-width="1.5" opacity="0.5"/>
+  <line x1="540" y1="183" x2="482" y2="198" stroke="#c8a060" stroke-width="1.5" opacity="0.5"/>
+  <!-- Rigging ropes -->
+  <line x1="540" y1="148" x2="605" y2="222" stroke="#8b5e20" stroke-width="1.5" opacity="0.6"/>
+  <line x1="540" y1="148" x2="475" y2="222" stroke="#8b5e20" stroke-width="1.5" opacity="0.6"/>
+  <!-- Yard arm -->
+  <line x1="475" y1="175" x2="605" y2="175" stroke="#6b4010" stroke-width="5"/>
+  <!-- Deck railing -->
+  <line x1="430" y1="262" x2="650" y2="262" stroke="#8b5e20" stroke-width="3"/>
+  <!-- Sailors visible on deck -->
+  <circle cx="470" cy="252" r="10" fill="#d4956a"/>
+  <rect x="462" y="261" width="16" height="18" rx="3" fill="#ffb74d" opacity="0.9"/>
+  <circle cx="610" cy="250" r="10" fill="#c8a870"/>
+  <rect x="602" y="259" width="16" height="18" rx="3" fill="#e8c880" opacity="0.9"/>
+  <!-- Rope tying ship to dock -->
+  <path d="M430 275 Q380 272 290 270" stroke="#8b5e20" stroke-width="3" fill="none"/>
+
+  <!-- JONAS — running on dock toward ship, looking back over shoulder nervously -->
+  <!-- Robe -->
+  <path d="M175 268 Q180 222 192 210 Q208 200 224 206 Q238 215 240 268Z" fill="#00b4d8"/>
+  <!-- Mantle flying from running -->
+  <path d="M172 262 Q168 228 180 214 Q165 240 172 262Z" fill="#0077b6"/>
+  <path d="M240 262 Q248 230 236 212 Q248 240 240 262Z" fill="#0077b6"/>
+  <!-- Bundle/bag on his back -->
+  <rect x="230" y="215" width="30" height="25" rx="4" fill="#8b5e20"/>
+  <line x1="233" y1="218" x2="256" y2="218" stroke="#6b3e08" stroke-width="1.5"/>
+  <line x1="233" y1="225" x2="256" y2="225" stroke="#6b3e08" stroke-width="1.5"/>
+  <!-- Strap -->
+  <line x1="233" y1="218" x2="228" y2="232" stroke="#6b3e08" stroke-width="2"/>
+  <!-- Head turned back (nervous look) -->
+  <circle cx="207" cy="202" r="21" fill="#c8956c"/>
+  <!-- Turban -->
+  <path d="M188 196 Q195 182 207 180 Q219 182 226 196" fill="#00b4d8"/>
+  <!-- Eyes WIDE, looking back to the LEFT (fleeing) -->
+  <ellipse cx="198" cy="198" rx="4.5" ry="5" fill="white"/>
+  <ellipse cx="213" cy="199" rx="4.5" ry="5" fill="white"/>
+  <!-- Pupils shifted left — looking behind -->
+  <circle cx="196" cy="199" r="2.5" fill="#1a0a30"/>
+  <circle cx="211" cy="200" r="2.5" fill="#1a0a30"/>
+  <!-- Worried brow -->
+  <path d="M194 192 Q198 189 202 192" stroke="#5a3010" stroke-width="2" fill="none"/>
+  <path d="M209 193 Q213 190 217 193" stroke="#5a3010" stroke-width="2" fill="none"/>
+  <!-- Mouth open slightly — nervous -->
+  <ellipse cx="206" cy="207" rx="4" ry="3" fill="#8b3a10"/>
+  <!-- Short beard -->
+  <path d="M189 207 Q193 218 207 222 Q221 218 225 207" fill="#5a3010" opacity="0.7"/>
+  <!-- Legs running -->
+  <line x1="192" y1="266" x2="175" y2="295" stroke="#c8956c" stroke-width="11" stroke-linecap="round"/>
+  <line x1="222" y1="266" x2="235" y2="295" stroke="#c8956c" stroke-width="11" stroke-linecap="round"/>
+  <ellipse cx="173" cy="297" rx="13" ry="5" fill="#8b5e20"/>
+  <ellipse cx="236" cy="297" rx="13" ry="5" fill="#8b5e20"/>
+  <!-- Arms pumping in run -->
+  <line x1="185" y1="222" x2="162" y2="248" stroke="#c8956c" stroke-width="9" stroke-linecap="round"/>
+  <line x1="229" y1="222" x2="252" y2="248" stroke="#c8956c" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Direction arrow — pointing toward ship -->
+  <path d="M255 240 Q310 235 380 242" stroke="#0077b6" stroke-width="2.5" fill="none" stroke-dasharray="6,4" opacity="0.6"/>
+  <polygon points="376,238 385,242 376,246" fill="#0077b6" opacity="0.6"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="380" height="28" rx="14" fill="#023e8a" opacity="0.85"/>
+  <text x="200" y="363" font-family="Georgia, serif" font-size="14" fill="#90e0ef" text-anchor="middle" font-weight="bold">Jonas foge e embarca em um navio</text>
+</svg>

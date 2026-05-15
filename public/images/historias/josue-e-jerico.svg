@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="jjh_sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fed7aa"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient>
+    <linearGradient id="jjh_wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#78350f"/><stop offset="100%" stop-color="#92400e"/></linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#jjh_sky)"/>
+  <!-- wall -->
+  <rect x="200" y="60" width="400" height="280" rx="4" fill="url(#jjh_wall)"/>
+  <rect x="200" y="60" width="400" height="20" fill="#451a03"/>
+  <!-- wall details - stones -->
+  <rect x="205" y="85" width="60" height="25" rx="2" fill="#92400e" opacity="0.6"/>
+  <rect x="270" y="85" width="70" height="25" rx="2" fill="#7c2d12" opacity="0.5"/>
+  <rect x="345" y="85" width="65" height="25" rx="2" fill="#92400e" opacity="0.6"/>
+  <rect x="415" y="85" width="70" height="25" rx="2" fill="#7c2d12" opacity="0.5"/>
+  <rect x="490" y="85" width="105" height="25" rx="2" fill="#92400e" opacity="0.6"/>
+  <!-- gate -->
+  <rect x="340" y="200" width="120" height="140" rx="4" fill="#1c0a00"/>
+  <rect x="350" y="210" width="45" height="120" rx="3" fill="#2d1200"/>
+  <rect x="400" y="210" width="50" height="120" rx="3" fill="#1c0a00"/>
+  <!-- towers -->
+  <rect x="155" y="40" width="70" height="300" rx="4" fill="#7c2d12"/>
+  <rect x="575" y="40" width="70" height="300" rx="4" fill="#7c2d12"/>
+  <!-- ground -->
+  <ellipse cx="400" cy="400" rx="600" ry="80" fill="#d97706"/>
+  <!-- marching people silhouettes -->
+  <ellipse cx="80" cy="355" rx="15" ry="20" fill="#78350f"/>
+  <rect x="68" y="372" width="24" height="30" rx="5" fill="#92400e"/>
+  <ellipse cx="130" cy="358" rx="13" ry="18" fill="#78350f"/>
+  <rect x="119" y="373" width="22" height="28" rx="5" fill="#7c2d12"/>
+  <ellipse cx="680" cy="355" rx="15" ry="20" fill="#78350f"/>
+  <rect x="668" y="372" width="24" height="30" rx="5" fill="#92400e"/>
+  <ellipse cx="730" cy="358" rx="13" ry="18" fill="#78350f"/>
+  <rect x="719" y="373" width="22" height="28" rx="5" fill="#7c2d12"/>
+  <!-- trumpets glow -->
+  <ellipse cx="400" cy="200" rx="60" ry="20" fill="#fbbf24" opacity="0.2"/>
+</svg>

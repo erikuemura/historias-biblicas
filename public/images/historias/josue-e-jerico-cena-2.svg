@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="jos2_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff8c42"/>
+      <stop offset="50%" stop-color="#ffb347"/>
+      <stop offset="100%" stop-color="#ffe0b2"/>
+    </linearGradient>
+    <radialGradient id="jos2_godlight" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#fffde7" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#fff9c4" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff8c42" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="jos2_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a060"/>
+      <stop offset="100%" stop-color="#8b5e20"/>
+    </linearGradient>
+    <linearGradient id="jos2_tent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4aa60"/>
+      <stop offset="100%" stop-color="#8b6020"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#jos2_sky)"/>
+
+  <!-- Divine light beam from above -->
+  <ellipse cx="320" cy="0" rx="200" ry="220" fill="url(#jos2_godlight)"/>
+  <line x1="320" y1="0" x2="280" y2="200" stroke="#fffde7" stroke-width="5" opacity="0.4"/>
+  <line x1="320" y1="0" x2="320" y2="220" stroke="#fffde7" stroke-width="7" opacity="0.5"/>
+  <line x1="320" y1="0" x2="360" y2="200" stroke="#fffde7" stroke-width="5" opacity="0.4"/>
+
+  <!-- Ground -->
+  <rect x="0" y="310" width="800" height="70" fill="url(#jos2_ground)"/>
+
+  <!-- Tent/camp background -->
+  <polygon points="580,310 660,230 740,310" fill="url(#jos2_tent)" opacity="0.8"/>
+  <polygon points="650,310 720,250 790,310" fill="#c8a050" opacity="0.6"/>
+  <polygon points="50,310 120,250 190,310" fill="url(#jos2_tent)" opacity="0.7"/>
+
+  <!-- Jericó wall visible in distance (right edge) -->
+  <rect x="700" y="100" width="100" height="210" fill="#b89050" opacity="0.5"/>
+  <rect x="700" y="88" width="18" height="18" rx="2" fill="#b89050" opacity="0.5"/>
+  <rect x="722" y="88" width="18" height="18" rx="2" fill="#b89050" opacity="0.5"/>
+  <rect x="744" y="88" width="18" height="18" rx="2" fill="#b89050" opacity="0.5"/>
+  <rect x="766" y="88" width="18" height="18" rx="2" fill="#b89050" opacity="0.5"/>
+
+  <!-- Priests with trumpets (background, right) -->
+  <!-- Priest 1 -->
+  <circle cx="520" cy="278" r="14" fill="#d4a870"/>
+  <rect x="508" y="291" width="24" height="30" rx="3" fill="white" opacity="0.9"/>
+  <path d="M508 291 Q520 285 532 291" fill="#e8e8e8"/>
+  <!-- Trumpet 1 -->
+  <path d="M525 282 Q545 270 565 268 Q570 272 568 276 Q548 278 528 290" fill="#d4a030" stroke="#b08020" stroke-width="1"/>
+  <!-- Priest 2 -->
+  <circle cx="590" cy="275" r="14" fill="#c8956a"/>
+  <rect x="578" y="288" width="24" height="32" rx="3" fill="white" opacity="0.9"/>
+  <path d="M578 288 Q590 282 602 288" fill="#e8e8e8"/>
+  <!-- Trumpet 2 -->
+  <path d="M595 279 Q615 265 638 263 Q643 267 641 271 Q618 273 598 287" fill="#d4a030" stroke="#b08020" stroke-width="1"/>
+  <!-- Priest 3 -->
+  <circle cx="660" cy="278" r="13" fill="#d4a870"/>
+  <rect x="649" y="290" width="22" height="30" rx="3" fill="white" opacity="0.9"/>
+  <!-- Trumpet 3 -->
+  <path d="M664 282 Q682 270 700 268 Q704 272 702 275 Q684 278 666 288" fill="#d4a030" stroke="#b08020" stroke-width="1"/>
+
+  <!-- Josué — main figure, center-left, kneeling/standing, looking upward at divine light -->
+  <!-- Robe -->
+  <path d="M270 315 Q274 255 285 242 Q302 230 320 235 Q338 244 342 315Z" fill="#e8a030"/>
+  <!-- Armor/breastplate -->
+  <rect x="285" y="252" width="50" height="40" rx="5" fill="#c87020" opacity="0.8"/>
+  <ellipse cx="310" cy="272" rx="18" ry="14" fill="#d4803a" opacity="0.6"/>
+  <!-- Mantle -->
+  <path d="M266 308 Q270 262 283 248 Q267 278 266 308Z" fill="#c87020"/>
+  <path d="M342 308 Q344 265 333 248 Q344 278 342 308Z" fill="#c87020"/>
+  <!-- Head -->
+  <circle cx="308" cy="232" r="24" fill="#c8956c"/>
+  <!-- Headband/helmet rim -->
+  <rect x="286" y="222" width="44" height="10" rx="5" fill="#c87020"/>
+  <!-- Hair (short, dark) -->
+  <path d="M287 226 Q292 218 308 215 Q324 218 329 226" fill="#5a3010"/>
+  <!-- Eyes looking UP at divine light — wide, reverent -->
+  <ellipse cx="299" cy="228" rx="4.5" ry="5" fill="white"/>
+  <ellipse cx="317" cy="228" rx="4.5" ry="5" fill="white"/>
+  <circle cx="300" cy="227" r="2.5" fill="#3a2010"/>
+  <circle cx="318" cy="227" r="2.5" fill="#3a2010"/>
+  <!-- Eyebrows raised -->
+  <path d="M294 221 Q299 218 304 221" stroke="#5a3010" stroke-width="1.5" fill="none"/>
+  <path d="M312 221 Q317 218 322 221" stroke="#5a3010" stroke-width="1.5" fill="none"/>
+  <!-- Open, attentive mouth -->
+  <path d="M300 239 Q308 244 316 239" stroke="#8b3a10" stroke-width="1.5" fill="none"/>
+  <!-- Beard (short) -->
+  <path d="M290 238 Q295 250 308 253 Q321 250 326 238" fill="#5a3010" opacity="0.7"/>
+
+  <!-- Right arm raised palm up — receiving divine word -->
+  <line x1="325" y1="252" x2="360" y2="215" stroke="#c8956c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="362" cy="213" r="9" fill="#c8956c"/>
+  <!-- Light on hand -->
+  <circle cx="362" cy="213" r="16" fill="#fffde7" opacity="0.5"/>
+
+  <!-- Left arm at side -->
+  <line x1="284" y1="255" x2="262" y2="285" stroke="#c8956c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="260" cy="287" r="8" fill="#c8956c"/>
+
+  <!-- Spear / staff on ground beside him -->
+  <line x1="248" y1="200" x2="255" y2="350" stroke="#8b5e20" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="244,200 252,180 260,200" fill="#c8a030"/>
+
+  <!-- Divine message — light rays and glow around Josué's face -->
+  <ellipse cx="308" cy="180" rx="80" ry="60" fill="#fffde7" opacity="0.3"/>
+
+  <!-- Caption -->
+  <rect x="10" y="344" width="320" height="28" rx="14" fill="#bf5010" opacity="0.82"/>
+  <text x="170" y="363" font-family="Georgia, serif" font-size="14" fill="#fff9c4" text-anchor="middle" font-weight="bold">Josué ouve a voz de Deus</text>
+</svg>

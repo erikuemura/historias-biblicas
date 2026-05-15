@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="bs3_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8B050;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F0C870;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bs3_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8A850;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#A88030;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bs3_cliff" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C0A050;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E0B860;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#bs3_sky)"/>
+  <circle cx="680" cy="65" r="46" fill="#FFD030" opacity="0.8"/>
+  <!-- Rocky road context -->
+  <polygon points="0,0 160,0 185,140 105,190 0,200" fill="url(#bs3_cliff)"/>
+  <polygon points="800,0 640,0 615,130 695,180 800,190" fill="url(#bs3_cliff)"/>
+  <!-- Boulders -->
+  <ellipse cx="120" cy="282" rx="48" ry="26" fill="#C0A050"/>
+  <ellipse cx="680" cy="278" rx="45" ry="24" fill="#C0A050"/>
+  <!-- Ground/road -->
+  <rect x="0" y="268" width="800" height="112" fill="url(#bs3_ground)"/>
+  <ellipse cx="400" cy="282" rx="240" ry="14" fill="#D4B060" opacity="0.5"/>
+  <!-- Road stones -->
+  <ellipse cx="230" cy="278" rx="18" ry="7" fill="#B09040" opacity="0.6"/>
+  <ellipse cx="570" cy="275" rx="15" ry="6" fill="#B09040" opacity="0.5"/>
+  <!-- INJURED MAN same position - lying on road right of center -->
+  <ellipse cx="430" cy="278" rx="65" ry="16" fill="#C09060" transform="rotate(-6,430,278)"/>
+  <circle cx="482" cy="265" r="17" fill="#E0A060"/>
+  <ellipse cx="482" cy="252" rx="18" ry="10" fill="#4A2808"/>
+  <ellipse cx="417" cy="280" rx="50" ry="13" fill="#A08060" transform="rotate(-6,417,280)"/>
+  <!-- Bruise on face -->
+  <ellipse cx="475" cy="265" rx="5" ry="4" fill="#8B3020" opacity="0.5"/>
+  <!-- Eye closed -->
+  <ellipse cx="476" cy="262" rx="3" ry="2.5" fill="#F0E8D8"/>
+  <ellipse cx="488" cy="261" rx="3" ry="2.5" fill="#5A3820" opacity="0.5"/>
+  <!-- Arm on ground -->
+  <line x1="482" y1="274" x2="512" y2="288" stroke="#E0A060" stroke-width="8" stroke-linecap="round"/>
+  <line x1="406" y1="278" x2="376" y2="290" stroke="#E0A060" stroke-width="8" stroke-linecap="round"/>
+  <!-- Legs -->
+  <ellipse cx="380" cy="286" rx="38" ry="11" fill="#A08060" transform="rotate(-10,380,286)"/>
+  <!-- PRIEST - walking on FAR OTHER SIDE of road, looking away deliberately -->
+  <circle cx="180" cy="215" r="21" fill="#F0C090"/>
+  <ellipse cx="180" cy="200" rx="21" ry="11" fill="#7A5020"/>
+  <!-- Priestly headgear -->
+  <rect x="160" y="195" width="40" height="12" fill="#F0E8D0" rx="2"/>
+  <rect x="163" y="190" width="34" height="8" fill="#D8D0B0" rx="2"/>
+  <!-- Fine priestly white robe -->
+  <polygon points="159,236 201,236 206,278 154,278" fill="#F8F4E8"/>
+  <!-- Blue stripe on robe -->
+  <rect x="162" y="244" width="38" height="6" fill="#4060C0" opacity="0.5"/>
+  <!-- Walking AWAY on far left side, head pointedly turned right (away from victim) -->
+  <line x1="159" y1="246" x2="138" y2="268" stroke="#F0C090" stroke-width="10" stroke-linecap="round"/>
+  <line x1="201" y1="246" x2="210" y2="270" stroke="#F0C090" stroke-width="10" stroke-linecap="round"/>
+  <!-- Head turned to RIGHT (away from injured man on his left) -->
+  <ellipse cx="188" cy="214" rx="4" ry="5" fill="#5A3820"/>
+  <ellipse cx="200" cy="213" rx="4" ry="5" fill="#5A3820"/>
+  <!-- Looking away pointedly -->
+  <path d="M184,226 Q192,222 200,226" stroke="#8B5030" stroke-width="2" fill="none"/>
+  <!-- Scroll tucked under arm - too important to stop -->
+  <rect x="155" y="250" width="30" height="14" fill="#F5E8C0" rx="3" transform="rotate(-15,170,257)"/>
+  <!-- LEVITE - also walking on other side further back, also looking away -->
+  <circle cx="310" cy="225" r="19" fill="#F0B880"/>
+  <ellipse cx="310" cy="211" rx="19" ry="10" fill="#5A3010"/>
+  <!-- Levite head covering -->
+  <ellipse cx="310" cy="208" rx="22" ry="13" fill="#D0C080" opacity="0.8"/>
+  <!-- Fine robes -->
+  <polygon points="292,244 328,244 332,278 288,278" fill="#F0E8D0"/>
+  <!-- Purple stripe - levite coloring -->
+  <rect x="294" y="252" width="34" height="5" fill="#8040A0" opacity="0.5"/>
+  <!-- Walking on far side, head turned away -->
+  <line x1="292" y1="252" x2="275" y2="278" stroke="#F0B880" stroke-width="9" stroke-linecap="round"/>
+  <line x1="328" y1="252" x2="336" y2="276" stroke="#F0B880" stroke-width="9" stroke-linecap="round"/>
+  <!-- Head deliberately looking right/away from victim -->
+  <ellipse cx="316" cy="224" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <ellipse cx="327" cy="222" rx="3.5" ry="4.5" fill="#5A3820"/>
+  <!-- Looking away -->
+  <path d="M312,235 Q320,231 328,235" stroke="#8B5030" stroke-width="2" fill="none"/>
+  <!-- Ironic contrast - dashed line showing they cross to other side -->
+  <path d="M200,270 Q280,255 350,270" stroke="#C04040" stroke-width="2" stroke-dasharray="6,4" opacity="0.45" fill="none"/>
+  <!-- Road dividing line hint -->
+  <line x1="200" y1="272" x2="420" y2="272" stroke="#B09040" stroke-width="1.5" stroke-dasharray="8,6" opacity="0.4"/>
+  <!-- Title -->
+  <rect x="0" y="345" width="800" height="35" fill="#C05820" opacity="0.65"/>
+  <text x="400" y="368" font-family="Georgia, serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">O Bom Samaritano — Cena 3: Os Que Passaram</text>
+</svg>
