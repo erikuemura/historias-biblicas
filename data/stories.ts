@@ -517,7 +517,7 @@ O rei Saul olhou para o menino por um longo tempo...
 — Vá. E que Deus esteja com você!`,
       },
       {
-        title: "Cinco Pedrosas no Rio",
+        title: "Cinco Pedrinhas no Rio",
         imageUrl: "/images/historias/davi-e-golias-cena-4.svg",
         text: `Saul quis colocar sua armadura em Davi — capacete de bronze, colete de malha, espada.
 
