@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyG2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff8f00"/>
+      <stop offset="40%" style="stop-color:#ffca28"/>
+      <stop offset="100%" style="stop-color:#fff9c4"/>
+    </linearGradient>
+    <linearGradient id="waterG2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#29b6f6"/>
+      <stop offset="100%" style="stop-color:#0288d1"/>
+    </linearGradient>
+  </defs>
+  <!-- Morning sky -->
+  <rect width="800" height="380" fill="url(#skyG2)"/>
+  <!-- Sun rising -->
+  <circle cx="400" cy="160" r="55" fill="#ffee58" opacity="0.9"/>
+  <circle cx="400" cy="160" r="42" fill="#fff176"/>
+  <!-- Sun rays -->
+  <line x1="400" y1="90" x2="400" y2="70" stroke="#ffca28" stroke-width="4" opacity="0.7"/>
+  <line x1="450" y1="105" x2="464" y2="90" stroke="#ffca28" stroke-width="3" opacity="0.6"/>
+  <line x1="350" y1="105" x2="336" y2="90" stroke="#ffca28" stroke-width="3" opacity="0.6"/>
+  <line x1="470" y1="145" x2="492" y2="138" stroke="#ffca28" stroke-width="3" opacity="0.6"/>
+  <line x1="330" y1="145" x2="308" y2="138" stroke="#ffca28" stroke-width="3" opacity="0.6"/>
+  <!-- Lake/water -->
+  <rect x="0" y="240" width="800" height="140" fill="url(#waterG2)"/>
+  <!-- Water shimmer -->
+  <path d="M0 258 Q100 250 200 258 Q300 266 400 258 Q500 250 600 258 Q700 266 800 258" stroke="#4fc3f7" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M0 278 Q150 270 300 278 Q450 286 600 278 Q700 274 800 278" stroke="#4fc3f7" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- Shore/bank -->
+  <path d="M0 240 Q200 230 400 238 Q600 246 800 240 L800 260 Q600 254 400 248 Q200 242 0 252 Z" fill="#a5d6a7"/>
+  <rect x="0" y="252" width="800" height="20" fill="#81c784" opacity="0.6"/>
+  <!-- Jesus standing on shore -->
+  <!-- Jesus robe -->
+  <path d="M365 345 Q375 278 383 248 L405 248 Q413 278 423 345 Z" fill="white"/>
+  <!-- Jesus head -->
+  <circle cx="394" cy="236" r="25" fill="#ffcc80"/>
+  <!-- Jesus hair -->
+  <path d="M369 230 Q394 210 419 230 L422 240 Q394 228 368 240 Z" fill="#5d4037"/>
+  <path d="M369 240 Q362 260 366 275" fill="#5d4037"/>
+  <path d="M419 240 Q426 260 422 275" fill="#5d4037"/>
+  <!-- Jesus beard -->
+  <path d="M382 246 Q394 262 406 246 L408 257 Q394 270 380 257 Z" fill="#5d4037" opacity="0.6"/>
+  <!-- Jesus eyes -->
+  <circle cx="387" cy="236" r="4" fill="#4e342e"/>
+  <circle cx="401" cy="236" r="4" fill="#4e342e"/>
+  <circle cx="388.5" cy="234.5" r="1.5" fill="white"/>
+  <circle cx="402.5" cy="234.5" r="1.5" fill="white"/>
+  <path d="M387 243 Q394 249 401 243" stroke="#795548" stroke-width="2" fill="none"/>
+  <circle cx="380" cy="243" r="6" fill="#ef9a9a" opacity="0.4"/>
+  <circle cx="408" cy="243" r="6" fill="#ef9a9a" opacity="0.4"/>
+  <!-- Jesus arms open/teaching -->
+  <path d="M383 262 Q355 258 330 250" stroke="white" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M405 262 Q433 258 458 250" stroke="white" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <!-- Crowd listening - simplified figures -->
+  <!-- Person 1 left -->
+  <path d="M120 345 Q127 305 132 285 L148 285 Q153 305 158 345 Z" fill="#ef5350"/>
+  <circle cx="140" cy="274" r="19" fill="#ffb74d"/>
+  <circle cx="134" cy="274" r="3" fill="#4e342e"/>
+  <circle cx="146" cy="274" r="3" fill="#4e342e"/>
+  <path d="M134 281 Q140 286 146 281" stroke="#795548" stroke-width="1.8" fill="none"/>
+  <!-- Person 2 -->
+  <path d="M195 348 Q202 308 207 288 L223 288 Q228 308 233 348 Z" fill="#7e57c2"/>
+  <circle cx="215" cy="277" r="19" fill="#ffcc80"/>
+  <circle cx="209" cy="277" r="3" fill="#4e342e"/>
+  <circle cx="221" cy="277" r="3" fill="#4e342e"/>
+  <path d="M209 284 Q215 289 221 284" stroke="#795548" stroke-width="1.8" fill="none"/>
+  <!-- Person 3 -->
+  <path d="M268 345 Q275 305 280 285 L296 285 Q301 305 306 345 Z" fill="#66bb6a"/>
+  <circle cx="288" cy="274" r="19" fill="#ffb74d"/>
+  <circle cx="282" cy="274" r="3" fill="#4e342e"/>
+  <circle cx="294" cy="274" r="3" fill="#4e342e"/>
+  <path d="M282 281 Q288 286 294 281" stroke="#795548" stroke-width="1.8" fill="none"/>
+  <!-- Person 4 right -->
+  <path d="M490 345 Q497 305 502 285 L518 285 Q523 305 528 345 Z" fill="#26a69a"/>
+  <circle cx="510" cy="274" r="19" fill="#ffcc80"/>
+  <circle cx="504" cy="274" r="3" fill="#4e342e"/>
+  <circle cx="516" cy="274" r="3" fill="#4e342e"/>
+  <path d="M504 281 Q510 286 516 281" stroke="#795548" stroke-width="1.8" fill="none"/>
+  <!-- Person 5 -->
+  <path d="M560 348 Q567 308 572 288 L588 288 Q593 308 598 348 Z" fill="#ffa726"/>
+  <circle cx="580" cy="277" r="19" fill="#ffb74d"/>
+  <circle cx="574" cy="277" r="3" fill="#4e342e"/>
+  <circle cx="586" cy="277" r="3" fill="#4e342e"/>
+  <path d="M574 284 Q580 289 586 284" stroke="#795548" stroke-width="1.8" fill="none"/>
+  <!-- Person 6 -->
+  <path d="M630 345 Q637 305 642 285 L658 285 Q663 305 668 345 Z" fill="#ef5350"/>
+  <circle cx="650" cy="274" r="19" fill="#ffcc80"/>
+  <circle cx="644" cy="274" r="3" fill="#4e342e"/>
+  <circle cx="656" cy="274" r="3" fill="#4e342e"/>
+  <path d="M644 281 Q650 286 656 281" stroke="#795548" stroke-width="1.8" fill="none"/>
+  <!-- Some people seated in front -->
+  <ellipse cx="170" cy="348" rx="18" ry="12" fill="#795548" opacity="0.7"/>
+  <circle cx="170" cy="330" r="16" fill="#ffb74d"/>
+  <ellipse cx="460" cy="348" rx="18" ry="12" fill="#8d6e63" opacity="0.7"/>
+  <circle cx="460" cy="330" r="16" fill="#ffcc80"/>
+</svg>

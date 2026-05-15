@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <radialGradient id="bg1a" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1a0033"/>
+      <stop offset="50%" stop-color="#0a0015"/>
+      <stop offset="100%" stop-color="#000005"/>
+    </radialGradient>
+    <radialGradient id="spark1a" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="30%" stop-color="#ffd54f"/>
+      <stop offset="70%" stop-color="#ff8f00" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff6f00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Dark void background -->
+  <rect width="800" height="380" fill="url(#bg1a)"/>
+
+  <!-- Subtle purple shimmer on edges -->
+  <ellipse cx="400" cy="190" rx="380" ry="180" fill="#2d0050" opacity="0.3"/>
+
+  <!-- Stars (tiny dots scattered) -->
+  <circle cx="80" cy="40" r="1" fill="white" opacity="0.4"/>
+  <circle cx="150" cy="100" r="1.5" fill="white" opacity="0.3"/>
+  <circle cx="220" cy="30" r="1" fill="white" opacity="0.35"/>
+  <circle cx="640" cy="50" r="1" fill="white" opacity="0.4"/>
+  <circle cx="720" cy="120" r="1.5" fill="white" opacity="0.3"/>
+  <circle cx="700" cy="30" r="1" fill="white" opacity="0.35"/>
+  <circle cx="50" cy="200" r="1" fill="white" opacity="0.25"/>
+  <circle cx="760" cy="250" r="1" fill="white" opacity="0.3"/>
+  <circle cx="100" cy="320" r="1.5" fill="white" opacity="0.2"/>
+  <circle cx="680" cy="330" r="1" fill="white" opacity="0.25"/>
+  <circle cx="350" cy="60" r="1" fill="white" opacity="0.2"/>
+  <circle cx="450" cy="320" r="1" fill="white" opacity="0.2"/>
+
+  <!-- Central spark of light -->
+  <circle cx="400" cy="190" r="80" fill="url(#spark1a)" opacity="0.9"/>
+  <circle cx="400" cy="190" r="40" fill="#fff9c4" opacity="0.7"/>
+  <circle cx="400" cy="190" r="18" fill="#ffffff" opacity="0.95"/>
+  <circle cx="400" cy="190" r="6" fill="#ffffff"/>
+
+  <!-- Small rays from center -->
+  <line x1="400" y1="190" x2="400" y2="130" stroke="#ffd54f" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="190" x2="400" y2="250" stroke="#ffd54f" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="190" x2="340" y2="190" stroke="#ffd54f" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="190" x2="460" y2="190" stroke="#ffd54f" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="190" x2="357" y2="147" stroke="#ffd54f" stroke-width="1.5" opacity="0.4"/>
+  <line x1="400" y1="190" x2="443" y2="147" stroke="#ffd54f" stroke-width="1.5" opacity="0.4"/>
+  <line x1="400" y1="190" x2="357" y2="233" stroke="#ffd54f" stroke-width="1.5" opacity="0.4"/>
+  <line x1="400" y1="190" x2="443" y2="233" stroke="#ffd54f" stroke-width="1.5" opacity="0.4"/>
+</svg>

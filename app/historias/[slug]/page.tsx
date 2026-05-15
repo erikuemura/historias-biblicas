@@ -138,6 +138,17 @@ export default async function StoryPage({ params }: Props) {
               </div>
 
               <div className="pl-0 sm:pl-14">
+                {scene.imageUrl && (
+                  <div className="relative w-full h-52 sm:h-64 rounded-2xl overflow-hidden mb-6 shadow-md">
+                    <Image
+                      src={scene.imageUrl}
+                      alt={scene.title}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 700px"
+                    />
+                  </div>
+                )}
                 <div className="prose-story">
                   {scene.text.split("\n\n").map((paragraph, pIndex) => (
                     <p key={pIndex} className="mb-5 last:mb-0">

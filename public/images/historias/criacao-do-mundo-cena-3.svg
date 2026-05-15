@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="sky3a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42a5f5"/>
+      <stop offset="100%" stop-color="#b3e5fc"/>
+    </linearGradient>
+    <linearGradient id="sea3a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0288d1"/>
+      <stop offset="100%" stop-color="#01579b"/>
+    </linearGradient>
+    <linearGradient id="hill3a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66bb6a"/>
+      <stop offset="100%" stop-color="#2e7d32"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#sky3a)"/>
+
+  <!-- Sun -->
+  <circle cx="680" cy="70" r="45" fill="#ffd54f" opacity="0.95"/>
+  <circle cx="680" cy="70" r="35" fill="#ffee58"/>
+
+  <!-- Clouds -->
+  <g fill="white" opacity="0.9">
+    <ellipse cx="160" cy="70" rx="75" ry="28"/>
+    <ellipse cx="210" cy="58" rx="55" ry="24"/>
+    <ellipse cx="110" cy="78" rx="48" ry="20"/>
+    <ellipse cx="500" cy="85" rx="65" ry="24"/>
+    <ellipse cx="548" cy="74" rx="48" ry="21"/>
+  </g>
+
+  <!-- Sea -->
+  <rect x="0" y="220" width="360" height="160" fill="url(#sea3a)"/>
+  <!-- Water waves -->
+  <path d="M0,235 Q45,225 90,235 Q135,245 180,235 Q225,225 270,235 Q315,245 360,235 L360,240 Q315,250 270,240 Q225,230 180,240 Q135,250 90,240 Q45,230 0,240 Z" fill="#29b6f6" opacity="0.5"/>
+  <path d="M0,255 Q45,245 90,255 Q135,265 180,255 Q225,245 270,255 Q315,265 360,255 L360,260 Q315,270 270,260 Q225,250 180,260 Q135,270 90,260 Q45,250 0,260 Z" fill="#4fc3f7" opacity="0.4"/>
+
+  <!-- Ground / land -->
+  <ellipse cx="580" cy="320" rx="320" ry="120" fill="url(#hill3a)"/>
+  <rect x="340" y="230" width="460" height="150" fill="#4caf50"/>
+  <rect x="340" y="230" width="460" height="18" fill="#66bb6a"/>
+
+  <!-- Shore line -->
+  <path d="M340,230 Q360,220 380,230" stroke="#81d4fa" stroke-width="3" fill="none"/>
+
+  <!-- Tree 1 -->
+  <rect x="418" y="175" width="12" height="65" rx="4" fill="#5d4037"/>
+  <circle cx="424" cy="160" r="35" fill="#388e3c"/>
+  <circle cx="404" cy="172" r="24" fill="#43a047"/>
+  <circle cx="444" cy="172" r="24" fill="#43a047"/>
+
+  <!-- Tree 2 -->
+  <rect x="558" y="185" width="12" height="55" rx="4" fill="#5d4037"/>
+  <circle cx="564" cy="170" r="30" fill="#2e7d32"/>
+  <circle cx="546" cy="182" r="20" fill="#388e3c"/>
+  <circle cx="582" cy="182" r="20" fill="#388e3c"/>
+
+  <!-- Tree 3 (palm style) -->
+  <rect x="668" y="190" width="10" height="50" rx="4" fill="#795548"/>
+  <ellipse cx="673" cy="185" rx="32" ry="16" fill="#558b2f" transform="rotate(-20,673,185)"/>
+  <ellipse cx="673" cy="185" rx="32" ry="16" fill="#689f38" transform="rotate(15,673,185)"/>
+  <ellipse cx="673" cy="185" rx="30" ry="14" fill="#7cb342" transform="rotate(-50,673,185)"/>
+
+  <!-- Flowers -->
+  <circle cx="380" cy="242" r="6" fill="#e91e63"/>
+  <circle cx="420" cy="248" r="5" fill="#ff9800"/>
+  <circle cx="460" cy="244" r="6" fill="#9c27b0"/>
+  <circle cx="500" cy="250" r="5" fill="#f44336"/>
+  <circle cx="540" cy="245" r="6" fill="#ffeb3b"/>
+  <circle cx="600" cy="248" r="5" fill="#e91e63"/>
+  <circle cx="640" cy="244" r="6" fill="#ff5722"/>
+  <circle cx="700" cy="250" r="5" fill="#ab47bc"/>
+
+  <!-- Flower stems -->
+  <line x1="380" y1="248" x2="380" y2="258" stroke="#388e3c" stroke-width="2"/>
+  <line x1="420" y1="253" x2="420" y2="263" stroke="#388e3c" stroke-width="2"/>
+  <line x1="460" y1="250" x2="460" y2="260" stroke="#388e3c" stroke-width="2"/>
+  <line x1="500" y1="255" x2="500" y2="265" stroke="#388e3c" stroke-width="2"/>
+  <line x1="540" y1="251" x2="540" y2="261" stroke="#388e3c" stroke-width="2"/>
+</svg>

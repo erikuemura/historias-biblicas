@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyRJ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="55%" stop-color="#fff8e1"/>
+      <stop offset="100%" stop-color="#f5f5dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyRJ4)"/>
+  <!-- Simple room / upper room -->
+  <rect x="0" y="0" width="800" height="380" fill="#fff8e1"/>
+  <!-- Wall texture -->
+  <g fill="none" stroke="#ffe082" stroke-width="2" opacity="0.4">
+    <rect x="40" y="30" width="100" height="45" rx="2"/>
+    <rect x="148" y="30" width="100" height="45" rx="2"/>
+    <rect x="556" y="30" width="100" height="45" rx="2"/>
+    <rect x="664" y="30" width="100" height="45" rx="2"/>
+    <rect x="90" y="78" width="100" height="45" rx="2"/>
+    <rect x="606" y="78" width="100" height="45" rx="2"/>
+  </g>
+  <!-- Floor -->
+  <rect x="0" y="328" width="800" height="52" fill="#f5deb3"/>
+  <!-- Window -->
+  <rect x="350" y="45" width="100" height="80" rx="5" fill="#fff9c4" opacity="0.7"/>
+  <line x1="400" y1="45" x2="400" y2="125" stroke="#deb887" stroke-width="3" opacity="0.5"/>
+  <line x1="350" y1="85" x2="450" y2="85" stroke="#deb887" stroke-width="3" opacity="0.5"/>
+  <!-- Door (locked) -->
+  <rect x="680" y="150" width="85" height="180" rx="6" fill="#8d6e63"/>
+  <rect x="688" y="158" width="69" height="164" rx="4" fill="#a1887f"/>
+  <circle cx="698" cy="240" r="6" fill="#ffd54f"/>
+  <!-- Disciples huddled together (afraid) -->
+  <g transform="translate(110,178)">
+    <!-- Group of 5 disciples fearful -->
+    <path d="M2,40 L0,110 L26,110 L28,40 Q14,28 12,26 Q6,28 2,40Z" fill="#546e7a"/>
+    <circle cx="14" cy="14" r="18" fill="#e8a87a"/>
+    <path d="M-1,6 Q14,-6 29,6 Q27,0 14,-3 Q1,0 -1,6Z" fill="#3e2723"/>
+    <circle cx="5" cy="10" r="3.5" fill="#3e2723"/>
+    <circle cx="23" cy="10" r="3.5" fill="#3e2723"/>
+    <!-- Frightened wide eyes -->
+    <circle cx="5" cy="10" r="4.5" fill="#3e2723"/>
+    <circle cx="23" cy="10" r="4.5" fill="#3e2723"/>
+    <circle cx="6" cy="9" r="1.8" fill="white"/>
+    <circle cx="24" cy="9" r="1.8" fill="white"/>
+    <path d="M4,22 Q14,18 24,22" stroke="#c62828" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(168,185)">
+    <path d="M2,38 L0,104 L25,104 L27,38 Q13,26 11,24 Q5,26 2,38Z" fill="#ef6c00"/>
+    <circle cx="13" cy="13" r="17" fill="#ffccbc"/>
+    <path d="M-1,6 Q13,-4 27,6 Q25,0 13,-2 Q1,0 -1,6Z" fill="#5d4037"/>
+    <circle cx="5" cy="9" r="4" fill="#5d4037"/>
+    <circle cx="21" cy="9" r="4" fill="#5d4037"/>
+    <circle cx="5.5" cy="8.5" r="1.6" fill="white"/>
+    <circle cx="21.5" cy="8.5" r="1.6" fill="white"/>
+    <path d="M4,20 Q13,16 22,20" stroke="#c62828" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(230,180)">
+    <path d="M2,40 L0,110 L26,110 L28,40 Q14,28 12,26 Q6,28 2,40Z" fill="#8e24aa"/>
+    <circle cx="14" cy="14" r="18" fill="#e8a87a"/>
+    <path d="M-1,6 Q14,-6 29,6 Q27,0 14,-3 Q1,0 -1,6Z" fill="#4e342e"/>
+    <circle cx="5" cy="10" r="4.5" fill="#4e342e"/>
+    <circle cx="23" cy="10" r="4.5" fill="#4e342e"/>
+    <circle cx="6" cy="9" r="1.8" fill="white"/>
+    <circle cx="24" cy="9" r="1.8" fill="white"/>
+    <path d="M4,22 Q14,18 24,22" stroke="#c62828" stroke-width="2" fill="none"/>
+  </g>
+  <!-- JESUS APPEARING (glowing, from center) -->
+  <g transform="translate(340,110)">
+    <!-- Radiant glow -->
+    <ellipse cx="52" cy="200" rx="80" ry="180" fill="#fff9c4" opacity="0.2"/>
+    <!-- Halo -->
+    <circle cx="52" cy="25" r="36" fill="none" stroke="#ffd54f" stroke-width="5" opacity="0.6"/>
+    <!-- White glowing robe -->
+    <path d="M8,60 Q4,175 2,210 Q52,220 102,210 Q98,175 94,60 Q76,42 52,39 Q28,42 8,60Z" fill="white"/>
+    <path d="M4,155 Q52,165 100,155 Q98,198 52,204 Q6,198 4,155Z" fill="#e0e0e0" opacity="0.3"/>
+    <rect x="28" y="204" width="13" height="42" rx="5" fill="white" opacity="0.7"/>
+    <rect x="53" y="204" width="13" height="42" rx="5" fill="#e0e0e0" opacity="0.7"/>
+    <!-- Head -->
+    <circle cx="52" cy="25" r="27" fill="#ffccbc"/>
+    <path d="M27,13 Q52,-3 77,13 Q75,3 52,0 Q29,3 27,13Z" fill="#5d4037"/>
+    <circle cx="40" cy="19" r="4" fill="#5d4037"/>
+    <circle cx="64" cy="19" r="4" fill="#5d4037"/>
+    <circle cx="41" cy="18" r="1.5" fill="white"/>
+    <circle cx="65" cy="18" r="1.5" fill="white"/>
+    <path d="M36,32 Q52,44 68,32" stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <circle cx="27" cy="26" r="9" fill="#ef9a9a" opacity="0.35"/>
+    <circle cx="77" cy="26" r="9" fill="#ef9a9a" opacity="0.35"/>
+    <rect x="44" y="52" width="16" height="14" rx="4" fill="#ffccbc"/>
+    <path d="M35,42 Q52,54 69,42 Q67,52 52,56 Q37,52 35,42Z" fill="#5d4037" opacity="0.6"/>
+    <!-- Arms open in peace -->
+    <path d="M8,66 Q-22,52 -40,40" stroke="white" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <circle cx="-42" cy="38" r="12" fill="#ffccbc"/>
+    <!-- Wounds visible on hands -->
+    <circle cx="-44" cy="37" r="4" fill="#e53935" opacity="0.7"/>
+    <path d="M94,66 Q118,52 136,40" stroke="white" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <circle cx="138" cy="38" r="12" fill="#ffccbc"/>
+    <circle cx="140" cy="37" r="4" fill="#e53935" opacity="0.7"/>
+  </g>
+  <!-- Right disciples amazed -->
+  <g transform="translate(520,185)">
+    <path d="M2,40 L0,108 L26,108 L28,40 Q14,28 12,26 Q6,28 2,40Z" fill="#26a69a"/>
+    <circle cx="14" cy="14" r="18" fill="#e8a87a"/>
+    <path d="M-1,6 Q14,-6 29,6 Q27,0 14,-3 Q1,0 -1,6Z" fill="#3e2723"/>
+    <circle cx="5" cy="10" r="4.5" fill="#3e2723"/>
+    <circle cx="23" cy="10" r="4.5" fill="#3e2723"/>
+    <circle cx="6" cy="9" r="1.8" fill="white"/>
+    <circle cx="24" cy="9" r="1.8" fill="white"/>
+    <path d="M4,22 Q14,30 24,22" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(578,190)">
+    <path d="M2,38 L0,104 L25,104 L27,38 Q13,26 11,24 Q5,26 2,38Z" fill="#795548"/>
+    <circle cx="13" cy="13" r="17" fill="#ffccbc"/>
+    <path d="M-1,6 Q13,-4 27,6 Q25,0 13,-2 Q1,0 -1,6Z" fill="#4e342e"/>
+    <circle cx="5" cy="9" r="4" fill="#4e342e"/>
+    <circle cx="21" cy="9" r="4" fill="#4e342e"/>
+    <circle cx="5.5" cy="8.5" r="1.6" fill="white"/>
+    <circle cx="21.5" cy="8.5" r="1.6" fill="white"/>
+    <path d="M4,20 Q13,28 22,20" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Peace light rays -->
+  <g stroke="#fff9c4" stroke-width="3" opacity="0.3">
+    <line x1="395" y1="115" x2="200" y2="250"/>
+    <line x1="395" y1="115" x2="395" y2="280"/>
+    <line x1="395" y1="115" x2="590" y2="250"/>
+  </g>
+</svg>

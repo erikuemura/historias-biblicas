@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyBM3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b3e5fc"/>
+      <stop offset="50%" stop-color="#81d4fa"/>
+      <stop offset="100%" stop-color="#4fc3f7"/>
+    </linearGradient>
+    <linearGradient id="waterBM3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4dd0e1"/>
+      <stop offset="100%" stop-color="#0097a7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyBM3)"/>
+  <!-- Sun low -->
+  <circle cx="720" cy="70" r="48" fill="#fff9c4" opacity="0.9"/>
+  <!-- Reeds / papyrus plants -->
+  <g fill="#558b2f">
+    <rect x="560" y="160" width="8" height="180" rx="4"/>
+    <ellipse cx="564" cy="158" rx="14" ry="28" fill="#689f38"/>
+    <rect x="590" y="180" width="7" height="160" rx="3"/>
+    <ellipse cx="593" cy="178" rx="12" ry="22" fill="#7cb342"/>
+    <rect x="615" y="155" width="9" height="185" rx="4"/>
+    <ellipse cx="619" cy="153" rx="15" ry="30" fill="#558b2f"/>
+    <rect x="645" y="175" width="7" height="165" rx="3"/>
+    <ellipse cx="648" cy="173" rx="11" ry="20" fill="#689f38"/>
+    <rect x="670" y="160" width="8" height="180" rx="4"/>
+    <ellipse cx="674" cy="158" rx="13" ry="25" fill="#7cb342"/>
+    <!-- left reeds -->
+    <rect x="30" y="200" width="7" height="140" rx="3"/>
+    <ellipse cx="33" cy="198" rx="11" ry="20" fill="#689f38"/>
+    <rect x="55" y="185" width="8" height="155" rx="4"/>
+    <ellipse cx="59" cy="183" rx="13" ry="24" fill="#558b2f"/>
+  </g>
+  <!-- River water -->
+  <rect x="0" y="280" width="800" height="100" fill="url(#waterBM3)"/>
+  <path d="M0,285 Q100,278 200,285 Q300,292 400,285 Q500,278 600,285 Q700,292 800,285" fill="none" stroke="#80deea" stroke-width="3" opacity="0.5"/>
+  <path d="M0,300 Q150,293 300,300 Q450,307 600,300 Q700,295 800,300" fill="none" stroke="#80deea" stroke-width="2" opacity="0.4"/>
+  <!-- Basket floating in river -->
+  <g transform="translate(360,268)">
+    <ellipse cx="38" cy="22" rx="44" ry="14" fill="#8d6e63" opacity="0.5"/>
+    <path d="M2,12 Q38,-4 74,12 Q72,28 38,32 Q4,28 2,12Z" fill="#a1887f"/>
+    <!-- Weaving pattern -->
+    <path d="M10,14 Q38,6 66,14" stroke="#6d4c41" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M6,20 Q38,12 70,20" stroke="#6d4c41" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <!-- Baby visible inside -->
+    <circle cx="38" cy="8" r="12" fill="#ffccbc"/>
+    <path d="M30,4 Q38,-4 46,4" fill="#4e342e"/>
+    <path d="M32,8 Q36,12 42,8" stroke="#e64a19" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Cover/blanket -->
+    <path d="M22,18 Q38,14 54,18" stroke="#fff9c4" stroke-width="4" fill="none" opacity="0.8"/>
+  </g>
+  <!-- MOTHER kneeling on bank (releasing basket) -->
+  <g transform="translate(200,190)">
+    <ellipse cx="45" cy="148" rx="38" ry="9" fill="#e65100" opacity="0.2"/>
+    <!-- Kneeling body -->
+    <path d="M8,52 Q4,120 2,140 Q45,150 88,140 Q84,120 82,52 Q65,36 45,33 Q25,36 8,52Z" fill="#ef6c00"/>
+    <path d="M5,130 Q45,140 87,130 Q84,150 45,155 Q6,150 5,130Z" fill="#bf360c" opacity="0.4"/>
+    <rect x="25" y="130" width="12" height="30" rx="5" fill="#e65100" opacity="0.7"/>
+    <rect x="48" y="130" width="12" height="30" rx="5" fill="#bf360c" opacity="0.7"/>
+    <!-- Head veil -->
+    <ellipse cx="45" cy="18" rx="38" ry="12" fill="white" opacity="0.9"/>
+    <path d="M10,20 Q4,68 8,108" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.88"/>
+    <path d="M80,20 Q86,68 82,108" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.88"/>
+    <path d="M10,20 Q45,4 80,20 Q80,60 78,102 Q45,114 12,102 Q8,60 10,20Z" fill="#f5f5f5" opacity="0.72"/>
+    <!-- Face -->
+    <circle cx="45" cy="25" r="24" fill="#ffccbc"/>
+    <path d="M23,15 Q45,0 67,15 Q65,6 45,3 Q25,6 23,15Z" fill="#4e342e"/>
+    <circle cx="35" cy="20" r="3.5" fill="#4e342e"/>
+    <circle cx="55" cy="20" r="3.5" fill="#4e342e"/>
+    <circle cx="36" cy="19" r="1.2" fill="white"/>
+    <circle cx="56" cy="19" r="1.2" fill="white"/>
+    <!-- Sad/worried expression -->
+    <path d="M30,37 Q45,32 60,37" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Tears -->
+    <ellipse cx="32" cy="42" rx="3" ry="4" fill="#81d4fa" opacity="0.7"/>
+    <ellipse cx="58" cy="42" rx="3" ry="4" fill="#81d4fa" opacity="0.7"/>
+    <!-- Arm reaching toward water -->
+    <path d="M82,60 Q118,85 148,100" stroke="#ef6c00" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="150" cy="102" r="11" fill="#ffccbc"/>
+    <!-- Other arm on ground -->
+    <path d="M8,60 Q-8,80 -10,105" stroke="#ef6c00" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <circle cx="-10" cy="107" r="10" fill="#ffccbc"/>
+  </g>
+  <!-- Ripples around basket -->
+  <ellipse cx="398" cy="282" rx="55" ry="8" fill="none" stroke="#80deea" stroke-width="2" opacity="0.5"/>
+  <ellipse cx="398" cy="282" rx="68" ry="11" fill="none" stroke="#80deea" stroke-width="1.5" opacity="0.35"/>
+</svg>

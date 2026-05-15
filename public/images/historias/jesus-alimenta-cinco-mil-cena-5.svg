@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyJA5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="55%" stop-color="#ffe082"/>
+      <stop offset="100%" stop-color="#ffcc80"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyJA5)"/>
+  <ellipse cx="180" cy="328" rx="280" ry="100" fill="#a5d6a7" opacity="0.5"/>
+  <ellipse cx="650" cy="334" rx="260" ry="95" fill="#81c784" opacity="0.4"/>
+  <rect x="0" y="296" width="800" height="84" fill="#c8e6c9"/>
+  <!-- 12 large baskets of leftovers -->
+  <!-- Row of baskets -->
+  <g transform="translate(60,250)">
+    <!-- Basket 1 -->
+    <path d="M0,14 Q22,2 44,14 Q42,32 22,36 Q2,32 0,14Z" fill="#a1887f"/>
+    <path d="M4,18 Q22,8 40,18" stroke="#6d4c41" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <ellipse cx="22" cy="10" rx="12" ry="7" fill="#ffb300"/>
+    <!-- Basket 2 -->
+    <path d="M52,14 Q74,2 96,14 Q94,32 74,36 Q54,32 52,14Z" fill="#8d6e63"/>
+    <path d="M56,18 Q74,8 92,18" stroke="#5d4037" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <ellipse cx="74" cy="10" rx="12" ry="7" fill="#ffa000"/>
+    <!-- Basket 3 -->
+    <path d="M104,14 Q126,2 148,14 Q146,32 126,36 Q106,32 104,14Z" fill="#a1887f"/>
+    <ellipse cx="126" cy="10" rx="12" ry="7" fill="#ffb300"/>
+    <!-- Basket 4 -->
+    <path d="M156,14 Q178,2 200,14 Q198,32 178,36 Q158,32 156,14Z" fill="#8d6e63"/>
+    <ellipse cx="178" cy="10" rx="12" ry="7" fill="#ffa000"/>
+    <!-- Basket 5 -->
+    <path d="M208,14 Q230,2 252,14 Q250,32 230,36 Q210,32 208,14Z" fill="#a1887f"/>
+    <ellipse cx="230" cy="10" rx="12" ry="7" fill="#ffb300"/>
+    <!-- Basket 6 -->
+    <path d="M260,14 Q282,2 304,14 Q302,32 282,36 Q262,32 260,14Z" fill="#8d6e63"/>
+    <ellipse cx="282" cy="10" rx="12" ry="7" fill="#ffa000"/>
+  </g>
+  <g transform="translate(420,250)">
+    <path d="M0,14 Q22,2 44,14 Q42,32 22,36 Q2,32 0,14Z" fill="#a1887f"/>
+    <ellipse cx="22" cy="10" rx="12" ry="7" fill="#ffb300"/>
+    <path d="M52,14 Q74,2 96,14 Q94,32 74,36 Q54,32 52,14Z" fill="#8d6e63"/>
+    <ellipse cx="74" cy="10" rx="12" ry="7" fill="#ffa000"/>
+    <path d="M104,14 Q126,2 148,14 Q146,32 126,36 Q106,32 104,14Z" fill="#a1887f"/>
+    <ellipse cx="126" cy="10" rx="12" ry="7" fill="#ffb300"/>
+    <path d="M156,14 Q178,2 200,14 Q198,32 178,36 Q158,32 156,14Z" fill="#8d6e63"/>
+    <ellipse cx="178" cy="10" rx="12" ry="7" fill="#ffa000"/>
+    <path d="M208,14 Q230,2 252,14 Q250,32 230,36 Q210,32 208,14Z" fill="#a1887f"/>
+    <ellipse cx="230" cy="10" rx="12" ry="7" fill="#ffb300"/>
+    <path d="M260,14 Q282,2 304,14 Q302,32 282,36 Q262,32 260,14Z" fill="#8d6e63"/>
+    <ellipse cx="282" cy="10" rx="12" ry="7" fill="#ffa000"/>
+  </g>
+  <!-- DISCIPLES amazed at leftovers -->
+  <g transform="translate(155,155)">
+    <path d="M5,46 Q3,130 1,155 Q40,163 79,155 Q76,130 74,46 Q58,30 40,27 Q22,30 5,46Z" fill="#546e7a"/>
+    <circle cx="40" cy="18" r="24" fill="#e8a87a"/>
+    <path d="M18,8 Q40,-6 62,8 Q60,0 40,-3 Q20,0 18,8Z" fill="#3e2723"/>
+    <circle cx="29" cy="12" r="3.5" fill="#3e2723"/>
+    <circle cx="51" cy="12" r="3.5" fill="#3e2723"/>
+    <!-- Wide open eyes amazed -->
+    <circle cx="30" cy="12" r="4.5" fill="#3e2723"/>
+    <circle cx="50" cy="12" r="4.5" fill="#3e2723"/>
+    <circle cx="31" cy="11" r="1.8" fill="white"/>
+    <circle cx="51" cy="11" r="1.8" fill="white"/>
+    <path d="M25,24 Q40,32 55,24" stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <circle cx="18" cy="18" r="8" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="62" cy="18" r="8" fill="#ef9a9a" opacity="0.4"/>
+    <path d="M5,52 Q-14,68 -12,92" stroke="#546e7a" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <circle cx="-11" cy="94" r="10" fill="#e8a87a"/>
+    <path d="M74,52 Q90,66 88,90" stroke="#546e7a" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <circle cx="87" cy="92" r="10" fill="#e8a87a"/>
+  </g>
+  <!-- JESUS (calm, grateful) -->
+  <g transform="translate(490,145)">
+    <path d="M6,52 Q3,148 1,176 Q44,185 87,176 Q84,148 81,52 Q65,36 44,33 Q23,36 6,52Z" fill="white"/>
+    <circle cx="44" cy="23" r="26" fill="#ffccbc"/>
+    <path d="M20,12 Q44,-3 68,12 Q66,3 44,0 Q22,3 20,12Z" fill="#5d4037"/>
+    <circle cx="32" cy="17" r="4" fill="#5d4037"/>
+    <circle cx="56" cy="17" r="4" fill="#5d4037"/>
+    <circle cx="33" cy="16" r="1.5" fill="white"/>
+    <circle cx="57" cy="16" r="1.5" fill="white"/>
+    <path d="M30,31 Q44,42 58,31" stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <circle cx="22" cy="25" r="9" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="66" cy="25" r="9" fill="#ef9a9a" opacity="0.4"/>
+    <path d="M28,38 Q44,50 60,38 Q58,48 44,52 Q30,48 28,38Z" fill="#5d4037" opacity="0.7"/>
+    <rect x="36" y="50" width="16" height="14" rx="4" fill="#ffccbc"/>
+    <path d="M6,58 Q-16,72 -18,96" stroke="white" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="-17" cy="98" r="11" fill="#ffccbc"/>
+    <path d="M81,58 Q98,72 96,96" stroke="white" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="95" cy="98" r="11" fill="#ffccbc"/>
+  </g>
+  <!-- Wonder sparkles -->
+  <g fill="#fff176" opacity="0.8">
+    <polygon points="400,175 403,184 412,184 405,190 408,199 400,193 392,199 395,190 388,184 397,184"/>
+    <circle cx="345" cy="200" r="4"/><circle cx="455" cy="198" r="4"/>
+    <circle cx="380" cy="210" r="3.5"/><circle cx="420" cy="208" r="3.5"/>
+  </g>
+</svg>

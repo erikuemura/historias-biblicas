@@ -1,6 +1,7 @@
 export interface Scene {
   title: string
   text: string
+  imageUrl?: string
 }
 
 export interface Story {
@@ -42,6 +43,7 @@ export const stories: Story[] = [
     scenes: [
       {
         title: "Antes de Tudo...",
+        imageUrl: "/images/historias/criacao-do-mundo-cena-1.svg",
         text: `Era uma vez... antes de qualquer coisa existir.
 
 Não havia sol, não havia estrelas, não havia árvores nem animais. Não havia nada além de escuridão e silêncio.
@@ -54,6 +56,7 @@ E assim começou a maior aventura de todos os tempos: a criação do nosso marav
       },
       {
         title: "O Primeiro Dia: Vamos ter Luz!",
+        imageUrl: "/images/historias/criacao-do-mundo-cena-2.svg",
         text: `Deus olhou para a escuridão e disse com voz firme e cheia de amor:
 
 — Que haja luz!
@@ -68,6 +71,7 @@ Deus chamou a luz de "dia" e a escuridão de "noite". E aquele foi o primeiro di
       },
       {
         title: "O Mar e a Terra",
+        imageUrl: "/images/historias/criacao-do-mundo-cena-3.svg",
         text: `Nos dias seguintes, Deus continuou trabalhando com muito carinho.
 
 Ele separou as águas e criou um céu azul lá em cima, cheio de nuvens brancas e fofas que pareciam algodão.
@@ -82,6 +86,7 @@ O mundo estava ficando cada vez mais bonito!`,
       },
       {
         title: "O Sol, a Lua e as Estrelinhas",
+        imageUrl: "/images/historias/criacao-do-mundo-cena-4.svg",
         text: `Deus colocou o sol brilhante no céu para iluminar os dias e esquentar tudo com carinho. Criou também a lua prateada e milhares de estrelinhas que piscavam à noite, como luzinhas de festa no céu.
 
 Então Deus encheu os mares de peixes coloridos, golfinhos saltitantes e baleias enormes que cantavam felizes.
@@ -96,6 +101,7 @@ Deus olhou para tudo isso e disse:
       },
       {
         title: "A Criatura Mais Especial",
+        imageUrl: "/images/historias/criacao-do-mundo-cena-5.svg",
         text: `No sexto dia, Deus fez algo muito especial. Ele pegou um pouco de terra com as mãos e fez uma pessoa — o primeiro homem, chamado Adão.
 
 Deus soprou com cuidado e o homem ganhou vida! Adão abriu os olhos e viu o mundo maravilhoso ao redor.
@@ -132,6 +138,7 @@ E o mais importante de tudo? Você também faz parte dessa criação linda. Deus
     scenes: [
       {
         title: "Noé, o Homem Bom",
+        imageUrl: "/images/historias/noe-e-a-grande-arca-cena-1.svg",
         text: `Há muitos e muitos anos, havia um homem chamado Noé. Ele tinha cabelos brancos e uma barba grande e cheia.
 
 Noé era diferente de todos ao redor. Enquanto as outras pessoas só pensavam em coisas ruins, Noé amava a Deus de todo o coração. Ele era bondoso, honesto e cuidava bem da sua família.
@@ -142,6 +149,7 @@ Todos os dias, Noé conversava com Deus, e isso deixava seu coração quentinho 
       },
       {
         title: "Deus Tem um Grande Plano",
+        imageUrl: "/images/historias/noe-e-a-grande-arca-cena-2.svg",
         text: `Um dia, Deus falou com Noé:
 
 — Noé, meu amigo, preciso te contar algo importante. Vou mandar uma grande chuva que vai cobrir toda a terra. Mas você e sua família estão protegidos, porque você me obedece.
@@ -158,6 +166,7 @@ Mas Noé confiou em Deus e disse:
       },
       {
         title: "Construindo a Arca",
+        imageUrl: "/images/historias/noe-e-a-grande-arca-cena-3.svg",
         text: `E assim começou o maior projeto de construção que o mundo já viu!
 
 Noé e seus filhos trabalharam dia após dia, martelando, serrando e pregando as tábuas de madeira. A arca era ENORME — mais longa do que um campo de futebol!
@@ -174,6 +183,7 @@ Depois de muito tempo de trabalho, a arca ficou pronta. Era linda, resistente e 
       },
       {
         title: "Os Animais Chegando",
+        imageUrl: "/images/historias/noe-e-a-grande-arca-cena-4.svg",
         text: `Então aconteceu algo incrível!
 
 Os animais começaram a chegar de todos os lados — dois a dois, um machinho e uma feminha de cada espécie.
@@ -190,6 +200,7 @@ E então começou a chover...`,
       },
       {
         title: "O Arco-Íris da Promessa",
+        imageUrl: "/images/historias/noe-e-a-grande-arca-cena-5.svg",
         text: `A chuva caiu por quarenta dias e quarenta noites, sem parar. As águas subiram, subiram e cobriram tudo.
 
 Mas dentro da arca, Noé, sua família e todos os animais estavam seguros e quentinhos. Às vezes o navio balançava, mas Deus cuidava de todos.
@@ -232,6 +243,7 @@ E Noé e sua família abraçaram uns aos outros, cheios de alegria e gratidão.`
     scenes: [
       {
         title: "A Família de Jacó",
+        imageUrl: "/images/historias/jose-e-o-casaco-colorido-cena-1.svg",
         text: `Havia uma vez um homem chamado Jacó que tinha doze filhos. Era uma família grande e barulhenta, cheia de histórias e aventuras!
 
 O filho favorito de Jacó era o jovem José, um rapaz de cabelos escuros e olhos brilhantes que adorava sonhar.
@@ -244,6 +256,7 @@ Os irmãos mais velhos observavam José e sentiam algo amargo no coração. Uma 
       },
       {
         title: "O Presente Especial",
+        imageUrl: "/images/historias/jose-e-o-casaco-colorido-cena-2.svg",
         text: `Um dia, Jacó chamou José e disse com um sorriso enorme:
 
 — Tenho um presente para você, meu filho!
@@ -262,6 +275,7 @@ E a inveja foi crescendo nos corações deles, como erva daninha...`,
       },
       {
         title: "Os Sonhos de José",
+        imageUrl: "/images/historias/jose-e-o-casaco-colorido-cena-3.svg",
         text: `José correu para contar um sonho aos irmãos:
 
 — Sonhei que estávamos amarrando feixes de trigo no campo. O meu feixe ficou em pé, e os feixes de vocês se curvaram para o meu!
@@ -282,6 +296,7 @@ Os irmãos cada vez mais com raiva...`,
       },
       {
         title: "A Triste Separação",
+        imageUrl: "/images/historias/jose-e-o-casaco-colorido-cena-4.svg",
         text: `Um dia, os irmãos estavam cuidando das ovelhas longe de casa. Jacó mandou José levá-los comida.
 
 Quando os irmãos viram José se aproximando com seu casaco colorido, combinaram:
@@ -300,6 +315,7 @@ Jacó ficou arrasado. E José estava longe, longe...`,
       },
       {
         title: "O Plano de Deus",
+        imageUrl: "/images/historias/jose-e-o-casaco-colorido-cena-5.svg",
         text: `No Egito, José enfrentou dias muito difíceis. Mas mesmo nos momentos mais tristes, Deus estava com ele.
 
 Por causa do seu dom de interpretar sonhos, José conseguiu explicar um sonho do Faraó — o rei do Egito — e foi nomeado o segundo homem mais poderoso do país!
@@ -340,6 +356,7 @@ O sonhador que nunca desistiu viu o plano de Deus se cumprir de um jeito que nun
     scenes: [
       {
         title: "O Povo de Deus no Egito",
+        imageUrl: "/images/historias/o-bebe-moises-cena-1.svg",
         text: `Há muito tempo, o povo de Deus — os hebreus — vivia no Egito. Eles haviam chegado como convidados, mas com o passar dos anos o Faraó, o rei do Egito, se tornou cruel.
 
 — Os hebreus estão crescendo demais! — disse o Faraó, batendo o punho na mesa.
@@ -350,6 +367,7 @@ Mas mesmo assim, o povo rezava e confiava que Deus não os havia esquecido.`,
       },
       {
         title: "A Mãe Corajosa",
+        imageUrl: "/images/historias/o-bebe-moises-cena-2.svg",
         text: `Numa família hebreia, nasceu um bebê. Mas que bebê! Tinha olhos grandes e brilhantes, bochechas redondas e um sorriso que derretia o coração de qualquer pessoa.
 
 A mãe olhava para o filho e sentia seu coração apertar. O Faraó havia dado uma ordem terrível: que todos os bebês hebreus fossem jogados no rio.
@@ -362,6 +380,7 @@ Mas logo ele cresceria e ficaria difícil de esconder...`,
       },
       {
         title: "A Cestinha Mágica",
+        imageUrl: "/images/historias/o-bebe-moises-cena-3.svg",
         text: `A mãe pensou e pensou. E teve uma ideia iluminada por Deus!
 
 Ela pegou juncos — plantas que crescem na beira do rio — e trançou com todo cuidado uma cestinha resistente. Depois colocou alcatrão por fora para que a água não entrasse.
@@ -376,6 +395,7 @@ Miriam, a irmã mais velha do bebê, ficou escondida entre as plantas observando
       },
       {
         title: "A Princesa Encontra o Bebê",
+        imageUrl: "/images/historias/o-bebe-moises-cena-4.svg",
         text: `Naquele mesmo dia, a filha do Faraó veio ao rio para se banhar com suas criadas.
 
 De repente, ela viu algo se mexer entre as plantas.
@@ -400,6 +420,7 @@ Miriam foi correndo chamar... a própria mãe do bebê!`,
       },
       {
         title: "A Surpresa de Deus",
+        imageUrl: "/images/historias/o-bebe-moises-cena-5.svg",
         text: `A mãe voltou com Miriam e ficou de frente para a princesa, com o coração quase saltando do peito.
 
 — Cuide desse bebê para mim — disse a princesa — e eu pagarei por isso.
@@ -436,6 +457,7 @@ E Moisés cresceu forte, sabendo que havia algo muito especial reservado para el
     scenes: [
       {
         title: "O Gigante Aterrorizante",
+        imageUrl: "/images/historias/davi-e-golias-cena-1.svg",
         text: `Os filisteus, inimigos do povo de Israel, tinham um guerreiro muito especial — e muito assustador.
 
 Seu nome era Golias, e ele era... enorme!
@@ -450,6 +472,7 @@ Os soldados de Israel olhavam uns para os outros, com joelhos bambos e faces pá
       },
       {
         title: "O Pastorzinho Davi",
+        imageUrl: "/images/historias/davi-e-golias-cena-2.svg",
         text: `Num vilarejo próximo, havia um menino chamado Davi. Ele era jovem, de cabelos ruivos e rosto cheio de sardas, com um sorriso largo e olhos corajosos.
 
 O trabalho de Davi era cuidar das ovelhas do seu pai. Todos os dias ele levava o rebanho para pastar, tocava sua harpa e cantava para Deus.
@@ -466,6 +489,7 @@ E Davi foi, cantando pelo caminho.`,
       },
       {
         title: "Davi no Acampamento",
+        imageUrl: "/images/historias/davi-e-golias-cena-3.svg",
         text: `Quando Davi chegou ao acampamento, ouviu aquela voz trovejante:
 
 — HEY! Onde está o guerreiro de Israel?! Covardes! Hahahaha!
@@ -494,6 +518,7 @@ O rei Saul olhou para o menino por um longo tempo...
       },
       {
         title: "Cinco Pedrosas no Rio",
+        imageUrl: "/images/historias/davi-e-golias-cena-4.svg",
         text: `Saul quis colocar sua armadura em Davi — capacete de bronze, colete de malha, espada.
 
 Mas Davi deu alguns passos e quase caiu.
@@ -514,6 +539,7 @@ Mas Davi respondeu sem tremor na voz:
       },
       {
         title: "A Vitória Inesperada",
+        imageUrl: "/images/historias/davi-e-golias-cena-5.svg",
         text: `Golias avançou pesado e barulhento.
 
 Davi correu em direção ao gigante!
@@ -564,6 +590,7 @@ E assim o mundo aprendeu uma lição para sempre: não é o tamanho do guerreiro
     scenes: [
       {
         title: "A Longa Viagem",
+        imageUrl: "/images/historias/o-nascimento-de-jesus-cena-1.svg",
         text: `Havia muito tempo, numa cidadezinha chamada Nazaré, vivia uma moça muito especial chamada Maria. Ela tinha cabelos escuros, um sorriso gentil e um coração cheio de amor por Deus.
 
 Maria estava esperando um bebê muito, muito especial. Um anjo chamado Gabriel tinha visitado ela e dito:
@@ -582,6 +609,7 @@ Para José, isso significava ir a Belém — uma viagem longa e cansativa!`,
       },
       {
         title: "Sem Lugar na Estalagem",
+        imageUrl: "/images/historias/o-nascimento-de-jesus-cena-2.svg",
         text: `José e Maria partiram para Belém. Maria ia montada num burrico paciente enquanto José andava ao lado, cuidando de cada passo.
 
 A viagem era longa e as estradas eram de terra. O sol queimava durante o dia e o frio chegava à noite.
@@ -608,6 +636,7 @@ José e Maria agradeceram com o coração cheio de gratidão.`,
       },
       {
         title: "O Bebê Jesus Nasce",
+        imageUrl: "/images/historias/o-nascimento-de-jesus-cena-3.svg",
         text: `Naquela noite, no estábulo quentinho, cercada pelo cheiro de palha e pelo hálito morno dos animais, Maria teve seu bebê.
 
 Era lindo! Um menino perfeito com olhinhos que pareciam carregar toda a luz do céu.
@@ -622,6 +651,7 @@ Era o nascimento mais importante de toda a história!`,
       },
       {
         title: "Os Pastores e os Anjos",
+        imageUrl: "/images/historias/o-nascimento-de-jesus-cena-4.svg",
         text: `Nos campos perto de Belém, alguns pastores cuidavam de suas ovelhas durante a noite. Eles olhavam para o céu escuro e conversavam baixinho.
 
 De repente... WHOOOOSH! Uma luz enorme e dourada iluminou tudo! Os pastores pularam de susto.
@@ -642,6 +672,7 @@ E saíram correndo em direção a Belém!`,
       },
       {
         title: "Os Reis Magos e a Estrela",
+        imageUrl: "/images/historias/o-nascimento-de-jesus-cena-5.svg",
         text: `Bem longe dali, no Oriente, sábios estudiosos das estrelas observaram o céu e viram algo nunca antes visto: uma estrela nova e enorme, mais brilhante que todas.
 
 — Essa estrela significa que nasceu um rei muito especial! — disseram eles.
@@ -680,6 +711,7 @@ Inclusive por você!`,
     scenes: [
       {
         title: "Uma Noite Sem Peixe",
+        imageUrl: "/images/historias/jesus-e-os-pescadores-cena-1.svg",
         text: `O lago da Galileia era lindo — azul e brilhante, rodeado de colinas verdes.
 
 Naquele lago, havia dois irmãos pescadores chamados Simão Pedro e André. Todo dia eles saíam no barco de madeira com suas redes e trabalhavam muito para pescar.
@@ -698,6 +730,7 @@ Seu parceiro Tiago e seu irmão João estavam consertando as redes no barco ao l
       },
       {
         title: "O Homem na Margem",
+        imageUrl: "/images/historias/jesus-e-os-pescadores-cena-2.svg",
         text: `De repente, uma multidão de pessoas veio chegando pela beira do lago — queriam ouvir um homem que estava ensinando.
 
 Era Jesus! Ele tinha olhos bondosos e uma voz que deixava as pessoas com o coração quentinho.
@@ -716,6 +749,7 @@ Quando Jesus terminou de falar, virou para Pedro e disse com um sorriso:
       },
       {
         title: "A Rede Cheia",
+        imageUrl: "/images/historias/jesus-e-os-pescadores-cena-3.svg",
         text: `Pedro coçou a cabeça. Tinha pescado a noite inteira sem pegar nada. E agora de dia, quando os peixes ficam escondidos?
 
 Mas havia algo naquele homem que fazia Pedro querer obedecer. Com um suspiro, ele disse:
@@ -736,6 +770,7 @@ Pedro olhou para Jesus com os olhos arregalados. Seu coração estava acelerado.
       },
       {
         title: "Venham me Seguir!",
+        imageUrl: "/images/historias/jesus-e-os-pescadores-cena-4.svg",
         text: `Pedro caiu de joelhos no barco, entre os peixes saltitantes, e disse com a voz trêmula:
 
 — Senhor, eu não sou digno de estar perto de você. Sou um homem cheio de defeitos!
@@ -756,6 +791,7 @@ Tiago e João fizeram a mesma coisa! Os quatro amigos partiram juntos, cheios de
       },
       {
         title: "Amigos de Jesus",
+        imageUrl: "/images/historias/jesus-e-os-pescadores-cena-5.svg",
         text: `Ao longo do tempo, Jesus foi chamando mais pessoas para caminhar com Ele. No total, doze amigos especiais — chamados de discípulos — foram seus companheiros de jornada.
 
 Eles andaram juntos pelas cidades e vilarejos. Viram Jesus curar pessoas doentes, ajudar os que estavam tristes e ensinar coisas maravilhosas sobre o amor de Deus.
@@ -792,6 +828,7 @@ E quando você diz sim para Jesus, sua vida também fica cheia, cheia, cheia... 
     scenes: [
       {
         title: "Um Dia Cheio",
+        imageUrl: "/images/historias/jesus-acalma-a-tempestade-cena-1.svg",
         text: `Jesus tinha passado o dia inteiro ensinando multidões de pessoas à beira do lago da Galileia.
 
 Ele contou histórias lindas — sobre sementes que crescem, sobre um pai que ama seus filhos, sobre o reino de Deus.
@@ -808,6 +845,7 @@ Os discípulos toparam. Afinal, muitos deles eram pescadores e conheciam bem aqu
       },
       {
         title: "Jesus Dormindo",
+        imageUrl: "/images/historias/jesus-acalma-a-tempestade-cena-2.svg",
         text: `Jesus foi para a parte de trás do barco, pegou um travesseiro e... dormiu.
 
 Sim! O Filho de Deus estava tão cansado que dormiu profundamente enquanto o barco navegava.
@@ -828,6 +866,7 @@ A água entrava por cima das bordas!`,
       },
       {
         title: "O Medo dos Discípulos",
+        imageUrl: "/images/historias/jesus-acalma-a-tempestade-cena-3.svg",
         text: `Os discípulos pescadores conheciam bem o lago. Eles sabiam quando uma tempestade era perigosa.
 
 E aquela era MUITO perigosa.
@@ -850,6 +889,7 @@ Pedro foi até ele e sacudiu:
       },
       {
         title: "Paz, Aquieta-te!",
+        imageUrl: "/images/historias/jesus-acalma-a-tempestade-cena-4.svg",
         text: `Jesus abriu os olhos. Olhou para os discípulos apavorados. Olhou para as ondas furiosas. Olhou para o vento sacudindo tudo.
 
 Levantou-se devagar.
@@ -874,6 +914,7 @@ Estavam com a boca aberta. As mãos tremiam — mas não de medo. De espanto.
       },
       {
         title: "Não Tenham Medo",
+        imageUrl: "/images/historias/jesus-acalma-a-tempestade-cena-5.svg",
         text: `Jesus olhou para cada um dos seus amigos com carinho.
 
 — Por que vocês ficaram com tanto medo? — perguntou com gentileza. — Ainda não confiam em mim?
@@ -912,6 +953,7 @@ Quando você estiver com medo — de trovão, de escuro, de qualquer coisa — p
     scenes: [
       {
         title: "Uma Multidão no Campo",
+        imageUrl: "/images/historias/jesus-alimenta-cinco-mil-cena-1.svg",
         text: `A notícia sobre Jesus se espalhava por todas as cidades e vilarejos: ele curava pessoas doentes, ajudava os tristes e ensinava coisas maravilhosas.
 
 E por isso as pessoas iam até onde ele estivesse.
@@ -928,6 +970,7 @@ Pelo contrário — ficou o dia todo ensinando, conversando e curando quem preci
       },
       {
         title: "Hora do Jantar",
+        imageUrl: "/images/historias/jesus-alimenta-cinco-mil-cena-2.svg",
         text: `O sol começou a descer no horizonte, pintando o céu de laranja e rosa.
 
 Filipe, um dos discípulos, olhou para a multidão e depois para Jesus:
@@ -948,6 +991,7 @@ André, outro discípulo, veio correndo:
       },
       {
         title: "O Menino Corajoso",
+        imageUrl: "/images/historias/jesus-alimenta-cinco-mil-cena-3.svg",
         text: `O menino se aproximou de Jesus. Era um garoto simples, com cabelos bagunçados e sandálias empoeiradas de tanto caminhar.
 
 Na cesta que ele carregava havia o almoço que sua mãe tinha preparado:
@@ -969,6 +1013,7 @@ Jesus pegou a cesta e sorriu para o menino com um olhar que dizia: obrigado. Voc
       },
       {
         title: "O Milagre",
+        imageUrl: "/images/historias/jesus-alimenta-cinco-mil-cena-4.svg",
         text: `Jesus pediu para todo mundo se sentar na grama. Cinco mil pessoas se acomodaram em grupos, como um piquenique gigante.
 
 Então Jesus pegou os cinco pães, olhou para o céu e agradeceu a Deus.
@@ -999,6 +1044,7 @@ De cinco pãezinhos e dois peixinhos!`,
       },
       {
         title: "O Presente do Menino",
+        imageUrl: "/images/historias/jesus-alimenta-cinco-mil-cena-5.svg",
         text: `Enquanto os discípulos recolhiam as sobras, o menino ficou olhando com os olhos arregalados.
 
 Ele tinha dado tudo que tinha. Uma coisa pequenininha.
@@ -1035,6 +1081,7 @@ Quando você oferece o que tem com amor, coisas incríveis podem acontecer!`,
     scenes: [
       {
         title: "A Sexta-Feira Triste",
+        imageUrl: "/images/historias/a-ressurreicao-de-jesus-cena-1.svg",
         text: `Esta história começa com tristeza. Uma tristeza muito grande.
 
 Jesus, o melhor amigo que as pessoas já tiveram, tinha sido preso por pessoas que não gostavam dele. Mesmo sem ter feito nada de errado, Jesus foi colocado numa cruz.
@@ -1055,6 +1102,7 @@ Aquela noite foi a mais triste da vida deles.`,
       },
       {
         title: "A Manhã do Terceiro Dia",
+        imageUrl: "/images/historias/a-ressurreicao-de-jesus-cena-2.svg",
         text: `Um, dois, três dias se passaram.
 
 Bem cedinho, quando o céu ainda estava cinza e o sol mal tinha nascido, Maria Madalena e algumas outras mulheres foram até o túmulo.
@@ -1077,6 +1125,7 @@ As mulheres olharam umas para as outras com o coração na garganta. O que tinha
       },
       {
         title: "O Túmulo Vazio",
+        imageUrl: "/images/historias/a-ressurreicao-de-jesus-cena-3.svg",
         text: `Maria Madalena correu até a abertura e olhou para dentro.
 
 O túmulo estava vazio.
@@ -1097,6 +1146,7 @@ E então saíram correndo!`,
       },
       {
         title: "Jesus Aparece para Maria",
+        imageUrl: "/images/historias/a-ressurreicao-de-jesus-cena-4.svg",
         text: `Maria Madalena ficou perto do túmulo, chorando.
 
 Ela ainda não entendia direito o que tinha acontecido. O coração dela doía de saudade.
@@ -1123,6 +1173,7 @@ Era real. Ele estava vivo de verdade!
       },
       {
         title: "A Alegria que Nunca Acaba",
+        imageUrl: "/images/historias/a-ressurreicao-de-jesus-cena-5.svg",
         text: `Maria Madalena saiu correndo o mais rápido que suas pernas podiam!
 
 Chegou ofegante onde estavam os discípulos, com as bochechas vermelhas e os olhos brilhando:

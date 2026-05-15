@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyJAT4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#263238"/>
+      <stop offset="40%" stop-color="#455a64"/>
+      <stop offset="100%" stop-color="#607d8b"/>
+    </linearGradient>
+    <linearGradient id="waterJAT4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1565c0"/>
+      <stop offset="100%" stop-color="#0d47a1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyJAT4)"/>
+  <!-- Storm clouds breaking slightly -->
+  <ellipse cx="150" cy="75" rx="140" ry="68" fill="#1c313a" opacity="0.9"/>
+  <ellipse cx="420" cy="65" rx="130" ry="62" fill="#263238" opacity="0.85"/>
+  <ellipse cx="680" cy="75" rx="145" ry="65" fill="#1c313a" opacity="0.9"/>
+  <!-- Lightning dimming -->
+  <polyline points="280,90 270,130 280,130 265,175" stroke="#fff176" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Light breaking through clouds (divine) -->
+  <ellipse cx="400" cy="100" rx="80" ry="40" fill="#fff9c4" opacity="0.25"/>
+  <g stroke="#fff9c4" stroke-width="3" opacity="0.35">
+    <line x1="400" y1="140" x2="350" y2="240"/>
+    <line x1="400" y1="140" x2="400" y2="260"/>
+    <line x1="400" y1="140" x2="450" y2="240"/>
+  </g>
+  <!-- Rain lessening -->
+  <g stroke="#81d4fa" stroke-width="1.5" opacity="0.35">
+    <line x1="80" y1="140" x2="68" y2="210"/><line x1="180" y1="130" x2="168" y2="200"/>
+    <line x1="280" y1="145" x2="268" y2="215"/><line x1="600" y1="135" x2="588" y2="205"/>
+    <line x1="680" y1="148" x2="668" y2="218"/><line x1="740" y1="132" x2="728" y2="202"/>
+  </g>
+  <!-- Waves still rough -->
+  <rect x="0" y="265" width="800" height="115" fill="url(#waterJAT4)"/>
+  <path d="M0,268 Q50,250 100,268 Q150,286 200,268 Q250,250 300,268 Q350,286 400,268 Q450,250 500,268 Q550,286 600,268 Q650,250 700,268 Q750,286 800,268" fill="#1976d2" opacity="0.6"/>
+  <!-- JESUS STANDING, arms raised commanding -->
+  <g transform="translate(330,120)">
+    <ellipse cx="52" cy="210" rx="46" ry="10" fill="#e65100" opacity="0.2"/>
+    <!-- White robe -->
+    <path d="M8,58 Q4,168 2,200 Q52,210 102,200 Q98,168 94,58 Q76,40 52,37 Q28,40 8,58Z" fill="white"/>
+    <path d="M4,148 Q52,158 100,148 Q98,188 52,194 Q6,188 4,148Z" fill="#e0e0e0" opacity="0.35"/>
+    <rect x="28" y="198" width="13" height="40" rx="5" fill="white" opacity="0.7"/>
+    <rect x="53" y="198" width="13" height="40" rx="5" fill="#e0e0e0" opacity="0.7"/>
+    <!-- Head -->
+    <circle cx="52" cy="28" r="27" fill="#ffccbc"/>
+    <path d="M27,16 Q52,0 77,16 Q75,6 52,3 Q29,6 27,16Z" fill="#5d4037"/>
+    <circle cx="40" cy="22" r="4" fill="#5d4037"/>
+    <circle cx="64" cy="22" r="4" fill="#5d4037"/>
+    <circle cx="41" cy="21" r="1.5" fill="white"/>
+    <circle cx="65" cy="21" r="1.5" fill="white"/>
+    <!-- Commanding expression -->
+    <path d="M36,36 Q52,44 68,36" stroke="#a1887f" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M34,18 Q40,13 46,18" stroke="#5d4037" stroke-width="2" fill="none"/>
+    <path d="M58,18 Q64,13 70,18" stroke="#5d4037" stroke-width="2" fill="none"/>
+    <rect x="44" y="54" width="16" height="14" rx="4" fill="#ffccbc"/>
+    <!-- Beard -->
+    <path d="M35,46 Q52,58 69,46 Q67,56 52,60 Q37,56 35,46Z" fill="#5d4037" opacity="0.7"/>
+    <!-- ARMS RAISED HIGH commanding storm to stop -->
+    <path d="M8,66 Q-18,38 -30,10" stroke="white" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <circle cx="-31" cy="8" r="12" fill="#ffccbc"/>
+    <path d="M94,66 Q120,38 132,10" stroke="white" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <circle cx="133" cy="8" r="12" fill="#ffccbc"/>
+  </g>
+  <!-- Divine power glow around hands -->
+  <circle cx="299" cy="128" r="20" fill="#fff9c4" opacity="0.3"/>
+  <circle cx="463" cy="128" r="20" fill="#fff9c4" opacity="0.3"/>
+  <!-- Boat with terrified disciples -->
+  <g transform="translate(125,228) rotate(-8,240,60)">
+    <path d="M0,50 Q240,28 480,50 Q470,88 240,96 Q10,88 0,50Z" fill="#8d6e63"/>
+    <path d="M10,55 Q240,34 470,55 Q460,82 240,88 Q20,82 10,55Z" fill="#a1887f"/>
+    <g transform="translate(60,14)">
+      <path d="M0,30 L-1,65 L20,65 L21,30 Q10,22 8,20 Q4,22 0,30Z" fill="#546e7a"/>
+      <circle cx="10" cy="10" r="12" fill="#e8a87a"/>
+      <circle cx="4" cy="8" r="3.5" fill="#3e2723"/>
+      <circle cx="16" cy="8" r="3.5" fill="#3e2723"/>
+      <path d="M3,18 Q10,14 17,18" stroke="#c62828" stroke-width="2" fill="none"/>
+    </g>
+    <g transform="translate(140,10)">
+      <path d="M0,30 L-1,68 L20,68 L21,30 Q10,22 8,20 Q4,22 0,30Z" fill="#ef6c00"/>
+      <circle cx="10" cy="10" r="12" fill="#ffccbc"/>
+      <circle cx="4" cy="8" r="3.5" fill="#4e342e"/>
+      <circle cx="16" cy="8" r="3.5" fill="#4e342e"/>
+      <path d="M3,18 Q10,14 17,18" stroke="#c62828" stroke-width="2" fill="none"/>
+    </g>
+    <g transform="translate(310,12)">
+      <path d="M0,30 L-1,64 L20,64 L21,30 Q10,22 8,20 Q4,22 0,30Z" fill="#26a69a"/>
+      <circle cx="10" cy="10" r="12" fill="#e8a87a"/>
+      <circle cx="4" cy="8" r="3.5" fill="#3e2723"/>
+      <circle cx="16" cy="8" r="3.5" fill="#3e2723"/>
+      <path d="M3,18 Q10,14 17,18" stroke="#c62828" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+</svg>

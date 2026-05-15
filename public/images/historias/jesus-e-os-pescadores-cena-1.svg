@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyF1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a2e"/>
+      <stop offset="60%" style="stop-color:#1a237e"/>
+      <stop offset="100%" style="stop-color:#283593"/>
+    </linearGradient>
+    <linearGradient id="waterF1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1565c0"/>
+      <stop offset="100%" style="stop-color:#0d47a1"/>
+    </linearGradient>
+  </defs>
+  <!-- Night sky -->
+  <rect width="800" height="380" fill="url(#skyF1)"/>
+  <!-- Stars -->
+  <circle cx="60" cy="25" r="2" fill="white" opacity="0.9"/>
+  <circle cx="130" cy="45" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="220" cy="18" r="2.5" fill="white" opacity="0.85"/>
+  <circle cx="310" cy="38" r="2" fill="white" opacity="0.7"/>
+  <circle cx="480" cy="22" r="2" fill="white" opacity="0.8"/>
+  <circle cx="580" cy="50" r="1.5" fill="white" opacity="0.75"/>
+  <circle cx="680" cy="20" r="2.5" fill="white" opacity="0.9"/>
+  <circle cx="750" cy="42" r="2" fill="white" opacity="0.8"/>
+  <!-- Moon -->
+  <circle cx="680" cy="65" r="32" fill="#fff9c4" opacity="0.85"/>
+  <circle cx="694" cy="56" r="25" fill="#1a237e" opacity="0.8"/>
+  <!-- Moon reflection on water -->
+  <ellipse cx="680" cy="300" rx="30" ry="8" fill="#fff9c4" opacity="0.3"/>
+  <!-- Water -->
+  <rect x="0" y="250" width="800" height="130" fill="url(#waterF1)"/>
+  <!-- Water waves -->
+  <path d="M0 270 Q100 260 200 270 Q300 280 400 270 Q500 260 600 270 Q700 280 800 270" stroke="#1976d2" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M0 290 Q120 280 240 290 Q360 300 480 290 Q600 280 720 290 Q760 295 800 290" stroke="#1976d2" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- Boat hull -->
+  <path d="M220 280 Q400 265 580 280 L560 330 Q400 340 240 330 Z" fill="#5d4037"/>
+  <path d="M220 280 Q400 265 580 280 L578 288 Q400 272 222 288 Z" fill="#4e342e"/>
+  <!-- Boat mast -->
+  <line x1="400" y1="200" x2="400" y2="280" stroke="#6d4c41" stroke-width="8" stroke-linecap="round"/>
+  <!-- Sail (empty/slack - no wind) -->
+  <path d="M400 210 Q430 235 400 265 L400 210 Z" fill="#eceff1" opacity="0.5"/>
+  <!-- Empty net hanging -->
+  <path d="M300 275 Q320 300 340 275 Q360 305 380 275" stroke="#bdbdbd" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M420 275 Q440 302 460 275 Q480 305 500 275" stroke="#bdbdbd" stroke-width="2" fill="none" opacity="0.7"/>
+  <line x1="300" y1="275" x2="500" y2="275" stroke="#bdbdbd" stroke-width="2" opacity="0.6"/>
+  <!-- Pedro (left, tired/sad) -->
+  <path d="M295 315 Q302 282 308 265 L324 265 Q330 282 336 315 Z" fill="#8d6e63"/>
+  <circle cx="316" cy="254" r="22" fill="#ffcc80"/>
+  <path d="M294 248 Q316 232 338 248 L340 256 Q316 246 293 256 Z" fill="#5d4037"/>
+  <!-- Tired eyes (half closed) -->
+  <path d="M309 254 Q316 250 323 254" stroke="#4e342e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Sad mouth -->
+  <path d="M310 261 Q316 257 322 261" stroke="#795548" stroke-width="2" fill="none"/>
+  <circle cx="304" cy="260" r="5" fill="#ef9a9a" opacity="0.3"/>
+  <circle cx="328" cy="260" r="5" fill="#ef9a9a" opacity="0.3"/>
+  <!-- Pedro arm holding empty net -->
+  <path d="M308 275 Q285 285 270 290" stroke="#8d6e63" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Andre (right, slumped) -->
+  <path d="M455 315 Q462 282 468 265 L486 265 Q492 282 498 315 Z" fill="#795548"/>
+  <circle cx="477" cy="254" r="22" fill="#ffcc80"/>
+  <path d="M455 248 Q477 232 499 248 L501 256 Q477 246 454 256 Z" fill="#4e342e"/>
+  <!-- Andre tired eyes -->
+  <path d="M470 254 Q477 250 484 254" stroke="#4e342e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Andre sad mouth -->
+  <path d="M471 261 Q477 257 483 261" stroke="#795548" stroke-width="2" fill="none"/>
+  <circle cx="465" cy="260" r="5" fill="#ef9a9a" opacity="0.3"/>
+  <circle cx="489" cy="260" r="5" fill="#ef9a9a" opacity="0.3"/>
+  <!-- Andre arm holding net other side -->
+  <path d="M486 275 Q510 285 525 290" stroke="#795548" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Net between them (empty, drooping) -->
+  <path d="M270 290 Q390 315 525 290" stroke="#9e9e9e" stroke-width="2.5" fill="none"/>
+  <path d="M280 292 Q390 322 520 292" stroke="#9e9e9e" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <line x1="310" y1="291" x2="318" y2="310" stroke="#9e9e9e" stroke-width="1.5"/>
+  <line x1="360" y1="300" x2="368" y2="318" stroke="#9e9e9e" stroke-width="1.5"/>
+  <line x1="420" y1="303" x2="428" y2="320" stroke="#9e9e9e" stroke-width="1.5"/>
+  <line x1="470" y1="298" x2="478" y2="315" stroke="#9e9e9e" stroke-width="1.5"/>
+</svg>

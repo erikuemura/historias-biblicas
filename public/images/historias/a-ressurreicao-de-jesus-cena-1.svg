@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyRJ1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#37474f"/>
+      <stop offset="50%" stop-color="#546e7a"/>
+      <stop offset="100%" stop-color="#78909c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyRJ1)"/>
+  <!-- Stars in dark sky -->
+  <g fill="white" opacity="0.7">
+    <circle cx="60" cy="30" r="2"/><circle cx="140" cy="18" r="1.5"/>
+    <circle cx="220" cy="42" r="2"/><circle cx="300" cy="22" r="1.5"/>
+    <circle cx="480" cy="35" r="2"/><circle cx="580" cy="18" r="1.5"/>
+    <circle cx="660" cy="42" r="2"/><circle cx="740" cy="25" r="1.5"/>
+    <circle cx="100" cy="70" r="1.2"/><circle cx="360" cy="55" r="1.5"/>
+    <circle cx="520" cy="65" r="1.2"/><circle cx="700" cy="68" r="1.5"/>
+    <circle cx="180" cy="85" r="1"/><circle cx="440" cy="78" r="1"/>
+    <circle cx="620" cy="82" r="1.2"/><circle cx="760" cy="72" r="1"/>
+  </g>
+  <!-- Hill / garden outside Jerusalem -->
+  <ellipse cx="200" cy="330" rx="280" ry="100" fill="#3e2723" opacity="0.6"/>
+  <ellipse cx="640" cy="335" rx="260" ry="95" fill="#4e342e" opacity="0.5"/>
+  <!-- Ground -->
+  <rect x="0" y="298" width="800" height="82" fill="#4e342e"/>
+  <!-- TOMB (stone cut in hillside) -->
+  <g transform="translate(260,180)">
+    <!-- Tomb entrance dark -->
+    <ellipse cx="140" cy="110" rx="90" ry="105" fill="#3e2723"/>
+    <ellipse cx="140" cy="115" rx="80" ry="96" fill="#212121"/>
+    <!-- Stone walls -->
+    <path d="M60,60 Q140,-10 220,60 Q260,80 265,130 Q265,180 220,200 Q140,220 60,200 Q15,180 15,130 Q15,80 60,60Z" fill="#5d4037" opacity="0.7"/>
+    <path d="M68,65 Q140,-2 212,65 Q250,82 254,130 Q254,176 212,194 Q140,212 68,194 Q30,176 30,130 Q30,82 68,65Z" fill="#4e342e" opacity="0.6"/>
+    <!-- Dark interior -->
+    <ellipse cx="140" cy="118" rx="72" ry="88" fill="#1a1a1a"/>
+    <!-- Stone door beside tomb (rolled aside just slightly) -->
+    <ellipse cx="245" cy="130" rx="55" ry="65" fill="#795548"/>
+    <ellipse cx="245" cy="130" rx="48" ry="58" fill="#8d6e63"/>
+    <ellipse cx="245" cy="130" rx="38" ry="46" fill="#6d4c41"/>
+    <!-- Linens visible inside dark tomb -->
+    <path d="M100,140 Q140,130 180,140 Q178,158 140,162 Q102,158 100,140Z" fill="white" opacity="0.5"/>
+  </g>
+  <!-- Guards sleeping outside -->
+  <g transform="translate(155,255)" opacity="0.8">
+    <!-- Sleeping guard 1 (lying down) -->
+    <path d="M0,15 Q50,5 100,10 Q102,24 100,28 Q50,32 0,28Z" fill="#78909c"/>
+    <circle cx="-8" cy="20" r="16" fill="#8d6e63"/>
+    <!-- Helmet -->
+    <path d="M-22,14 Q-8,6 6,14 Q4,8 -8,5 Q-20,8 -22,14Z" fill="#546e7a"/>
+    <!-- Sleeping eyes (shut) -->
+    <path d="M-14,18 Q-8,15 -2,18" stroke="#3e2723" stroke-width="2" fill="none"/>
+    <path d="M-10,18 Q-4,15 2,18" stroke="#3e2723" stroke-width="2" fill="none"/>
+    <!-- Spear lying on ground -->
+    <rect x="90" y="18" width="120" height="5" rx="2" fill="#a1887f"/>
+    <polygon points="90,18 90,23 80,20" fill="#78909c"/>
+  </g>
+  <g transform="translate(520,260)" opacity="0.75">
+    <path d="M0,14 Q45,4 90,9 Q92,22 90,26 Q45,30 0,26Z" fill="#78909c"/>
+    <circle cx="-8" cy="18" r="15" fill="#8d6e63"/>
+    <path d="M-21,12 Q-8,4 5,12 Q3,6 -8,3 Q-19,6 -21,12Z" fill="#546e7a"/>
+    <path d="M-14,16 Q-8,13 -2,16" stroke="#3e2723" stroke-width="2" fill="none"/>
+    <path d="M-10,16 Q-4,13 2,16" stroke="#3e2723" stroke-width="2" fill="none"/>
+    <rect x="80" y="16" width="100" height="5" rx="2" fill="#a1887f"/>
+    <polygon points="80,16 80,21 70,18" fill="#78909c"/>
+  </g>
+  <!-- Distant city silhouette (Jerusalem) -->
+  <g fill="#263238" opacity="0.6">
+    <rect x="580" y="240" width="30" height="55"/>
+    <rect x="618" y="225" width="25" height="70"/>
+    <rect x="650" y="245" width="28" height="50"/>
+    <rect x="686" y="230" width="22" height="65"/>
+    <rect x="715" y="250" width="30" height="45"/>
+    <polygon points="618,225 630,205 642,225"/>
+    <polygon points="650,245 662,228 674,245"/>
+  </g>
+  <!-- Moon -->
+  <path d="M72,48 Q52,28 52,68 Q72,88 92,68 Q80,68 72,48Z" fill="#fff9c4" opacity="0.7"/>
+</svg>

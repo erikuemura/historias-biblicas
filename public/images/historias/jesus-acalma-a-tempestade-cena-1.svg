@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyJAT1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b3e5fc"/>
+      <stop offset="50%" stop-color="#81d4fa"/>
+      <stop offset="100%" stop-color="#4dd0e1"/>
+    </linearGradient>
+    <linearGradient id="waterJAT1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#29b6f6"/>
+      <stop offset="100%" stop-color="#006064"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyJAT1)"/>
+  <!-- Calm sky, peaceful -->
+  <circle cx="680" cy="65" r="48" fill="#fff9c4" opacity="0.9"/>
+  <!-- Few clouds (peaceful) -->
+  <ellipse cx="150" cy="70" rx="70" ry="28" fill="white" opacity="0.7"/>
+  <ellipse cx="110" cy="75" rx="45" ry="22" fill="white" opacity="0.8"/>
+  <ellipse cx="190" cy="72" rx="50" ry="20" fill="white" opacity="0.75"/>
+  <ellipse cx="500" cy="55" rx="60" ry="24" fill="white" opacity="0.65"/>
+  <ellipse cx="465" cy="60" rx="40" ry="18" fill="white" opacity="0.7"/>
+  <!-- Water (calm) -->
+  <rect x="0" y="260" width="800" height="120" fill="url(#waterJAT1)"/>
+  <path d="M0,268 Q100,260 200,268 Q300,276 400,268 Q500,260 600,268 Q700,276 800,268" fill="none" stroke="#80deea" stroke-width="3" opacity="0.6"/>
+  <path d="M0,285 Q150,278 300,285 Q450,292 600,285 Q700,280 800,285" fill="none" stroke="#4dd0e1" stroke-width="2" opacity="0.4"/>
+  <!-- BOAT with disciples (all happy, calm sailing) -->
+  <g transform="translate(150,200)">
+    <!-- Boat hull -->
+    <path d="M0,60 Q240,40 480,60 Q470,100 240,108 Q10,100 0,60Z" fill="#8d6e63"/>
+    <path d="M10,65 Q240,46 470,65 Q460,92 240,98 Q20,92 10,65Z" fill="#a1887f"/>
+    <!-- Mast -->
+    <rect x="220" y="-80" width="8" height="140" rx="4" fill="#6d4c41"/>
+    <!-- Sail -->
+    <path d="M228,0 Q290,-40 228,-80 Q170,-40 228,0Z" fill="white" opacity="0.9"/>
+    <!-- Rope -->
+    <line x1="228" y1="-80" x2="390" y2="50" stroke="#8d6e63" stroke-width="2" opacity="0.6"/>
+    <!-- Disciples in boat (happy) -->
+    <!-- Figure 1 -->
+    <g transform="translate(60,20)">
+      <path d="M0,32 L-1,70 L20,70 L21,32 Q10,22 8,20 Q4,22 0,32Z" fill="#546e7a"/>
+      <circle cx="10" cy="11" r="13" fill="#e8a87a"/>
+      <path d="M-1,4 Q10,-6 21,4 Q20,0 10,-2 Q0,0 -1,4Z" fill="#3e2723"/>
+      <path d="M2,19 Q10,24 18,19" stroke="#c62828" stroke-width="2" fill="none"/>
+    </g>
+    <!-- Figure 2 -->
+    <g transform="translate(130,16)">
+      <path d="M0,32 L-1,72 L20,72 L21,32 Q10,22 8,20 Q4,22 0,32Z" fill="#ef6c00"/>
+      <circle cx="10" cy="11" r="13" fill="#ffccbc"/>
+      <path d="M-1,4 Q10,-6 21,4 Q20,0 10,-2 Q0,0 -1,4Z" fill="#5d4037"/>
+      <path d="M2,19 Q10,24 18,19" stroke="#c62828" stroke-width="2" fill="none"/>
+    </g>
+    <!-- Figure 3 -->
+    <g transform="translate(300,18)">
+      <path d="M0,32 L-1,70 L20,70 L21,32 Q10,22 8,20 Q4,22 0,32Z" fill="#26a69a"/>
+      <circle cx="10" cy="11" r="13" fill="#e8a87a"/>
+      <path d="M-1,4 Q10,-6 21,4 Q20,0 10,-2 Q0,0 -1,4Z" fill="#4e342e"/>
+      <path d="M2,19 Q10,24 18,19" stroke="#c62828" stroke-width="2" fill="none"/>
+    </g>
+    <!-- Figure 4 -->
+    <g transform="translate(380,20)">
+      <path d="M0,32 L-1,68 L20,68 L21,32 Q10,22 8,20 Q4,22 0,32Z" fill="#8e24aa"/>
+      <circle cx="10" cy="11" r="13" fill="#ffccbc"/>
+      <path d="M-1,4 Q10,-6 21,4 Q20,0 10,-2 Q0,0 -1,4Z" fill="#5d4037"/>
+      <path d="M2,19 Q10,24 18,19" stroke="#c62828" stroke-width="2" fill="none"/>
+    </g>
+    <!-- JESUS sleeping at stern (right) -->
+    <g transform="translate(420,35)">
+      <!-- Cushion -->
+      <ellipse cx="35" cy="44" rx="42" ry="12" fill="#ffe082"/>
+      <!-- Body lying -->
+      <path d="M0,32 Q35,18 70,22 Q72,36 70,40 Q35,44 0,40Z" fill="white"/>
+      <!-- Head -->
+      <circle cx="6" cy="28" r="20" fill="#ffccbc"/>
+      <path d="M-10,18 Q6,6 22,18 Q20,10 6,7 Q-8,10 -10,18Z" fill="#5d4037"/>
+      <!-- Sleeping eyes -->
+      <path d="M-2,24 Q4,20 10,24" stroke="#5d4037" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M2,24 Q8,20 14,24" stroke="#5d4037" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <!-- Peaceful smile -->
+      <path d="M-4,34 Q6,40 16,34" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <circle cx="-12" cy="28" r="6" fill="#ef9a9a" opacity="0.35"/>
+      <circle cx="18" cy="28" r="6" fill="#ef9a9a" opacity="0.35"/>
+      <!-- Beard -->
+      <path d="M-6,38 Q6,46 18,38 Q16,46 6,49 Q-4,46 -6,38Z" fill="#5d4037" opacity="0.6"/>
+    </g>
+  </g>
+</svg>

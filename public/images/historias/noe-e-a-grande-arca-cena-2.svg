@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="sky7a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5c6bc0"/>
+      <stop offset="100%" stop-color="#90caf9"/>
+    </linearGradient>
+    <linearGradient id="ground7a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81c784"/>
+      <stop offset="100%" stop-color="#388e3c"/>
+    </linearGradient>
+    <radialGradient id="divlight7a" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#fff9c4" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#ffd54f" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffd54f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#sky7a)"/>
+
+  <!-- Divine light from above -->
+  <ellipse cx="400" cy="0" rx="300" ry="250" fill="url(#divlight7a)"/>
+
+  <!-- Light rays from top center -->
+  <g stroke="#fff9c4" opacity="0.5">
+    <line x1="400" y1="0" x2="320" y2="220" stroke-width="5"/>
+    <line x1="400" y1="0" x2="360" y2="230" stroke-width="7"/>
+    <line x1="400" y1="0" x2="400" y2="240" stroke-width="8"/>
+    <line x1="400" y1="0" x2="440" y2="230" stroke-width="7"/>
+    <line x1="400" y1="0" x2="480" y2="220" stroke-width="5"/>
+    <line x1="400" y1="0" x2="290" y2="210" stroke-width="3"/>
+    <line x1="400" y1="0" x2="510" y2="210" stroke-width="3"/>
+  </g>
+
+  <!-- Clouds -->
+  <g fill="white" opacity="0.8">
+    <ellipse cx="120" cy="80" rx="65" ry="24"/>
+    <ellipse cx="162" cy="70" rx="48" ry="20"/>
+    <ellipse cx="78" cy="88" rx="40" ry="16"/>
+    <ellipse cx="680" cy="80" rx="62" ry="23"/>
+    <ellipse cx="720" cy="70" rx="46" ry="19"/>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#ground7a)"/>
+  <rect x="0" y="295" width="800" height="12" fill="#a5d6a7"/>
+
+  <!-- NOE - looking up surprised/amazed -->
+  <g transform="translate(350,155)">
+    <ellipse cx="48" cy="148" rx="36" ry="10" fill="#2e7d32" opacity="0.25"/>
+    <!-- Robe -->
+    <path d="M14,56 Q48,50 82,56 L90,150 Q48,158 6,150 Z" fill="#795548"/>
+    <!-- Belt -->
+    <rect x="10" y="88" width="76" height="9" rx="4" fill="#5d4037"/>
+    <!-- Arms slightly raised/open in awe -->
+    <path d="M14,66 Q-5,80 -10,100" stroke="#a1887f" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <path d="M82,66 Q101,80 106,100" stroke="#a1887f" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <!-- Hands -->
+    <circle cx="-12" cy="104" r="9" fill="#ffcc80"/>
+    <circle cx="108" cy="104" r="9" fill="#ffcc80"/>
+    <!-- Head looking up -->
+    <circle cx="48" cy="34" r="28" fill="#ffcc80"/>
+    <!-- White beard -->
+    <ellipse cx="48" cy="54" rx="20" ry="13" fill="white"/>
+    <path d="M28,46 Q48,66 68,46" fill="white"/>
+    <!-- White hair -->
+    <ellipse cx="48" cy="12" rx="24" ry="12" fill="white"/>
+    <!-- Eyes wide open looking up -->
+    <circle cx="36" cy="28" r="5" fill="#333"/>
+    <circle cx="37" cy="27" r="1.5" fill="white"/>
+    <circle cx="60" cy="28" r="5" fill="#333"/>
+    <circle cx="61" cy="27" r="1.5" fill="white"/>
+    <!-- Eyebrows raised in surprise -->
+    <path d="M31,21 Q36,18 41,21" stroke="#5d4037" stroke-width="2" fill="none"/>
+    <path d="M55,21 Q60,18 65,21" stroke="#5d4037" stroke-width="2" fill="none"/>
+    <!-- Mouth open in awe -->
+    <ellipse cx="48" cy="42" rx="6" ry="4" fill="#c62828"/>
+    <!-- Cheeks -->
+    <circle cx="28" cy="40" r="8" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="68" cy="40" r="8" fill="#ef9a9a" opacity="0.4"/>
+    <!-- Sandals -->
+    <ellipse cx="22" cy="154" rx="14" ry="6" fill="#795548"/>
+    <ellipse cx="74" cy="154" rx="14" ry="6" fill="#795548"/>
+  </g>
+
+  <!-- Sparkle dots in the light beam -->
+  <circle cx="390" cy="80" r="4" fill="#fff9c4" opacity="0.8"/>
+  <circle cx="410" cy="110" r="3" fill="#fff9c4" opacity="0.7"/>
+  <circle cx="380" cy="140" r="3" fill="#fff9c4" opacity="0.6"/>
+  <circle cx="420" cy="160" r="4" fill="#fff9c4" opacity="0.7"/>
+</svg>

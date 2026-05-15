@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyBM2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="60%" stop-color="#fff8e1"/>
+      <stop offset="100%" stop-color="#f5f5dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyBM2)"/>
+  <!-- Simple room background -->
+  <rect x="0" y="0" width="800" height="380" fill="#fff8e1"/>
+  <!-- Wall bricks -->
+  <g fill="none" stroke="#ffe082" stroke-width="2" opacity="0.5">
+    <rect x="40" y="40" width="100" height="45" rx="2"/>
+    <rect x="145" y="40" width="100" height="45" rx="2"/>
+    <rect x="250" y="40" width="100" height="45" rx="2"/>
+    <rect x="540" y="40" width="100" height="45" rx="2"/>
+    <rect x="645" y="40" width="100" height="45" rx="2"/>
+    <rect x="90" y="87" width="100" height="45" rx="2"/>
+    <rect x="195" y="87" width="100" height="45" rx="2"/>
+    <rect x="590" y="87" width="100" height="45" rx="2"/>
+    <rect x="695" y="87" width="100" height="45" rx="2"/>
+  </g>
+  <!-- Floor -->
+  <rect x="0" y="330" width="800" height="50" fill="#f5deb3"/>
+  <path d="M0,335 Q200,328 400,335 Q600,342 800,335" fill="none" stroke="#deb887" stroke-width="2" opacity="0.4"/>
+  <!-- Window with light -->
+  <rect x="340" y="50" width="120" height="90" rx="6" fill="#ffe082" opacity="0.7"/>
+  <rect x="345" y="55" width="110" height="80" rx="4" fill="#fff9c4" opacity="0.9"/>
+  <line x1="400" y1="55" x2="400" y2="135" stroke="#deb887" stroke-width="3" opacity="0.5"/>
+  <line x1="345" y1="95" x2="455" y2="95" stroke="#deb887" stroke-width="3" opacity="0.5"/>
+  <!-- Light rays from window -->
+  <g stroke="#ffe082" stroke-width="1.5" opacity="0.35">
+    <line x1="345" y1="55" x2="280" y2="200"/>
+    <line x1="400" y1="52" x2="400" y2="200"/>
+    <line x1="455" y1="55" x2="520" y2="200"/>
+  </g>
+  <!-- MOTHER (center, holding baby with love) -->
+  <g transform="translate(290,120)">
+    <ellipse cx="55" cy="210" rx="48" ry="10" fill="#ffe082" opacity="0.2"/>
+    <!-- Dress (warm robe) -->
+    <path d="M10,58 Q5,160 2,210 Q55,222 108,210 Q102,160 100,58 Q80,40 55,37 Q30,40 10,58Z" fill="#ef6c00"/>
+    <path d="M8,150 Q55,162 104,150 Q101,195 55,202 Q9,195 8,150Z" fill="#bf360c" opacity="0.4"/>
+    <rect x="8" y="112" width="96" height="10" rx="5" fill="#bf360c" opacity="0.45"/>
+    <rect x="35" y="200" width="13" height="36" rx="5" fill="#e65100" opacity="0.7"/>
+    <rect x="57" y="200" width="13" height="36" rx="5" fill="#bf360c" opacity="0.7"/>
+    <!-- Head veil -->
+    <ellipse cx="55" cy="22" rx="42" ry="14" fill="white" opacity="0.9"/>
+    <path d="M14,24 Q6,72 10,118" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.88"/>
+    <path d="M96,24 Q104,72 100,118" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.88"/>
+    <path d="M14,24 Q55,8 96,24 Q96,62 94,110 Q55,122 16,110 Q12,62 14,24Z" fill="#f5f5f5" opacity="0.72"/>
+    <!-- Face -->
+    <circle cx="55" cy="30" r="26" fill="#ffccbc"/>
+    <path d="M32,20 Q55,4 78,20 Q76,10 55,7 Q34,10 32,20Z" fill="#4e342e"/>
+    <circle cx="43" cy="24" r="4" fill="#4e342e"/>
+    <circle cx="67" cy="24" r="4" fill="#4e342e"/>
+    <circle cx="44" cy="23" r="1.5" fill="white"/>
+    <circle cx="68" cy="23" r="1.5" fill="white"/>
+    <path d="M35,38 Q42,33 50,38" stroke="#a1887f" stroke-width="2" fill="none"/>
+    <path d="M60,38 Q68,33 75,38" stroke="#a1887f" stroke-width="2" fill="none"/>
+    <!-- Warm loving smile -->
+    <path d="M38,44 Q55,56 72,44" stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <circle cx="32" cy="36" r="9" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="78" cy="36" r="9" fill="#ef9a9a" opacity="0.4"/>
+    <rect x="48" y="54" width="14" height="13" rx="4" fill="#ffccbc"/>
+    <!-- Arms cradling baby -->
+    <path d="M10,65 Q-15,95 -14,132" stroke="#ef6c00" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <circle cx="-13" cy="134" r="13" fill="#ffccbc"/>
+    <path d="M100,65 Q126,95 126,132" stroke="#ef6c00" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <circle cx="126" cy="134" r="13" fill="#ffccbc"/>
+    <!-- BABY in arms -->
+    <ellipse cx="55" cy="138" rx="38" ry="20" fill="#fff9c4" stroke="#ffe082" stroke-width="2"/>
+    <path d="M-20,130 Q55,118 130,130" stroke="#ffcc02" stroke-width="2" fill="none" opacity="0.5"/>
+    <circle cx="55" cy="118" r="17" fill="#ffccbc"/>
+    <path d="M-4,-2 Q0,-8 4,-2" stroke="#6d4c41" stroke-width="2" fill="none" stroke-linecap="round" transform="translate(51,116)"/>
+    <path d="M2,-2 Q6,-8 10,-2" stroke="#6d4c41" stroke-width="2" fill="none" stroke-linecap="round" transform="translate(51,116)"/>
+    <path d="M-3,8 Q2,13 7,8" stroke="#e64a19" stroke-width="1.5" fill="none" stroke-linecap="round" transform="translate(51,116)"/>
+    <circle cx="45" cy="120" r="5" fill="#ef9a9a" opacity="0.45"/>
+    <circle cx="65" cy="120" r="5" fill="#ef9a9a" opacity="0.45"/>
+  </g>
+  <!-- Heart symbols -->
+  <g fill="#e91e63" opacity="0.5">
+    <path d="M188,165 Q188,158 196,158 Q204,158 204,165 Q204,172 196,178 Q188,172 188,165Z"/>
+    <path d="M568,160 Q568,153 576,153 Q584,153 584,160 Q584,167 576,173 Q568,167 568,160Z"/>
+  </g>
+</svg>

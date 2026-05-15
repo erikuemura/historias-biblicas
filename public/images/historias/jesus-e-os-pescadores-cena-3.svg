@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyH3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81d4fa"/>
+      <stop offset="100%" style="stop-color:#e1f5fe"/>
+    </linearGradient>
+    <linearGradient id="waterH3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#29b6f6"/>
+      <stop offset="100%" style="stop-color:#0288d1"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#skyH3)"/>
+  <!-- Water -->
+  <rect x="0" y="220" width="800" height="160" fill="url(#waterH3)"/>
+  <path d="M0 238 Q100 228 200 238 Q300 248 400 238 Q500 228 600 238 Q700 248 800 238" stroke="#4fc3f7" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M0 260 Q150 250 300 260 Q450 270 600 260 Q700 256 800 260" stroke="#4fc3f7" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- Boat hull (tilting a bit from weight) -->
+  <path d="M150 255 Q400 238 650 252 L632 315 Q400 325 168 315 Z" fill="#5d4037"/>
+  <path d="M150 255 Q400 238 650 252 L648 264 Q400 248 152 264 Z" fill="#4e342e"/>
+  <!-- Mast -->
+  <line x1="400" y1="175" x2="400" y2="255" stroke="#6d4c41" stroke-width="8"/>
+  <!-- Net FULL of fish - overflowing -->
+  <!-- Net top line -->
+  <path d="M200 255 Q400 268 600 255" stroke="#9e9e9e" stroke-width="3" fill="none"/>
+  <!-- Net bulging with fish -->
+  <path d="M200 255 Q250 295 300 310 Q400 325 500 310 Q550 295 600 255" stroke="#9e9e9e" stroke-width="3" fill="none"/>
+  <!-- Fish in net (golden and blue) -->
+  <ellipse cx="290" cy="295" rx="22" ry="10" fill="#ffca28" opacity="0.9"/>
+  <ellipse cx="340" cy="308" rx="20" ry="9" fill="#42a5f5" opacity="0.9"/>
+  <ellipse cx="390" cy="314" rx="22" ry="10" fill="#ffca28" opacity="0.9"/>
+  <ellipse cx="440" cy="308" rx="20" ry="9" fill="#42a5f5" opacity="0.9"/>
+  <ellipse cx="490" cy="295" rx="22" ry="10" fill="#ffca28" opacity="0.9"/>
+  <ellipse cx="320" cy="280" rx="18" ry="8" fill="#42a5f5" opacity="0.85"/>
+  <ellipse cx="420" cy="278" rx="18" ry="8" fill="#ffca28" opacity="0.85"/>
+  <ellipse cx="365" cy="290" rx="16" ry="7" fill="#66bb6a" opacity="0.8"/>
+  <!-- Net grid lines -->
+  <line x1="250" y1="258" x2="280" y2="308" stroke="#bdbdbd" stroke-width="1.5" opacity="0.7"/>
+  <line x1="310" y1="262" x2="325" y2="318" stroke="#bdbdbd" stroke-width="1.5" opacity="0.7"/>
+  <line x1="370" y1="265" x2="375" y2="322" stroke="#bdbdbd" stroke-width="1.5" opacity="0.7"/>
+  <line x1="430" y1="263" x2="450" y2="318" stroke="#bdbdbd" stroke-width="1.5" opacity="0.7"/>
+  <line x1="490" y1="258" x2="515" y2="308" stroke="#bdbdbd" stroke-width="1.5" opacity="0.7"/>
+  <!-- Fish jumping out -->
+  <ellipse cx="230" cy="248" rx="18" ry="8" fill="#ffca28" opacity="0.9" transform="rotate(-30 230 248)"/>
+  <ellipse cx="570" cy="244" rx="18" ry="8" fill="#42a5f5" opacity="0.9" transform="rotate(25 570 244)"/>
+  <!-- Pedro (left, pulling net, amazed) -->
+  <path d="M185 315 Q192 278 198 258 L216 258 Q222 278 228 315 Z" fill="#8d6e63"/>
+  <circle cx="207" cy="247" r="22" fill="#ffcc80"/>
+  <path d="M185 241 Q207 224 229 241 L231 250 Q207 240 184 250 Z" fill="#5d4037"/>
+  <!-- Eyes wide open in amazement -->
+  <circle cx="200" cy="247" r="5" fill="#4e342e"/>
+  <circle cx="214" cy="247" r="5" fill="#4e342e"/>
+  <circle cx="201.5" cy="245.5" r="2" fill="white"/>
+  <circle cx="215.5" cy="245.5" r="2" fill="white"/>
+  <!-- Open mouth smile -->
+  <path d="M199 255 Q207 262 215 255" stroke="#795548" stroke-width="2.5" fill="none"/>
+  <circle cx="193" cy="252" r="6" fill="#ef9a9a" opacity="0.5"/>
+  <circle cx="221" cy="252" r="6" fill="#ef9a9a" opacity="0.5"/>
+  <!-- Pedro arms pulling net -->
+  <path d="M198 268 Q215 262 230 258" stroke="#8d6e63" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M216 270 Q230 264 242 260" stroke="#8d6e63" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <!-- Andre (right, pulling, amazed) -->
+  <path d="M572 315 Q579 278 585 258 L603 258 Q609 278 615 315 Z" fill="#795548"/>
+  <circle cx="594" cy="247" r="22" fill="#ffcc80"/>
+  <path d="M572 241 Q594 224 616 241 L618 250 Q594 240 571 250 Z" fill="#4e342e"/>
+  <!-- Andre eyes wide -->
+  <circle cx="587" cy="247" r="5" fill="#4e342e"/>
+  <circle cx="601" cy="247" r="5" fill="#4e342e"/>
+  <circle cx="588.5" cy="245.5" r="2" fill="white"/>
+  <circle cx="602.5" cy="245.5" r="2" fill="white"/>
+  <!-- Andre open smile -->
+  <path d="M586 255 Q594 262 602 255" stroke="#795548" stroke-width="2.5" fill="none"/>
+  <circle cx="580" cy="252" r="6" fill="#ef9a9a" opacity="0.5"/>
+  <circle cx="608" cy="252" r="6" fill="#ef9a9a" opacity="0.5"/>
+  <!-- Andre arms pulling net -->
+  <path d="M584 268 Q569 262 558 258" stroke="#795548" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M603 270 Q588 264 576 260" stroke="#795548" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <!-- Boat rocking splash -->
+  <path d="M145 280 Q148 270 155 278" stroke="#4fc3f7" stroke-width="3" fill="none"/>
+  <path d="M650 278 Q657 268 660 278" stroke="#4fc3f7" stroke-width="3" fill="none"/>
+</svg>

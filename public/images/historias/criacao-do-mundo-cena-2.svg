@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <radialGradient id="bg2a" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#fffde7"/>
+      <stop offset="40%" stop-color="#ffca28"/>
+      <stop offset="80%" stop-color="#e65100"/>
+      <stop offset="100%" stop-color="#1a0033"/>
+    </radialGradient>
+    <radialGradient id="glow2a" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#fff9c4"/>
+      <stop offset="100%" stop-color="#ffca28" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Explosive light background -->
+  <rect width="800" height="380" fill="#0a0015"/>
+  <ellipse cx="400" cy="190" rx="420" ry="210" fill="url(#bg2a)" opacity="0.95"/>
+
+  <!-- Radiating rays -->
+  <g stroke="#ffd54f" opacity="0.5">
+    <line x1="400" y1="190" x2="400" y2="0" stroke-width="6"/>
+    <line x1="400" y1="190" x2="400" y2="380" stroke-width="6"/>
+    <line x1="400" y1="190" x2="0" y2="190" stroke-width="6"/>
+    <line x1="400" y1="190" x2="800" y2="190" stroke-width="6"/>
+    <line x1="400" y1="190" x2="130" y2="0" stroke-width="4"/>
+    <line x1="400" y1="190" x2="670" y2="0" stroke-width="4"/>
+    <line x1="400" y1="190" x2="130" y2="380" stroke-width="4"/>
+    <line x1="400" y1="190" x2="670" y2="380" stroke-width="4"/>
+    <line x1="400" y1="190" x2="0" y2="60" stroke-width="3"/>
+    <line x1="400" y1="190" x2="800" y2="60" stroke-width="3"/>
+    <line x1="400" y1="190" x2="0" y2="320" stroke-width="3"/>
+    <line x1="400" y1="190" x2="800" y2="320" stroke-width="3"/>
+    <line x1="400" y1="190" x2="270" y2="0" stroke-width="3"/>
+    <line x1="400" y1="190" x2="530" y2="0" stroke-width="3"/>
+    <line x1="400" y1="190" x2="270" y2="380" stroke-width="3"/>
+    <line x1="400" y1="190" x2="530" y2="380" stroke-width="3"/>
+  </g>
+
+  <!-- Central glow -->
+  <circle cx="400" cy="190" r="140" fill="url(#glow2a)"/>
+  <circle cx="400" cy="190" r="60" fill="#ffffff" opacity="0.85"/>
+  <circle cx="400" cy="190" r="28" fill="#ffffff"/>
+
+  <!-- Sparkles around center -->
+  <circle cx="310" cy="120" r="6" fill="#fff9c4" opacity="0.8"/>
+  <circle cx="490" cy="120" r="5" fill="#fff9c4" opacity="0.7"/>
+  <circle cx="310" cy="260" r="5" fill="#fff9c4" opacity="0.7"/>
+  <circle cx="490" cy="260" r="6" fill="#fff9c4" opacity="0.8"/>
+  <circle cx="260" cy="190" r="4" fill="#fff9c4" opacity="0.6"/>
+  <circle cx="540" cy="190" r="4" fill="#fff9c4" opacity="0.6"/>
+</svg>

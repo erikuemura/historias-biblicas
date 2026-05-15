@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyDG4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b3e5fc"/>
+      <stop offset="55%" stop-color="#81d4fa"/>
+      <stop offset="100%" stop-color="#4fc3f7"/>
+    </linearGradient>
+    <linearGradient id="waterDG4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4dd0e1"/>
+      <stop offset="100%" stop-color="#0097a7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyDG4)"/>
+  <!-- Rolling hills -->
+  <ellipse cx="180" cy="330" rx="290" ry="110" fill="#66bb6a" opacity="0.5"/>
+  <ellipse cx="660" cy="340" rx="260" ry="100" fill="#4caf50" opacity="0.4"/>
+  <!-- Ground -->
+  <rect x="0" y="295" width="800" height="85" fill="#a5d6a7"/>
+  <!-- Stream / brook -->
+  <path d="M150,330 Q350,310 550,330 Q650,340 750,325" fill="none" stroke="#4dd0e1" stroke-width="22" opacity="0.8"/>
+  <path d="M150,330 Q350,310 550,330 Q650,340 750,325" fill="none" stroke="#80deea" stroke-width="12" opacity="0.6"/>
+  <!-- Stones in stream -->
+  <g fill="#90a4ae">
+    <ellipse cx="260" cy="322" rx="12" ry="8"/>
+    <ellipse cx="310" cy="318" rx="10" ry="7"/>
+    <ellipse cx="360" cy="325" rx="14" ry="8"/>
+    <ellipse cx="410" cy="316" rx="11" ry="7"/>
+    <ellipse cx="460" cy="322" rx="13" ry="8"/>
+    <ellipse cx="500" cy="318" rx="10" ry="6"/>
+  </g>
+  <!-- DAVID kneeling, picking up stones -->
+  <g transform="translate(295,175)">
+    <ellipse cx="50" cy="158" rx="44" ry="9" fill="#558b2f" opacity="0.2"/>
+    <!-- Kneeling tunic -->
+    <path d="M8,52 Q5,120 3,148 Q50,158 97,148 Q93,120 90,52 Q74,36 50,33 Q26,36 8,52Z" fill="#a5d6a7"/>
+    <path d="M5,128 Q50,138 96,128 Q93,150 50,155 Q7,150 5,128Z" fill="#66bb6a" opacity="0.4"/>
+    <rect x="28" y="148" width="12" height="32" rx="5" fill="#81c784" opacity="0.7"/>
+    <rect x="52" y="148" width="12" height="32" rx="5" fill="#66bb6a" opacity="0.7"/>
+    <!-- Head -->
+    <circle cx="50" cy="26" r="24" fill="#ffccbc"/>
+    <path d="M28,16 Q50,0 72,16 Q70,7 50,4 Q30,7 28,16Z" fill="#6d4c41"/>
+    <circle cx="38" cy="20" r="3.5" fill="#5d4037"/>
+    <circle cx="62" cy="20" r="3.5" fill="#5d4037"/>
+    <circle cx="39" cy="19" r="1.3" fill="white"/>
+    <circle cx="63" cy="19" r="1.3" fill="white"/>
+    <!-- Focused expression -->
+    <path d="M35,32 Q50,40 65,32" stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <circle cx="26" cy="26" r="7" fill="#ef9a9a" opacity="0.35"/>
+    <circle cx="74" cy="26" r="7" fill="#ef9a9a" opacity="0.35"/>
+    <rect x="42" y="48" width="14" height="12" rx="3" fill="#ffccbc"/>
+    <!-- Arm reaching down (picking stone) -->
+    <path d="M8,58 Q-18,85 -22,120" stroke="#a5d6a7" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="-21" cy="122" r="11" fill="#ffccbc"/>
+    <!-- Stone in hand -->
+    <ellipse cx="-24" cy="134" rx="10" ry="7" fill="#90a4ae"/>
+    <!-- Other arm with pouch -->
+    <path d="M90,58 Q112,75 115,100" stroke="#a5d6a7" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="115" cy="102" r="11" fill="#ffccbc"/>
+    <!-- Leather pouch/sling -->
+    <path d="M100,105 Q120,110 130,105 Q128,118 115,120 Q102,118 100,105Z" fill="#8d6e63"/>
+    <!-- Several stones beside him -->
+    <ellipse cx="10" cy="156" rx="9" ry="6" fill="#90a4ae"/>
+    <ellipse cx="30" cy="158" rx="8" ry="5" fill="#78909c"/>
+    <ellipse cx="-10" cy="158" rx="7" ry="5" fill="#90a4ae"/>
+  </g>
+  <!-- Distant army tents -->
+  <g opacity="0.5">
+    <polygon points="660,260 700,200 740,260" fill="#ef6c00"/>
+    <polygon points="700,260 735,205 770,260" fill="#e65100"/>
+    <polygon points="620,262 655,210 690,262" fill="#ef6c00"/>
+  </g>
+</svg>

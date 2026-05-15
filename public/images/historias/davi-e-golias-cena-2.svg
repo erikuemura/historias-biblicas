@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyDG2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b3e5fc"/>
+      <stop offset="50%" stop-color="#80cbc4"/>
+      <stop offset="100%" stop-color="#a5d6a7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyDG2)"/>
+  <!-- Rolling hills -->
+  <ellipse cx="200" cy="340" rx="320" ry="130" fill="#66bb6a" opacity="0.5"/>
+  <ellipse cx="650" cy="350" rx="280" ry="110" fill="#4caf50" opacity="0.4"/>
+  <!-- Ground -->
+  <rect x="0" y="300" width="800" height="80" fill="#a5d6a7"/>
+  <path d="M0,305 Q200,296 400,305 Q600,314 800,305" fill="none" stroke="#81c784" stroke-width="2" opacity="0.5"/>
+  <!-- Sheep (several, peaceful) -->
+  <g fill="white">
+    <ellipse cx="550" cy="305" rx="35" ry="22"/>
+    <circle cx="530" cy="292" r="16"/>
+    <circle cx="545" cy="287" r="14"/>
+    <circle cx="560" cy="289" r="15"/>
+    <!-- legs -->
+    <rect x="530" y="322" width="6" height="16" rx="3" fill="#bdbdbd"/>
+    <rect x="542" y="322" width="6" height="16" rx="3" fill="#bdbdbd"/>
+    <rect x="556" y="322" width="6" height="16" rx="3" fill="#bdbdbd"/>
+    <rect x="568" y="322" width="6" height="16" rx="3" fill="#bdbdbd"/>
+    <!-- Face -->
+    <circle cx="527" cy="294" r="6" fill="#f5f5f5"/>
+    <circle cx="524" cy="292" r="2" fill="#424242"/>
+  </g>
+  <g fill="white" transform="translate(620,0)">
+    <ellipse cx="55" cy="305" rx="30" ry="19"/>
+    <circle cx="38" cy="293" r="14"/>
+    <circle cx="52" cy="289" r="12"/>
+    <circle cx="65" cy="291" r="13"/>
+    <rect x="42" y="320" width="5" height="14" rx="3" fill="#bdbdbd"/>
+    <rect x="52" y="320" width="5" height="14" rx="3" fill="#bdbdbd"/>
+    <rect x="62" y="320" width="5" height="14" rx="3" fill="#bdbdbd"/>
+    <rect x="72" y="320" width="5" height="14" rx="3" fill="#bdbdbd"/>
+    <circle cx="36" cy="295" r="5" fill="#f5f5f5"/>
+    <circle cx="33" cy="293" r="2" fill="#424242"/>
+  </g>
+  <!-- Rock to sit on -->
+  <ellipse cx="280" cy="320" rx="55" ry="20" fill="#8d6e63" opacity="0.7"/>
+  <ellipse cx="280" cy="314" rx="48" ry="16" fill="#a1887f"/>
+  <!-- DAVID (young boy, sitting, playing harp) -->
+  <g transform="translate(230,155)">
+    <ellipse cx="50" cy="178" rx="42" ry="9" fill="#558b2f" opacity="0.2"/>
+    <!-- Tunic (simple shepherd) -->
+    <path d="M10,50 Q7,142 5,165 Q50,174 95,165 Q90,142 88,50 Q72,34 50,31 Q28,34 10,50Z" fill="#a5d6a7"/>
+    <path d="M8,130 Q50,140 94,130 Q92,158 50,162 Q8,158 8,130Z" fill="#66bb6a" opacity="0.4"/>
+    <rect x="28" y="160" width="12" height="32" rx="5" fill="#81c784" opacity="0.7"/>
+    <rect x="50" y="160" width="12" height="32" rx="5" fill="#66bb6a" opacity="0.7"/>
+    <!-- Head (young, short hair) -->
+    <circle cx="50" cy="26" r="26" fill="#ffccbc"/>
+    <path d="M26,16 Q50,1 74,16 Q72,7 50,4 Q28,7 26,16Z" fill="#6d4c41"/>
+    <circle cx="38" cy="22" r="4" fill="#5d4037"/>
+    <circle cx="62" cy="22" r="4" fill="#5d4037"/>
+    <circle cx="39" cy="21" r="1.5" fill="white"/>
+    <circle cx="63" cy="21" r="1.5" fill="white"/>
+    <!-- Happy content smile -->
+    <path d="M36,36 Q50,46 64,36" stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <circle cx="28" cy="30" r="8" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="72" cy="30" r="8" fill="#ef9a9a" opacity="0.4"/>
+    <rect x="42" y="50" width="16" height="14" rx="4" fill="#ffccbc"/>
+    <!-- Arms holding harp -->
+    <path d="M10,56 Q-14,78 -16,108" stroke="#a5d6a7" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="-15" cy="110" r="11" fill="#ffccbc"/>
+    <path d="M88,56 Q108,78 110,108" stroke="#a5d6a7" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="110" cy="110" r="11" fill="#ffccbc"/>
+  </g>
+  <!-- Harp (held in front) -->
+  <g transform="translate(252,230)">
+    <path d="M0,0 Q0,-60 40,-85 Q80,-60 80,0" fill="none" stroke="#8d6e63" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#6d4c41" stroke-width="5" stroke-linecap="round"/>
+    <!-- Strings -->
+    <line x1="15" y1="0" x2="20" y2="-65" stroke="#ffd54f" stroke-width="1.5" opacity="0.8"/>
+    <line x1="30" y1="0" x2="35" y2="-78" stroke="#ffd54f" stroke-width="1.5" opacity="0.8"/>
+    <line x1="45" y1="0" x2="50" y2="-82" stroke="#ffd54f" stroke-width="1.5" opacity="0.8"/>
+    <line x1="60" y1="0" x2="62" y2="-76" stroke="#ffd54f" stroke-width="1.5" opacity="0.8"/>
+  </g>
+  <!-- Musical notes -->
+  <g fill="#ffd54f" opacity="0.7">
+    <text x="162" y="200" font-size="20" font-family="serif">♪</text>
+    <text x="178" y="178" font-size="14" font-family="serif">♫</text>
+    <text x="155" y="220" font-size="12" font-family="serif">♩</text>
+  </g>
+</svg>

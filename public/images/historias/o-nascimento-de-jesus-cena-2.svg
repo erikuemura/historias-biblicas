@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyB2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b4b"/>
+      <stop offset="60%" style="stop-color:#1a237e"/>
+      <stop offset="100%" style="stop-color:#283593"/>
+    </linearGradient>
+  </defs>
+  <!-- Night sky -->
+  <rect width="800" height="380" fill="url(#skyB2)"/>
+  <!-- Stars -->
+  <circle cx="80" cy="30" r="2.5" fill="white" opacity="0.9"/>
+  <circle cx="160" cy="55" r="2" fill="white" opacity="0.8"/>
+  <circle cx="250" cy="20" r="3" fill="white" opacity="0.9"/>
+  <circle cx="350" cy="45" r="2" fill="white" opacity="0.7"/>
+  <circle cx="500" cy="30" r="2.5" fill="white" opacity="0.85"/>
+  <circle cx="600" cy="50" r="2" fill="white" opacity="0.8"/>
+  <circle cx="700" cy="25" r="3" fill="white" opacity="0.9"/>
+  <circle cx="750" cy="60" r="2" fill="white" opacity="0.7"/>
+  <circle cx="130" cy="80" r="2" fill="white" opacity="0.6"/>
+  <circle cx="420" cy="70" r="2.5" fill="white" opacity="0.75"/>
+  <!-- Moon -->
+  <circle cx="720" cy="70" r="30" fill="#fff9c4" opacity="0.9"/>
+  <circle cx="732" cy="62" r="24" fill="#1a237e" opacity="0.85"/>
+  <!-- Inn building -->
+  <rect x="350" y="130" width="280" height="200" rx="8" fill="#5d4037"/>
+  <rect x="350" y="130" width="280" height="30" rx="4" fill="#4e342e"/>
+  <!-- Roof -->
+  <polygon points="340,135 490,70 640,135" fill="#3e2723"/>
+  <!-- Door -->
+  <rect x="455" y="220" width="70" height="110" rx="8" fill="#8d6e63"/>
+  <rect x="455" y="220" width="70" height="110" rx="8" fill="#6d4c41" opacity="0.5"/>
+  <!-- Windows -->
+  <rect x="375" y="165" width="55" height="45" rx="6" fill="#fff9c4" opacity="0.7"/>
+  <rect x="560" y="165" width="55" height="45" rx="6" fill="#fff9c4" opacity="0.7"/>
+  <!-- Innkeeper in door -->
+  <circle cx="490" cy="240" r="20" fill="#ffcc80"/>
+  <path d="M475 230 Q490 218 505 230 L507 245 Q490 238 473 245 Z" fill="#4e342e"/>
+  <circle cx="484" cy="241" r="3.5" fill="#4e342e"/>
+  <circle cx="496" cy="241" r="3.5" fill="#4e342e"/>
+  <!-- Innkeeper frown / shaking head -->
+  <path d="M484 248 Q490 244 496 248" stroke="#795548" stroke-width="2" fill="none"/>
+  <!-- Innkeeper arm waving no -->
+  <path d="M505 255 Q520 245 525 235" stroke="#ffcc80" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <!-- Jose at door -->
+  <!-- Jose robe -->
+  <path d="M280 330 Q290 265 300 235 L322 235 Q332 265 342 330 Z" fill="#8d6e63"/>
+  <!-- Jose head -->
+  <circle cx="311" cy="224" r="24" fill="#ffcc80"/>
+  <!-- Jose hair -->
+  <path d="M287 219 Q311 200 335 219 L337 226 Q311 214 287 226 Z" fill="#5d4037"/>
+  <!-- Jose beard -->
+  <path d="M299 234 Q311 248 323 234 L325 244 Q311 256 297 244 Z" fill="#5d4037" opacity="0.6"/>
+  <!-- Jose eyes (worried) -->
+  <circle cx="304" cy="222" r="4" fill="#4e342e"/>
+  <circle cx="318" cy="222" r="4" fill="#4e342e"/>
+  <circle cx="305.5" cy="220.5" r="1.5" fill="white"/>
+  <circle cx="319.5" cy="220.5" r="1.5" fill="white"/>
+  <path d="M304 228 Q311 233 318 228" stroke="#795548" stroke-width="2" fill="none"/>
+  <!-- Jose cheeks -->
+  <circle cx="297" cy="228" r="5" fill="#ef9a9a" opacity="0.4"/>
+  <circle cx="325" cy="228" r="5" fill="#ef9a9a" opacity="0.4"/>
+  <!-- Jose arm knocking -->
+  <path d="M322 248 Q340 255 352 248" stroke="#8d6e63" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Jose staff -->
+  <line x1="275" y1="210" x2="262" y2="335" stroke="#6d4c41" stroke-width="7" stroke-linecap="round"/>
+  <!-- Maria behind Jose -->
+  <ellipse cx="240" cy="290" rx="20" ry="32" fill="#5c6bc0"/>
+  <circle cx="240" cy="258" r="20" fill="#ffcc80"/>
+  <path d="M220 254 Q240 236 260 254 L263 278 Q240 286 218 278 Z" fill="#1a237e" opacity="0.8"/>
+  <!-- Maria eyes -->
+  <circle cx="234" cy="258" r="3.5" fill="#4e342e"/>
+  <circle cx="246" cy="258" r="3.5" fill="#4e342e"/>
+  <path d="M234 265 Q240 270 246 265" stroke="#795548" stroke-width="2" fill="none"/>
+  <circle cx="228" cy="263" r="5" fill="#ef9a9a" opacity="0.4"/>
+  <circle cx="252" cy="263" r="5" fill="#ef9a9a" opacity="0.4"/>
+  <!-- Ground -->
+  <rect x="0" y="330" width="800" height="50" fill="#3e2723"/>
+</svg>

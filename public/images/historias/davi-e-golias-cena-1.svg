@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyDG1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a65"/>
+      <stop offset="40%" stop-color="#ffb74d"/>
+      <stop offset="100%" stop-color="#ffe082"/>
+    </linearGradient>
+    <linearGradient id="sandDG1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffcc80"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyDG1)"/>
+  <!-- Hills background -->
+  <ellipse cx="150" cy="320" rx="280" ry="110" fill="#ef6c00" opacity="0.4"/>
+  <ellipse cx="680" cy="310" rx="240" ry="100" fill="#e65100" opacity="0.35"/>
+  <!-- Ground -->
+  <rect x="0" y="288" width="800" height="92" fill="url(#sandDG1)"/>
+  <!-- GOLIATH (giant, intimidating, center-left) -->
+  <g transform="translate(220,40)">
+    <ellipse cx="68" cy="295" rx="58" ry="12" fill="#e65100" opacity="0.25"/>
+    <!-- Giant body - bronze armor -->
+    <path d="M12,88 Q6,220 2,290 Q68,308 134,290 Q128,220 124,88 Q100,62 68,56 Q38,62 12,88Z" fill="#78909c"/>
+    <!-- Armor plates -->
+    <path d="M10,130 Q68,145 128,130 Q126,158 68,165 Q10,158 10,130Z" fill="#546e7a" opacity="0.6"/>
+    <path d="M10,170 Q68,182 128,170 Q126,198 68,204 Q10,198 10,170Z" fill="#546e7a" opacity="0.5"/>
+    <rect x="8" y="108" width="120" height="10" rx="5" fill="#ffd54f" opacity="0.6"/>
+    <rect x="8" y="128" width="120" height="6" rx="3" fill="#ffb300" opacity="0.5"/>
+    <rect x="38" y="280" width="16" height="52" rx="6" fill="#607d8b"/>
+    <rect x="76" y="280" width="16" height="52" rx="6" fill="#546e7a"/>
+    <!-- Helmet head -->
+    <circle cx="68" cy="38" r="40" fill="#78909c"/>
+    <rect x="30" y="12" width="76" height="18" rx="6" fill="#546e7a"/>
+    <rect x="36" y="4" width="64" height="14" rx="5" fill="#ffd54f"/>
+    <!-- Face scary -->
+    <circle cx="68" cy="48" r="30" fill="#8d6e63"/>
+    <circle cx="53" cy="42" r="5" fill="#3e2723"/>
+    <circle cx="83" cy="42" r="5" fill="#3e2723"/>
+    <circle cx="54" cy="41" r="1.8" fill="white"/>
+    <circle cx="84" cy="41" r="1.8" fill="white"/>
+    <!-- Angry brows -->
+    <path d="M45,34 Q53,28 61,34" stroke="#3e2723" stroke-width="3" fill="none"/>
+    <path d="M75,34 Q83,28 91,34" stroke="#3e2723" stroke-width="3" fill="none"/>
+    <!-- Menacing frown -->
+    <path d="M52,60 Q68,52 84,60" stroke="#4e342e" stroke-width="3" fill="none"/>
+    <!-- Beard -->
+    <path d="M46,64 Q68,78 90,64 Q88,76 68,80 Q48,76 46,64Z" fill="#5d4037"/>
+    <!-- Giant spear -->
+    <rect x="148" y="-40" width="10" height="340" rx="5" fill="#a1887f"/>
+    <polygon points="148,-40 158,-40 153,-80" fill="#78909c"/>
+    <!-- Shield -->
+    <path d="M-35,70 Q-65,100 -60,180 Q-30,200 0,180 Q5,100 -35,70Z" fill="#78909c" opacity="0.8"/>
+    <circle cx="-32" cy="130" r="12" fill="#ffd54f" opacity="0.6"/>
+    <!-- Arms raised intimidating -->
+    <path d="M124,95 Q165,75 175,52" stroke="#78909c" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <circle cx="176" cy="50" r="18" fill="#8d6e63"/>
+    <path d="M12,95 Q-32,90 -40,72" stroke="#78909c" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <circle cx="-42" cy="70" r="18" fill="#8d6e63"/>
+  </g>
+  <!-- Israeli soldiers cowering (small, right side) -->
+  <g transform="translate(540,215)" opacity="0.9">
+    <!-- Soldier 1 -->
+    <path d="M0,35 L-2,90 L24,90 L26,35 Q14,26 12,24 Q6,26 0,35Z" fill="#8d6e63"/>
+    <circle cx="12" cy="14" r="16" fill="#e8a87a"/>
+    <path d="M-1,6 Q12,-4 25,6 Q23,0 12,-2 Q1,0 -1,6Z" fill="#5d4037"/>
+    <!-- Scared expression -->
+    <circle cx="6" cy="10" r="3" fill="#4e342e"/>
+    <circle cx="18" cy="10" r="3" fill="#4e342e"/>
+    <path d="M5,22 Q12,18 19,22" stroke="#c62828" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(608,225)" opacity="0.8">
+    <path d="M0,32 L-2,82 L22,82 L24,32 Q12,24 10,22 Q6,24 0,32Z" fill="#795548"/>
+    <circle cx="11" cy="13" r="14" fill="#ffccbc"/>
+    <path d="M-1,6 Q11,-4 23,6 Q21,0 11,-2 Q1,0 -1,6Z" fill="#4e342e"/>
+    <circle cx="5" cy="9" r="2.5" fill="#4e342e"/>
+    <circle cx="17" cy="9" r="2.5" fill="#4e342e"/>
+    <path d="M5,20 Q11,16 17,20" stroke="#c62828" stroke-width="1.8" fill="none"/>
+  </g>
+  <g transform="translate(665,220)" opacity="0.75">
+    <path d="M0,34 L-2,86 L23,86 L25,34 Q12,25 10,23 Q5,25 0,34Z" fill="#6d4c41"/>
+    <circle cx="11" cy="13" r="15" fill="#e8a87a"/>
+    <path d="M-1,6 Q11,-4 23,6 Q21,0 11,-2 Q1,0 -1,6Z" fill="#3e2723"/>
+    <circle cx="5" cy="9" r="2.5" fill="#3e2723"/>
+    <circle cx="17" cy="9" r="2.5" fill="#3e2723"/>
+    <path d="M5,20 Q11,16 17,20" stroke="#c62828" stroke-width="1.8" fill="none"/>
+  </g>
+</svg>

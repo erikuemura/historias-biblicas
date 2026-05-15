@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyDG5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a65"/>
+      <stop offset="40%" stop-color="#ffb74d"/>
+      <stop offset="100%" stop-color="#ffe082"/>
+    </linearGradient>
+    <linearGradient id="sandDG5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffcc80"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyDG5)"/>
+  <!-- Hills -->
+  <ellipse cx="120" cy="330" rx="240" ry="100" fill="#ef6c00" opacity="0.35"/>
+  <ellipse cx="700" cy="340" rx="220" ry="90" fill="#e65100" opacity="0.3"/>
+  <!-- Ground -->
+  <rect x="0" y="290" width="800" height="90" fill="url(#sandDG5)"/>
+  <!-- GOLIATH falling backward (large, defeated) -->
+  <g transform="translate(380,60)">
+    <!-- Fallen body (horizontal) -->
+    <path d="M-160,240 Q-80,215 80,218 Q170,220 200,230 Q198,258 80,264 Q-80,260 -160,258Z" fill="#78909c"/>
+    <!-- Armor detail -->
+    <path d="M-150,242 Q0,230 160,238" stroke="#546e7a" stroke-width="3" fill="none" opacity="0.6"/>
+    <path d="M-145,252 Q0,240 155,248" stroke="#546e7a" stroke-width="2" fill="none" opacity="0.5"/>
+    <!-- Belt/armor highlight -->
+    <rect x="-30" y="224" width="100" height="12" rx="5" fill="#ffd54f" opacity="0.5"/>
+    <!-- Head on ground -->
+    <circle cx="-178" cy="248" r="40" fill="#78909c"/>
+    <circle cx="-178" cy="258" r="30" fill="#8d6e63"/>
+    <!-- Helmet -->
+    <path d="M-210,240 Q-178,220 -146,240 Q-148,228 -178,224 Q-208,228 -210,240Z" fill="#546e7a"/>
+    <!-- Dazed x-eyes -->
+    <line x1="-192" y1="252" x2="-184" y2="260" stroke="#3e2723" stroke-width="3"/>
+    <line x1="-184" y1="252" x2="-192" y2="260" stroke="#3e2723" stroke-width="3"/>
+    <line x1="-170" y1="252" x2="-162" y2="260" stroke="#3e2723" stroke-width="3"/>
+    <line x1="-162" y1="252" x2="-170" y2="260" stroke="#3e2723" stroke-width="3"/>
+    <!-- Stone hitting forehead -->
+    <ellipse cx="-178" cy="238" rx="12" ry="9" fill="#90a4ae"/>
+    <!-- Impact stars -->
+    <g fill="#fff176" opacity="0.9">
+      <polygon points="-178,220 -175,228 -167,228 -173,234 -171,242 -178,237 -185,242 -183,234 -189,228 -181,228"/>
+    </g>
+    <!-- Giant spear fallen -->
+    <rect x="-130" y="268" width="320" height="8" rx="4" fill="#a1887f" transform="rotate(-8,-130,268)"/>
+    <!-- Arms spread out -->
+    <path d="M160,228 Q210,215 240,208" stroke="#78909c" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <circle cx="242" cy="207" r="18" fill="#8d6e63"/>
+  </g>
+  <!-- DAVID (small, victorious, sling in hand) -->
+  <g transform="translate(185,195)">
+    <ellipse cx="45" cy="155" rx="38" ry="9" fill="#558b2f" opacity="0.2"/>
+    <!-- Shepherd tunic -->
+    <path d="M8,50 Q5,120 3,146 Q45,155 87,146 Q84,120 82,50 Q66,34 45,31 Q24,34 8,50Z" fill="#a5d6a7"/>
+    <rect x="24" y="140" width="11" height="30" rx="5" fill="#81c784" opacity="0.7"/>
+    <rect x="46" y="140" width="11" height="30" rx="5" fill="#66bb6a" opacity="0.7"/>
+    <!-- Head -->
+    <circle cx="45" cy="24" r="24" fill="#ffccbc"/>
+    <path d="M23,14 Q45,-1 67,14 Q65,5 45,2 Q25,5 23,14Z" fill="#6d4c41"/>
+    <circle cx="34" cy="18" r="3.5" fill="#5d4037"/>
+    <circle cx="56" cy="18" r="3.5" fill="#5d4037"/>
+    <circle cx="35" cy="17" r="1.3" fill="white"/>
+    <circle cx="57" cy="17" r="1.3" fill="white"/>
+    <!-- Triumphant smile -->
+    <path d="M30,32 Q45,44 60,32" stroke="#c62828" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="22" cy="27" r="8" fill="#ef9a9a" opacity="0.5"/>
+    <circle cx="68" cy="27" r="8" fill="#ef9a9a" opacity="0.5"/>
+    <rect x="37" y="46" width="14" height="12" rx="3" fill="#ffccbc"/>
+    <!-- Arm raised with sling -->
+    <path d="M82,56 Q110,40 130,20" stroke="#a5d6a7" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="132" cy="18" r="11" fill="#ffccbc"/>
+    <!-- Sling strap -->
+    <path d="M128,12 Q145,2 148,18" stroke="#8d6e63" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Other arm -->
+    <path d="M8,56 Q-10,72 -8,96" stroke="#a5d6a7" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <circle cx="-7" cy="98" r="10" fill="#ffccbc"/>
+  </g>
+  <!-- Dust cloud from fall -->
+  <g opacity="0.4" fill="#ffcc80">
+    <circle cx="490" cy="275" r="30"/>
+    <circle cx="530" cy="268" r="24"/>
+    <circle cx="460" cy="270" r="20"/>
+    <circle cx="510" cy="285" r="18"/>
+  </g>
+  <!-- Victory sparkles -->
+  <g fill="#fff176" opacity="0.8">
+    <circle cx="200" cy="170" r="5"/><circle cx="175" cy="190" r="4"/>
+    <circle cx="220" cy="185" r="3.5"/>
+    <polygon points="160,160 163,168 171,168 165,173 167,181 160,176 153,181 155,173 149,168 157,168"/>
+  </g>
+</svg>

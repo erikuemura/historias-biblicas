@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyJC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a65"/>
+      <stop offset="40%" stop-color="#ffb74d"/>
+      <stop offset="100%" stop-color="#ffe082"/>
+    </linearGradient>
+    <linearGradient id="sandJC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffcc80"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyJC4)"/>
+  <!-- Desert dunes -->
+  <ellipse cx="150" cy="340" rx="220" ry="90" fill="#ef6c00" opacity="0.5"/>
+  <ellipse cx="700" cy="350" rx="200" ry="80" fill="#e65100" opacity="0.4"/>
+  <rect x="0" y="298" width="800" height="82" fill="url(#sandJC4)"/>
+  <!-- Cistern / pit -->
+  <ellipse cx="400" cy="300" rx="85" ry="28" fill="#5d4037"/>
+  <ellipse cx="400" cy="300" rx="78" ry="22" fill="#3e2723"/>
+  <!-- Rock rim of pit -->
+  <g fill="#795548">
+    <ellipse cx="330" cy="298" rx="18" ry="10" transform="rotate(-10,330,298)"/>
+    <ellipse cx="365" cy="290" rx="16" ry="9" transform="rotate(5,365,290)"/>
+    <ellipse cx="400" cy="288" rx="18" ry="9"/>
+    <ellipse cx="435" cy="290" rx="16" ry="9" transform="rotate(-5,435,290)"/>
+    <ellipse cx="468" cy="298" rx="18" ry="10" transform="rotate(10,468,298)"/>
+  </g>
+  <!-- JOSE inside pit (sad face looking up) -->
+  <g transform="translate(372,282)">
+    <circle cx="28" cy="22" r="22" fill="#ffccbc"/>
+    <path d="M9,14 Q28,-1 47,14 Q45,6 28,3 Q11,6 9,14Z" fill="#4e342e"/>
+    <!-- Sad eyes looking up -->
+    <circle cx="19" cy="18" r="4" fill="#4e342e"/>
+    <circle cx="37" cy="18" r="4" fill="#4e342e"/>
+    <circle cx="20" cy="17" r="1.5" fill="white"/>
+    <circle cx="38" cy="17" r="1.5" fill="white"/>
+    <!-- Sad brows -->
+    <path d="M13,12 Q19,8 25,12" stroke="#4e342e" stroke-width="2" fill="none"/>
+    <path d="M31,12 Q37,8 43,12" stroke="#4e342e" stroke-width="2" fill="none"/>
+    <!-- Sad mouth -->
+    <path d="M18,30 Q28,24 38,30" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Tears -->
+    <ellipse cx="16" cy="34" rx="3" ry="4" fill="#81d4fa" opacity="0.7"/>
+    <ellipse cx="40" cy="34" rx="3" ry="4" fill="#81d4fa" opacity="0.7"/>
+    <circle cx="18" cy="30" r="6" fill="#ef9a9a" opacity="0.35"/>
+    <circle cx="38" cy="30" r="6" fill="#ef9a9a" opacity="0.35"/>
+    <!-- Body in pit -->
+    <path d="M8,42 Q5,68 4,80 Q28,86 52,80 Q50,68 48,42 Q38,34 28,32 Q18,34 8,42Z" fill="#fff9c4"/>
+  </g>
+  <!-- BROTHERS above (3 figures, looking down) -->
+  <g transform="translate(165,165)">
+    <!-- Bro 1 -->
+    <path d="M0,45 L-2,112 L28,112 L30,45 Q18,34 14,32 Q8,34 0,45Z" fill="#ef6c00"/>
+    <circle cx="14" cy="24" r="20" fill="#e8a87a"/>
+    <path d="M-2,16 Q14,2 30,16 Q28,8 14,5 Q0,8 -2,16Z" fill="#3e2723"/>
+    <circle cx="6" cy="18" r="3.5" fill="#3e2723"/>
+    <circle cx="22" cy="18" r="3.5" fill="#3e2723"/>
+    <circle cx="7" cy="17" r="1.2" fill="white"/>
+    <circle cx="23" cy="17" r="1.2" fill="white"/>
+    <path d="M6,28 Q14,34 22,28" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Arm pointing down -->
+    <path d="M30,52 Q48,65 45,82" stroke="#ef6c00" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="45" cy="84" r="9" fill="#e8a87a"/>
+  </g>
+  <g transform="translate(330,148)">
+    <path d="M0,45 L-2,118 L28,118 L30,45 Q18,34 14,32 Q8,34 0,45Z" fill="#26a69a"/>
+    <circle cx="14" cy="24" r="20" fill="#ffccbc"/>
+    <path d="M-2,16 Q14,2 30,16 Q28,8 14,5 Q0,8 -2,16Z" fill="#5d4037"/>
+    <circle cx="6" cy="18" r="3.5" fill="#4e342e"/>
+    <circle cx="22" cy="18" r="3.5" fill="#4e342e"/>
+    <circle cx="7" cy="17" r="1.2" fill="white"/>
+    <circle cx="23" cy="17" r="1.2" fill="white"/>
+    <!-- Angry brows -->
+    <path d="M4,11 Q9,7 14,11" stroke="#4e342e" stroke-width="2" fill="none"/>
+    <path d="M14,11 Q19,7 24,11" stroke="#4e342e" stroke-width="2" fill="none"/>
+    <path d="M6,26 Q14,32 22,26" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M0,52 Q-15,66 -12,82" stroke="#26a69a" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="-11" cy="84" r="9" fill="#ffccbc"/>
+    <path d="M30,52 Q44,66 42,82" stroke="#26a69a" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="42" cy="84" r="9" fill="#ffccbc"/>
+  </g>
+  <g transform="translate(510,158)">
+    <path d="M0,45 L-2,112 L28,112 L30,45 Q18,34 14,32 Q8,34 0,45Z" fill="#8e24aa"/>
+    <circle cx="14" cy="24" r="20" fill="#e8a87a"/>
+    <path d="M-2,16 Q14,2 30,16 Q28,8 14,5 Q0,8 -2,16Z" fill="#3e2723"/>
+    <circle cx="6" cy="18" r="3.5" fill="#3e2723"/>
+    <circle cx="22" cy="18" r="3.5" fill="#3e2723"/>
+    <circle cx="7" cy="17" r="1.2" fill="white"/>
+    <circle cx="23" cy="17" r="1.2" fill="white"/>
+    <path d="M6,28 Q14,34 22,28" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M30,52 Q44,68 42,84" stroke="#8e24aa" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="42" cy="86" r="9" fill="#e8a87a"/>
+  </g>
+  <!-- Colorful coat on ground, torn -->
+  <path d="M580,290 Q640,278 695,285 Q698,305 695,312 Q640,318 580,312Z" fill="none"/>
+  <g transform="translate(580,278)">
+    <path d="M0,8 Q55,-2 108,8 Q112,28 108,34 Q55,42 0,34Z" fill="#e53935" opacity="0.6"/>
+    <path d="M5,15 Q55,6 105,15" stroke="#fb8c00" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M4,22 Q55,14 106,22" stroke="#fdd835" stroke-width="2" fill="none" opacity="0.5"/>
+  </g>
+</svg>

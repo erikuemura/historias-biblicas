@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="sky4a" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="50%" stop-color="#5c6bc0"/>
+      <stop offset="50%" stop-color="#64b5f6"/>
+      <stop offset="100%" stop-color="#b3e5fc"/>
+    </linearGradient>
+    <linearGradient id="ground4a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66bb6a"/>
+      <stop offset="100%" stop-color="#2e7d32"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky - half night half day -->
+  <rect width="800" height="380" fill="url(#sky4a)"/>
+
+  <!-- Stars on night side -->
+  <circle cx="60" cy="50" r="2" fill="white" opacity="0.9"/>
+  <circle cx="120" cy="90" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="200" cy="40" r="2" fill="white" opacity="0.9"/>
+  <circle cx="280" cy="80" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="80" cy="140" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="160" cy="160" r="2" fill="white" opacity="0.7"/>
+  <circle cx="240" cy="120" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="320" cy="50" r="2" fill="white" opacity="0.6"/>
+  <circle cx="350" cy="130" r="1.5" fill="white" opacity="0.6"/>
+
+  <!-- Moon on night side -->
+  <circle cx="130" cy="90" r="38" fill="#e8eaf6"/>
+  <circle cx="148" cy="78" r="34" fill="#3949ab"/>
+  <!-- Moon craters -->
+  <circle cx="115" cy="100" r="6" fill="#c5cae9" opacity="0.5"/>
+  <circle cx="130" cy="112" r="4" fill="#c5cae9" opacity="0.4"/>
+
+  <!-- Sun on day side -->
+  <circle cx="660" cy="80" r="50" fill="#ffd54f"/>
+  <circle cx="660" cy="80" r="38" fill="#ffee58"/>
+  <!-- Sun rays -->
+  <g stroke="#ffd54f" stroke-width="4" opacity="0.7">
+    <line x1="660" y1="20" x2="660" y2="5"/>
+    <line x1="660" y1="140" x2="660" y2="155"/>
+    <line x1="600" y1="80" x2="585" y2="80"/>
+    <line x1="720" y1="80" x2="735" y2="80"/>
+    <line x1="618" y1="38" x2="607" y2="27"/>
+    <line x1="702" y1="122" x2="713" y2="133"/>
+    <line x1="702" y1="38" x2="713" y2="27"/>
+    <line x1="618" y1="122" x2="607" y2="133"/>
+  </g>
+
+  <!-- Clouds on day side -->
+  <g fill="white" opacity="0.85">
+    <ellipse cx="520" cy="100" rx="60" ry="22"/>
+    <ellipse cx="565" cy="90" rx="45" ry="19"/>
+    <ellipse cx="475" cy="108" rx="38" ry="16"/>
+  </g>
+
+  <!-- Dividing line (subtle) -->
+  <line x1="400" y1="0" x2="400" y2="280" stroke="#7986cb" stroke-width="2" opacity="0.4"/>
+
+  <!-- Ground -->
+  <rect x="0" y="280" width="800" height="100" fill="url(#ground4a)"/>
+  <rect x="0" y="280" width="800" height="14" fill="#81c784"/>
+
+  <!-- Giraffe (right side, day) -->
+  <g transform="translate(550,150)">
+    <!-- Neck -->
+    <rect x="18" y="0" width="22" height="90" rx="8" fill="#ffb74d"/>
+    <!-- Head -->
+    <ellipse cx="29" cy="-10" rx="20" ry="16" fill="#ffb74d"/>
+    <!-- Ears -->
+    <ellipse cx="12" cy="-18" rx="7" ry="10" fill="#ffa726" transform="rotate(-20,12,-18)"/>
+    <ellipse cx="46" cy="-18" rx="7" ry="10" fill="#ffa726" transform="rotate(20,46,-18)"/>
+    <!-- Ossicones -->
+    <rect x="15" y="-28" width="5" height="12" rx="2" fill="#795548"/>
+    <rect x="38" y="-28" width="5" height="12" rx="2" fill="#795548"/>
+    <!-- Eyes -->
+    <circle cx="22" cy="-12" r="4" fill="#333"/>
+    <circle cx="23" cy="-13" r="1.5" fill="white"/>
+    <!-- Nose -->
+    <ellipse cx="37" cy="-4" rx="8" ry="5" fill="#ffa726"/>
+    <!-- Body -->
+    <rect x="-10" y="85" width="78" height="55" rx="18" fill="#ffb74d"/>
+    <!-- Spots -->
+    <ellipse cx="10" cy="100" rx="10" ry="8" fill="#e65100" opacity="0.5"/>
+    <ellipse cx="45" cy="108" rx="9" ry="7" fill="#e65100" opacity="0.5"/>
+    <ellipse cx="62" cy="96" rx="8" ry="6" fill="#e65100" opacity="0.5"/>
+    <!-- Legs -->
+    <rect x="0" y="135" width="14" height="50" rx="5" fill="#ffa726"/>
+    <rect x="18" y="135" width="14" height="50" rx="5" fill="#ffb74d"/>
+    <rect x="40" y="135" width="14" height="50" rx="5" fill="#ffa726"/>
+    <rect x="58" y="135" width="14" height="50" rx="5" fill="#ffb74d"/>
+    <!-- Tail -->
+    <path d="M68,110 Q85,120 80,140" stroke="#ffa726" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Elephant (left side, night) -->
+  <g transform="translate(130,190)">
+    <!-- Body -->
+    <ellipse cx="60" cy="60" rx="65" ry="50" fill="#78909c"/>
+    <!-- Head -->
+    <circle cx="20" cy="30" r="38" fill="#90a4ae"/>
+    <!-- Trunk -->
+    <path d="M5,55 Q-20,75 -10,95 Q0,110 10,95" stroke="#78909c" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <!-- Ear -->
+    <ellipse cx="55" cy="25" rx="28" ry="35" fill="#80cbc4" opacity="0.7"/>
+    <!-- Eye -->
+    <circle cx="8" cy="22" r="5" fill="#333"/>
+    <circle cx="9" cy="21" r="1.5" fill="white"/>
+    <!-- Tusk -->
+    <path d="M2,50 Q-15,58 -18,50" stroke="#fff9c4" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Legs -->
+    <rect x="10" y="100" width="22" height="40" rx="8" fill="#78909c"/>
+    <rect x="38" y="100" width="22" height="40" rx="8" fill="#90a4ae"/>
+    <rect x="66" y="100" width="22" height="40" rx="8" fill="#78909c"/>
+    <rect x="94" y="100" width="22" height="40" rx="8" fill="#90a4ae"/>
+    <!-- Tail -->
+    <path d="M118,55 Q135,65 130,80" stroke="#78909c" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

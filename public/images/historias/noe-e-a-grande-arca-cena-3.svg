@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="sky8a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#64b5f6"/>
+      <stop offset="100%" stop-color="#e3f2fd"/>
+    </linearGradient>
+    <linearGradient id="ground8a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81c784"/>
+      <stop offset="100%" stop-color="#388e3c"/>
+    </linearGradient>
+    <linearGradient id="ark8a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a1887f"/>
+      <stop offset="100%" stop-color="#5d4037"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#sky8a)"/>
+
+  <!-- Clouds -->
+  <g fill="white" opacity="0.85">
+    <ellipse cx="130" cy="60" rx="68" ry="25"/>
+    <ellipse cx="174" cy="50" rx="50" ry="21"/>
+    <ellipse cx="86" cy="68" rx="42" ry="17"/>
+    <ellipse cx="640" cy="65" rx="62" ry="23"/>
+    <ellipse cx="682" cy="55" rx="46" ry="19"/>
+  </g>
+
+  <!-- ARK under construction (background) -->
+  <g transform="translate(430,100)">
+    <!-- Hull -->
+    <path d="M0,160 Q10,180 350,180 Q360,160 350,80 L10,80 Z" fill="url(#ark8a)"/>
+    <!-- Hull planks lines -->
+    <line x1="10" y1="100" x2="350" y2="100" stroke="#4e342e" stroke-width="2" opacity="0.5"/>
+    <line x1="10" y1="120" x2="350" y2="120" stroke="#4e342e" stroke-width="2" opacity="0.5"/>
+    <line x1="10" y1="140" x2="350" y2="140" stroke="#4e342e" stroke-width="2" opacity="0.5"/>
+    <!-- Deck structure -->
+    <rect x="20" y="50" width="310" height="35" rx="4" fill="#8d6e63"/>
+    <!-- Roof frame -->
+    <path d="M40,50 L175,5 L310,50" stroke="#6d4c41" stroke-width="8" fill="none" stroke-linejoin="round"/>
+    <!-- Window opening -->
+    <rect x="140" y="55" width="70" height="25" rx="4" fill="#4e342e"/>
+    <!-- Scaffolding -->
+    <line x1="0" y1="80" x2="0" y2="185" stroke="#795548" stroke-width="6"/>
+    <line x1="360" y1="80" x2="360" y2="185" stroke="#795548" stroke-width="6"/>
+    <line x1="-20" y1="130" x2="380" y2="130" stroke="#795548" stroke-width="5" opacity="0.6"/>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#ground8a)"/>
+  <rect x="0" y="295" width="800" height="12" fill="#a5d6a7"/>
+
+  <!-- Wood planks on ground -->
+  <rect x="80" y="280" width="120" height="14" rx="3" fill="#a1887f"/>
+  <rect x="85" y="268" width="110" height="10" rx="3" fill="#8d6e63"/>
+
+  <!-- NOE - hammering -->
+  <g transform="translate(200,170)">
+    <ellipse cx="40" cy="138" rx="30" ry="8" fill="#2e7d32" opacity="0.25"/>
+    <!-- Robe -->
+    <path d="M10,50 Q40,44 70,50 L76,140 Q40,147 4,140 Z" fill="#8d6e63"/>
+    <!-- Belt -->
+    <rect x="8" y="80" width="66" height="8" rx="3" fill="#5d4037"/>
+    <!-- Arm swinging hammer -->
+    <path d="M70,56 Q95,38 100,18" stroke="#a1887f" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <!-- Hammer -->
+    <rect x="94" y="6" width="22" height="14" rx="3" fill="#546e7a"/>
+    <rect x="102" y="14" width="6" height="18" rx="2" fill="#795548"/>
+    <!-- Other arm -->
+    <path d="M10,56 Q-8,70 -5,88" stroke="#a1887f" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="40" cy="30" r="26" fill="#ffcc80"/>
+    <!-- White hair/beard -->
+    <ellipse cx="40" cy="10" rx="22" ry="11" fill="white"/>
+    <ellipse cx="40" cy="48" rx="17" ry="11" fill="white"/>
+    <!-- Eyes -->
+    <circle cx="30" cy="28" r="4" fill="#333"/>
+    <circle cx="31" cy="27" r="1.5" fill="white"/>
+    <circle cx="50" cy="28" r="4" fill="#333"/>
+    <circle cx="51" cy="27" r="1.5" fill="white"/>
+    <!-- Smile -->
+    <path d="M30,38 Q40,45 50,38" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <circle cx="22" cy="36" r="7" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="58" cy="36" r="7" fill="#ef9a9a" opacity="0.4"/>
+    <!-- Sandals -->
+    <ellipse cx="18" cy="144" rx="13" ry="5" fill="#795548"/>
+    <ellipse cx="62" cy="144" rx="13" ry="5" fill="#795548"/>
+  </g>
+
+  <!-- SON - holding plank -->
+  <g transform="translate(310,185)">
+    <ellipse cx="35" cy="122" rx="28" ry="8" fill="#2e7d32" opacity="0.25"/>
+    <!-- Tunic -->
+    <rect x="8" y="46" width="54" height="76" rx="10" fill="#bf8f5b"/>
+    <!-- Arms holding plank -->
+    <path d="M8,55 Q-15,65 -20,80" stroke="#ffb74d" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M62,55 Q85,65 90,80" stroke="#ffb74d" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <!-- Plank being held -->
+    <rect x="-25" y="78" width="118" height="12" rx="3" fill="#a1887f"/>
+    <!-- Head -->
+    <circle cx="35" cy="26" r="24" fill="#ffb74d"/>
+    <!-- Brown hair -->
+    <ellipse cx="35" cy="8" rx="20" ry="10" fill="#5d4037"/>
+    <!-- Eyes -->
+    <circle cx="26" cy="24" r="4" fill="#333"/>
+    <circle cx="27" cy="23" r="1.5" fill="white"/>
+    <circle cx="44" cy="24" r="4" fill="#333"/>
+    <circle cx="45" cy="23" r="1.5" fill="white"/>
+    <!-- Smile -->
+    <path d="M26,34 Q35,41 44,34" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <circle cx="18" cy="32" r="6" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="52" cy="32" r="6" fill="#ef9a9a" opacity="0.4"/>
+    <!-- Sandals -->
+    <ellipse cx="16" cy="128" rx="12" ry="5" fill="#795548"/>
+    <ellipse cx="54" cy="128" rx="12" ry="5" fill="#795548"/>
+  </g>
+
+  <!-- Impact sparks from hammer -->
+  <circle cx="300" cy="178" r="3" fill="#ffd54f" opacity="0.8"/>
+  <circle cx="310" cy="170" r="2" fill="#ffd54f" opacity="0.7"/>
+  <circle cx="295" cy="165" r="2" fill="#ffd54f" opacity="0.6"/>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="skyJA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="55%" stop-color="#ffe082"/>
+      <stop offset="100%" stop-color="#ffcc80"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#skyJA4)"/>
+  <ellipse cx="180" cy="330" rx="280" ry="100" fill="#a5d6a7" opacity="0.5"/>
+  <ellipse cx="650" cy="335" rx="260" ry="95" fill="#81c784" opacity="0.4"/>
+  <rect x="0" y="298" width="800" height="82" fill="#c8e6c9"/>
+  <!-- DISCIPLES distributing baskets of food to crowd -->
+  <!-- Disciple 1 with big basket -->
+  <g transform="translate(100,175)">
+    <path d="M6,48 Q3,130 1,155 Q40,163 79,155 Q76,130 74,48 Q58,32 40,29 Q22,32 6,48Z" fill="#546e7a"/>
+    <path d="M4,130 Q40,140 76,130 Q74,152 40,157 Q6,152 4,130Z" fill="#37474f" opacity="0.35"/>
+    <rect x="22" y="150" width="11" height="32" rx="4" fill="#455a64" opacity="0.7"/>
+    <rect x="42" y="150" width="11" height="32" rx="4" fill="#37474f" opacity="0.7"/>
+    <circle cx="40" cy="20" r="24" fill="#e8a87a"/>
+    <path d="M18,10 Q40,-4 62,10 Q60,2 40,-1 Q20,2 18,10Z" fill="#3e2723"/>
+    <circle cx="30" cy="14" r="3.5" fill="#3e2723"/>
+    <circle cx="50" cy="14" r="3.5" fill="#3e2723"/>
+    <circle cx="31" cy="13" r="1.3" fill="white"/>
+    <circle cx="51" cy="13" r="1.3" fill="white"/>
+    <path d="M27,26 Q40,34 53,26" stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <circle cx="19" cy="20" r="7" fill="#ef9a9a" opacity="0.4"/>
+    <circle cx="61" cy="20" r="7" fill="#ef9a9a" opacity="0.4"/>
+    <rect x="32" y="44" width="14" height="12" rx="3" fill="#e8a87a"/>
+    <path d="M74,54 Q95,68 100,92" stroke="#546e7a" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <circle cx="101" cy="94" r="10" fill="#e8a87a"/>
+    <path d="M6,54 Q-14,68 -16,92" stroke="#546e7a" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <circle cx="-15" cy="94" r="10" fill="#e8a87a"/>
+    <!-- Big basket full of bread -->
+    <g transform="translate(-20,100)">
+      <path d="M0,14 Q28,2 56,14 Q54,32 28,36 Q2,32 0,14Z" fill="#a1887f"/>
+      <path d="M4,18 Q28,8 52,18" stroke="#6d4c41" stroke-width="1.5" fill="none" opacity="0.7"/>
+      <ellipse cx="14" cy="11" rx="8" ry="4" fill="#ffb300"/>
+      <ellipse cx="28" cy="8" rx="9" ry="5" fill="#ffa000"/>
+      <ellipse cx="42" cy="10" rx="8" ry="4" fill="#ffb300"/>
+    </g>
+  </g>
+  <!-- Disciple 2 -->
+  <g transform="translate(295,182)">
+    <path d="M5,44 Q3,118 1,140 Q36,148 71,140 Q68,118 66,44 Q52,30 36,27 Q20,30 5,44Z" fill="#ef6c00"/>
+    <rect x="20" y="134" width="10" height="28" rx="4" fill="#e65100" opacity="0.7"/>
+    <rect x="38" y="134" width="10" height="28" rx="4" fill="#bf360c" opacity="0.7"/>
+    <circle cx="36" cy="18" r="22" fill="#ffccbc"/>
+    <path d="M16,9 Q36,-3 56,9 Q54,2 36,-1 Q18,2 16,9Z" fill="#5d4037"/>
+    <circle cx="27" cy="13" r="3.5" fill="#5d4037"/>
+    <circle cx="45" cy="13" r="3.5" fill="#5d4037"/>
+    <path d="M25,24 Q36,30 47,24" stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M66,50 Q84,64 86,86" stroke="#ef6c00" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="86" cy="88" r="9" fill="#ffccbc"/>
+    <path d="M5,50 Q-12,64 -14,86" stroke="#ef6c00" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="-13" cy="88" r="9" fill="#ffccbc"/>
+    <!-- Basket of fish -->
+    <g transform="translate(-18,95)">
+      <path d="M0,12 Q24,2 48,12 Q46,28 24,32 Q2,28 0,12Z" fill="#a1887f"/>
+      <path d="M6,8 Q18,-2 28,4 Q22,12 6,8Z" fill="#4fc3f7" opacity="0.8"/>
+      <path d="M22,6 Q34,-4 44,2 Q38,10 22,6Z" fill="#29b6f6" opacity="0.8"/>
+      <path d="M4,7 Q7,4 6,8 Q3,5 4,7Z" fill="#29b6f6" opacity="0.8"/>
+      <path d="M20,5 Q23,2 22,6 Q19,3 20,5Z" fill="#29b6f6" opacity="0.8"/>
+    </g>
+  </g>
+  <!-- People receiving food (seated, happy) -->
+  <g transform="translate(490,225)" opacity="0.85">
+    <!-- Person 1 seated -->
+    <circle cx="18" cy="10" r="16" fill="#e8a87a"/>
+    <path d="M4,28 Q4,65 2,72 Q18,76 34,72 Q32,65 30,28 Q22,20 18,18 Q12,20 4,28Z" fill="#8e24aa"/>
+    <path d="M0,22 Q18,8 36,22 Q34,14 18,11 Q2,14 0,22Z" fill="#3e2723"/>
+    <path d="M8,22 Q18,28 28,22" stroke="#c62828" stroke-width="2" fill="none"/>
+    <!-- Bread in hands -->
+    <ellipse cx="35" cy="35" rx="8" ry="5" fill="#ffb300"/>
+  </g>
+  <g transform="translate(570,230)" opacity="0.8">
+    <circle cx="16" cy="10" r="15" fill="#ffccbc"/>
+    <path d="M4,26 Q4,60 2,66 Q16,70 30,66 Q28,60 26,26 Q20,18 16,16 Q10,18 4,26Z" fill="#26a69a"/>
+    <path d="M2,20 Q16,8 30,20 Q28,13 16,10 Q4,13 2,20Z" fill="#5d4037"/>
+    <path d="M6,20 Q16,26 26,20" stroke="#c62828" stroke-width="2" fill="none"/>
+    <ellipse cx="32" cy="32" rx="7" ry="4" fill="#ffb300"/>
+  </g>
+  <g transform="translate(650,222)" opacity="0.75">
+    <circle cx="17" cy="10" r="16" fill="#e8a87a"/>
+    <path d="M3,26 Q3,62 1,68 Q17,72 33,68 Q31,62 29,26 Q21,18 17,16 Q11,18 3,26Z" fill="#c62828"/>
+    <path d="M1,20 Q17,8 33,20 Q31,13 17,10 Q3,13 1,20Z" fill="#4e342e"/>
+    <path d="M6,20 Q17,26 28,20" stroke="#c62828" stroke-width="2" fill="none"/>
+  </g>
+  <!-- Abundant food on ground -->
+  <g transform="translate(420,285)">
+    <ellipse cx="40" cy="16" rx="50" ry="12" fill="#a1887f" opacity="0.7"/>
+    <ellipse cx="30" cy="10" rx="12" ry="7" fill="#ffb300"/>
+    <ellipse cx="50" cy="8" rx="13" ry="7" fill="#ffa000"/>
+    <ellipse cx="70" cy="10" rx="11" ry="6" fill="#ffb300"/>
+    <path d="M18,4 Q30,-4 38,2 Q32,8 18,4Z" fill="#4fc3f7" opacity="0.8"/>
+    <path d="M52,2 Q64,-6 72,0 Q66,6 52,2Z" fill="#29b6f6" opacity="0.8"/>
+  </g>
+</svg>
