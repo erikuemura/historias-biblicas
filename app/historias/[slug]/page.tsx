@@ -13,6 +13,7 @@ import {
 } from "lucide-react"
 import { stories, getStoryBySlug } from "@/data/stories"
 import PrintButton from "@/components/PrintButton"
+import AudioPlayer from "@/components/AudioPlayer"
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -118,8 +119,17 @@ export default async function StoryPage({ params }: Props) {
       {/* Content */}
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Description */}
-        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 mb-10 text-gray-700 text-lg leading-relaxed font-medium">
+        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 mb-4 text-gray-700 text-lg leading-relaxed font-medium">
           {story.description}
+        </div>
+
+        {/* Audio player */}
+        <div className="mb-10">
+          <AudioPlayer
+            slug={story.slug}
+            scenes={story.scenes}
+            gradient={story.gradient}
+          />
         </div>
 
         {/* Scenes */}
