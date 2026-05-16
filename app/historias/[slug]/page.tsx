@@ -8,12 +8,12 @@ import {
   Clock,
   ChevronLeft,
   ChevronRight,
-  Heart,
   Lightbulb,
 } from "lucide-react"
 import { stories, getStoryBySlug } from "@/data/stories"
 import PrintButton from "@/components/PrintButton"
 import AudioPlayer from "@/components/AudioPlayer"
+import ShareButtons from "@/components/ShareButtons"
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -264,10 +264,7 @@ export default async function StoryPage({ params }: Props) {
 
           <div className="flex items-center gap-3">
             <PrintButton />
-            <div className="flex items-center gap-2 text-sm text-gray-500">
-              <Heart className="w-4 h-4 text-rose-400 fill-rose-400" />
-              Compartilhe com outras famílias!
-            </div>
+            <ShareButtons title={story.title} slug={story.slug} />
           </div>
         </div>
       </div>
