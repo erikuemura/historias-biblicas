@@ -4,9 +4,19 @@ import StoryCard from "@/components/StoryCard"
 import NewsletterForm from "@/components/NewsletterForm"
 import { stories } from "@/data/stories"
 
+export const metadata = {
+  title: "Histórias da Bíblia para Crianças — Ilustradas e com Narração",
+  description:
+    "Histórias bíblicas ilustradas e narradas, escritas com carinho para pais lerem aos filhos de 3 a 8 anos. Gratuito, com áudio e ilustrações!",
+  alternates: {
+    canonical: process.env.NEXT_PUBLIC_SITE_URL ?? "https://historias-biblicas.vercel.app",
+  },
+}
+
 export default function HomePage() {
   const oldTestament = stories.filter((s) => s.testament === "velho")
   const newTestament = stories.filter((s) => s.testament === "novo")
+  const totalStories = stories.length
 
   return (
     <>
@@ -24,7 +34,7 @@ export default function HomePage() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm text-white text-sm font-semibold px-4 py-2 rounded-full mb-6 border border-white/30">
-              <Sparkles className="w-4 h-4" />10 histórias bíblicas para crianças
+              <Sparkles className="w-4 h-4" />{totalStories} histórias bíblicas para crianças
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6">
@@ -63,9 +73,30 @@ export default function HomePage() {
                 <span className="text-2xl">🎨</span> Ricas em ilustrações
               </div>
               <div className="flex items-center gap-2">
+                <span className="text-2xl">🔊</span> Narração em áudio
+              </div>
+              <div className="flex items-center gap-2">
                 <span className="text-2xl">👨‍👩‍👧</span> Perfeito para famílias
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats */}
+      <section className="bg-white border-b border-gray-100">
+        <div className="max-w-4xl mx-auto px-4 py-6 grid grid-cols-3 divide-x divide-gray-100 text-center">
+          <div className="px-4">
+            <div className="text-3xl font-black text-amber-600">{totalStories}</div>
+            <div className="text-xs font-semibold text-gray-500 mt-0.5 uppercase tracking-wide">Histórias</div>
+          </div>
+          <div className="px-4">
+            <div className="text-3xl font-black text-amber-600">{totalStories * 5}</div>
+            <div className="text-xs font-semibold text-gray-500 mt-0.5 uppercase tracking-wide">Cenas ilustradas</div>
+          </div>
+          <div className="px-4">
+            <div className="text-3xl font-black text-amber-600">3–8</div>
+            <div className="text-xs font-semibold text-gray-500 mt-0.5 uppercase tracking-wide">Anos de idade</div>
           </div>
         </div>
       </section>

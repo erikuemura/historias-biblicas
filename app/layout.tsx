@@ -11,15 +11,47 @@ const nunito = Nunito({
   weight: ["400", "500", "600", "700", "800", "900"],
 })
 
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://historias-biblicas.vercel.app"
+
 export const metadata: Metadata = {
-  title: "Histórias da Bíblia para Crianças",
+  metadataBase: new URL(BASE_URL),
+  title: {
+    default: "Histórias da Bíblia para Crianças",
+    template: "%s | Histórias da Bíblia para Crianças",
+  },
   description:
-    "Histórias bíblicas ilustradas e escritas com carinho para pais lerem aos filhos pequenos. Com fé, diversão e muito amor!",
-  keywords: ["bíblia infantil", "histórias bíblicas", "crianças", "família", "fé"],
+    "Histórias bíblicas ilustradas e narradas, escritas com carinho para pais lerem aos filhos pequenos de 3 a 8 anos. Gratuito, com ilustrações e áudio!",
+  keywords: [
+    "histórias bíblicas para crianças",
+    "bíblia infantil",
+    "histórias para crianças",
+    "bíblia para crianças",
+    "histórias bíblicas ilustradas",
+    "educação cristã",
+    "família cristã",
+    "histórias hora de dormir",
+    "davi e golias",
+    "arca de noé",
+    "nascimento de jesus",
+  ],
+  authors: [{ name: "Histórias da Bíblia para Crianças" }],
+  creator: "Histórias da Bíblia para Crianças",
   openGraph: {
     title: "Histórias da Bíblia para Crianças",
-    description: "Histórias bíblicas ilustradas para pais lerem aos filhos",
+    description:
+      "Histórias bíblicas ilustradas e narradas para pais lerem aos filhos. Gratuito!",
     type: "website",
+    url: BASE_URL,
+    siteName: "Histórias da Bíblia para Crianças",
+    locale: "pt_BR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Histórias da Bíblia para Crianças",
+    description: "Histórias bíblicas ilustradas e narradas para pais lerem aos filhos.",
+  },
+  alternates: {
+    canonical: BASE_URL,
   },
 }
 

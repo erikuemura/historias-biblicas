@@ -23,13 +23,31 @@ export async function generateStaticParams() {
   return stories.map((s) => ({ slug: s.slug }))
 }
 
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://historias-biblicas.vercel.app"
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const story = getStoryBySlug(slug)
   if (!story) return {}
+  const url = `${BASE_URL}/historias/${slug}`
+  const description = `${story.description} — ${story.bibleReference}. Com ilustrações e narração em áudio para crianças de ${story.ageRange}.`
   return {
-    title: `${story.title} | Histórias da Bíblia para Crianças`,
-    description: story.description,
+    title: story.title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `${story.emoji} ${story.title}`,
+      description,
+      url,
+      type: "article",
+      siteName: "Histórias da Bíblia para Crianças",
+      locale: "pt_BR",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${story.emoji} ${story.title}`,
+      description,
+    },
   }
 }
 

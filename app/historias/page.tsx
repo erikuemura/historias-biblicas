@@ -25,7 +25,7 @@ export default function StoriesPage() {
           Todas as Histórias
         </h1>
         <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-          10 histórias bíblicas escritas com carinho para crianças de 3 a 8
+          {stories.length} histórias bíblicas escritas com carinho para crianças de 3 a 8
           anos. Perfeitas para ler juntos na hora de dormir!
         </p>
       </div>
