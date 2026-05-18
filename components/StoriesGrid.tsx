@@ -111,7 +111,7 @@ export default function StoriesGrid({ stories }: Props) {
           <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
           <input
             type="text"
-            placeholder="Buscar por nome, personagem... (ex: noee, jezus)"
+            placeholder="Buscar por nome ou personagem... (ex: Jesus, Moisés, Davi)"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="w-full pl-11 pr-10 py-3 text-sm rounded-2xl border-2 border-gray-200 focus:outline-none focus:border-amber-400 bg-white placeholder:text-gray-400 shadow-sm"
