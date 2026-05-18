@@ -5,6 +5,7 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import GoogleAnalytics from "@/components/GoogleAnalytics"
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister"
+import InstallPWA from "@/components/InstallPWA"
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -78,6 +79,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col font-sans antialiased bg-amber-50/30">
         <GoogleAnalytics />
         <ServiceWorkerRegister />
+        <InstallPWA />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
