@@ -2762,6 +2762,1044 @@ E quando você ajuda ela — você está amando a Deus.`,
       },
     ],
   },
+  {
+    imageUrl: "/images/historias/adao-e-eva.svg",
+    slug: "adao-e-eva",
+    title: "Adão e Eva no Jardim do Éden",
+    subtitle: "O primeiro jardim do mundo",
+    description:
+      "No início de tudo, Deus criou um jardim maravilhoso chamado Éden e colocou lá os primeiros seres humanos: Adão e Eva. Descubra como eles viveram, quais escolhas fizeram e o que aprendemos com essa história.",
+    readingTime: "8 min",
+    ageRange: "3–8 anos",
+    emoji: "🌿",
+    gradient: "from-green-500 via-emerald-400 to-teal-400",
+    bgColor: "bg-green-50",
+    accentColor: "text-green-700",
+    bibleReference: "Gênesis 2–3",
+    testament: "velho",
+    moralLesson:
+      "Obedecer a Deus nos protege e nos mantém perto do Seu amor. Mesmo quando erramos, Deus nunca deixa de cuidar de nós.",
+    scenes: [
+      {
+        imageUrl: "/images/historias/adao-e-eva-cena-1.svg",
+        title: "O Jardim Mais Lindo do Mundo",
+        text: `Depois de criar o céu, a terra, o mar e todos os animais, Deus plantou um jardim especial no lugar chamado Éden. Era o lugar mais bonito que existia!
+
+Havia árvores com frutas coloridas e saborosas, flores perfumadas de todas as cores, rios de água cristalina que cantavam suavemente ao correr entre as pedras. Pássaros de plumas brilhantes voavam entre os galhos, e animais mansos passeavam tranquilamente por ali.
+
+No meio do jardim, Deus plantou duas árvores muito especiais: a Árvore da Vida e a Árvore do Conhecimento do Bem e do Mal.
+
+Então Deus fez algo extraordinário: moldou com barro da terra o primeiro homem e soprou em seus narinos o fôlego da vida. O homem abriu os olhos, respirou fundo e acordou! Deus o chamou de Adão.
+
+— Cuide deste jardim com carinho — disse Deus com amor. — Tudo o que há aqui é para você!
+
+Adão olhou ao redor e sorriu. Era tudo tão lindo que ele mal conseguia acreditar.`,
+      },
+      {
+        imageUrl: "/images/historias/adao-e-eva-cena-2.svg",
+        title: "Adão e Eva, Juntos",
+        text: `Adão cuidava do jardim com alegria. Ele dava nome a todos os animais — ao leão, à girafa, ao coelho, ao peixe. Mas mesmo cercado de tantas criaturas maravilhosas, Adão sentia que faltava algo.
+
+Deus viu que não era bom para o homem ficar sozinho. Então, enquanto Adão dormia profundamente, Deus tirou uma costela dele e fez uma mulher. Quando Adão acordou e a viu, seu coração saltou de alegria!
+
+— Ela é osso dos meus ossos e carne da minha carne! — exclamou Adão feliz.
+
+Deus a chamou de Eva. Os dois se tornaram companheiros inseparáveis, caminhando juntos pelo jardim, cuidando das plantas, brincando com os animais e conversando com Deus todas as tardes.
+
+A vida no Éden era perfeita. Eles não sentiam frio nem calor demais, não havia dor nem tristeza. Deus visitava o jardim e conversava com eles como um pai amoroso que ama seus filhos. Era a mais perfeita felicidade.`,
+      },
+      {
+        imageUrl: "/images/historias/adao-e-eva-cena-3.svg",
+        title: "A Serpente Enganadora",
+        text: `Havia no jardim uma serpente muito esperta e astuta. Ela se aproximou de Eva num dia e começou a conversar de um jeito traiçoeiro.
+
+— É verdade que Deus disse que vocês não podem comer de nenhuma árvore do jardim? — perguntou a serpente com voz mansa.
+
+— Podemos comer de todas as árvores — respondeu Eva —, menos daquela árvore no meio do jardim. Deus disse que se comermos, morreremos.
+
+— Não, não vão morrer! — mentiu a serpente. — Deus sabe que quando comerem, seus olhos vão se abrir e vocês vão ser como Ele, conhecendo o bem e o mal!
+
+Eva olhou para a árvore. Os frutos pareciam tão bonitos, tão saborosos... Ela ficou querendo experimentar. Pensou que a serpente podia ter razão. Então colheu um fruto e comeu. Depois deu a Adão, que também comeu.
+
+De repente, os dois se sentiram diferentes. Uma estranheza tomou conta deles. Eles perceberam que tinham desobedecido a Deus, e o coração apertou de vergonha.`,
+      },
+      {
+        imageUrl: "/images/historias/adao-e-eva-cena-4.svg",
+        title: "As Consequências da Desobediência",
+        text: `À tarde, como de costume, Deus veio ao jardim. Mas dessa vez, Adão e Eva se esconderam atrás das árvores com medo.
+
+— Adão, onde você está? — chamou Deus.
+
+— Ouvi a Sua voz e fiquei com medo — respondeu Adão tremendo —, por isso me escondi.
+
+— Você comeu da árvore que eu havia proibido? — perguntou Deus.
+
+Adão tentou colocar a culpa em Eva. Eva tentou colocar a culpa na serpente. Mas Deus sabia de tudo.
+
+Com o coração partido, Deus explicou que a desobediência teria consequências sérias. A vida fora do jardim seria mais difícil. Teriam de trabalhar muito para conseguir alimento. Haveria dor e cansaço que antes não existiam.
+
+Com cuidado e amor, Deus fez roupas de pele para os dois, para que não ficassem com frio. Mesmo estando triste com a escolha deles, Ele continuou cuidando. Então, com muita saudade no coração, Adão e Eva deixaram o Jardim do Éden.`,
+      },
+      {
+        imageUrl: "/images/historias/adao-e-eva-cena-5.svg",
+        title: "Um Novo Começo com Deus",
+        text: `Fora do jardim, a vida era diferente. O sol queimava mais forte, a terra era mais dura e havia muito trabalho a fazer. Adão e Eva sentiam falta do Éden, da paz perfeita que tinham lá.
+
+Mas uma coisa não mudou: o amor de Deus por eles.
+
+Deus não os abandonou. Ele continuou olhando por eles, protegendo-os, provendo o que precisavam. E mesmo com as dificuldades, Adão e Eva aprenderam algo valioso: quando obedecemos a Deus, nossa vida é mais feliz e mais completa.
+
+A história de Adão e Eva nos ensina que Deus criou este mundo com amor, e Ele quer o melhor para cada um de nós. Às vezes somos tentados a fazer o que sabemos que não devemos, mas podemos sempre voltar a Deus e pedir perdão.
+
+Porque o coração de Deus é tão grande que nunca para de amar seus filhos, não importa o que aconteça. E um dia, Ele prometeu enviar alguém especial para consertar tudo o que havia se quebrado — alguém que traria de volta a paz e o amor perfeitos para sempre.`,
+      },
+    ],
+  },
+  {
+    imageUrl: "/images/historias/a-torre-de-babel.svg",
+    slug: "a-torre-de-babel",
+    title: "A Torre de Babel",
+    subtitle: "Quando as pessoas quiseram tocar o céu",
+    description:
+      "Depois do dilúvio, as pessoas começaram a construir uma torre enorme para chegar ao céu. Mas Deus tinha outros planos para a humanidade. Descubra o que aconteceu com essa torre misteriosa!",
+    readingTime: "7 min",
+    ageRange: "3–8 anos",
+    emoji: "🏗️",
+    gradient: "from-orange-500 via-amber-400 to-yellow-300",
+    bgColor: "bg-orange-50",
+    accentColor: "text-orange-700",
+    bibleReference: "Gênesis 11:1–9",
+    testament: "velho",
+    moralLesson:
+      "A humildade nos ajuda a reconhecer que precisamos de Deus. Os planos Dele são sempre maiores e melhores do que os nossos.",
+    scenes: [
+      {
+        imageUrl: "/images/historias/a-torre-de-babel-cena-1.svg",
+        title: "Um Mundo com Uma Só Língua",
+        text: `Muito tempo depois da grande arca de Noé, as pessoas se espalharam pelo mundo e formaram famílias cada vez maiores. Naquele tempo, algo muito especial acontecia: todo mundo no mundo inteiro falava a mesma língua!
+
+Imagine como devia ser fácil! Não importava de onde você viesse, qualquer pessoa podia entender qualquer outra. Podiam contar histórias, cantar juntos, fazer negócios e ser amigos sem nenhuma dificuldade.
+
+As pessoas aprenderam a fazer tijolos resistentes, cozidos no fogo. Descobriram como misturar betume, uma espécie de cola muito forte, para unir os tijolos. Com essas descobertas, podiam construir prédios cada vez maiores e mais resistentes.
+
+Um dia, um grupo de pessoas se reuniu numa planície chamada Sinear e teve uma ideia. Uma ideia muito grande — talvez grande demais.
+
+— Vamos nos fixar aqui! — disseram uns para os outros, entusiasmados. — Temos tudo o que precisamos para construir algo incrível!
+
+E ali começou uma aventura que mudaria a história do mundo.`,
+      },
+      {
+        imageUrl: "/images/historias/a-torre-de-babel-cena-2.svg",
+        title: "O Grande Plano",
+        text: `Reunidos na planície de Sinear, as pessoas começaram a fazer planos grandiosos. Quanto mais conversavam, mais animadas ficavam. Os olhos brilhavam e as mãos gesticulavam animadas.
+
+— Vamos construir uma cidade! — propôs alguém.
+
+— E uma torre! — gritou outro. — Uma torre tão alta que chegue até o céu!
+
+— Assim ficaremos famosos para sempre — concordaram todos. — Ninguém jamais nos esqueçerá! Nosso nome será conhecido em toda a terra!
+
+Havia, porém, algo errado nessa ideia. As pessoas não estavam construindo para honrar a Deus ou para ajudar os outros. Estavam construindo para se glorificar a si mesmas, para mostrar como eram poderosas, para provar que não precisavam de ninguém — nem de Deus.
+
+Mesmo assim, se puseram ao trabalho imediatamente. Cada tijolo era cuidadosamente fabricado e empilhado. A torre começou a crescer — um andar, dois andares, três andares. Mais e mais alto ela subia, dia após dia, sob o sol quente da planície.`,
+      },
+      {
+        imageUrl: "/images/historias/a-torre-de-babel-cena-3.svg",
+        title: "Deus Observa a Torre",
+        text: `Enquanto os tijolos se empilhavam e a torre subia cada vez mais alto, Deus olhava para o que estava acontecendo. Ele via não só a torre, mas o coração das pessoas — via o orgulho que as movia, o desejo de serem grandes sem precisar d'Ele.
+
+Deus sabia que aquele caminho levaria as pessoas para longe de tudo que era bom. Se elas construíssem essa torre com esse coração orgulhoso, iriam querer coisas ainda maiores e mais perigosas. Precisava agir.
+
+Então Deus desceu para ver a cidade e a torre que os homens estavam construindo. Ele percebeu que, falando todos a mesma língua e trabalhando juntos com tanta determinação, nada conseguiriam impedir que fizessem o que tinham em mente — mesmo que fosse errado.
+
+Deus tinha um plano. Não um plano de punição cruel, mas um plano sábio que espalharia as pessoas pelo mundo inteiro, assim como Ele havia ordenado desde o início. Pois Deus havia dito: "Encham a terra!" — mas as pessoas queriam ficar todas juntas num único lugar, construindo monumentos para si mesmas.`,
+      },
+      {
+        imageUrl: "/images/historias/a-torre-de-babel-cena-4.svg",
+        title: "As Línguas Misturadas",
+        text: `De repente, algo extraordinário aconteceu na obra da grande torre.
+
+Um pedreiro pediu um tijolo ao seu colega — e o colega não entendeu nada! As palavras soavam estranhas, como se fossem de outro mundo.
+
+— O que você disse? — perguntou o colega, confuso.
+
+Mas a resposta veio numa língua que nenhum dos dois havia falado antes. Era como se as palavras tivessem embaralhado dentro da boca de cada um!
+
+O caos se instalou na construção. Uns falavam de um jeito, outros de outro. Ninguém conseguia entender ninguém. Os construtores que antes trabalhavam em perfeita harmonia agora não conseguiam nem combinar quem ia buscar água!
+
+Aos poucos, as pessoas que falavam a mesma língua foram se juntando. Famílias se reencontraram. Grupos foram se formando. E então, como não conseguiam mais se entender com os outros, os grupos começaram a partir em direções diferentes, espalhando-se pelo mundo — exatamente como Deus havia planejado desde o início.
+
+A grande torre ficou inacabada, parada no meio da planície, como um lembrete daquele dia.`,
+      },
+      {
+        imageUrl: "/images/historias/a-torre-de-babel-cena-5.svg",
+        title: "Babel — O Nome que Ficou",
+        text: `Aquele lugar ganhou um nome especial: Babel, que significa "confusão". E assim, a planície de Sinear ficou marcada na memória de todos como o lugar onde as línguas do mundo foram misturadas.
+
+O que parecia uma punição tinha na verdade um propósito muito maior. As pessoas se espalharam por todos os cantos da terra, como Deus sempre quis. Foram para o leste e para o oeste, para o norte e para o sul. Formaram povos diferentes, culturas diferentes, línguas diferentes — cada uma com sua beleza única.
+
+Hoje, no mundo, existem mais de sete mil línguas! Cada uma delas conta um pouco da história daquele dia em Babel, quando Deus lembrou às pessoas que os Seus planos são sempre maiores do que os nossos.
+
+A história da Torre de Babel nos ensina uma lição muito importante: a verdadeira grandeza não está em construir torres para chegar ao céu, mas em ter um coração humilde que reconhece que precisamos de Deus.
+
+Quando confiamos n'Ele e seguimos Seus caminhos, nossas vidas se tornam muito mais ricas, mais belas e mais cheias de sentido do que qualquer torre que possamos construir.`,
+      },
+    ],
+  },
+  {
+    imageUrl: "/images/historias/samuel-e-a-voz-de-deus.svg",
+    slug: "samuel-e-a-voz-de-deus",
+    title: "Samuel e a Voz de Deus",
+    subtitle: "O menino que aprendeu a ouvir",
+    description:
+      "Samuel era um menino que vivia no templo de Deus quando algo extraordinário aconteceu: Deus o chamou pelo nome durante a noite! Descubra como um garoto aprendeu a ouvir a voz de Deus.",
+    readingTime: "8 min",
+    ageRange: "3–8 anos",
+    emoji: "👂",
+    gradient: "from-indigo-500 via-blue-400 to-cyan-400",
+    bgColor: "bg-indigo-50",
+    accentColor: "text-indigo-700",
+    bibleReference: "1 Samuel 3",
+    testament: "velho",
+    moralLesson:
+      "Deus pode falar com qualquer pessoa, até mesmo com crianças. Quando ouvimos e obedecemos a Deus, nossa vida tem um propósito especial.",
+    scenes: [
+      {
+        imageUrl: "/images/historias/samuel-e-a-voz-de-deus-cena-1.svg",
+        title: "O Menino do Templo",
+        text: `No tempo em que Eli era sacerdote, havia um menino chamado Samuel que vivia no templo de Deus. Ele tinha ido morar lá ainda pequenino, quando sua mãe Ana o trouxe para servir ao Senhor, como havia prometido.
+
+Samuel cresceu no templo aprendendo tudo sobre como cuidar da Casa de Deus. Ele acendia as lâmpadas, varreia os corredores, ajudava Eli nas tarefas do dia a dia. Mesmo sendo criança, Samuel levava seu trabalho muito a sério.
+
+Eli era velho e sua visão já não era boa. Por isso dependia muito da ajuda de Samuel. Os dois tinham uma relação especial — quase como avô e neto. Eli ensinava Samuel com paciência, e Samuel servia a Eli com carinho.
+
+Era uma época em que a voz de Deus era rara de ouvir. As pessoas tinham se afastado d'Ele, e havia muito tempo que Deus não falava diretamente com alguém. Mas isso estava prestes a mudar — e um garotinho seria o escolhido para receber uma mensagem muito importante.`,
+      },
+      {
+        imageUrl: "/images/historias/samuel-e-a-voz-de-deus-cena-2.svg",
+        title: "Uma Voz na Noite",
+        text: `Era uma noite tranquila no templo. As lâmpadas sagradas brilhavam suavemente no escuro. Samuel estava deitado em seu lugar, descansando, quando de repente ouviu uma voz chamá-lo!
+
+— Samuel! Samuel!
+
+O menino se levantou rapidinho. "Deve ser Eli me chamando", pensou. Correu até o quarto do velho sacerdote.
+
+— Aqui estou! O senhor me chamou? — disse Samuel, ofegante.
+
+Eli abriu os olhos com estranheza.
+
+— Eu não chamei você, meu filho — respondeu Eli. — Volte para dormir.
+
+Samuel voltou confuso. Deitou-se de novo. Mas logo a voz chamou outra vez:
+
+— Samuel!
+
+O menino se levantou de novo e foi correndo até Eli.
+
+— Estou aqui! O senhor me chamou?
+
+— Não chamei, filho — disse Eli, desta vez um pouco mais desperto. — Volte dormir.
+
+Samuel voltou para seu lugar, seu coraçãozinho acelerado. Quem seria aquela voz? De onde ela vinha?`,
+      },
+      {
+        imageUrl: "/images/historias/samuel-e-a-voz-de-deus-cena-3.svg",
+        title: "É o Senhor!",
+        text: `Pela terceira vez, a voz chamou no silêncio da noite:
+
+— Samuel!
+
+O menino se levantou mais uma vez e foi até Eli. Desta vez, o velho sacerdote entendeu o que estava acontecendo. Seu coração se encheu de admiração e de alegria. Era o próprio Deus quem estava chamando o menino!
+
+— Volte e deite-se — disse Eli com voz suave e sábia. — E se Ele chamar novamente, diga: "Fala, Senhor, pois o Teu servo está ouvindo."
+
+Samuel voltou para seu lugar com o coração batendo forte. Ele se deitou com cuidado, de olhos abertos no escuro, esperando. E então, mais uma vez, a voz veio — mais clara do que nunca:
+
+— Samuel! Samuel!
+
+Desta vez, o menino respondeu com coragem e com fé:
+
+— Fala, Senhor, pois o Teu servo está ouvindo.
+
+E Deus falou. Ele entregou ao menino Samuel uma mensagem importante, uma mensagem sobre o futuro de Israel. Samuel ouviu com toda a atenção, sem perder uma só palavra.`,
+      },
+      {
+        imageUrl: "/images/historias/samuel-e-a-voz-de-deus-cena-4.svg",
+        title: "Samuel Conta Tudo a Eli",
+        text: `Quando a manhã chegou e a luz dourada do sol entrou pelo templo, Samuel ficou quieto por um tempo. A mensagem que Deus havia lhe dado era difícil de contar — ela falava sobre coisas tristes que aconteceriam com a família de Eli.
+
+Samuel foi abrir as portas do templo, como fazia todas as manhãs, mas estava com medo de falar com o sacerdote. Eli, porém, o chamou logo cedo.
+
+— Samuel, meu filho, o que o Senhor lhe disse? Não me esconda nada.
+
+Samuel respirou fundo e contou tudo — cada palavra, do começo ao fim, sem esconder nada. Quando terminou, Eli ficou em silêncio por um momento. Então disse com uma voz calma e resignada:
+
+— Ele é o Senhor. Que Ele faça o que bem entender.
+
+Eli havia aceitado com humildade o que Deus havia dito. E Samuel aprendeu algo precioso naquele dia: dizer a verdade, mesmo quando é difícil, é uma forma de honrar a Deus.
+
+A partir daquele dia, Samuel soube que tinha uma missão especial. E nunca mais teve medo de ouvir a voz de Deus.`,
+      },
+      {
+        imageUrl: "/images/historias/samuel-e-a-voz-de-deus-cena-5.svg",
+        title: "O Profeta que Começou Pequenininho",
+        text: `Com o tempo, Samuel cresceu, e todos em Israel souberam que ele era um profeta de Deus. Toda vez que Samuel falava, as palavras de Deus estavam presentes. As pessoas vinham de longe para ouvir o que ele tinha a dizer.
+
+Samuel se tornou um dos líderes mais importantes da história de Israel. Ele ungia reis, guiava o povo, e sempre mantinha seu coração voltado para Deus — exatamente como havia aprendido ainda criança, naquela noite em que ouviu a voz pela primeira vez.
+
+Mas tudo começou com um simples menino deitado no templo escuro, disposto a ouvir.
+
+A história de Samuel nos ensina algo muito especial: Deus não precisa esperar você crescer para falar com você. Ele pode colocar sonhos, ideias e palavras no seu coração agora, exatamente do jeito que você é.
+
+Quando você ora e pede para Deus falar, quando lê a Bíblia e fica quietinho prestando atenção, você está fazendo exatamente o que Samuel fez naquela noite: dizendo a Deus com o coração — "Fala, Senhor, pois o Teu servo está ouvindo."`,
+      },
+    ],
+  },
+  {
+    imageUrl: "/images/historias/ester-a-rainha-corajosa.svg",
+    slug: "ester-a-rainha-corajosa",
+    title: "Ester, a Rainha Corajosa",
+    subtitle: "A menina que salvou um povo inteiro",
+    description:
+      "Ester era uma jovem judia que se tornou rainha de um grande império. Quando seu povo estava em perigo, ela precisou de toda a coragem para falar com o rei e pedir ajuda. Essa é a história de uma heroína de verdade!",
+    readingTime: "9 min",
+    ageRange: "3–8 anos",
+    emoji: "👑",
+    gradient: "from-pink-500 via-rose-400 to-fuchsia-400",
+    bgColor: "bg-pink-50",
+    accentColor: "text-pink-700",
+    bibleReference: "Ester 4–5",
+    testament: "velho",
+    moralLesson:
+      "Com fé e coragem, podemos fazer grandes coisas. Às vezes chegamos a lugares especiais justamente para poder ajudar quem precisa.",
+    scenes: [
+      {
+        imageUrl: "/images/historias/ester-a-rainha-corajosa-cena-1.svg",
+        title: "Uma Jovem Especial",
+        text: `No grande império persa, havia uma jovem chamada Ester que vivia sob os cuidados de seu primo Mardoqueu. Ester havia perdido seus pais ainda pequena, e Mardoqueu a criou com todo o amor do mundo, como se fosse sua própria filha.
+
+Ester era gentil, bondosa e muito bonita — não só por fora, mas também por dentro. Seu sorriso iluminava qualquer lugar onde ela chegasse, e sua forma carinhosa de tratar as pessoas fazia com que todos gostassem dela.
+
+Certo dia, o grande rei Assuero, que governava um império enorme que ia da Índia à Etiópia, quis encontrar uma nova rainha. Moças de todo o reino foram levadas ao palácio. Ester também foi.
+
+No palácio, Ester agradou a todos. Era educada, sábia e meiga. O rei Assuero ficou encantado com ela desde o primeiro momento. Em pouco tempo, ele colocou a coroa em sua cabeça e declarou:
+
+— Ester será minha rainha!
+
+O coração de Ester bateu forte. Ela virou rainha! Mas havia um segredo que ela guardava: ninguém no palácio sabia que ela era judia.`,
+      },
+      {
+        imageUrl: "/images/historias/ester-a-rainha-corajosa-cena-2.svg",
+        title: "O Plano Malvado de Hamã",
+        text: `No palácio, havia um homem muito poderoso chamado Hamã. O rei o havia honrado com um cargo muito alto, e todos faziam reverência a ele quando passava.
+
+Mas Mardoqueu, o primo de Ester, não se curvava. Ele se recusava a se prostrar diante de Hamã, porque sua fé não permitia que adorasse qualquer homem como se fosse um deus.
+
+Isso deixava Hamã furioso! De tanto ódio, ele não quis apenas se vingar de Mardoqueu. Hamã foi até o rei e inventou mentiras sobre o povo judeu, dizendo que eles eram perigosos para o reino. Pediu ao rei permissão para exterminar todos os judeus do império.
+
+O rei, sem saber de toda a verdade, concordou e deu a Hamã seu anel real para selar o decreto.
+
+Quando Mardoqueu soube do decreto terrível, ficou de coração partido. Estava vestido de luto, chorando na praça da cidade, junto com milhares de outros judeus que sabiam que seus dias estavam contados.
+
+A notícia chegou aos ouvidos de Ester, e ela ficou apavorada. O que poderia fazer?`,
+      },
+      {
+        imageUrl: "/images/historias/ester-a-rainha-corajosa-cena-3.svg",
+        title: "Mardoqueu Fala com Ester",
+        text: `Através de mensageiros, Mardoqueu enviou uma palavra urgente para Ester: ela precisava ir falar com o rei e pedir que ele salvasse o povo judeu.
+
+Mas Ester respondeu explicando um problema muito sério: havia uma lei do palácio que dizia que ninguém podia se aproximar do rei sem ser chamado. Quem ousasse entrar no salão do trono sem permissão seria colocado à morte — a menos que o rei estendesse seu cetro dourado.
+
+— Faz trinta dias que o rei não me chama — escreveu Ester com o coração apertado.
+
+A resposta de Mardoqueu chegou com palavras poderosas:
+
+— Ester, não pense que você vai escapar só porque está no palácio. Se você ficar quieta agora, a ajuda virá de outro lugar, mas você e sua família perecerão. Quem sabe se você não chegou ao reino precisamente para este momento?
+
+Essas palavras tocaram fundo no coração de Ester. Ela ficou em silêncio por um longo tempo, pensando, orando.
+
+E então tomou a decisão mais corajosa de sua vida.`,
+      },
+      {
+        imageUrl: "/images/historias/ester-a-rainha-corajosa-cena-4.svg",
+        title: "Ester Enfrenta o Rei",
+        text: `Ester pediu que todos os judeus da cidade ficassem três dias em oração e jejum por ela. Ela e suas servas também fariam o mesmo. Depois disso, ela iria até o rei — mesmo sabendo do risco.
+
+— Se eu morrer, morro — disse ela com voz firme.
+
+Três dias depois, Ester se vestiu com suas roupas reais mais belas. Com o coração batendo forte e os pés firmes, ela caminhou pelos corredores do palácio e se pôs à entrada do salão do trono.
+
+O rei Assuero estava sentado em seu trono dourado, imponente. Quando seus olhos encontraram Ester, algo se iluminou em seu rosto. Ele levantou seu cetro dourado e a apontou para ela — o sinal de que ela estava a salvo!
+
+— O que você deseja, rainha Ester? — perguntou o rei. — Mesmo que seja metade do meu reino, te darei.
+
+Ester respirou fundo. Então, com sabedoria, convidou o rei e Hamã para um banquete especial que ela prepararia. Havia chegado o momento de contar a verdade.
+
+E com a ajuda de Deus, ela conseguiu.`,
+      },
+      {
+        imageUrl: "/images/historias/ester-a-rainha-corajosa-cena-5.svg",
+        title: "O Povo Salvo pela Coragem",
+        text: `No banquete, com lágrimas nos olhos, Ester revelou ao rei a verdade: ela era judia, e o decreto de Hamã significava a morte dela e de todo o seu povo.
+
+O rei ficou furioso ao descobrir a maldade de Hamã. Hamã foi punido por seus planos terríveis, e Mardoqueu, o fiel primo de Ester, foi honrado no palácio. O povo judeu foi salvo!
+
+Toda a nação celebrou com grande alegria. O dia que devia ser de tristeza virou um dia de festa, de luz e de alegria. Esse dia de comemoração ficou marcado para sempre no calendário judeu, chamado Purim — e é celebrado até hoje!
+
+A história de Ester nos ensina que a coragem não é a ausência do medo. Ester estava com medo — mas foi mesmo assim. Ela confiou que Deus estava com ela, e agiu.
+
+Às vezes, você pode se perguntar por que está em determinado lugar ou situação. Talvez, como Ester, você esteja lá justamente para fazer uma diferença especial. Com fé, oração e coragem, até uma criança pode mudar o mundo ao seu redor.`,
+      },
+    ],
+  },
+  {
+    imageUrl: "/images/historias/elias-e-o-carro-de-fogo.svg",
+    slug: "elias-e-o-carro-de-fogo",
+    title: "Elias e o Carro de Fogo",
+    subtitle: "A viagem mais extraordinária da Bíblia",
+    description:
+      "Elias foi um dos profetas mais poderosos de Israel. Quando chegou a hora de partir, algo incrível aconteceu: um carro de fogo desceu do céu! E seu discípulo Eliseu testemunhou tudo. Conheça essa história fascinante!",
+    readingTime: "8 min",
+    ageRange: "4–8 anos",
+    emoji: "🔥",
+    gradient: "from-red-500 via-orange-400 to-yellow-400",
+    bgColor: "bg-red-50",
+    accentColor: "text-red-700",
+    bibleReference: "2 Reis 2:1–12",
+    testament: "velho",
+    moralLesson:
+      "Deus está presente nos momentos mais importantes de nossas vidas. Quando seguimos fielmente, Ele nos honra de maneiras que nunca imaginamos.",
+    scenes: [
+      {
+        imageUrl: "/images/historias/elias-e-o-carro-de-fogo-cena-1.svg",
+        title: "O Grande Profeta Elias",
+        text: `Elias era um profeta de Deus como poucos que já existiram. Ele havia feito coisas incríveis em nome do Senhor: chamou chuva depois de três anos de seca terrível, trouxe fogo do céu, ressuscitou um menino e enfrentou centenas de falsos profetas sem tremer.
+
+Por onde passava, as pessoas o reconheciam com admiração e respeito. Sua voz era como trovão, e suas palavras carregavam o peso de quem caminhava de mãos dadas com o Deus do universo.
+
+Ao lado de Elias havia um jovem chamado Eliseu, que havia deixado tudo — sua família, sua terra, seus bois — para seguir o profeta e aprender com ele. Eliseu era dedicado, fiel e cheio de amor por Deus.
+
+Juntos, eles viajavam pelo país, ensinando, curando e falando a palavra de Deus ao povo de Israel. A amizade entre os dois era profunda e verdadeira. Eliseu olhava para Elias como um filho olha para um pai.
+
+Mas Deus havia preparado algo muito especial para o fim da jornada de Elias — algo que ninguém ainda havia visto no mundo inteiro.`,
+      },
+      {
+        imageUrl: "/images/historias/elias-e-o-carro-de-fogo-cena-2.svg",
+        title: "A Última Viagem",
+        text: `Certo dia, Elias e Eliseu começaram uma longa caminhada de Gilgal. Elias sabia que aquele seria seu último dia na terra, e Deus havia revelado isso a ele.
+
+Com gentileza, Elias tentou fazer Eliseu ficar para trás:
+
+— Fica aqui, pois o Senhor me enviou até Betel.
+
+Mas Eliseu foi firme:
+
+— Juro que não te deixarei! — respondeu ele com determinação.
+
+E assim caminharam juntos até Betel, depois até Jericó, e finalmente até o Rio Jordão. Em cada cidade que paravam, os outros profetas se aproximavam de Eliseu e diziam em voz baixa:
+
+— Você sabe que o Senhor vai levar seu mestre hoje?
+
+— Eu sei — respondia Eliseu, com os olhos marejados. — Não falem sobre isso.
+
+Chegando ao Jordão, Elias tirou seu manto — aquela capa especial que era símbolo de seu ministério — enrolou-o e bateu nas águas. As águas se abriram dos dois lados, e os dois atravessaram em terra seca, como na história do povo de Israel atravessando o Mar Vermelho.`,
+      },
+      {
+        imageUrl: "/images/historias/elias-e-o-carro-de-fogo-cena-3.svg",
+        title: "O Pedido de Eliseu",
+        text: `Do outro lado do rio, os dois caminhavam lado a lado em silêncio. O sol brilhava forte, e havia uma atmosfera de algo grandioso prestes a acontecer.
+
+Elias virou-se para Eliseu com um olhar cheio de carinho.
+
+— Peça o que quiser antes de eu ser levado — disse ele. — Farei o que me pedir.
+
+Eliseu sabia exatamente o que queria. Ele havia pensado nisso muitas vezes, observando o poder de Deus agindo através de Elias.
+
+— Deixa que em mim haja o dobro do teu espírito — pediu Eliseu.
+
+Era um pedido grande — muito grande. Não era uma pedido de riqueza ou de fama, mas de poder para servir a Deus com toda a força. Elias ficou admirado com a grandeza daquele coração.
+
+— É um pedido difícil — disse Elias com seriedade. — Mas se você me ver quando eu for levado, será assim para você. Se não me ver, não será.
+
+Eliseu não tirou os olhos de Elias nem por um segundo. Eles continuaram caminhando juntos, ombro a ombro, quando de repente o céu começou a mudar.`,
+      },
+      {
+        imageUrl: "/images/historias/elias-e-o-carro-de-fogo-cena-4.svg",
+        title: "O Carro de Fogo Desce do Céu",
+        text: `De repente, enquanto eles ainda caminhavam e conversavam, aconteceu o mais extraordinário espetáculo que qualquer olho humano já havia visto!
+
+Um carro de fogo desceu do céu, puxado por cavalos de fogo — labaredas vivas em forma de animais majestosos, reluzentes e flamejantes! O calor e a luz eram intensos, e o vento que o carro criava era como uma tempestade.
+
+O carro de fogo passou entre os dois, separando-os!
+
+E então Elias começou a subir — subindo, subindo, subindo — dentro de um redemoinho de vento e fogo, em direção ao céu. Cada vez mais alto, até que só era um ponto brilhante no azul do firmamento. E então desapareceu.
+
+Eliseu olhou para o céu com lágrimas escorrendo pelo rosto. Ele havia visto tudo. Cada detalhe. Cada chama, cada rajada de vento.
+
+— Meu pai! Meu pai! — gritou ele, chorando. — Os carros de Israel e sua cavalaria!
+
+Ele havia perdido o maior mestre que conhecera. Mas com o coração cheio de dor e de admiração, pegou seus próprios mantos e os rasgou — era o sinal de que algo havia terminado e algo novo estava começando.`,
+      },
+      {
+        imageUrl: "/images/historias/elias-e-o-carro-de-fogo-cena-5.svg",
+        title: "O Manto e o Novo Profeta",
+        text: `Com olhos ainda molhados de lágrimas, Eliseu olhou para o chão. Lá estava o manto de Elias — aquela capa especial havia caído quando o profeta subiu.
+
+Eliseu a apanhou com as mãos trêmulas. Era como segurar um pedaço da história. Um presente do mestre para o discípulo.
+
+Ele caminhou de volta até o Rio Jordão. Com fé e coragem, enrollou o manto e bateu nas águas, assim como Elias havia feito.
+
+— Onde está o Senhor, o Deus de Elias? — gritou ele.
+
+E as águas se abriram! Exatamente como antes!
+
+Eliseu atravessou em terra seca. Os outros profetas que observavam da outra margem viram tudo e exclamaram:
+
+— O espírito de Elias repousa sobre Eliseu!
+
+E assim começou um novo capítulo na história de Israel. O discípulo tornou-se mestre. O aprendiz tornou-se profeta. O manto havia passado de um para o outro.
+
+A história de Elias nos lembra que Deus honra aqueles que o seguem fielmente. E que quando chegamos ao fim de uma fase, Ele sempre tem algo novo e maravilhoso preparado para o próximo capítulo.`,
+      },
+    ],
+  },
+  {
+    imageUrl: "/images/historias/os-reis-magos.svg",
+    slug: "os-reis-magos",
+    title: "Os Reis Magos",
+    subtitle: "A longa viagem para encontrar o Rei dos Reis",
+    description:
+      "Quando Jesus nasceu, uma estrela brilhante apareceu no céu do Oriente. Três sábios viram a estrela e partiram em uma longa viagem para encontrar o Rei especial que ela anunciava. Descubra o que eles encontraram!",
+    readingTime: "8 min",
+    ageRange: "3–8 anos",
+    emoji: "⭐",
+    gradient: "from-indigo-600 via-purple-500 to-blue-400",
+    bgColor: "bg-indigo-50",
+    accentColor: "text-indigo-700",
+    bibleReference: "Mateus 2:1–12",
+    testament: "novo",
+    moralLesson:
+      "Jesus é tão importante que vale a pena qualquer viagem para encontrá-Lo. Os melhores presentes que podemos dar a Ele são nosso coração e nosso amor.",
+    scenes: [
+      {
+        imageUrl: "/images/historias/os-reis-magos-cena-1.svg",
+        title: "A Estrela do Oriente",
+        text: `Muito longe de Belém, no grande e misterioso Oriente, viviam homens muito sábios chamados magos. Eles estudavam o céu todas as noites, mapeando as estrelas, observando os planetas, procurando sinais no firmamento.
+
+Numa noite especial, enquanto estudavam o céu, viram algo que nunca haviam visto antes: uma estrela nova, extraordinariamente brilhante, que brilhava com uma intensidade diferente de qualquer outra no firmamento.
+
+Aqueles homens sábios sabiam que o aparecimento de uma estrela assim não era comum. Eles conheciam as antigas profecias que falavam de um Rei especial que nasceria e cujo nascimento seria anunciado por uma estrela.
+
+— Nasceu o Rei dos judeus! — disseram uns para os outros com olhos maravilhados.
+
+Eles precisavam ir encontrá-Lo. Não importava a distância, não importava o tempo que levaria. Aquele era um momento único na história do mundo, e eles não poderiam ficar parados.
+
+Assim, os sábios prepararam suas bagagens e seus camelos, reuniram presentes preciosos e partiram em direção à estrela que brilhava no horizonte.`,
+      },
+      {
+        imageUrl: "/images/historias/os-reis-magos-cena-2.svg",
+        title: "A Longa Viagem",
+        text: `A viagem dos magos foi longa — muito longa. Dias e dias cruzando desertos imensos, com o sol quente durante o dia e o frio cortante à noite. Os camelos balançavam devagar, mas com passo firme.
+
+Mas os magos não desanimavam. A estrela brilhava lá na frente, guiando-os passo a passo. Todas as noites, eles olhavam para cima e a viam — majestosa e radiante, como um farol no oceano escuro do céu.
+
+Eles carregavam consigo presentes muito especiais, escolhidos com muito cuidado para o Rei que iam encontrar:
+
+Ouro, símbolo de realeza, porque aquele menino seria um Rei.
+
+Incenso, um perfume sagrado que subia em fumaça para o céu, símbolo de adoração a Deus.
+
+Mirra, um ungüento precioso, usado em momentos muito especiais.
+
+Cada presente carregava um significado profundo. Os magos não sabiam exatamente o que encontrariam, mas seu coração sabia que se tratava de alguém muito especial — o mais especial de todos.
+
+Finalmente, as muralhas de Jerusalém apareceram no horizonte. Haviam chegado!`,
+      },
+      {
+        imageUrl: "/images/historias/os-reis-magos-cena-3.svg",
+        title: "O Encontro com Herodes",
+        text: `Em Jerusalém, os magos foram até o palácio do rei Herodes, pois era o lugar natural para buscar informações sobre um rei recém-nascido.
+
+— Onde está o menino que nasceu Rei dos judeus? — perguntaram eles com alegria. — Vimos Sua estrela no Oriente e viemos adorá-Lo!
+
+Quando Herodes ouviu isso, seu rosto ficou sério. Seu coração foi tomado por um sentimento sombrio: ciúme e medo. Um novo rei? Isso o incomodou muito.
+
+Herodes chamou os sacerdotes e escribas — pessoas que conheciam bem as escrituras — e perguntou onde o Cristo deveria nascer. Eles responderam sem hesitar:
+
+— Em Belém da Judeia, pois assim está escrito pelo profeta.
+
+Herodes chamou os magos em particular e fingiu ser amigável.
+
+— Vão a Belém e procurem cuidadosamente o menino — disse ele com um sorriso falso. — Quando o encontrarem, me avisem para que eu também possa ir adorá-Lo.
+
+Os magos não sabiam que Herodes mentia. Com o coração cheio de esperança, partiram em direção a Belém.`,
+      },
+      {
+        imageUrl: "/images/historias/os-reis-magos-cena-4.svg",
+        title: "Diante do Menino Jesus",
+        text: `Mal saíram de Jerusalém, a estrela voltou a aparecer diante deles, guiando seus passos. E quando a estrela parou, eles sentiram no coração uma alegria que não cabiam no peito!
+
+Era ali. A estrela havia parado exatamente sobre aquele lugar.
+
+Os magos desceram de seus camelos com cuidado, carregando seus presentes preciosos. Entraram na casa e lá estava a cena mais linda que seus olhos já haviam visto: Maria, a mãe, sentada com ternura, e no colo dela um menino pequeno — Jesus.
+
+Aqueles homens sábios, que haviam percorrido centenas e centenas de quilômetros, fizeram algo que poucos poderiam imaginar: prostraram-se no chão diante daquele bebê e o adoraram.
+
+Então abriram suas caixas e ofereceram seus tesouros: o ouro reluzente, o incenso perfumado, a mirra preciosa. Tudo o que haviam trazido com tanto cuidado durante a longa viagem.
+
+Maria sorria com lágrimas nos olhos, segurando o pequeno Jesus. E os magos saíram de lá diferentes — mais leves, mais cheios, mais alegres do que quando chegaram.`,
+      },
+      {
+        imageUrl: "/images/historias/os-reis-magos-cena-5.svg",
+        title: "O Retorno por Outro Caminho",
+        text: `Naquela noite, depois de adorar Jesus, os magos adormeceram. E enquanto dormiam, Deus falou com eles em sonho: não voltassem por Herodes, pois aquele rei não queria adorar Jesus — queria machucá-Lo.
+
+Os magos acordaram e, sem hesitar, escolheram um caminho diferente para voltar para seu país. Eles obedeceram a Deus, mesmo que isso tornasse a viagem mais longa.
+
+Muito tempo depois, quando os magos chegaram em casa, eles tinham histórias incríveis para contar. Sobre uma estrela que os guiou através do deserto. Sobre um palácio e um rei que fingia gentileza. Sobre uma casa simples onde encontraram o Rei mais poderoso do universo, pequenino nos braços de sua mãe.
+
+A história dos Reis Magos nos ensina que vale a pena buscar Jesus, não importa quão longa seja a viagem. Eles deixaram o conforto de suas casas, cruzaram desertos, e deram seus melhores presentes — tudo por causa d'Ele.
+
+E a boa notícia é que você não precisa cruzar nenhum deserto para encontrar Jesus. Ele está mais perto do que você imagina — bem dentro do seu coração, esperando com amor.`,
+      },
+    ],
+  },
+  {
+    imageUrl: "/images/historias/jesus-e-as-criancas.svg",
+    slug: "jesus-e-as-criancas",
+    title: "Jesus e as Crianças",
+    subtitle: "As crianças são especiais para Jesus",
+    description:
+      "Certo dia, muitas famílias trouxeram seus filhos para perto de Jesus. Os discípulos tentaram afastá-los, mas Jesus fez algo que surpreendeu a todos. Descubra o quanto Jesus ama as crianças!",
+    readingTime: "7 min",
+    ageRange: "3–8 anos",
+    emoji: "🤗",
+    gradient: "from-sky-400 via-blue-300 to-cyan-300",
+    bgColor: "bg-sky-50",
+    accentColor: "text-sky-700",
+    bibleReference: "Marcos 10:13–16",
+    testament: "novo",
+    moralLesson:
+      "Jesus ama cada criança com um amor imenso e especial. Ninguém é pequeno demais para ser importante para Ele.",
+    scenes: [
+      {
+        imageUrl: "/images/historias/jesus-e-as-criancas-cena-1.svg",
+        title: "Jesus Rodeado de Pessoas",
+        text: `Por onde Jesus passava, as pessoas vinham correndo. Doentes que queriam ser curados, curiosos que queriam ouvir suas histórias, pais que tinham perguntas, anciãos que queriam debater.
+
+Jesus sempre tinha tempo para todo mundo. Ele parava, ouvia, respondia com paciência e amor. Suas palavras eram como água fresca para almas com sede.
+
+Naquele dia, Jesus estava ensinando em meio a uma multidão. Havia homens com turbantes brancos e mulheres com véus coloridos. Havia mercadores e pescadores, crianças que corriam entre as pernas dos adultos, e anciãos que ouviam com atenção apoiados em seus cajados.
+
+Os discípulos de Jesus — aqueles doze homens que andavam com Ele — faziam o possível para organizar tudo. Às vezes era difícil, pois a multidão era grande e Jesus ficava muito cansado.
+
+Mas aquele dia estava prestes a trazer uma surpresa que os discípulos jamais esqueceriam — uma lição sobre o que realmente importa para o coração de Deus.`,
+      },
+      {
+        imageUrl: "/images/historias/jesus-e-as-criancas-cena-2.svg",
+        title: "As Famílias se Aproximam",
+        text: `Entre a multidão havia muitas famílias — mães com bebês nos braços, pais com crianças pequenas nos ombros, avós segurando a mão de netinhos curiosos.
+
+Elas haviam ouvido falar de Jesus. Sabiam que Ele era especial, que Suas mãos haviam curado doentes e que Suas palavras mudavam vidas. E tinham um desejo simples e lindo no coração: queriam que Jesus tocasse em seus filhos e os abençoasse.
+
+— Jesus está aqui! — dizia uma mãe para sua filhinha, apontando na direção do Mestre.
+
+— Vou ver Jesus! — ria um menino de cabelos cacheados, tentando escapar da mão do pai para correr na frente.
+
+Bebês curiosos esticavam os braços na direção do homem que todos rodeavam. Crianças menores se espremiam entre as pernas dos adultos tentando ver melhor.
+
+As famílias foram se aproximando com esperança e ternura, carregando seus pequenos tesouros nos braços. Era uma cena linda — cheia de amor de pais que queriam o melhor para seus filhos.`,
+      },
+      {
+        imageUrl: "/images/historias/jesus-e-as-criancas-cena-3.svg",
+        title: "Os Discípulos Tentam Afastar as Crianças",
+        text: `Quando os discípulos viram todas aquelas famílias com crianças se aproximando de Jesus, eles ficaram preocupados.
+
+— Jesus está cansado — pensaram. — Ele tem coisas importantes para fazer. Assuntos sérios de adultos. Não tem tempo para crianças agora!
+
+Com expressões sérias, eles começaram a bloquear a passagem das famílias.
+
+— Não, não! Vão embora! — disseram alguns discípulos, gesticulando com as mãos. — Jesus está ocupado. As crianças podem voltar outro dia.
+
+As mães trocaram olhares decepcionados. Algumas crianças ficaram com o lábio tremendo, sem entender por que não podiam ver aquele homem de quem tanto tinham ouvido falar.
+
+Um menininho que já estava quase chegando até Jesus foi gentilmente empurrado para trás por um dos discípulos. Os olhinhos dele encheram de lágrimas.
+
+Os discípulos achavam que estavam fazendo a coisa certa. Mas estavam muito, muito enganados. E Jesus estava olhando para tudo aquilo — e não gostou nada do que viu.`,
+      },
+      {
+        imageUrl: "/images/historias/jesus-e-as-criancas-cena-4.svg",
+        title: "Jesus Fica Indignado",
+        text: `Jesus viu o que seus discípulos estavam fazendo. Viu as crianças sendo afastadas. Viu as mães decepcionadas. Viu o menininho com os olhos cheios de lágrimas.
+
+E Jesus ficou indignado.
+
+Esse é um dos raros momentos em que a Bíblia nos diz que Jesus ficou com indignação — um sentimento forte de que algo injusto estava acontecendo. Ele se virou para seus discípulos com uma expressão séria.
+
+— Deixem as crianças virem a Mim! Não as impeçam! — disse Jesus com firmeza. — Porque o Reino de Deus pertence a elas!
+
+Os discípulos baixaram a cabeça envergonhados. Eles tinham errado feio.
+
+— Em verdade vos digo — continuou Jesus, olhando para todos ao redor — que qualquer um que não receber o Reino de Deus como uma criança não entrará nele.
+
+Então Jesus abriu os braços, e as crianças correram para perto d'Ele! Bebês foram colocados em seus braços. Crianças se agarraram às suas pernas. E Jesus, com um sorriso enorme no rosto, abraçou cada uma, colocou as mãos sobre suas cabecinhas e as abençoou.`,
+      },
+      {
+        imageUrl: "/images/historias/jesus-e-as-criancas-cena-5.svg",
+        title: "O Reino é das Crianças",
+        text: `Aqueles momentos foram especiais para cada criança que Jesus tocou naquele dia. Elas não sabiam ao certo o que aquela bênção significava, mas sentiam que algo gostoso e quente havia entrado em seus corações.
+
+Os pais olhavam com lágrimas de emoção. Os discípulos entenderam que haviam aprendido uma lição importante: para Jesus, não existe ninguém menos importante. Uma criança vale tanto quanto um rei.
+
+Jesus nos ensinou que o jeito de uma criança receber as coisas — com confiança, sem complicar demais, com o coração aberto — é exatamente o jeito certo de se aproximar de Deus.
+
+Crianças não chegam com orgulho, não chegam querendo provar que são boas ou inteligentes. Elas chegam de mãos abertas, com um sorriso, prontas para receber. E é assim que Jesus quer que todos cheguemos a Ele.
+
+Você é especial para Jesus. Não importa sua idade, não importa se você ainda não consegue ler ou escrever, não importa se às vezes você erra. Jesus abre os braços para você do mesmo jeito que abriu naquele dia — com amor imenso, com alegria no coração, com as mãos prontas para te abraçar.`,
+      },
+    ],
+  },
+  {
+    imageUrl: "/images/historias/a-ressurreicao-de-lazaro.svg",
+    slug: "a-ressurreicao-de-lazaro",
+    title: "A Ressurreição de Lázaro",
+    subtitle: "Quando Jesus chorou — e então fez um milagre",
+    description:
+      "Lázaro era amigo querido de Jesus. Quando ele ficou muito doente e morreu, suas irmãs ficaram de coração partido. Mas Jesus foi até lá e fez o maior milagre que todos já viram. Descubra essa história emocionante!",
+    readingTime: "9 min",
+    ageRange: "4–8 anos",
+    emoji: "✨",
+    gradient: "from-violet-600 via-purple-500 to-indigo-400",
+    bgColor: "bg-violet-50",
+    accentColor: "text-violet-700",
+    bibleReference: "João 11:1–44",
+    testament: "novo",
+    moralLesson:
+      "Jesus está com a gente nos momentos mais difíceis. Mesmo quando tudo parece sem esperança, Deus pode fazer algo incrível.",
+    scenes: [
+      {
+        imageUrl: "/images/historias/a-ressurreicao-de-lazaro-cena-1.svg",
+        title: "Os Amigos de Jesus em Betânia",
+        text: `Em uma cidade chamada Betânia vivia uma família muito especial: duas irmãs, Maria e Marta, e seu irmão Lázaro. Os três eram amigos queridos de Jesus.
+
+Sempre que Jesus passava por Betânia, ele ia até a casa deles. Marta cozinhava com capricho, enchendo a casa com cheiros deliciosos. Maria sentava aos pés de Jesus e ouvia cada palavra que Ele dizia com atenção total. E Lázaro ria, conversava e ficava ao lado de Jesus como um amigo verdadeiro.
+
+Jesus amava os três de um jeito muito especial. Aquela casa era como um lar para Ele, um lugar onde podia descansar e ser ele mesmo, cercado de pessoas que o amavam sinceramente.
+
+Mas um dia chegou uma notícia terrível: Lázaro havia adoecido. Não era uma doença simples — era algo sério, que o deixou de cama, fraco e sofrendo.
+
+Maria e Marta mandaram um mensageiro urgente para encontrar Jesus, onde quer que Ele estivesse:
+
+— Senhor, aquele que Tu amas está doente!
+
+E então esperaram. Esperaram com o coração partido, rezando para que Jesus chegasse logo.`,
+      },
+      {
+        imageUrl: "/images/historias/a-ressurreicao-de-lazaro-cena-2.svg",
+        title: "A Espera Dolorosa",
+        text: `Quando Jesus recebeu a mensagem sobre Lázaro, disse algo que pareceu estranho para seus discípulos:
+
+— Esta doença não é para a morte, mas para a glória de Deus.
+
+E Jesus ficou onde estava por mais dois dias. Os discípulos não entendiam por quê.
+
+Enquanto isso, em Betânia, Lázaro piorou. Sua respiração ficou mais fraca, sua pele ficou fria. E então, tristemente, ele morreu.
+
+Marta e Maria choravam abraçadas. Amigos e vizinhos encheram a casa para confortá-las, mas a dor era enorme. Elas haviam mandado avisar Jesus, e Jesus não tinha chegado a tempo.
+
+Será que Ele não se importava? Será que não tinha recebido a mensagem?
+
+Quatro dias se passaram desde a morte de Lázaro, e Jesus ainda não havia chegado. Lázaro já havia sido enterrado em uma tumba na rocha.
+
+Marta e Maria estavam de coração partido. Mas dentro delas ainda havia uma faíscazinha de fé — uma esperança que não conseguiam apagar, mesmo com toda a tristeza.`,
+      },
+      {
+        imageUrl: "/images/historias/a-ressurreicao-de-lazaro-cena-3.svg",
+        title: "Jesus Chega a Betânia",
+        text: `Quando a notícia de que Jesus estava chegando chegou à casa, Marta foi correndo ao Seu encontro. Maria ficou sentada, ainda chorando.
+
+Marta encontrou Jesus no caminho e disse, com a voz embargada:
+
+— Senhor, se estivesses aqui, meu irmão não teria morrido. Mas mesmo agora, eu sei que Deus te dará tudo o que pedires!
+
+Jesus olhou para ela com olhos cheios de amor e disse algo que ela nunca esqueceria:
+
+— Teu irmão ressuscitará. Eu sou a ressurreição e a vida. Quem crê em Mim, ainda que morra, viverá!
+
+— Creio, Senhor — respondeu Marta com lágrimas nos olhos. — Creio que Tu és o Cristo, o Filho de Deus!
+
+Então Maria também veio correndo e se jogou aos pés de Jesus, chorando. Os amigos que a acompanhavam também choravam. E então aconteceu algo que ninguém esperava de um homem tão poderoso:
+
+Jesus também chorou.
+
+Ele sentiu a dor deles. Ele se importava. E suas lágrimas mostraram que Deus nunca fica indiferente à nossa tristeza.`,
+      },
+      {
+        imageUrl: "/images/historias/a-ressurreicao-de-lazaro-cena-4.svg",
+        title: "Lázaro, Sai!",
+        text: `Jesus pediu para ser levado até o lugar onde Lázaro havia sido sepultado. Era uma tumba escavada na rocha, com uma pedra enorme cobrindo a entrada.
+
+— Tirem a pedra — disse Jesus.
+
+— Senhor — disse Marta preocupada —, já faz quatro dias. Já tem mau cheiro...
+
+— Não te disse que, se creres, verás a glória de Deus? — respondeu Jesus com calma e firmeza.
+
+A pedra foi removida. Jesus olhou para cima e orou:
+
+— Pai, agradeço que me ouviste. Eu sei que sempre me ouves, mas disse isso por causa do povo que está aqui, para que creiam que Tu me enviaste.
+
+Então, Jesus se virou para a tumba e gritou com uma voz forte e cheia de autoridade:
+
+— Lázaro, vem para fora!
+
+Um silêncio absoluto caiu sobre todos. Ninguém respirava. Ninguém se movia.
+
+E então, do escuro daquela tumba, veio um movimento. Uma figura envolta em faixas de linho começou a aparecer na entrada. Era Lázaro — vivo! Andando!
+
+A multidão explodiu em gritos de alegria, espanto e adoração!`,
+      },
+      {
+        imageUrl: "/images/historias/a-ressurreicao-de-lazaro-cena-5.svg",
+        title: "A Alegria que Não Tem Fim",
+        text: `— Desatai-o e deixai-o ir! — ordenou Jesus.
+
+As faixas foram retiradas e lá estava Lázaro, de pé, com os olhos abertos, olhando ao redor com uma expressão de quem havia voltado de muito longe. Maria e Marta se jogaram em seus braços chorando — mas agora eram lágrimas de alegria!
+
+Lázaro estava vivo. Estava aquecido, respirando, sorrindo. Era o mesmo Lázaro de sempre — o mesmo sorriso, o mesmo brilho nos olhos.
+
+Todos que estavam ali haviam visto o mais extraordinário milagre de suas vidas. E muitos, naquele dia, passaram a crer em Jesus.
+
+A história de Lázaro nos ensina coisas muito preciosas. Nos ensina que Jesus se importa com a nossa dor — que Ele chora com quem chora. Nos ensina que Ele tem poder sobre todas as coisas, até mesmo sobre a morte. E nos ensina que, quando tudo parece sem esperança, Deus pode surpreender de maneiras que nossa imaginação não alcança.
+
+Quando você estiver com medo, ou triste, ou sentindo que está no escuro como numa tumba, lembre-se da voz de Jesus chamando Lázaro. Esse mesmo Jesus pode te chamar pelo nome — e tudo pode mudar.`,
+      },
+    ],
+  },
+  {
+    imageUrl: "/images/historias/pedro-anda-sobre-as-aguas.svg",
+    slug: "pedro-anda-sobre-as-aguas",
+    title: "Pedro Anda Sobre as Águas",
+    subtitle: "A fé que move os pés — e o mar",
+    description:
+      "Em uma noite de tempestade, os discípulos viram Jesus andando sobre o mar! Pedro, cheio de coragem, pediu para sair do barco e caminhar até Ele. O que aconteceu em seguida é uma lição que nunca esquecemos!",
+    readingTime: "8 min",
+    ageRange: "3–8 anos",
+    emoji: "🌊",
+    gradient: "from-blue-600 via-cyan-500 to-teal-400",
+    bgColor: "bg-blue-50",
+    accentColor: "text-blue-700",
+    bibleReference: "Mateus 14:22–33",
+    testament: "novo",
+    moralLesson:
+      "Quando mantemos os olhos em Jesus, conseguimos fazer coisas impossíveis. Mas se olharmos para os problemas com medo, precisamos lembrar de pedir ajuda a Ele.",
+    scenes: [
+      {
+        imageUrl: "/images/historias/pedro-anda-sobre-as-aguas-cena-1.svg",
+        title: "Uma Noite no Mar",
+        text: `Tinha sido um dia longo e cheio. Jesus havia alimentado mais de cinco mil pessoas com apenas cinco pães e dois peixinhos — um milagre incrível que deixou todos boquiabertos. As sobras encheram doze cestos!
+
+Depois daquele dia extraordinário, Jesus pediu que seus discípulos entrassem no barco e fossem para o outro lado do lago enquanto Ele dispensava a multidão. Os discípulos obedeceram e partiram.
+
+Jesus subiu sozinho numa colina para orar. Era o tipo de coisa que Ele fazia frequentemente — buscava momentos de silêncio para conversar com Seu Pai no céu.
+
+A noite chegou. As estrelas piscaram no céu escuro. No barco, os discípulos remavam em direção à outra margem. Havia Pedro, André, Tiago, João e os outros — pescadores experientes que conheciam bem o mar.
+
+Mas as águas que antes estavam calmas começaram a mudar. O vento aumentou. As ondas ficaram maiores. O barco balançava cada vez mais forte. Era uma tempestade que crescia a cada momento, e os discípulos lutavam com os remos com toda a força.`,
+      },
+      {
+        imageUrl: "/images/historias/pedro-anda-sobre-as-aguas-cena-2.svg",
+        title: "Uma Figura nas Águas",
+        text: `Era de madrugada — a hora mais escura da noite — quando algo extraordinário aconteceu.
+
+Os discípulos estavam cansados de remar contra o vento. As ondas batiam forte contra o casco do barco, que gemia e rangia. Alguns seguravam os lados brancos de medo.
+
+De repente, alguém gritou:
+
+— O que é aquilo?!
+
+Todos olharam para onde o dedo apontava. No meio do mar revolto, através do spray das ondas e da escuridão, havia uma figura — alguém caminhando sobre a água em direção ao barco!
+
+O medo tomou conta de todos. Seus corações dispararam.
+
+— É um fantasma! — gritaram uns para os outros, apavorados.
+
+As ondas rugiam, o vento uivava, e aquela figura se aproximava cada vez mais. As mãos tremiam nos remos. Alguns discípulos se abraçaram de pavor.
+
+Então a figura abriu a boca, e uma voz conhecida cortou o barulho da tempestade:
+
+— Coragem! Sou Eu! Não tenham medo!
+
+Era Jesus! Andando sobre as águas como se fossem um chão sólido!`,
+      },
+      {
+        imageUrl: "/images/historias/pedro-anda-sobre-as-aguas-cena-3.svg",
+        title: "Pedro Sai do Barco",
+        text: `Quando os discípulos reconheceram a voz de Jesus, a tensão diminuiu um pouco. Mas Pedro — aquele pescador grandão, impulsivo e cheio de entusiasmo — tinha algo fervilhando dentro do peito.
+
+— Senhor, se és Tu — gritou Pedro por cima do barulho do vento —, manda que eu vá ter Contigo, andando sobre as águas!
+
+Havia um silêncio breve. E então Jesus respondeu com uma só palavra:
+
+— Vem!
+
+Pedro olhou para as ondas escuras que balanavam abaixo dele. Olhou para Jesus, lá na frente, de pé sobre a água como se fosse o coisa mais natural do mundo. Respirou fundo.
+
+E colocou os pés fora do barco.
+
+Seus pés tocaram a água — e ela sustentou seu peso! Pedro começou a andar sobre o mar em direção a Jesus! Passo um, passo dois, passo três... Era um milagre! Pedro estava andando sobre as águas!
+
+Os outros discípulos assistiam com a boca aberta, esquecendo por um momento a tempestade ao redor. Seria que estavam sonhando?
+
+Não estavam. Pedro estava andando sobre o mar.`,
+      },
+      {
+        imageUrl: "/images/historias/pedro-anda-sobre-as-aguas-cena-4.svg",
+        title: "O Medo que Afunda",
+        text: `Pedro caminhava em direção a Jesus, os pés sobre as ondas, o coração acelerado de emoção.
+
+Mas então ele cometeu um erro: tirou os olhos de Jesus.
+
+Uma rajada de vento forte bateu em seu rosto. As ondas ao seu redor cresceram. E Pedro olhou para o mar revoltoso, para as águas escuras e profundas sob seus pés — e o medo tomou conta dele.
+
+"O que estou fazendo aqui? Isso é impossível! Eu vou afundar!"
+
+E foi exatamente o que aconteceu. Pedro começou a afundar! As águas que o sustentavam agora o puxavam para baixo. Com o coração na garganta, ele gritou:
+
+— Senhor, salva-me!
+
+Em um instante, Jesus estendeu a mão e segurou Pedro com firmeza, impedindo que ele afundasse.
+
+— Homem de pequena fé — disse Jesus com suavidade, mas com seriedade —, por que duvidaste?
+
+Pedro segurou a mão de Jesus com toda a força. Ainda com o coração batendo rápido, os dois caminharam juntos de volta ao barco. Quando subiram, o vento parou imediatamente, e o mar ficou calmo como um espelho.`,
+      },
+      {
+        imageUrl: "/images/historias/pedro-anda-sobre-as-aguas-cena-5.svg",
+        title: "A Adoração no Barco",
+        text: `Quando Jesus e Pedro entraram no barco, um silêncio de admiração tomou conta de todos.
+
+Os discípulos olhavam para Jesus. Olhavam para Pedro ainda gotejando. Olhavam para o mar agora em paz total. E não conseguiam mais ficar em pé.
+
+Um por um, se ajoelharam no barco — pescadores endurecidos, homens que raramente demonstravam emoção — com os olhos marejados e o coração transbordando.
+
+— Verdadeiramente Tu és o Filho de Deus! — disseram juntos.
+
+Era a primeira vez que os discípulos declaravam isso assim, de forma tão clara e unida. Aquela noite de tempestade havia feito algo dentro de cada um deles que nenhum sermão poderia ter feito: havia mostrado na prática quem Jesus realmente era.
+
+A história de Pedro nas águas é uma das favoritas das crianças — e dos adultos! — porque todos nós já nos sentimos como Pedro às vezes. Começamos cheios de coragem, mas quando os problemas ficam grandes demais, o medo nos faz afundar.
+
+A boa notícia é que Jesus está sempre lá, com a mão estendida, pronto para nos segurar. Tudo o que precisamos fazer é gritar Seu nome — e Ele nos alcança na hora.`,
+      },
+    ],
+  },
+  {
+    imageUrl: "/images/historias/as-bodas-de-cana.svg",
+    slug: "as-bodas-de-cana",
+    title: "As Bodas de Caná",
+    subtitle: "Quando Jesus fez a água virar vinho",
+    description:
+      "Jesus foi convidado para uma festa de casamento na cidade de Caná. No meio da festa, aconteceu um problema — mas Jesus fez algo incrível que deixou todos surpresos! Este foi o primeiro milagre de Jesus.",
+    readingTime: "7 min",
+    ageRange: "3–8 anos",
+    emoji: "🍇",
+    gradient: "from-amber-500 via-yellow-400 to-lime-400",
+    bgColor: "bg-amber-50",
+    accentColor: "text-amber-700",
+    bibleReference: "João 2:1–11",
+    testament: "novo",
+    moralLesson:
+      "Jesus se importa com os detalhes da nossa vida, até com os menores problemas. Quando confiamos n'Ele, Ele pode transformar situações difíceis em algo muito melhor.",
+    scenes: [
+      {
+        imageUrl: "/images/historias/as-bodas-de-cana-cena-1.svg",
+        title: "Uma Festa de Casamento",
+        text: `Na cidade de Caná, na Galileia, havia uma grande animação. Um casal estava se casando, e toda a aldeia estava convidada para a festa!
+
+As casas estavam enfeitadas com flores coloridas. As mulheres haviam cozinhado por dias — pães frescos, carnes assadas, frutas e doces de todos os tipos. Jarras enormes de vinho esperavam para ser servidas. Era uma festa que durava vários dias, como era costume naquela época.
+
+Jesus e Sua mãe Maria também foram convidados. Os discípulos de Jesus vieram junto. Todos estavam animados — uma festa de casamento era um dos momentos mais alegres na vida de uma família!
+
+Maria circulava entre os convidados com um sorriso nos lábios, conversando, ajudando como podia. Ela sempre foi uma pessoa atenta aos outros, sempre percebendo quando alguém precisava de algo.
+
+Músicos tocavam e as pessoas dançavam. Crianças corriam rindo entre as mesas. Os noivos brilhavam de felicidade. Era uma das noites mais especiais de suas vidas — e a festa mal havia começado.`,
+      },
+      {
+        imageUrl: "/images/historias/as-bodas-de-cana-cena-2.svg",
+        title: "O Problema na Festa",
+        text: `No meio da festa, Maria percebeu algo que ninguém mais havia notado ainda. Olhando com atenção para os serventes que circulavam com as bandejas, ela viu que as jarras de vinho estavam ficando vazias.
+
+Isso era um problema sério. Na cultura daquela época, ficar sem vinho no meio de uma festa de casamento era uma vergonha enorme para a família. As pessoas falariam mal por muito tempo. Os noivos ficariam envergonhados no dia mais importante de suas vidas.
+
+Maria foi até Jesus e disse baixinho, com calma:
+
+— Eles estão sem vinho.
+
+Jesus respondeu de um jeito que soou estranho:
+
+— Mulher, que tem isso a ver Comigo? Minha hora ainda não chegou.
+
+Mas Maria conhecia Seu filho. Ela sabia que Ele podia ajudar. Com um pequeno sorriso, ela virou para os serventes e disse, com muita certeza no coração:
+
+— Façam tudo o que Ele disser.
+
+Ela não sabia exatamente o que Jesus faria. Mas confiava completamente n'Ele. E essa confiança silenciosa abriu o caminho para o primeiro milagre de Jesus.`,
+      },
+      {
+        imageUrl: "/images/historias/as-bodas-de-cana-cena-3.svg",
+        title: "As Seis Jarras de Pedra",
+        text: `Jesus olhou ao redor e viu seis grandes jarras de pedra encostadas na parede. Eram jarras enormes — cada uma cabia de cem a cento e cinquenta litros de água! Eram usadas para a purificação ritual dos judeus.
+
+Ele chamou os serventes e disse:
+
+— Encham as jarras de água.
+
+Os serventes se olharam. Água? Mas o problema era a falta de vinho, não de água! Mesmo assim, lembraram das palavras de Maria: "Façam tudo o que Ele disser."
+
+Então foram enchendo as jarras — um balde após outro, subindo e descendo as escadas até o poço, derramando a água fresca dentro das jarras de pedra. Trabalharam até que as seis jarras estavam completamente cheias, até a borda.
+
+Quando terminaram, Jesus disse:
+
+— Agora tirem um pouco e levem ao mestre-sala.
+
+O mestre-sala era o responsável pela festa — o que ficava cuidando de tudo para que os convidados fossem bem atendidos. Os serventes obedeceram, tiraram um pouco do líquido das jarras e levaram.
+
+O que eles carregaram nos copos não era mais água.`,
+      },
+      {
+        imageUrl: "/images/historias/as-bodas-de-cana-cena-4.svg",
+        title: "A Surpresa do Mestre-Sala",
+        text: `O mestre-sala recebeu a taça e bebeu. Seus olhos se arregalaram.
+
+Era vinho! E não era um vinho qualquer — era um vinho extraordinário, o melhor que ele já havia provado em sua vida!
+
+Sem saber de onde havia saído aquele vinho maravilhoso, ele foi até o noivo e disse, com admiração:
+
+— Todo mundo serve o vinho bom primeiro, e depois, quando as pessoas já beberam bastante, serve o de qualidade menor. Mas você guardou o melhor vinho para agora!
+
+O noivo sorriu sem saber exatamente o que havia acontecido. Os serventes sim — eles sabiam. Eles haviam visto a água entrar nas jarras. Eles haviam tirado o vinho de dentro. Eles sabiam que aquilo era impossível — e tinha acontecido!
+
+Com olhos cheios de admiração, eles olharam para Jesus de longe. Quem era esse homem que transformava água em vinho com apenas uma palavra?
+
+Os discípulos de Jesus também haviam visto tudo. E aquele momento fez algo dentro de cada um deles — sua fé cresceu, suas dúvidas diminuíram. Eles viram pela primeira vez a glória de Jesus se revelar.`,
+      },
+      {
+        imageUrl: "/images/historias/as-bodas-de-cana-cena-5.svg",
+        title: "O Primeiro Sinal de Jesus",
+        text: `A festa continuou com alegria ainda maior. Os convidados bebiam o vinho maravilhoso sem saber do milagre que havia acontecido. A família dos noivos respirou aliviada. A vergonha havia sido evitada.
+
+E Jesus havia feito tudo isso de um jeito discreto — sem fanfarra, sem chamar atenção para Si mesmo. Apenas com amor e poder, de forma silenciosa, transformou um problema em alegria.
+
+A Bíblia chama esse episódio de "o primeiro dos sinais" de Jesus — o primeiro milagre que Ele fez para revelar quem era. E aconteceu numa festa de casamento, num momento aparentemente pequeno, ajudando uma família que estava passando por um problema que parecia sem solução.
+
+Isso nos diz algo muito importante sobre Jesus: Ele se importa com os detalhes da nossa vida. Ele não veio apenas para curar doenças grandes ou ressuscitar mortos. Ele se importa com a sua festa, com a sua preocupação pequena, com o seu dia a dia.
+
+Quando você estiver com um problema — grande ou pequeno — você pode contar para Jesus, assim como Maria contou naquele dia. E assim como os serventes, você pode fazer o que Ele manda, mesmo sem entender o plano.
+
+Porque Jesus sempre transforma as coisas para melhor.`,
+      },
+    ],
+  },
 ]
 
 export function getStoryBySlug(slug: string): Story | undefined {
