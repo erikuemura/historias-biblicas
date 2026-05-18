@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react"
 import { Search, X, SlidersHorizontal } from "lucide-react"
-import Fuse from "fuse.js"
+import Fuse, { type IFuseOptions } from "fuse.js"
 import StoryCard from "@/components/StoryCard"
 import type { Story } from "@/data/stories"
 
@@ -18,23 +18,24 @@ function normalize(str: string) {
   return str.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase()
 }
 
-// Fuse.js: getFn normaliza cada campo ao indexar — resolve acentos e cedilha
-const FUSE_OPTIONS: Fuse.IFuseOptions<Story> = {
+// Versão da história com campos pré-normalizados para o índice Fuse
+type NormalizedStory = Story & {
+  _n_title: string
+  _n_subtitle: string
+  _n_description: string
+  _n_bible: string
+}
+
+const FUSE_OPTIONS: IFuseOptions<NormalizedStory> = {
   threshold: 0.35,
   distance: 300,
   minMatchCharLength: 2,
   includeScore: true,
-  getFn: (obj, path) => {
-    const val = Fuse.config.getFn(obj, path)
-    if (typeof val === "string") return normalize(val)
-    if (Array.isArray(val)) return val.map((v) => (typeof v === "string" ? normalize(v) : v))
-    return val
-  },
   keys: [
-    { name: "title",          weight: 3   },
-    { name: "subtitle",       weight: 2   },
-    { name: "description",    weight: 1.5 },
-    { name: "bibleReference", weight: 1   },
+    { name: "_n_title",       weight: 3   },
+    { name: "_n_subtitle",    weight: 2   },
+    { name: "_n_description", weight: 1.5 },
+    { name: "_n_bible",       weight: 1   },
   ],
 }
 
@@ -47,8 +48,17 @@ export default function StoriesGrid({ stories }: Props) {
   const [duration, setDuration]   = useState<Duration>("todos")
   const [search, setSearch]       = useState("")
 
-  // Instância do Fuse criada uma só vez (memoizada)
-  const fuse = useMemo(() => new Fuse(stories, FUSE_OPTIONS), [stories])
+  // Pré-normaliza os campos e cria o índice Fuse uma só vez
+  const fuse = useMemo(() => {
+    const normalized: NormalizedStory[] = stories.map((s) => ({
+      ...s,
+      _n_title:       normalize(s.title),
+      _n_subtitle:    normalize(s.subtitle),
+      _n_description: normalize(s.description),
+      _n_bible:       normalize(s.bibleReference),
+    }))
+    return new Fuse(normalized, FUSE_OPTIONS)
+  }, [stories])
 
   const filtered = useMemo(() => {
     // 1. Busca fuzzy via Fuse (se houver texto)
