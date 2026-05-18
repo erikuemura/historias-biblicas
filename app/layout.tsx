@@ -4,6 +4,7 @@ import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import GoogleAnalytics from "@/components/GoogleAnalytics"
+import ServiceWorkerRegister from "@/components/ServiceWorkerRegister"
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -53,6 +54,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical: BASE_URL,
   },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Histórias Bíblicas",
+  },
+  icons: {
+    apple: "/icons/apple-touch-icon.png",
+    icon: [
+      { url: "/icons/icon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icons/icon-192x192.png", sizes: "192x192", type: "image/png" },
+    ],
+  },
 }
 
 export default function RootLayout({
@@ -64,6 +77,7 @@ export default function RootLayout({
     <html lang="pt-BR" className={`${nunito.variable} h-full`}>
       <body className="min-h-full flex flex-col font-sans antialiased bg-amber-50/30">
         <GoogleAnalytics />
+        <ServiceWorkerRegister />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
