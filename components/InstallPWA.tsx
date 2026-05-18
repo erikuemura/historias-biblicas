@@ -22,6 +22,12 @@ function detectPlatform(): Platform {
   return "other"
 }
 
+/** Retorna true se o acesso é via dispositivo móvel (não desktop) */
+function isMobileDevice(): boolean {
+  if (typeof navigator === "undefined") return false
+  return /android|iphone|ipad|ipod|mobile/i.test(navigator.userAgent)
+}
+
 function isStandalone(): boolean {
   if (typeof window === "undefined") return false
   return (
@@ -37,29 +43,32 @@ export default function InstallPWA() {
   const [showIOSGuide, setShowIOSGuide] = useState(false)
 
   useEffect(() => {
-    if (isStandalone()) return // já instalado
+    // Não exibe em desktop nem se já estiver instalado
+    if (isStandalone() || !isMobileDevice()) return
+
     const p = detectPlatform()
     setPlatform(p)
 
+    const dismissed = localStorage.getItem("pwa-dismissed")
+    if (dismissed) return // já dispensou permanentemente
+
     if (p === "ios-safari" || p === "ios-chrome" || p === "ios-other") {
       // iOS: mostra o banner após 3s (não tem beforeinstallprompt)
-      const dismissed = sessionStorage.getItem("pwa-dismissed")
-      if (!dismissed) setTimeout(() => setShow(true), 3000)
+      setTimeout(() => setShow(true), 3000)
     }
 
     // Android/Chrome: captura o evento beforeinstallprompt
     const handler = (e: Event) => {
       e.preventDefault()
       setDeferredPrompt(e)
-      const dismissed = sessionStorage.getItem("pwa-dismissed")
-      if (!dismissed) setShow(true)
+      setShow(true)
     }
     window.addEventListener("beforeinstallprompt", handler)
     return () => window.removeEventListener("beforeinstallprompt", handler)
   }, [])
 
   function dismiss() {
-    sessionStorage.setItem("pwa-dismissed", "1")
+    localStorage.setItem("pwa-dismissed", "1")
     setShow(false)
     setShowIOSGuide(false)
   }
@@ -74,7 +83,10 @@ export default function InstallPWA() {
     if (!deferredPrompt) return
     deferredPrompt.prompt()
     const { outcome } = await deferredPrompt.userChoice
-    if (outcome === "accepted") setShow(false)
+    if (outcome === "accepted") {
+      localStorage.setItem("pwa-dismissed", "1") // não mostrar de novo após instalação
+      setShow(false)
+    }
     setDeferredPrompt(null)
   }
 
