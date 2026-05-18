@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="sam1_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+    <linearGradient id="sam1_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d6d3d1"/>
+      <stop offset="100%" stop-color="#a8a29e"/>
+    </linearGradient>
+    <radialGradient id="sam1_templeglow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fef9c3" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fef9c3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#sam1_sky)"/>
+  <!-- Clouds -->
+  <ellipse cx="150" cy="65" rx="80" ry="30" fill="white" opacity="0.9"/>
+  <ellipse cx="190" cy="52" rx="58" ry="26" fill="white" opacity="0.9"/>
+  <ellipse cx="112" cy="58" rx="45" ry="22" fill="white" opacity="0.9"/>
+  <ellipse cx="620" cy="58" rx="82" ry="32" fill="white" opacity="0.9"/>
+  <ellipse cx="662" cy="45" rx="60" ry="26" fill="white" opacity="0.9"/>
+  <!-- Temple building -->
+  <!-- Steps -->
+  <rect x="130" y="295" width="540" height="12" rx="3" fill="#d6d3d1"/>
+  <rect x="115" y="305" width="570" height="12" rx="3" fill="#e7e5e4"/>
+  <rect x="100" y="315" width="600" height="12" rx="3" fill="#d6d3d1"/>
+  <!-- Temple walls -->
+  <rect x="130" y="140" width="540" height="160" rx="3" fill="#e7e5e4"/>
+  <!-- Temple roof -->
+  <polygon points="115,142 400,80 685,142" fill="#a8a29e"/>
+  <polygon points="115,142 400,90 685,142" fill="#d6d3d1" opacity="0.6"/>
+  <!-- Columns -->
+  <rect x="160" y="140" width="24" height="160" rx="5" fill="#d6d3d1"/>
+  <rect x="210" y="140" width="24" height="160" rx="5" fill="#e7e5e4"/>
+  <rect x="260" y="140" width="24" height="160" rx="5" fill="#d6d3d1"/>
+  <rect x="520" y="140" width="24" height="160" rx="5" fill="#d6d3d1"/>
+  <rect x="568" y="140" width="24" height="160" rx="5" fill="#e7e5e4"/>
+  <rect x="618" y="140" width="24" height="160" rx="5" fill="#d6d3d1"/>
+  <!-- Temple interior (dark) -->
+  <rect x="135" y="145" width="530" height="155" fill="#78716c" opacity="0.3"/>
+  <!-- Temple glow -->
+  <ellipse cx="400" cy="185" rx="200" ry="120" fill="url(#sam1_templeglow)"/>
+  <!-- Temple door/entrance -->
+  <rect x="365" y="220" width="70" height="80" rx="5" fill="#57534e"/>
+  <ellipse cx="400" cy="222" rx="35" ry="12" fill="#78716c"/>
+  <!-- ELI - old priest (right side, inside temple door) -->
+  <!-- Body (robes) -->
+  <ellipse cx="500" cy="280" rx="28" ry="45" fill="#7c3aed"/>
+  <!-- Arms of Eli (welcoming) -->
+  <path d="M474 265 Q455 252 445 248" stroke="#6d28d9" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M526 265 Q545 252 555 248" stroke="#6d28d9" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <!-- Eli's hands reaching down to Samuel -->
+  <circle cx="445" cy="246" r="12" fill="#d97706"/>
+  <circle cx="555" cy="246" r="12" fill="#d97706"/>
+  <!-- Eli head (old, white hair/beard) -->
+  <circle cx="500" cy="228" r="28" fill="#f59e0b"/>
+  <!-- White beard -->
+  <ellipse cx="500" cy="245" rx="20" ry="15" fill="white" opacity="0.9"/>
+  <!-- White hair -->
+  <ellipse cx="500" cy="215" rx="28" ry="15" fill="white" opacity="0.9"/>
+  <path d="M474 222 Q468 235 470 248" stroke="white" stroke-width="8" fill="none"/>
+  <path d="M526 222 Q532 235 530 248" stroke="white" stroke-width="8" fill="none"/>
+  <!-- Eli face -->
+  <circle cx="492" cy="224" r="4.5" fill="#1c1917"/>
+  <circle cx="508" cy="224" r="4.5" fill="#1c1917"/>
+  <path d="M492 236 Q500 240 508 236" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- Priest hat/turban -->
+  <ellipse cx="500" cy="208" rx="24" ry="10" fill="#1d4ed8"/>
+  <rect x="480" y="200" width="40" height="12" rx="4" fill="#1d4ed8"/>
+  <!-- SAMUEL - child (left, being brought, small) -->
+  <!-- Mother Hannah bringing Samuel (left side) -->
+  <!-- Hannah body -->
+  <ellipse cx="270" cy="278" rx="26" ry="42" fill="#ec4899"/>
+  <!-- Hannah arms holding Samuel -->
+  <path d="M246 265 Q232 256 226 255" stroke="#db2777" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M294 265 Q308 258 318 260" stroke="#db2777" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Hannah head -->
+  <circle cx="270" cy="228" r="26" fill="#fbbf24"/>
+  <!-- Veil/head covering -->
+  <ellipse cx="270" cy="215" rx="28" ry="14" fill="#f9a8d4"/>
+  <path d="M248 220 Q242 248 246 280" stroke="#f9a8d4" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M292 220 Q298 248 294 280" stroke="#f9a8d4" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Hannah face (loving but sad) -->
+  <circle cx="264" cy="226" r="4" fill="#1c1917"/>
+  <circle cx="276" cy="226" r="4" fill="#1c1917"/>
+  <path d="M264 236 Q270 240 276 236" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <!-- Tear -->
+  <ellipse cx="263" cy="233" rx="2.5" ry="4" fill="#93c5fd" opacity="0.8"/>
+  <!-- SAMUEL child (held by Hannah, being handed to Eli) -->
+  <circle cx="355" cy="270" r="20" fill="#fde047"/>
+  <!-- Samuel hair (child) -->
+  <ellipse cx="355" cy="257" rx="20" ry="12" fill="#92400e"/>
+  <!-- Samuel body (small) -->
+  <ellipse cx="355" cy="296" rx="16" ry="22" fill="#fde68a"/>
+  <!-- Samuel face (innocent, curious) -->
+  <circle cx="349" cy="268" r="3.5" fill="#1c1917"/>
+  <circle cx="361" cy="268" r="3.5" fill="#1c1917"/>
+  <path d="M349 277 Q355 281 361 277" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <!-- Samuel arms extended toward Eli -->
+  <path d="M345 280 Q330 272 322 268" stroke="#fde68a" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M365 280 Q380 272 390 268" stroke="#fde68a" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Ground -->
+  <ellipse cx="400" cy="370" rx="500" ry="30" fill="#a8a29e"/>
+</svg>

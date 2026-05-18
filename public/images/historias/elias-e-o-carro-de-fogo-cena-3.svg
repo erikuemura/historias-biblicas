@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="elias3_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="60%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="elias3_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+  <!-- Arid landscape sky (late afternoon) -->
+  <rect width="800" height="380" fill="url(#elias3_sky)"/>
+  <!-- Sun setting on horizon -->
+  <circle cx="700" cy="95" r="45" fill="#fde047"/>
+  <!-- Dry clouds -->
+  <ellipse cx="200" cy="75" rx="80" ry="28" fill="white" opacity="0.6"/>
+  <ellipse cx="500" cy="60" rx="90" ry="32" fill="white" opacity="0.6"/>
+  <!-- Desert ground -->
+  <rect x="0" y="305" width="800" height="75" fill="url(#elias3_ground)"/>
+  <ellipse cx="400" cy="305" rx="500" ry="25" fill="#d97706"/>
+  <!-- Rocky hills -->
+  <polygon points="0,282 90,198 180,282" fill="#92400e" opacity="0.6"/>
+  <polygon points="620,282 720,188 800,282" fill="#92400e" opacity="0.6"/>
+  <!-- Rocks on ground -->
+  <ellipse cx="120" cy="318" rx="22" ry="10" fill="#78350f"/>
+  <ellipse cx="680" cy="320" rx="20" ry="9" fill="#78350f"/>
+  <ellipse cx="400" cy="330" rx="16" ry="7" fill="#92400e"/>
+  <!-- Dry shrubs -->
+  <path d="M200 308 Q198 288 195 278 Q188 272 184 277 Q195 282 195 278" stroke="#92400e" stroke-width="4" fill="none"/>
+  <path d="M195 278 Q200 270 207 275" stroke="#92400e" stroke-width="3" fill="none"/>
+  <path d="M580 306 Q578 286 575 276 Q568 270 564 275 Q575 280 575 276" stroke="#92400e" stroke-width="4" fill="none"/>
+  <path d="M575 276 Q580 268 587 273" stroke="#92400e" stroke-width="3" fill="none"/>
+  <!-- ELIAS and ELISEU sitting/standing on dry ground talking - intimate scene -->
+  <!-- Elias (left, seated on rock, facing Eliseu) -->
+  <!-- Rock/stone -->
+  <ellipse cx="245" cy="308" rx="48" ry="18" fill="#78350f"/>
+  <ellipse cx="245" cy="305" rx="44" ry="15" fill="#92400e"/>
+  <!-- Elias body (seated, robes) -->
+  <ellipse cx="245" cy="275" rx="35" ry="40" fill="#b45309"/>
+  <ellipse cx="245" cy="280" rx="24" ry="34" fill="#d97706"/>
+  <!-- Belt -->
+  <rect x="222" y="276" width="46" height="8" rx="3" fill="#92400e"/>
+  <!-- Elias arms (gesturing/explaining) -->
+  <path d="M213 268 Q190 256 178 250" stroke="#b45309" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M277 268 Q300 258 316 255" stroke="#b45309" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Hand extended (offering gesture) -->
+  <ellipse cx="175" cy="248" rx="14" ry="9" fill="#d97706"/>
+  <!-- Mantle visible (symbolic) -->
+  <path d="M280 285 Q265 305 258 322" stroke="#b45309" stroke-width="10" fill="none" opacity="0.8"/>
+  <!-- Elias head (old, white, wise) -->
+  <circle cx="245" cy="233" r="30" fill="#d97706"/>
+  <!-- White hair/beard -->
+  <ellipse cx="245" cy="217" rx="30" ry="15" fill="white"/>
+  <ellipse cx="245" cy="250" rx="20" ry="13" fill="white"/>
+  <path d="M218 222 Q210 236 212 252" stroke="white" stroke-width="9" fill="none"/>
+  <path d="M272 222 Q280 236 278 252" stroke="white" stroke-width="9" fill="none"/>
+  <!-- Elias face (kindly, serious) -->
+  <circle cx="237" cy="230" r="4.5" fill="#1c1917"/>
+  <circle cx="253" cy="230" r="4.5" fill="#1c1917"/>
+  <path d="M237 242 Q245 246 253 242" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- Speech bubble area (Elias talking) -->
+  <ellipse cx="175" cy="215" rx="62" ry="35" fill="white" opacity="0.85"/>
+  <polygon points="198,247 208,250 205,240" fill="white" opacity="0.85"/>
+  <!-- Dots indicating speech (no text) -->
+  <circle cx="153" cy="215" r="5" fill="#b45309"/>
+  <circle cx="175" cy="215" r="5" fill="#d97706"/>
+  <circle cx="197" cy="215" r="5" fill="#b45309"/>
+  <!-- ELISEU (right, standing, attentive expression) -->
+  <!-- Body -->
+  <ellipse cx="510" cy="278" rx="32" ry="52" fill="#22c55e"/>
+  <ellipse cx="510" cy="284" rx="22" ry="44" fill="#4ade80"/>
+  <!-- Belt -->
+  <rect x="486" y="278" width="48" height="8" rx="3" fill="#15803d"/>
+  <!-- Eliseu arms (one on chest/heart - eager) -->
+  <path d="M480 265 Q458 258 445 255" stroke="#22c55e" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M540 265 Q562 258 576 258" stroke="#22c55e" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <!-- Hand on heart (earnest response) -->
+  <ellipse cx="470" cy="260" rx="14" ry="9" fill="#fbbf24"/>
+  <!-- Heart position on chest -->
+  <ellipse cx="485" cy="265" rx="12" ry="10" fill="#4ade80"/>
+  <!-- Eliseu head -->
+  <circle cx="510" cy="228" r="28" fill="#fbbf24"/>
+  <!-- Dark hair -->
+  <ellipse cx="510" cy="213" rx="28" ry="14" fill="#292524"/>
+  <path d="M484 218 Q476 234 478 255" stroke="#292524" stroke-width="9" fill="none"/>
+  <path d="M536 218 Q544 234 542 255" stroke="#292524" stroke-width="9" fill="none"/>
+  <!-- Beard (younger) -->
+  <ellipse cx="510" cy="244" rx="16" ry="9" fill="#44403c" opacity="0.7"/>
+  <!-- Eliseu face (earnest, requesting) -->
+  <circle cx="502" cy="225" r="4.5" fill="#1c1917"/>
+  <circle cx="518" cy="225" r="4.5" fill="#1c1917"/>
+  <!-- Bright wide eyes (eager) -->
+  <circle cx="502" cy="223" r="2" fill="white"/>
+  <circle cx="518" cy="223" r="2" fill="white"/>
+  <path d="M502 236 Q510 240 518 236" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- Speech bubble Eliseu -->
+  <ellipse cx="625" cy="210" rx="65" ry="35" fill="white" opacity="0.85"/>
+  <polygon points="598,242 592,250 602,245" fill="white" opacity="0.85"/>
+  <!-- Exclamation in bubble (double portion request) -->
+  <rect x="617" y="198" width="6" height="18" rx="2" fill="#22c55e"/>
+  <rect x="630" y="198" width="6" height="18" rx="2" fill="#22c55e"/>
+  <circle cx="620" cy="222" r="3" fill="#22c55e"/>
+  <circle cx="633" cy="222" r="3" fill="#22c55e"/>
+</svg>

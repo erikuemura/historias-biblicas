@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="babel1_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fdba74"/>
+    </linearGradient>
+    <linearGradient id="babel1_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#babel1_sky)"/>
+  <!-- Sun bright and happy -->
+  <circle cx="400" cy="70" r="52" fill="#fde047"/>
+  <polygon points="400,5 410,42 400,32 390,42" fill="#fbbf24"/>
+  <polygon points="455,22 430,50 438,40 420,48" fill="#fbbf24"/>
+  <polygon points="475,65 438,68 448,63 438,73" fill="#fbbf24"/>
+  <polygon points="455,110 430,88 438,94 420,86" fill="#fbbf24"/>
+  <polygon points="345,22 370,50 362,40 380,48" fill="#fbbf24"/>
+  <polygon points="325,65 362,68 352,63 362,73" fill="#fbbf24"/>
+  <polygon points="345,110 370,88 362,94 380,86" fill="#fbbf24"/>
+  <!-- Happy clouds -->
+  <ellipse cx="150" cy="90" rx="75" ry="28" fill="white" opacity="0.9"/>
+  <ellipse cx="185" cy="77" rx="52" ry="24" fill="white" opacity="0.9"/>
+  <ellipse cx="115" cy="83" rx="42" ry="20" fill="white" opacity="0.9"/>
+  <ellipse cx="640" cy="80" rx="78" ry="30" fill="white" opacity="0.9"/>
+  <ellipse cx="678" cy="66" rx="55" ry="24" fill="white" opacity="0.9"/>
+  <ellipse cx="605" cy="75" rx="42" ry="22" fill="white" opacity="0.9"/>
+  <!-- Ground plain -->
+  <rect x="0" y="310" width="800" height="70" fill="url(#babel1_ground)"/>
+  <ellipse cx="400" cy="310" rx="500" ry="28" fill="#f59e0b"/>
+  <!-- Distant mountains -->
+  <polygon points="0,280 100,180 200,280" fill="#d97706" opacity="0.5"/>
+  <polygon points="100,280 220,165 340,280" fill="#b45309" opacity="0.5"/>
+  <polygon points="460,280 580,155 700,280" fill="#d97706" opacity="0.5"/>
+  <polygon points="600,280 720,168 800,280" fill="#b45309" opacity="0.5"/>
+  <!-- Plain (flat) in middle -->
+  <rect x="0" y="278" width="800" height="35" fill="#fbbf24" opacity="0.7"/>
+  <!-- MANY PEOPLE arriving, happy and united -->
+  <!-- Group 1 left -->
+  <circle cx="80" cy="295" r="13" fill="#d97706"/>
+  <ellipse cx="80" cy="315" rx="11" ry="16" fill="#f59e0b"/>
+  <path d="M70 305 Q60 296 54 292" stroke="#f59e0b" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M90 305 Q100 296 106 292" stroke="#f59e0b" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="54" cy="290" r="8" fill="#fde047"/>
+  <!-- Happy face -->
+  <circle cx="76" cy="292" r="3" fill="#1c1917"/>
+  <circle cx="84" cy="292" r="3" fill="#1c1917"/>
+  <path d="M75 298 Q80 302 85 298" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <circle cx="135" cy="292" r="13" fill="#7c3aed"/>
+  <ellipse cx="135" cy="312" rx="11" ry="16" fill="#6d28d9"/>
+  <path d="M125 302 Q115 294 108 290" stroke="#6d28d9" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M145 302 Q155 293 162 290" stroke="#6d28d9" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="76" cy="292" r="3" fill="#1c1917"/>
+  <circle cx="84" cy="292" r="3" fill="#1c1917"/>
+  <!-- Group 2 center left -->
+  <circle cx="220" cy="290" r="13" fill="#1d4ed8"/>
+  <ellipse cx="220" cy="310" rx="11" ry="16" fill="#2563eb"/>
+  <path d="M210 300 Q200 292 193 288" stroke="#2563eb" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M230 300 Q240 292 247 288" stroke="#2563eb" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="216" cy="287" r="3" fill="#1c1917"/>
+  <circle cx="224" cy="287" r="3" fill="#1c1917"/>
+  <path d="M215 294 Q220 298 225 294" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <circle cx="290" cy="288" r="13" fill="#dc2626"/>
+  <ellipse cx="290" cy="308" rx="11" ry="16" fill="#ef4444"/>
+  <path d="M280 298 Q270 290 263 286" stroke="#ef4444" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M300 298 Q310 290 317 286" stroke="#ef4444" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="286" cy="285" r="3" fill="#1c1917"/>
+  <circle cx="294" cy="285" r="3" fill="#1c1917"/>
+  <path d="M285 292 Q290 296 295 292" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <!-- Group center (hands joined) -->
+  <circle cx="370" cy="285" r="13" fill="#0891b2"/>
+  <ellipse cx="370" cy="305" rx="11" ry="16" fill="#0e7490"/>
+  <path d="M360 296 Q348 287 348 287" stroke="#0e7490" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M380 296 Q392 287 392 287" stroke="#0e7490" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="366" cy="282" r="3" fill="#1c1917"/>
+  <circle cx="374" cy="282" r="3" fill="#1c1917"/>
+  <path d="M365 289 Q370 293 375 289" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <circle cx="430" cy="285" r="13" fill="#15803d"/>
+  <ellipse cx="430" cy="305" rx="11" ry="16" fill="#16a34a"/>
+  <path d="M420 296 Q408 287 408 287" stroke="#16a34a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M440 296 Q452 287 452 287" stroke="#16a34a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="426" cy="282" r="3" fill="#1c1917"/>
+  <circle cx="434" cy="282" r="3" fill="#1c1917"/>
+  <path d="M425 289 Q430 293 435 289" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <!-- Hands joined between center figures -->
+  <circle cx="392" cy="300" r="9" fill="#0e7490"/>
+  <circle cx="408" cy="300" r="9" fill="#16a34a"/>
+  <!-- Group right -->
+  <circle cx="510" cy="288" r="13" fill="#92400e"/>
+  <ellipse cx="510" cy="308" rx="11" ry="16" fill="#b45309"/>
+  <path d="M500 298 Q490 290 483 286" stroke="#b45309" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M520 298 Q530 290 537 286" stroke="#b45309" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="506" cy="285" r="3" fill="#1c1917"/>
+  <circle cx="514" cy="285" r="3" fill="#1c1917"/>
+  <path d="M505 292 Q510 296 515 292" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <circle cx="580" cy="290" r="13" fill="#7c3aed"/>
+  <ellipse cx="580" cy="310" rx="11" ry="16" fill="#6d28d9"/>
+  <path d="M570 300 Q560 292 553 288" stroke="#6d28d9" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M590 300 Q600 292 607 288" stroke="#6d28d9" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="576" cy="287" r="3" fill="#1c1917"/>
+  <circle cx="584" cy="287" r="3" fill="#1c1917"/>
+  <path d="M575 294 Q580 298 585 294" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <!-- Group far right -->
+  <circle cx="660" cy="293" r="13" fill="#f97316"/>
+  <ellipse cx="660" cy="313" rx="11" ry="16" fill="#ea580c"/>
+  <path d="M650 303 Q640 295 633 291" stroke="#ea580c" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M670 303 Q680 295 687 291" stroke="#ea580c" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="730" cy="293" r="13" fill="#1d4ed8"/>
+  <ellipse cx="730" cy="313" rx="11" ry="16" fill="#2563eb"/>
+  <path d="M720 303 Q710 295 703 291" stroke="#2563eb" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M740 303 Q750 295 757 291" stroke="#2563eb" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Flags/banners being carried -->
+  <rect x="108" y="268" width="4" height="30" fill="#92400e"/>
+  <polygon points="112,268 112,283 128,275" fill="#dc2626"/>
+  <rect x="355" y="260" width="4" height="30" fill="#92400e"/>
+  <polygon points="359,260 359,275 375,267" fill="#fde047"/>
+  <rect x="650" y="262" width="4" height="30" fill="#92400e"/>
+  <polygon points="654,262 654,277 670,269" fill="#22c55e"/>
+  <!-- Celebration stars/sparkles -->
+  <polygon points="200,155 204,167 216,167 207,175 210,187 200,180 190,187 193,175 184,167 196,167" fill="#fde047" opacity="0.8"/>
+  <polygon points="600,145 604,157 616,157 607,165 610,177 600,170 590,177 593,165 584,157 596,157" fill="#fde047" opacity="0.8"/>
+  <polygon points="400,130 403,140 413,140 405,146 408,156 400,150 392,156 395,146 387,140 397,140" fill="#f97316" opacity="0.7"/>
+</svg>

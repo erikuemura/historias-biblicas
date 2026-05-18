@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="ester1_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fce7f3"/>
+      <stop offset="100%" stop-color="#f9a8d4"/>
+    </linearGradient>
+    <linearGradient id="ester1_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d6d3d1"/>
+      <stop offset="100%" stop-color="#a8a29e"/>
+    </linearGradient>
+    <radialGradient id="ester1_glow" cx="60%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fef9c3" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#fef9c3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background palace -->
+  <rect width="800" height="380" fill="url(#ester1_bg)"/>
+  <!-- Arch decoration -->
+  <path d="M60 380 Q60 60 400 40 Q740 60 740 380" stroke="#db2777" stroke-width="10" fill="none" opacity="0.4"/>
+  <path d="M100 380 Q100 100 400 80 Q700 100 700 380" stroke="#fde68a" stroke-width="6" fill="none" opacity="0.4"/>
+  <!-- Columns -->
+  <rect x="85" y="80" width="28" height="300" rx="7" fill="#db2777" opacity="0.6"/>
+  <ellipse cx="99" cy="80" rx="20" ry="9" fill="#ec4899" opacity="0.7"/>
+  <rect x="690" y="80" width="28" height="300" rx="7" fill="#db2777" opacity="0.6"/>
+  <ellipse cx="704" cy="80" rx="20" ry="9" fill="#ec4899" opacity="0.7"/>
+  <!-- Floor -->
+  <rect x="0" y="330" width="800" height="50" fill="url(#ester1_floor)"/>
+  <ellipse cx="400" cy="330" rx="450" ry="22" fill="#e7e5e4"/>
+  <!-- Throne area (background) -->
+  <rect x="320" y="140" width="160" height="185" rx="6" fill="#fbbf24" opacity="0.4"/>
+  <rect x="310" y="135" width="180" height="14" rx="4" fill="#d97706" opacity="0.4"/>
+  <!-- Glow -->
+  <ellipse cx="500" cy="210" rx="180" ry="150" fill="url(#ester1_glow)"/>
+  <!-- KING (right, seated) -->
+  <!-- King throne -->
+  <rect x="530" y="200" width="120" height="140" rx="6" fill="#d97706" opacity="0.8"/>
+  <rect x="520" y="195" width="140" height="12" rx="4" fill="#fbbf24"/>
+  <!-- King robe -->
+  <ellipse cx="590" cy="268" rx="42" ry="68" fill="#1d4ed8"/>
+  <!-- King inner robe -->
+  <ellipse cx="590" cy="280" rx="28" ry="56" fill="#bfdbfe"/>
+  <!-- King arms -->
+  <path d="M550 248 Q530 238 522 232" stroke="#1d4ed8" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M630 248 Q650 238 658 232" stroke="#1d4ed8" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Scepter in king's hand -->
+  <rect x="650" y="215" width="7" height="75" rx="3" fill="#d97706"/>
+  <ellipse cx="654" cy="212" rx="12" ry="8" fill="#fde047"/>
+  <circle cx="654" cy="212" r="6" fill="#dc2626"/>
+  <!-- King head -->
+  <circle cx="590" cy="200" r="30" fill="#f59e0b"/>
+  <!-- Crown -->
+  <rect x="564" y="172" width="52" height="14" rx="3" fill="#fde047"/>
+  <polygon points="568,172 574,155 580,172" fill="#fde047"/>
+  <polygon points="584,172 590,150 596,172" fill="#fde047"/>
+  <polygon points="600,172 606,155 612,172" fill="#fde047"/>
+  <circle cx="574" cy="160" r="4" fill="#dc2626"/>
+  <circle cx="590" cy="155" r="5" fill="#7c3aed"/>
+  <circle cx="606" cy="160" r="4" fill="#22c55e"/>
+  <!-- King face -->
+  <circle cx="582" cy="198" r="4.5" fill="#1c1917"/>
+  <circle cx="598" cy="198" r="4.5" fill="#1c1917"/>
+  <path d="M582 210 Q590 215 598 210" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- King beard -->
+  <ellipse cx="590" cy="216" rx="18" ry="10" fill="#92400e"/>
+  <!-- WOMEN presenting ESTER (left/center) -->
+  <!-- Attendant woman left -->
+  <circle cx="200" cy="272" r="16" fill="#fbbf24"/>
+  <ellipse cx="200" cy="298" rx="14" ry="22" fill="#ec4899"/>
+  <path d="M187 280 Q174 272 168 270" stroke="#ec4899" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M213 280 Q226 272 232 270" stroke="#ec4899" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Attendant hair -->
+  <ellipse cx="200" cy="260" rx="16" ry="10" fill="#1c1917"/>
+  <path d="M185 264 Q180 280 182 298" stroke="#1c1917" stroke-width="9" fill="none"/>
+  <path d="M215 264 Q220 280 218 298" stroke="#1c1917" stroke-width="9" fill="none"/>
+  <circle cx="196" cy="270" r="3.5" fill="#1c1917"/>
+  <circle cx="204" cy="270" r="3.5" fill="#1c1917"/>
+  <!-- ESTER (center, being presented, beautiful) -->
+  <!-- Ester robe (elaborate, pink/rose) -->
+  <ellipse cx="390" cy="268" rx="42" ry="70" fill="#db2777"/>
+  <ellipse cx="390" cy="280" rx="28" ry="58" fill="#f9a8d4"/>
+  <!-- Gold trim -->
+  <path d="M352 220 Q348 255 350 288" stroke="#fde68a" stroke-width="4" fill="none"/>
+  <path d="M428 220 Q432 255 430 288" stroke="#fde68a" stroke-width="4" fill="none"/>
+  <!-- Belt -->
+  <rect x="362" y="258" width="56" height="9" rx="3" fill="#fde047"/>
+  <!-- Ester arms (graceful) -->
+  <path d="M350 248 Q328 238 318 234" stroke="#db2777" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M430 248 Q452 238 462 234" stroke="#db2777" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <!-- Ester head -->
+  <circle cx="390" cy="182" r="30" fill="#fbbf24"/>
+  <!-- Ester hair (dark, beautiful, long) -->
+  <ellipse cx="390" cy="165" rx="30" ry="17" fill="#1c1917"/>
+  <path d="M363 170 Q354 195 356 225" stroke="#1c1917" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M417 170 Q426 195 424 225" stroke="#1c1917" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <!-- Simple hair ornament (not yet queen) -->
+  <ellipse cx="390" cy="157" rx="22" ry="8" fill="#be185d"/>
+  <!-- Flowers in hair -->
+  <circle cx="375" cy="158" r="5" fill="#f9a8d4"/>
+  <circle cx="405" cy="158" r="5" fill="#fde047"/>
+  <!-- Ester face (beautiful) -->
+  <circle cx="382" cy="180" r="4.5" fill="#1c1917"/>
+  <circle cx="398" cy="180" r="4.5" fill="#1c1917"/>
+  <circle cx="383" cy="178" r="2" fill="white"/>
+  <circle cx="399" cy="178" r="2" fill="white"/>
+  <path d="M382 192 Q390 197 398 192" stroke="#9d174d" stroke-width="2.5" fill="none"/>
+  <!-- Blush cheeks -->
+  <ellipse cx="376" cy="188" rx="8" ry="5" fill="#f9a8d4" opacity="0.6"/>
+  <ellipse cx="404" cy="188" rx="8" ry="5" fill="#f9a8d4" opacity="0.6"/>
+  <!-- Attendant woman right -->
+  <circle cx="490" cy="270" r="16" fill="#fde047"/>
+  <ellipse cx="490" cy="296" rx="14" ry="22" fill="#7c3aed"/>
+  <path d="M477 278 Q464 270 458 268" stroke="#7c3aed" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M503 278 Q516 270 522 268" stroke="#7c3aed" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <ellipse cx="490" cy="258" rx="16" ry="10" fill="#1c1917"/>
+  <circle cx="486" cy="268" r="3.5" fill="#1c1917"/>
+  <circle cx="494" cy="268" r="3.5" fill="#1c1917"/>
+  <!-- Rose petals on floor -->
+  <ellipse cx="240" cy="345" rx="10" ry="6" fill="#f9a8d4" opacity="0.8" transform="rotate(-20,240,345)"/>
+  <ellipse cx="280" cy="340" rx="10" ry="6" fill="#fce7f3" opacity="0.8" transform="rotate(15,280,340)"/>
+  <ellipse cx="450" cy="342" rx="10" ry="6" fill="#f9a8d4" opacity="0.8" transform="rotate(25,450,342)"/>
+  <ellipse cx="490" cy="347" rx="10" ry="6" fill="#fce7f3" opacity="0.8" transform="rotate(-10,490,347)"/>
+</svg>

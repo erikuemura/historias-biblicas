@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="elias4_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f0500"/>
+      <stop offset="25%" stop-color="#7c2d12"/>
+      <stop offset="55%" stop-color="#dc2626"/>
+      <stop offset="80%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <radialGradient id="elias4_fireball" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="15%" stop-color="#fef9c3"/>
+      <stop offset="35%" stop-color="#fde047"/>
+      <stop offset="60%" stop-color="#f97316"/>
+      <stop offset="85%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#7f1d1d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="elias4_horseglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="elias4_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+  <!-- Dramatic fire sky -->
+  <rect width="800" height="380" fill="url(#elias4_sky)"/>
+  <!-- Fire clouds -->
+  <ellipse cx="200" cy="70" rx="130" ry="55" fill="#ef4444" opacity="0.5"/>
+  <ellipse cx="140" cy="50" rx="88" ry="40" fill="#dc2626" opacity="0.4"/>
+  <ellipse cx="600" cy="60" rx="140" ry="58" fill="#ef4444" opacity="0.5"/>
+  <ellipse cx="660" cy="40" rx="90" ry="42" fill="#dc2626" opacity="0.4"/>
+  <!-- Central fireball (horses/chariot descending) -->
+  <ellipse cx="400" cy="160" rx="260" ry="200" fill="url(#elias4_fireball)"/>
+  <!-- Ground (glowing) -->
+  <rect x="0" y="318" width="800" height="62" fill="url(#elias4_ground)"/>
+  <ellipse cx="400" cy="318" rx="480" ry="22" fill="#d97706" opacity="0.6"/>
+  <!-- Fire glow on ground -->
+  <ellipse cx="400" cy="345" rx="300" ry="35" fill="#f97316" opacity="0.3"/>
+  <!-- FIRE CHARIOT DESCENDING (dramatic, from sky) -->
+  <!-- Left rear horse (partial) -->
+  <ellipse cx="215" cy="195" rx="52" ry="25" fill="#dc2626" opacity="0.8"/>
+  <path d="M236 178 Q228 154 232 138" stroke="#dc2626" stroke-width="26" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <ellipse cx="232" cy="130" rx="24" ry="17" fill="#f97316" opacity="0.8" transform="rotate(-25,232,130)"/>
+  <!-- Mane (fire) -->
+  <path d="M220 122 Q213 102 218 88" fill="#fde047" opacity="0.9"/>
+  <path d="M229 118 Q223 98 228 84" fill="#fbbf24" opacity="0.8"/>
+  <!-- Legs fire trail -->
+  <path d="M205 215 Q195 240 188 258" stroke="#f97316" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M220 217 Q215 242 210 260" stroke="#fbbf24" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Front left horse -->
+  <ellipse cx="310" cy="188" rx="55" ry="26" fill="#ef4444"/>
+  <ellipse cx="310" cy="183" rx="48" ry="20" fill="#f97316"/>
+  <path d="M282 170 Q274 146 278 130" stroke="#ef4444" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <ellipse cx="277" cy="122" rx="26" ry="18" fill="#f97316" transform="rotate(-30,277,122)"/>
+  <!-- Mane flames -->
+  <path d="M264 114 Q257 94 262 79 Q268 92 266 104" fill="#fde047"/>
+  <path d="M273 109 Q267 89 272 74 Q278 87 276 99" fill="#fbbf24"/>
+  <!-- Eye glow -->
+  <circle cx="269" cy="120" r="5" fill="#fde047"/>
+  <circle cx="269" cy="120" r="2.5" fill="#1c1917"/>
+  <!-- Fire hooves -->
+  <path d="M284 208 Q276 235 270 252" stroke="#dc2626" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M300 210 Q295 238 292 255" stroke="#dc2626" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Front right horse -->
+  <ellipse cx="490" cy="188" rx="55" ry="26" fill="#ef4444"/>
+  <ellipse cx="490" cy="183" rx="48" ry="20" fill="#f97316"/>
+  <path d="M518 170 Q526 146 522 130" stroke="#ef4444" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <ellipse cx="523" cy="122" rx="26" ry="18" fill="#f97316" transform="rotate(30,523,122)"/>
+  <!-- Mane flames right -->
+  <path d="M536 114 Q543 94 538 79 Q532 92 534 104" fill="#fde047"/>
+  <path d="M527 109 Q533 89 528 74 Q522 87 524 99" fill="#fbbf24"/>
+  <!-- Eye glow right -->
+  <circle cx="531" cy="120" r="5" fill="#fde047"/>
+  <circle cx="531" cy="120" r="2.5" fill="#1c1917"/>
+  <!-- Fire hooves right -->
+  <path d="M516 208 Q524 235 530 252" stroke="#dc2626" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M500 210 Q505 238 508 255" stroke="#dc2626" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Right rear horse (partial) -->
+  <ellipse cx="585" cy="195" rx="52" ry="25" fill="#dc2626" opacity="0.8"/>
+  <path d="M564 178 Q572 154 568 138" stroke="#dc2626" stroke-width="26" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <ellipse cx="568" cy="130" rx="24" ry="17" fill="#f97316" opacity="0.8" transform="rotate(25,568,130)"/>
+  <!-- Flame trail behind all horses -->
+  <path d="M250 250 Q200 270 150 280 Q200 265 240 255" fill="#fde047" opacity="0.6"/>
+  <path d="M550 250 Q600 270 650 280 Q600 265 560 255" fill="#fde047" opacity="0.6"/>
+  <!-- CHARIOT BODY -->
+  <rect x="320" y="188" width="160" height="50" rx="8" fill="#b45309"/>
+  <rect x="330" y="193" width="140" height="38" rx="6" fill="#d97706"/>
+  <!-- Chariot front shield (decorative) -->
+  <path d="M335 196 Q400 188 465 196 Q415 206 335 203" fill="#fbbf24" opacity="0.7"/>
+  <!-- Wheels fire glow -->
+  <circle cx="335" cy="228" rx="32" r="32" fill="#f97316" opacity="0.8"/>
+  <circle cx="335" cy="228" r="32" fill="#fbbf24" opacity="0.5"/>
+  <circle cx="335" cy="228" r="20" fill="#fde047"/>
+  <circle cx="335" cy="228" r="10" fill="white" opacity="0.8"/>
+  <line x1="335" y1="196" x2="335" y2="260" stroke="#d97706" stroke-width="3"/>
+  <line x1="303" y1="228" x2="367" y2="228" stroke="#d97706" stroke-width="3"/>
+  <line x1="313" y1="206" x2="357" y2="250" stroke="#d97706" stroke-width="3"/>
+  <line x1="357" y1="206" x2="313" y2="250" stroke="#d97706" stroke-width="3"/>
+  <circle cx="465" cy="228" r="32" fill="#f97316" opacity="0.8"/>
+  <circle cx="465" cy="228" r="20" fill="#fde047"/>
+  <circle cx="465" cy="228" r="10" fill="white" opacity="0.8"/>
+  <line x1="465" y1="196" x2="465" y2="260" stroke="#d97706" stroke-width="3"/>
+  <line x1="433" y1="228" x2="497" y2="228" stroke="#d97706" stroke-width="3"/>
+  <line x1="443" y1="206" x2="487" y2="250" stroke="#d97706" stroke-width="3"/>
+  <line x1="487" y1="206" x2="443" y2="250" stroke="#d97706" stroke-width="3"/>
+  <!-- ELISEU below (small figure, looking up in awe) -->
+  <circle cx="160" cy="312" r="18" fill="#fbbf24"/>
+  <ellipse cx="160" cy="312" rx="18" ry="12" fill="#292524"/><!-- hair -->
+  <ellipse cx="160" cy="336" rx="14" ry="22" fill="#22c55e"/>
+  <!-- Arms raised up in awe -->
+  <path d="M148 325 Q132 308 126 298" stroke="#22c55e" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M172 325 Q188 308 194 298" stroke="#22c55e" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <!-- Amazed face -->
+  <circle cx="153" cy="309" r="4" fill="#1c1917"/>
+  <circle cx="167" cy="309" r="4" fill="#1c1917"/>
+  <circle cx="153" cy="307" r="2" fill="white"/>
+  <circle cx="167" cy="307" r="2" fill="white"/>
+  <!-- Mouth open in awe -->
+  <ellipse cx="160" cy="320" rx="5" ry="4" fill="#1c1917"/>
+</svg>

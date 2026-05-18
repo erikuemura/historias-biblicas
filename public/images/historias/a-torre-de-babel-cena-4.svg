@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="babel4_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="babel4_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+    <radialGradient id="babel4_divine" cx="50%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Sky with divine light coming down -->
+  <rect width="800" height="380" fill="url(#babel4_sky)"/>
+  <!-- Divine rays from above causing confusion -->
+  <polygon points="380,0 350,200 370,200" fill="#fef9c3" opacity="0.5"/>
+  <polygon points="400,0 380,220 400,220" fill="#fef9c3" opacity="0.6"/>
+  <polygon points="420,0 410,200 430,200" fill="#fef9c3" opacity="0.5"/>
+  <ellipse cx="400" cy="0" rx="200" ry="100" fill="url(#babel4_divine)"/>
+  <!-- Clouds mixed up (confused) -->
+  <ellipse cx="200" cy="80" rx="85" ry="35" fill="white" opacity="0.8" transform="rotate(-8,200,80)"/>
+  <ellipse cx="580" cy="70" rx="90" ry="38" fill="white" opacity="0.8" transform="rotate(6,580,70)"/>
+  <ellipse cx="400" cy="60" rx="70" ry="28" fill="white" opacity="0.7" transform="rotate(3,400,60)"/>
+  <!-- Tower (half-finished, some parts falling/crumbling) -->
+  <rect x="278" y="295" width="244" height="28" rx="3" fill="#78350f"/>
+  <rect x="292" y="266" width="216" height="31" rx="3" fill="#92400e"/>
+  <rect x="308" y="237" width="184" height="31" rx="3" fill="#d97706"/>
+  <rect x="322" y="208" width="156" height="31" rx="3" fill="#b45309"/>
+  <rect x="336" y="179" width="128" height="31" rx="3" fill="#d97706"/>
+  <rect x="350" y="152" width="100" height="28" rx="3" fill="#92400e"/>
+  <!-- Top layer crumbling -->
+  <rect x="362" y="126" width="76" height="26" rx="3" fill="#b45309" opacity="0.8"/>
+  <!-- Falling bricks -->
+  <rect x="352" y="100" width="18" height="12" rx="2" fill="#d97706" transform="rotate(25,361,106)"/>
+  <rect x="440" y="95" width="18" height="12" rx="2" fill="#92400e" transform="rotate(-18,449,101)"/>
+  <rect x="390" y="85" width="14" height="10" rx="2" fill="#b45309" transform="rotate(12,397,90)"/>
+  <rect x="415" y="108" width="14" height="10" rx="2" fill="#d97706" transform="rotate(-30,422,113)"/>
+  <rect x="370" y="75" width="16" height="10" rx="2" fill="#92400e" transform="rotate(40,378,80)"/>
+  <!-- Brick texture lines -->
+  <line x1="280" y1="308" x2="520" y2="308" stroke="#78350f" stroke-width="1.5" opacity="0.4"/>
+  <line x1="294" y1="278" x2="506" y2="278" stroke="#78350f" stroke-width="1.5" opacity="0.4"/>
+  <line x1="310" y1="248" x2="490" y2="248" stroke="#78350f" stroke-width="1.5" opacity="0.4"/>
+  <line x1="324" y1="218" x2="476" y2="218" stroke="#78350f" stroke-width="1.5" opacity="0.4"/>
+  <!-- CONFUSED PEOPLE (various poses of confusion) -->
+  <!-- Person 1: hands on head, confused -->
+  <circle cx="155" cy="298" r="12" fill="#d97706"/>
+  <ellipse cx="155" cy="318" rx="10" ry="14" fill="#b45309"/>
+  <!-- Hands on head -->
+  <path d="M145 302 Q135 290 130 285" stroke="#b45309" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M165 302 Q175 290 180 285" stroke="#b45309" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <circle cx="130" cy="283" r="9" fill="#d97706"/>
+  <circle cx="180" cy="283" r="9" fill="#d97706"/>
+  <!-- Confused face with question marks -->
+  <circle cx="151" cy="295" r="4" fill="#1c1917"/>
+  <circle cx="159" cy="295" r="4" fill="#1c1917"/>
+  <path d="M152 305 Q155 301 158 305" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <!-- Person 2: pointing, arguing -->
+  <circle cx="235" cy="295" r="12" fill="#7c3aed"/>
+  <ellipse cx="235" cy="315" rx="10" ry="14" fill="#6d28d9"/>
+  <path d="M225 305 Q210 298 200 295" stroke="#6d28d9" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M245 305 Q260 296 270 292" stroke="#6d28d9" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <circle cx="196" cy="295" r="9" fill="#7c3aed"/>
+  <!-- Arms raised in confusion -->
+  <!-- Person 3: turning away in surprise -->
+  <circle cx="320" cy="292" r="12" fill="#dc2626"/>
+  <ellipse cx="320" cy="312" rx="10" ry="14" fill="#ef4444"/>
+  <path d="M310 302 Q296 296 290 300" stroke="#ef4444" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M330 302 Q344 294 352 290" stroke="#ef4444" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <circle cx="151" cy="295" r="4" fill="#1c1917"/>
+  <!-- Person 4: arms flailing -->
+  <circle cx="400" cy="290" r="12" fill="#0891b2"/>
+  <ellipse cx="400" cy="310" rx="10" ry="14" fill="#0e7490"/>
+  <path d="M390 298 Q374 285 368 278" stroke="#0e7490" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M410 298 Q426 285 432 278" stroke="#0e7490" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <circle cx="396" cy="287" r="3.5" fill="#1c1917"/>
+  <circle cx="404" cy="287" r="3.5" fill="#1c1917"/>
+  <circle cx="397" cy="285" r="1.5" fill="white"/><!-- confusion expression -->
+  <circle cx="405" cy="285" r="1.5" fill="white"/>
+  <!-- Person 5: shrugging -->
+  <circle cx="480" cy="292" r="12" fill="#15803d"/>
+  <ellipse cx="480" cy="312" rx="10" ry="14" fill="#16a34a"/>
+  <path d="M470 300 Q456 290 450 286" stroke="#16a34a" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M490 300 Q504 290 510 286" stroke="#16a34a" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <circle cx="450" cy="284" r="9" fill="#15803d"/>
+  <circle cx="510" cy="284" r="9" fill="#15803d"/>
+  <!-- Shoulders raised (shrug) -->
+  <!-- Person 6: running away confused -->
+  <circle cx="565" cy="294" r="12" fill="#f97316"/>
+  <ellipse cx="565" cy="314" rx="10" ry="14" fill="#ea580c"/>
+  <path d="M555 302 Q540 296 534 298" stroke="#ea580c" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M575 302 Q590 292 596 286" stroke="#ea580c" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <!-- Person 7: covering ears (can't understand) -->
+  <circle cx="640" cy="296" r="12" fill="#92400e"/>
+  <ellipse cx="640" cy="316" rx="10" ry="14" fill="#78350f"/>
+  <path d="M630 304 Q618 296 613 294" stroke="#78350f" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M650 304 Q662 296 667 294" stroke="#78350f" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <circle cx="613" cy="293" r="9" fill="#92400e"/>
+  <circle cx="667" cy="293" r="9" fill="#92400e"/>
+  <!-- Speech bubbles with different symbols (confusion of languages) -->
+  <ellipse cx="165" cy="270" rx="25" ry="18" fill="white" opacity="0.9"/>
+  <polygon points="160,285 165,288 170,285" fill="white" opacity="0.9"/>
+  <circle cx="159" cy="270" r="3" fill="#1d4ed8"/>
+  <circle cx="168" cy="270" r="3" fill="#dc2626"/>
+  <circle cx="177" cy="270" r="3" fill="#15803d"/>
+  <ellipse cx="480" cy="265" rx="28" ry="18" fill="white" opacity="0.9"/>
+  <polygon points="475,280 480,283 485,280" fill="white" opacity="0.9"/>
+  <path d="M468 263 Q472 257 476 263 Q480 257 484 263 Q488 257 492 263" stroke="#7c3aed" stroke-width="2.5" fill="none"/>
+  <!-- Ground -->
+  <rect x="0" y="325" width="800" height="55" fill="url(#babel4_ground)"/>
+  <ellipse cx="400" cy="325" rx="480" ry="22" fill="#f59e0b" opacity="0.6"/>
+  <!-- ? marks floating around -->
+  <path d="M105 240 Q112 228 120 232 Q128 236 126 246 Q124 253 116 256" stroke="#fbbf24" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="116" cy="265" r="4" fill="#fbbf24"/>
+  <path d="M680 245 Q687 233 695 237 Q703 241 701 251 Q699 258 691 261" stroke="#fbbf24" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="691" cy="270" r="4" fill="#fbbf24"/>
+</svg>

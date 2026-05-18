@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="sam5_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="sam5_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d6d3d1"/>
+      <stop offset="100%" stop-color="#a8a29e"/>
+    </linearGradient>
+    <radialGradient id="sam5_glow" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#fef9c3" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#fef9c3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Sky (daytime now) -->
+  <rect width="800" height="380" fill="url(#sam5_sky)"/>
+  <!-- Sun -->
+  <circle cx="120" cy="75" r="45" fill="#fde047"/>
+  <ellipse cx="120" cy="75" rx="80" ry="80" fill="url(#sam5_glow)"/>
+  <!-- Clouds -->
+  <ellipse cx="280" cy="60" rx="80" ry="30" fill="white" opacity="0.9"/>
+  <ellipse cx="320" cy="47" rx="58" ry="26" fill="white" opacity="0.9"/>
+  <ellipse cx="242" cy="53" rx="45" ry="22" fill="white" opacity="0.9"/>
+  <ellipse cx="600" cy="55" rx="85" ry="32" fill="white" opacity="0.9"/>
+  <ellipse cx="645" cy="42" rx="62" ry="26" fill="white" opacity="0.9"/>
+  <!-- Temple background (large) -->
+  <rect x="80" y="125" width="640" height="210" rx="4" fill="#e7e5e4"/>
+  <!-- Temple columns -->
+  <rect x="110" y="125" width="24" height="210" rx="5" fill="#d6d3d1"/>
+  <rect x="158" y="125" width="24" height="210" rx="5" fill="#e7e5e4"/>
+  <rect x="206" y="125" width="24" height="210" rx="5" fill="#d6d3d1"/>
+  <rect x="574" y="125" width="24" height="210" rx="5" fill="#d6d3d1"/>
+  <rect x="622" y="125" width="24" height="210" rx="5" fill="#e7e5e4"/>
+  <rect x="670" y="125" width="24" height="210" rx="5" fill="#d6d3d1"/>
+  <!-- Temple roof -->
+  <polygon points="65,127 400,65 735,127" fill="#a8a29e"/>
+  <!-- Temple steps -->
+  <rect x="110" y="332" width="580" height="12" rx="2" fill="#d6d3d1"/>
+  <rect x="90" y="342" width="620" height="12" rx="2" fill="#c7c5c3"/>
+  <!-- Ground -->
+  <rect x="0" y="350" width="800" height="30" fill="url(#sam5_ground)"/>
+  <!-- GROWN SAMUEL - prophet figure (center, standing tall) -->
+  <!-- Samuel's robe/mantle -->
+  <ellipse cx="400" cy="262" rx="40" ry="70" fill="#1d4ed8"/>
+  <!-- Inner robe -->
+  <ellipse cx="400" cy="270" rx="28" ry="62" fill="#bfdbfe"/>
+  <!-- Belt/sash -->
+  <rect x="365" y="260" width="70" height="12" rx="4" fill="#1e40af"/>
+  <!-- Mantle/outer cloak -->
+  <path d="M362 200 Q330 250 335 335" stroke="#1d4ed8" stroke-width="20" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M438 200 Q470 250 465 335" stroke="#1d4ed8" stroke-width="20" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Arms (one raised in proclamation) -->
+  <path d="M368 220 Q340 205 320 192" stroke="#fbbf24" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M432 220 Q460 240 480 255" stroke="#fbbf24" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <!-- Raised hand (prophesying) -->
+  <ellipse cx="318" cy="190" rx="15" ry="12" fill="#fbbf24"/>
+  <!-- Pointing finger extended -->
+  <path d="M305 183 Q298 175 296 168" stroke="#fbbf24" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- Other hand holds scroll -->
+  <rect x="478" y="248" width="30" height="16" rx="6" fill="#f5f5f0"/>
+  <ellipse cx="478" cy="256" rx="8" ry="9" fill="#e5e5dc"/>
+  <ellipse cx="508" cy="256" rx="8" ry="9" fill="#e5e5dc"/>
+  <!-- Writing on scroll (lines) -->
+  <line x1="484" y1="252" x2="502" y2="252" stroke="#78716c" stroke-width="1.5"/>
+  <line x1="484" y1="257" x2="502" y2="257" stroke="#78716c" stroke-width="1.5"/>
+  <line x1="484" y1="262" x2="502" y2="262" stroke="#78716c" stroke-width="1.5"/>
+  <!-- Samuel's head (adult) -->
+  <circle cx="400" cy="182" r="32" fill="#d97706"/>
+  <!-- Turban/head covering (prophet) -->
+  <ellipse cx="400" cy="165" rx="32" ry="16" fill="#1d4ed8"/>
+  <rect x="373" y="157" width="54" height="16" rx="6" fill="#1e40af"/>
+  <!-- Samuel's face (authoritative) -->
+  <circle cx="391" cy="180" r="5" fill="#1c1917"/>
+  <circle cx="409" cy="180" r="5" fill="#1c1917"/>
+  <path d="M390 193 Q400 197 410 193" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- Beard (adult) -->
+  <ellipse cx="400" cy="198" rx="18" ry="12" fill="#92400e"/>
+  <!-- CROWD OF PEOPLE listening (smaller, on sides and front) -->
+  <!-- Person 1 -->
+  <circle cx="165" cy="305" r="12" fill="#d97706"/>
+  <ellipse cx="165" cy="322" rx="10" ry="14" fill="#b45309"/>
+  <path d="M158 312 Q148 305 143 308" stroke="#b45309" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M172 312 Q182 305 187 308" stroke="#b45309" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- Person 2 -->
+  <circle cx="210" cy="302" r="12" fill="#7c3aed"/>
+  <ellipse cx="210" cy="319" rx="10" ry="14" fill="#6d28d9"/>
+  <path d="M203 309 Q193 302 188 305" stroke="#6d28d9" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M217 309 Q227 302 232 305" stroke="#6d28d9" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- Person 3 -->
+  <circle cx="258" cy="305" r="12" fill="#15803d"/>
+  <ellipse cx="258" cy="322" rx="10" ry="14" fill="#166534"/>
+  <path d="M251 312 Q241 305 236 308" stroke="#166534" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M265 312 Q275 305 280 308" stroke="#166534" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- Person 4 right side -->
+  <circle cx="545" cy="305" r="12" fill="#dc2626"/>
+  <ellipse cx="545" cy="322" rx="10" ry="14" fill="#ef4444"/>
+  <path d="M538 312 Q528 305 523 308" stroke="#ef4444" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M552 312 Q562 305 567 308" stroke="#ef4444" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- Person 5 -->
+  <circle cx="593" cy="302" r="12" fill="#f97316"/>
+  <ellipse cx="593" cy="319" rx="10" ry="14" fill="#ea580c"/>
+  <!-- Person 6 -->
+  <circle cx="638" cy="305" r="12" fill="#0891b2"/>
+  <ellipse cx="638" cy="322" rx="10" ry="14" fill="#0e7490"/>
+  <!-- Small divine light above Samuel's hand -->
+  <circle cx="296" cy="168" r="8" fill="#fef9c3" opacity="0.8"/>
+  <circle cx="296" cy="168" r="15" fill="#fef9c3" opacity="0.3"/>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="adao1_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef9c3"/>
+      <stop offset="40%" stop-color="#d1fae5"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
+    </linearGradient>
+    <radialGradient id="adao1_glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fde68a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="adao1_divinelight" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#fef9c3" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fef9c3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background sky -->
+  <rect width="800" height="380" fill="url(#adao1_bg)"/>
+  <!-- Divine glow from above -->
+  <ellipse cx="400" cy="0" rx="300" ry="200" fill="url(#adao1_divinelight)"/>
+  <ellipse cx="400" cy="50" rx="200" ry="160" fill="url(#adao1_glow)"/>
+  <!-- Light rays from sky -->
+  <polygon points="350,0 370,180 360,180" fill="#fef08a" opacity="0.4"/>
+  <polygon points="380,0 400,200 390,200" fill="#fef08a" opacity="0.5"/>
+  <polygon points="410,0 430,200 420,200" fill="#fef08a" opacity="0.4"/>
+  <polygon points="440,0 460,180 450,180" fill="#fef08a" opacity="0.3"/>
+  <polygon points="320,0 340,160 330,160" fill="#fef08a" opacity="0.3"/>
+  <polygon points="460,0 480,170 470,170" fill="#fef08a" opacity="0.25"/>
+  <!-- Ground / Earth -->
+  <ellipse cx="400" cy="420" rx="480" ry="140" fill="#4ade80"/>
+  <ellipse cx="400" cy="410" rx="440" ry="110" fill="#86efac"/>
+  <!-- Dark earth at center (Adão sendo formado da terra) -->
+  <ellipse cx="400" cy="340" rx="120" ry="30" fill="#854d0e" opacity="0.7"/>
+  <ellipse cx="400" cy="335" rx="90" ry="22" fill="#92400e" opacity="0.5"/>
+  <!-- Figure of Adam emerging from earth -->
+  <!-- Body -->
+  <ellipse cx="400" cy="295" rx="28" ry="40" fill="#d97706"/>
+  <!-- Arms up (rising) -->
+  <path d="M375 280 Q350 255 340 240" stroke="#d97706" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M425 280 Q450 255 460 240" stroke="#d97706" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <!-- Head -->
+  <circle cx="400" cy="248" r="32" fill="#f59e0b"/>
+  <!-- Face -->
+  <circle cx="390" cy="244" r="5" fill="#1c1917"/>
+  <circle cx="410" cy="244" r="5" fill="#1c1917"/>
+  <path d="M390 258 Q400 265 410 258" stroke="#1c1917" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Hair -->
+  <path d="M372 240 Q380 218 400 215 Q420 218 428 240" fill="#92400e"/>
+  <!-- Legs emerging from earth -->
+  <rect x="382" y="325" width="16" height="30" rx="6" fill="#d97706"/>
+  <rect x="402" y="325" width="16" height="30" rx="6" fill="#d97706"/>
+  <!-- Earth particles around the figure -->
+  <circle cx="340" cy="310" r="8" fill="#854d0e" opacity="0.6"/>
+  <circle cx="460" cy="315" r="7" fill="#854d0e" opacity="0.5"/>
+  <circle cx="355" cy="295" r="5" fill="#92400e" opacity="0.5"/>
+  <circle cx="445" cy="290" r="6" fill="#92400e" opacity="0.5"/>
+  <circle cx="320" cy="330" r="10" fill="#854d0e" opacity="0.4"/>
+  <circle cx="480" cy="325" r="9" fill="#854d0e" opacity="0.4"/>
+  <!-- Divine hands from above (symbolic) -->
+  <ellipse cx="370" cy="180" rx="18" ry="10" fill="#fef9c3" opacity="0.8"/>
+  <rect x="360" y="155" width="20" height="30" rx="8" fill="#fef9c3" opacity="0.8"/>
+  <ellipse cx="430" cy="175" rx="18" ry="10" fill="#fef9c3" opacity="0.8"/>
+  <rect x="420" y="150" width="20" height="30" rx="8" fill="#fef9c3" opacity="0.8"/>
+  <!-- Stars/sparkles around the creation -->
+  <polygon points="300,200 305,215 320,215 308,225 313,240 300,231 287,240 292,225 280,215 295,215" fill="#fde047" opacity="0.8"/>
+  <polygon points="500,190 504,202 516,202 507,210 511,222 500,215 489,222 493,210 484,202 496,202" fill="#fde047" opacity="0.8"/>
+  <polygon points="350,150 353,160 363,160 355,166 358,176 350,170 342,176 345,166 337,160 347,160" fill="#fde047" opacity="0.7"/>
+  <polygon points="450,145 453,155 463,155 455,161 458,171 450,165 442,171 445,161 437,155 447,155" fill="#fde047" opacity="0.7"/>
+  <!-- Grass and plants -->
+  <ellipse cx="150" cy="360" rx="100" ry="35" fill="#22c55e"/>
+  <ellipse cx="650" cy="355" rx="100" ry="35" fill="#22c55e"/>
+  <!-- Small flowers on ground -->
+  <circle cx="180" cy="348" r="7" fill="#fde047"/>
+  <circle cx="610" cy="345" r="7" fill="#f9a8d4"/>
+  <circle cx="230" cy="355" r="6" fill="#f97316"/>
+  <circle cx="570" cy="352" r="6" fill="#a78bfa"/>
+</svg>

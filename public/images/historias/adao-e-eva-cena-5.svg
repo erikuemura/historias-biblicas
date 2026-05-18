@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="adao5_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="40%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="adao5_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78716c"/>
+      <stop offset="100%" stop-color="#44403c"/>
+    </linearGradient>
+    <radialGradient id="adao5_angelglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#fbbf24" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="adao5_firesword" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#fde047"/>
+      <stop offset="70%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </radialGradient>
+  </defs>
+  <!-- Sky (sunset/dramatic) -->
+  <rect width="800" height="380" fill="url(#adao5_sky)"/>
+  <!-- Dramatic sunset clouds -->
+  <ellipse cx="400" cy="50" rx="200" ry="50" fill="#f97316" opacity="0.4"/>
+  <ellipse cx="200" cy="80" rx="120" ry="40" fill="#ef4444" opacity="0.3"/>
+  <ellipse cx="600" cy="70" rx="130" ry="38" fill="#ef4444" opacity="0.3"/>
+  <!-- Garden gate/entrance (being closed) -->
+  <!-- Left gate post -->
+  <rect x="295" y="130" width="25" height="185" rx="5" fill="#b45309"/>
+  <rect x="292" y="125" width="31" height="18" rx="4" fill="#92400e"/>
+  <!-- Right gate post -->
+  <rect x="480" y="130" width="25" height="185" rx="5" fill="#b45309"/>
+  <rect x="477" y="125" width="31" height="18" rx="4" fill="#92400e"/>
+  <!-- Gate bars -->
+  <rect x="325" y="135" width="12" height="170" rx="4" fill="#d97706"/>
+  <rect x="348" y="135" width="12" height="170" rx="4" fill="#d97706"/>
+  <rect x="371" y="135" width="12" height="170" rx="4" fill="#d97706"/>
+  <rect x="394" y="135" width="12" height="170" rx="4" fill="#d97706"/>
+  <rect x="417" y="135" width="12" height="170" rx="4" fill="#d97706"/>
+  <rect x="440" y="135" width="12" height="170" rx="4" fill="#d97706"/>
+  <rect x="463" y="135" width="12" height="170" rx="4" fill="#d97706"/>
+  <!-- Horizontal bar on gate -->
+  <rect x="297" y="185" width="208" height="14" rx="4" fill="#92400e"/>
+  <!-- Garden visible through gate (green, paradise) -->
+  <ellipse cx="400" cy="160" rx="90" ry="80" fill="#22c55e" opacity="0.5"/>
+  <ellipse cx="360" cy="175" rx="50" ry="60" fill="#16a34a" opacity="0.6"/>
+  <ellipse cx="440" cy="170" rx="55" ry="65" fill="#15803d" opacity="0.6"/>
+  <!-- ANGEL (center, above gate) -->
+  <!-- Angel glow -->
+  <ellipse cx="400" cy="105" rx="80" ry="80" fill="url(#adao5_angelglow)"/>
+  <!-- Angel body -->
+  <ellipse cx="400" cy="118" rx="20" ry="30" fill="#fef9c3"/>
+  <!-- Angel head -->
+  <circle cx="400" cy="85" r="25" fill="#fef9c3"/>
+  <!-- Angel halo -->
+  <ellipse cx="400" cy="65" rx="30" ry="8" stroke="#fbbf24" stroke-width="4" fill="none"/>
+  <!-- Angel face -->
+  <circle cx="393" cy="82" r="4" fill="#78350f"/>
+  <circle cx="407" cy="82" r="4" fill="#78350f"/>
+  <path d="M393 93 Q400 98 407 93" stroke="#78350f" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Angel wings -->
+  <path d="M382 105 Q340 85 310 100 Q330 120 360 118" fill="#fef9c3" opacity="0.9"/>
+  <path d="M382 105 Q350 75 325 82 Q340 105 365 110" fill="#f0fdf4" opacity="0.7"/>
+  <path d="M418 105 Q460 85 490 100 Q470 120 440 118" fill="#fef9c3" opacity="0.9"/>
+  <path d="M418 105 Q450 75 475 82 Q460 105 435 110" fill="#f0fdf4" opacity="0.7"/>
+  <!-- Angel arms holding sword -->
+  <path d="M390 115 Q385 128 378 138" stroke="#fef9c3" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M410 115 Q415 128 422 138" stroke="#fef9c3" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- FIRE SWORD -->
+  <!-- Sword blade (fire) -->
+  <polygon points="400,110 390,175 400,165 410,175" fill="url(#adao5_firesword)"/>
+  <polygon points="400,120 385,180 400,168 415,180" fill="#f97316" opacity="0.7"/>
+  <!-- Fire around sword -->
+  <path d="M395 130 Q385 145 390 158 Q395 145 400 155 Q405 145 410 158 Q415 145 405 130" fill="#fde047" opacity="0.8"/>
+  <path d="M392 140 Q382 158 388 172 Q393 158 400 168 Q407 158 412 172 Q418 158 408 140" fill="#f97316" opacity="0.6"/>
+  <!-- ADAO and EVA walking away (right side, small, going into distance) -->
+  <!-- Adao small -->
+  <circle cx="610" cy="272" r="16" fill="#d97706"/>
+  <ellipse cx="610" cy="292" rx="13" ry="20" fill="#b45309"/>
+  <path d="M600 278 Q590 270 585 265" stroke="#d97706" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M620 278 Q630 270 635 265" stroke="#d97706" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <rect x="601" y="307" width="9" height="18" rx="4" fill="#92400e"/>
+  <rect x="612" y="307" width="9" height="18" rx="4" fill="#92400e"/>
+  <!-- Eva small -->
+  <circle cx="645" cy="270" r="15" fill="#fbbf24"/>
+  <ellipse cx="645" cy="210" rx="16" ry="10" fill="#92400e"/>
+  <path d="M632 218 Q625 255 630 290" stroke="#92400e" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M658 218 Q665 255 660 290" stroke="#92400e" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <ellipse cx="645" cy="290" rx="14" ry="22" fill="#d97706"/>
+  <rect x="636" y="305" width="9" height="18" rx="4" fill="#b45309"/>
+  <rect x="647" y="305" width="9" height="18" rx="4" fill="#b45309"/>
+  <!-- Ground outside garden (dry, less lush) -->
+  <rect x="0" y="315" width="800" height="65" fill="url(#adao5_ground)"/>
+  <ellipse cx="400" cy="315" rx="480" ry="25" fill="#a8a29e"/>
+  <!-- Some rocks on ground -->
+  <ellipse cx="150" cy="325" rx="25" ry="12" fill="#78716c"/>
+  <ellipse cx="700" cy="328" rx="20" ry="10" fill="#78716c"/>
+  <ellipse cx="80" cy="335" rx="18" ry="8" fill="#57534e"/>
+  <!-- Dry plants outside -->
+  <path d="M160 315 Q158 295 155 285" stroke="#854d0e" stroke-width="4" fill="none"/>
+  <path d="M155 285 Q148 278 144 282" stroke="#854d0e" stroke-width="3" fill="none"/>
+  <path d="M155 285 Q162 276 168 280" stroke="#854d0e" stroke-width="3" fill="none"/>
+</svg>

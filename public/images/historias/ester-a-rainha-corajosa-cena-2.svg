@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="ester2_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fce7f3"/>
+      <stop offset="100%" stop-color="#fbcfe8"/>
+    </linearGradient>
+    <linearGradient id="ester2_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d6d3d1"/>
+      <stop offset="100%" stop-color="#a8a29e"/>
+    </linearGradient>
+  </defs>
+  <!-- Background (outside palace, near garden) -->
+  <rect width="800" height="380" fill="url(#ester2_bg)"/>
+  <!-- Sky above -->
+  <rect width="800" height="200" fill="#fce7f3"/>
+  <!-- Clouds -->
+  <ellipse cx="150" cy="65" rx="75" ry="28" fill="white" opacity="0.85"/>
+  <ellipse cx="190" cy="52" rx="55" ry="24" fill="white" opacity="0.85"/>
+  <ellipse cx="600" cy="55" rx="80" ry="30" fill="white" opacity="0.85"/>
+  <ellipse cx="645" cy="42" rx="58" ry="24" fill="white" opacity="0.85"/>
+  <!-- Palace wall (background) -->
+  <rect x="0" y="180" width="800" height="200" fill="#e7e5e4"/>
+  <rect x="0" y="175" width="800" height="12" fill="#d6d3d1"/>
+  <!-- Palace wall decorations -->
+  <rect x="100" y="180" width="20" height="140" rx="5" fill="#db2777" opacity="0.4"/>
+  <rect x="250" y="180" width="20" height="140" rx="5" fill="#db2777" opacity="0.4"/>
+  <rect x="400" y="180" width="20" height="140" rx="5" fill="#db2777" opacity="0.4"/>
+  <rect x="550" y="180" width="20" height="140" rx="5" fill="#db2777" opacity="0.4"/>
+  <rect x="700" y="180" width="20" height="140" rx="5" fill="#db2777" opacity="0.4"/>
+  <!-- Gate/entrance -->
+  <rect x="345" y="190" width="110" height="140" rx="8" fill="#c7c5c3"/>
+  <ellipse cx="400" cy="192" rx="55" ry="16" fill="#d6d3d1"/>
+  <!-- Floor -->
+  <rect x="0" y="318" width="800" height="62" fill="url(#ester2_ground)"/>
+  <ellipse cx="400" cy="318" rx="450" ry="22" fill="#e7e5e4"/>
+  <!-- Flowers / garden -->
+  <circle cx="160" cy="320" r="8" fill="#ec4899"/>
+  <circle cx="153" cy="320" r="5" fill="#db2777"/>
+  <circle cx="167" cy="320" r="5" fill="#db2777"/>
+  <circle cx="160" cy="313" r="5" fill="#db2777"/>
+  <circle cx="160" cy="327" r="5" fill="#db2777"/>
+  <circle cx="640" cy="322" r="8" fill="#f9a8d4"/>
+  <circle cx="633" cy="322" r="5" fill="#ec4899"/>
+  <circle cx="647" cy="322" r="5" fill="#ec4899"/>
+  <circle cx="640" cy="315" r="5" fill="#ec4899"/>
+  <circle cx="640" cy="329" r="5" fill="#ec4899"/>
+  <!-- MORDECAI (left, concerned, in sackcloth) -->
+  <!-- Body (sackcloth - dark, rough) -->
+  <ellipse cx="235" cy="272" rx="34" ry="52" fill="#44403c"/>
+  <!-- Sackcloth texture -->
+  <ellipse cx="235" cy="272" rx="30" ry="48" fill="#57534e"/>
+  <!-- Mordecai's belt (simple rope) -->
+  <rect x="204" y="265" width="62" height="8" rx="3" fill="#78716c"/>
+  <!-- Mordecai arms (gesturing urgently) -->
+  <path d="M202 252 Q178 238 165 232" stroke="#44403c" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M268 252 Q292 238 305 232" stroke="#44403c" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <!-- Hands gesturing -->
+  <ellipse cx="162" cy="230" rx="14" ry="10" fill="#d97706"/>
+  <ellipse cx="308" cy="230" rx="14" ry="10" fill="#d97706"/>
+  <!-- Mordecai head (older, beard) -->
+  <circle cx="235" cy="215" r="30" fill="#d97706"/>
+  <!-- Turban (torn, mourning) -->
+  <ellipse cx="235" cy="198" rx="28" ry="14" fill="#78716c"/>
+  <!-- White beard (elder) -->
+  <ellipse cx="235" cy="233" rx="20" ry="14" fill="#d6d3d1"/>
+  <path d="M217 220 Q210 233 212 246" stroke="#d6d3d1" stroke-width="8" fill="none"/>
+  <path d="M253 220 Q260 233 258 246" stroke="#d6d3d1" stroke-width="8" fill="none"/>
+  <!-- Mordecai face (urgent, serious) -->
+  <circle cx="227" cy="212" r="4.5" fill="#1c1917"/>
+  <circle cx="243" cy="212" r="4.5" fill="#1c1917"/>
+  <!-- Intense/worried expression -->
+  <path d="M228 222 Q235 218 242 222" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- Furrowed brows -->
+  <path d="M223 206 Q228 202 233 206" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <path d="M237 206 Q242 202 247 206" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- Letter/scroll in Mordecai's hand -->
+  <rect x="145" y="222" width="32" height="20" rx="5" fill="#f5f5f0"/>
+  <ellipse cx="145" cy="232" rx="8" ry="10" fill="#e5e5dc"/>
+  <ellipse cx="177" cy="232" rx="8" ry="10" fill="#e5e5dc"/>
+  <line x1="153" y1="228" x2="170" y2="228" stroke="#78716c" stroke-width="1.5"/>
+  <line x1="153" y1="234" x2="170" y2="234" stroke="#78716c" stroke-width="1.5"/>
+  <!-- ESTER (right, standing near palace gate, concerned) -->
+  <!-- Ester robe (queen's robe, pink) -->
+  <ellipse cx="535" cy="272" rx="38" ry="60" fill="#db2777"/>
+  <ellipse cx="535" cy="280" rx="26" ry="52" fill="#fce7f3"/>
+  <!-- Gold trim on robe -->
+  <path d="M500 222 Q496 258 498 285" stroke="#fde68a" stroke-width="3.5" fill="none"/>
+  <path d="M570 222 Q574 258 572 285" stroke="#fde68a" stroke-width="3.5" fill="none"/>
+  <!-- Belt -->
+  <rect x="510" y="258" width="50" height="8" rx="3" fill="#fde047"/>
+  <!-- Ester arms (one toward Mordecai, one to mouth - listening) -->
+  <path d="M500 248 Q480 238 465 232" stroke="#db2777" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M570 248 Q588 238 598 234" stroke="#db2777" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <!-- Hand near mouth (concerned expression) -->
+  <ellipse cx="600" cy="232" rx="13" ry="9" fill="#fbbf24"/>
+  <!-- Ester head -->
+  <circle cx="535" cy="185" r="29" fill="#fbbf24"/>
+  <!-- Crown (as queen) -->
+  <rect x="510" y="159" width="50" height="14" rx="3" fill="#fde047"/>
+  <polygon points="514,159 520,143 526,159" fill="#fde047"/>
+  <polygon points="528,159 535,140 542,159" fill="#fde047"/>
+  <polygon points="544,159 550,143 556,159" fill="#fde047"/>
+  <circle cx="520" cy="148" r="4" fill="#dc2626"/>
+  <circle cx="535" cy="145" r="5" fill="#7c3aed"/>
+  <circle cx="550" cy="148" r="4" fill="#22c55e"/>
+  <!-- Ester hair (dark, elaborate) -->
+  <ellipse cx="535" cy="168" rx="29" ry="15" fill="#1c1917"/>
+  <path d="M508 173 Q500 196 502 222" stroke="#1c1917" stroke-width="10" fill="none"/>
+  <path d="M562 173 Q570 196 568 222" stroke="#1c1917" stroke-width="10" fill="none"/>
+  <!-- Ester face (worried, thoughtful) -->
+  <circle cx="527" cy="183" r="4.5" fill="#1c1917"/>
+  <circle cx="543" cy="183" r="4.5" fill="#1c1917"/>
+  <path d="M528 195 Q535 198 542 195" stroke="#9d174d" stroke-width="2" fill="none"/>
+  <!-- Concerned brow -->
+  <path d="M524 177 Q528 173 532 177" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <path d="M538 177 Q542 173 546 177" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <!-- Blush cheeks -->
+  <ellipse cx="520" cy="190" rx="8" ry="5" fill="#f9a8d4" opacity="0.5"/>
+  <ellipse cx="550" cy="190" rx="8" ry="5" fill="#f9a8d4" opacity="0.5"/>
+  <!-- Separator (palace wall section) -->
+  <rect x="310" y="180" width="180" height="280" rx="5" fill="#e7e5e4" opacity="0.7"/>
+</svg>

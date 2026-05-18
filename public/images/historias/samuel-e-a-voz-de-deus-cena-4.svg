@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="sam4_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="30%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <radialGradient id="sam4_divineglow" cx="50%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="30%" stop-color="#fef9c3" stop-opacity="0.7"/>
+      <stop offset="70%" stop-color="#bae6fd" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#bae6fd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sam4_lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde047" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#fde047" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Deep night background -->
+  <rect width="800" height="380" fill="url(#sam4_bg)"/>
+  <!-- Stars -->
+  <circle cx="60" cy="30" r="2" fill="white" opacity="0.7"/>
+  <circle cx="130" cy="18" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="700" cy="25" r="2" fill="white" opacity="0.7"/>
+  <circle cx="740" cy="45" r="1.5" fill="white" opacity="0.6"/>
+  <!-- Temple interior -->
+  <rect x="40" y="50" width="720" height="320" fill="#1a1a2e"/>
+  <!-- Stone texture -->
+  <rect x="40" y="50" width="720" height="16" fill="#3a3a4a"/>
+  <rect x="40" y="85" width="720" height="16" fill="#3a3a4a"/>
+  <rect x="40" y="120" width="720" height="16" fill="#3a3a4a"/>
+  <rect x="40" y="155" width="720" height="16" fill="#3a3a4a"/>
+  <line x1="160" y1="50" x2="160" y2="370" stroke="#3a3a4a" stroke-width="2" opacity="0.5"/>
+  <line x1="300" y1="50" x2="300" y2="370" stroke="#3a3a4a" stroke-width="2" opacity="0.5"/>
+  <line x1="500" y1="50" x2="500" y2="370" stroke="#3a3a4a" stroke-width="2" opacity="0.5"/>
+  <line x1="640" y1="50" x2="640" y2="370" stroke="#3a3a4a" stroke-width="2" opacity="0.5"/>
+  <!-- DIVINE LIGHT FROM ABOVE -->
+  <ellipse cx="400" cy="50" rx="250" ry="200" fill="url(#sam4_divineglow)"/>
+  <!-- Light beam going down to Samuel -->
+  <polygon points="360,50 340,320 380,320" fill="#fef9c3" opacity="0.1"/>
+  <polygon points="400,50 385,330 415,330" fill="#fef9c3" opacity="0.12"/>
+  <polygon points="440,50 420,320 460,320" fill="#fef9c3" opacity="0.1"/>
+  <!-- Sound waves (God's voice visualized) -->
+  <ellipse cx="400" cy="100" rx="80" ry="30" stroke="#bae6fd" stroke-width="3" fill="none" opacity="0.4"/>
+  <ellipse cx="400" cy="100" rx="120" ry="50" stroke="#bae6fd" stroke-width="2.5" fill="none" opacity="0.3"/>
+  <ellipse cx="400" cy="100" rx="160" ry="70" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.25"/>
+  <ellipse cx="400" cy="100" rx="200" ry="90" stroke="#60a5fa" stroke-width="2" fill="none" opacity="0.2"/>
+  <!-- Lamp (still burning) -->
+  <rect x="660" y="268" width="8" height="70" fill="#92400e"/>
+  <rect x="645" y="262" width="38" height="8" rx="3" fill="#b45309"/>
+  <ellipse cx="664" cy="258" rx="22" ry="10" fill="#d97706"/>
+  <ellipse cx="664" cy="252" rx="8" ry="6" fill="#b45309"/>
+  <ellipse cx="664" cy="220" rx="80" ry="80" fill="url(#sam4_lamp)"/>
+  <path d="M659 252 Q664 232 669 252" fill="#fde047"/>
+  <path d="M661 252 Q664 236 667 252" fill="#fbbf24"/>
+  <path d="M662 252 Q664 240 666 252" fill="white" opacity="0.8"/>
+  <!-- SAMUEL kneeling/bowing -->
+  <!-- Floor/mat -->
+  <ellipse cx="400" cy="358" rx="90" ry="15" fill="#44403c"/>
+  <!-- Samuel kneeling (front-facing, head bowed) -->
+  <!-- Knees/lower body on ground -->
+  <ellipse cx="400" cy="342" rx="38" ry="15" fill="#d97706"/>
+  <!-- Torso (upright kneeling) -->
+  <ellipse cx="400" cy="308" rx="24" ry="38" fill="#fde68a"/>
+  <!-- Arms outstretched (reverence) -->
+  <path d="M378 308 Q352 295 335 288" stroke="#fde68a" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M422 308 Q448 295 465 288" stroke="#fde68a" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Hands open (receiving) -->
+  <ellipse cx="332" cy="287" rx="13" ry="9" fill="#fde68a"/>
+  <ellipse cx="468" cy="287" rx="13" ry="9" fill="#fde68a"/>
+  <!-- Head bowed slightly, looking up -->
+  <circle cx="400" cy="267" r="26" fill="#fbbf24"/>
+  <!-- Hair -->
+  <ellipse cx="400" cy="253" rx="26" ry="14" fill="#78350f"/>
+  <!-- Face (awe/wonder) -->
+  <circle cx="392" cy="264" r="4" fill="#1c1917"/>
+  <circle cx="408" cy="264" r="4" fill="#1c1917"/>
+  <!-- Wide eyes -->
+  <circle cx="392" cy="262" r="2" fill="white"/>
+  <circle cx="408" cy="262" r="2" fill="white"/>
+  <path d="M393 274 Q400 277 407 274" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <!-- Eyebrows raised in awe -->
+  <path d="M390 258 Q393 255 396 258" stroke="#78350f" stroke-width="2" fill="none"/>
+  <path d="M404 258 Q407 255 410 258" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- Small sparkles around Samuel (divine presence) -->
+  <polygon points="330,240 333,250 343,250 335,256 338,266 330,260 322,266 325,256 317,250 327,250" fill="#fde047" opacity="0.7"/>
+  <polygon points="470,238 473,248 483,248 475,254 478,264 470,258 462,264 465,254 457,248 467,248" fill="#fde047" opacity="0.7"/>
+  <circle cx="360" cy="200" r="3" fill="#fef9c3" opacity="0.6"/>
+  <circle cx="440" cy="195" r="3" fill="#fef9c3" opacity="0.6"/>
+  <circle cx="320" cy="215" r="2.5" fill="#fef9c3" opacity="0.5"/>
+  <circle cx="480" cy="210" r="2.5" fill="#fef9c3" opacity="0.5"/>
+</svg>

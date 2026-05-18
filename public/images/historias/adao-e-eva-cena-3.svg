@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="adao3_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d1fae5"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
+    </linearGradient>
+    <linearGradient id="adao3_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+    <radialGradient id="adao3_shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#166534" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#166534" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#adao3_sky)"/>
+  <!-- Dim atmosphere (something's wrong feel) -->
+  <rect width="800" height="380" fill="#166534" opacity="0.15"/>
+  <!-- Background trees -->
+  <rect x="50" y="170" width="16" height="130" fill="#854d0e"/>
+  <ellipse cx="58" cy="162" rx="52" ry="62" fill="#166534"/>
+  <rect x="700" y="160" width="16" height="140" fill="#854d0e"/>
+  <ellipse cx="708" cy="152" rx="55" ry="65" fill="#166534"/>
+  <rect x="160" y="200" width="13" height="100" fill="#854d0e"/>
+  <ellipse cx="166" cy="193" rx="40" ry="48" fill="#15803d"/>
+  <rect x="610" y="195" width="13" height="105" fill="#854d0e"/>
+  <ellipse cx="616" cy="188" rx="42" ry="50" fill="#15803d"/>
+  <!-- Ground -->
+  <rect x="0" y="305" width="800" height="75" fill="url(#adao3_ground)"/>
+  <ellipse cx="400" cy="305" rx="500" ry="28" fill="#4ade80"/>
+  <!-- Central knowledge tree (BIG) -->
+  <rect x="382" y="120" width="36" height="195" rx="6" fill="#78350f"/>
+  <path d="M390 180 Q340 155 300 135" stroke="#78350f" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M418 172 Q468 147 508 128" stroke="#78350f" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M400 210 Q360 240 330 265" stroke="#78350f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Foliage -->
+  <ellipse cx="400" cy="95" rx="110" ry="115" fill="#15803d"/>
+  <ellipse cx="355" cy="118" rx="75" ry="88" fill="#166534"/>
+  <ellipse cx="448" cy="112" rx="80" ry="90" fill="#14532d"/>
+  <ellipse cx="400" cy="72" rx="88" ry="88" fill="#22c55e"/>
+  <ellipse cx="378" cy="88" rx="58" ry="65" fill="#4ade80" opacity="0.5"/>
+  <!-- Fruits on tree -->
+  <circle cx="400" cy="52" r="17" fill="#dc2626"/>
+  <circle cx="370" cy="68" r="15" fill="#ef4444"/>
+  <circle cx="430" cy="65" r="16" fill="#b91c1c"/>
+  <circle cx="352" cy="88" r="13" fill="#fbbf24"/>
+  <circle cx="448" cy="83" r="14" fill="#fbbf24"/>
+  <circle cx="385" cy="45" r="12" fill="#ef4444"/>
+  <circle cx="415" cy="42" r="11" fill="#dc2626"/>
+  <!-- Shine on fruits -->
+  <circle cx="397" cy="47" r="4" fill="white" opacity="0.6"/>
+  <circle cx="367" cy="63" r="3" fill="white" opacity="0.6"/>
+  <!-- SERPENT on tree -->
+  <!-- Serpent body coiling around trunk -->
+  <path d="M395 130 Q360 145 355 175 Q350 205 380 215 Q410 225 415 255 Q420 280 395 295" stroke="#16a34a" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M395 130 Q360 145 355 175 Q350 205 380 215 Q410 225 415 255 Q420 280 395 295" stroke="#4ade80" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- Serpent scales pattern -->
+  <path d="M368 158 Q372 154 376 158" stroke="#15803d" stroke-width="3" fill="none"/>
+  <path d="M362 175 Q366 171 370 175" stroke="#15803d" stroke-width="3" fill="none"/>
+  <path d="M356 192 Q360 188 364 192" stroke="#15803d" stroke-width="3" fill="none"/>
+  <path d="M365 210 Q369 206 373 210" stroke="#15803d" stroke-width="3" fill="none"/>
+  <!-- Serpent head -->
+  <ellipse cx="345" cy="258" rx="22" ry="14" fill="#16a34a" transform="rotate(30,345,258)"/>
+  <ellipse cx="342" cy="257" rx="15" ry="9" fill="#4ade80" transform="rotate(30,342,257)"/>
+  <!-- Serpent eye -->
+  <ellipse cx="338" cy="252" rx="4" ry="5" fill="#fef08a" transform="rotate(30,338,252)"/>
+  <ellipse cx="338" cy="252" rx="2" ry="3" fill="#1c1917" transform="rotate(30,338,252)"/>
+  <!-- Serpent tongue -->
+  <path d="M334 263 Q325 268 322 272 M325 268 Q323 273 320 277" stroke="#ef4444" stroke-width="2.5" fill="none" stroke-linecap="round" transform="rotate(30,330,265)"/>
+  <!-- EVA figure -->
+  <!-- Body -->
+  <ellipse cx="240" cy="272" rx="26" ry="38" fill="#f59e0b"/>
+  <!-- Hair (long) -->
+  <ellipse cx="240" cy="225" rx="28" ry="35" fill="#92400e"/>
+  <path d="M215 225 Q205 265 212 300" stroke="#92400e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M265 225 Q275 265 268 300" stroke="#92400e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Head -->
+  <circle cx="240" cy="228" r="30" fill="#fbbf24"/>
+  <!-- Hair on head -->
+  <ellipse cx="240" cy="210" rx="30" ry="18" fill="#92400e"/>
+  <!-- Face - curious/tempted expression -->
+  <circle cx="230" cy="225" r="5" fill="#1c1917"/>
+  <circle cx="250" cy="225" r="5" fill="#1c1917"/>
+  <circle cx="232" cy="223" r="2" fill="white"/>
+  <circle cx="252" cy="223" r="2" fill="white"/>
+  <path d="M232 238 Q240 244 248 240" stroke="#1c1917" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Arms -->
+  <path d="M215 265 Q185 250 175 240" stroke="#fbbf24" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M265 265 Q295 252 320 255" stroke="#fbbf24" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <!-- Hand reaching toward serpent/tree -->
+  <circle cx="320" cy="255" r="11" fill="#fbbf24"/>
+  <!-- Legs -->
+  <rect x="222" y="302" width="16" height="28" rx="6" fill="#d97706"/>
+  <rect x="242" y="302" width="16" height="28" rx="6" fill="#d97706"/>
+  <!-- Leaf cover (simple modesty) -->
+  <ellipse cx="240" cy="285" rx="22" ry="12" fill="#16a34a"/>
+  <!-- Fruit in hand (about to take) -->
+  <circle cx="175" cy="238" r="14" fill="#dc2626"/>
+  <circle cx="173" cy="233" r="4" fill="white" opacity="0.5"/>
+  <!-- Flowers on ground -->
+  <circle cx="120" cy="312" r="8" fill="#fde047"/>
+  <circle cx="113" cy="312" r="5" fill="#f97316"/>
+  <circle cx="127" cy="312" r="5" fill="#f97316"/>
+  <circle cx="120" cy="306" r="5" fill="#f97316"/>
+  <circle cx="120" cy="318" r="5" fill="#f97316"/>
+  <circle cx="650" cy="315" r="8" fill="#f9a8d4"/>
+  <circle cx="643" cy="315" r="5" fill="#ec4899"/>
+  <circle cx="657" cy="315" r="5" fill="#ec4899"/>
+  <circle cx="650" cy="309" r="5" fill="#ec4899"/>
+  <circle cx="650" cy="321" r="5" fill="#ec4899"/>
+  <!-- Shadow/ominous element -->
+  <ellipse cx="350" cy="350" rx="130" ry="25" fill="url(#adao3_shadow)"/>
+</svg>

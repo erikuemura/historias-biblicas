@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="lz3_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e1065"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="lz3_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#92400e"/>
+      <stop offset="100%" style="stop-color:#451a03"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#lz3_sky)"/>
+  <!-- Rocky hill with tomb -->
+  <ellipse cx="230" cy="310" rx="250" ry="120" fill="#78350f"/>
+  <ellipse cx="230" cy="300" rx="220" ry="100" fill="#92400e"/>
+  <!-- Cave entrance in hill -->
+  <ellipse cx="220" cy="285" rx="80" ry="65" fill="#451a03"/>
+  <!-- Large stone in front of cave -->
+  <circle cx="190" cy="308" r="62" fill="#b45309"/>
+  <circle cx="190" cy="308" r="50" fill="#a16207"/>
+  <!-- Stone texture -->
+  <line x1="168" y1="288" x2="175" y2="330" stroke="#b45309" stroke-width="3" opacity="0.4"/>
+  <line x1="192" y1="258" x2="205" y2="360" stroke="#b45309" stroke-width="3" opacity="0.4"/>
+  <line x1="215" y1="268" x2="222" y2="360" stroke="#b45309" stroke-width="3" opacity="0.3"/>
+  <!-- Ground -->
+  <rect x="0" y="330" width="800" height="50" fill="url(#lz3_ground)"/>
+  <!-- Jesus arriving at the tomb with grief -->
+  <rect x="400" y="200" width="70" height="150" rx="14" fill="#ffffff"/>
+  <circle cx="435" cy="184" r="33" fill="#fde68a"/>
+  <ellipse cx="435" cy="172" rx="33" ry="19" fill="#92400e"/>
+  <rect x="412" y="184" width="12" height="38" rx="5" fill="#92400e"/>
+  <rect x="447" y="184" width="12" height="38" rx="5" fill="#92400e"/>
+  <!-- Jesus sorrowful expression -->
+  <circle cx="425" cy="183" r="5" fill="#78350f"/>
+  <circle cx="445" cy="183" r="5" fill="#78350f"/>
+  <path d="M421,177 Q435,171 449,177" stroke="#92400e" stroke-width="2.5" fill="none"/>
+  <path d="M421,196 Q435,190 449,196" stroke="#92400e" stroke-width="2.5" fill="none"/>
+  <!-- tear -->
+  <ellipse cx="424" cy="190" rx="2" ry="3.5" fill="#93c5fd" opacity="0.9"/>
+  <!-- Mary and Martha crying, coming to Jesus -->
+  <rect x="480" y="215" width="42" height="135" rx="9" fill="#3b82f6"/>
+  <circle cx="501" cy="203" r="20" fill="#fde68a"/>
+  <ellipse cx="501" cy="194" rx="20" ry="11" fill="#1d4ed8"/>
+  <!-- crying face -->
+  <circle cx="494" cy="202" r="4" fill="#78350f"/>
+  <circle cx="508" cy="202" r="4" fill="#78350f"/>
+  <path d="M492,214 Q501,209 510,214" stroke="#92400e" stroke-width="2" fill="none"/>
+  <ellipse cx="494" cy="208" rx="2" ry="3.5" fill="#93c5fd" opacity="0.8"/>
+  <ellipse cx="508" cy="208" rx="2" ry="3.5" fill="#93c5fd" opacity="0.8"/>
+  <!-- reaching toward Jesus -->
+  <line x1="480" y1="240" x2="450" y2="228" stroke="#fde68a" stroke-width="7" stroke-linecap="round"/>
+  <rect x="530" y="218" width="40" height="132" rx="9" fill="#ec4899"/>
+  <circle cx="550" cy="206" r="20" fill="#fde68a"/>
+  <ellipse cx="550" cy="197" rx="20" ry="11" fill="#be185d"/>
+  <circle cx="543" cy="205" r="4" fill="#78350f"/>
+  <circle cx="557" cy="205" r="4" fill="#78350f"/>
+  <path d="M541,217 Q550,212 559,217" stroke="#92400e" stroke-width="2" fill="none"/>
+  <!-- Many mourners/crowd around -->
+  <rect x="580" y="225" width="36" height="125" rx="8" fill="#7c3aed"/>
+  <circle cx="598" cy="213" r="18" fill="#fde68a"/>
+  <ellipse cx="598" cy="205" rx="18" ry="10" fill="#5b21b6"/>
+  <rect x="624" y="228" width="34" height="122" rx="8" fill="#374151"/>
+  <circle cx="641" cy="216" r="18" fill="#d97706"/>
+  <ellipse cx="641" cy="208" rx="18" ry="10" fill="#1f2937"/>
+  <rect x="665" y="230" width="34" height="120" rx="8" fill="#6b7280"/>
+  <circle cx="682" cy="218" r="18" fill="#b45309"/>
+  <ellipse cx="682" cy="210" rx="18" ry="10" fill="#4b5563"/>
+  <rect x="700" y="232" width="34" height="118" rx="8" fill="#dc2626"/>
+  <circle cx="717" cy="220" r="18" fill="#fbbf24"/>
+  <ellipse cx="717" cy="212" rx="18" ry="10" fill="#b91c1c"/>
+  <!-- Disciples behind Jesus -->
+  <rect x="290" y="218" width="44" height="132" rx="10" fill="#4b5563"/>
+  <circle cx="312" cy="206" r="21" fill="#b45309"/>
+  <ellipse cx="312" cy="197" rx="21" ry="12" fill="#92400e"/>
+  <rect x="340" y="220" width="44" height="130" rx="10" fill="#374151"/>
+  <circle cx="362" cy="208" r="21" fill="#92400e"/>
+  <ellipse cx="362" cy="199" rx="21" ry="12" fill="#78350f"/>
+</svg>

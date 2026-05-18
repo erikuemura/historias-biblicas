@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="sam3_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="40%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <radialGradient id="sam3_lampglow" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#fde047" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fde047" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sam3_moonlight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#e0f2fe" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Night background -->
+  <rect width="800" height="380" fill="url(#sam3_bg)"/>
+  <!-- Temple interior walls -->
+  <rect x="40" y="40" width="720" height="330" fill="#2c2c2c"/>
+  <rect x="40" y="40" width="720" height="18" fill="#44403c"/>
+  <rect x="40" y="76" width="720" height="18" fill="#44403c"/>
+  <rect x="40" y="112" width="720" height="18" fill="#44403c"/>
+  <rect x="40" y="148" width="720" height="18" fill="#44403c"/>
+  <rect x="40" y="184" width="720" height="18" fill="#44403c"/>
+  <!-- Stone vertical lines -->
+  <line x1="140" y1="40" x2="140" y2="370" stroke="#44403c" stroke-width="2" opacity="0.5"/>
+  <line x1="240" y1="40" x2="240" y2="370" stroke="#44403c" stroke-width="2" opacity="0.5"/>
+  <line x1="560" y1="40" x2="560" y2="370" stroke="#44403c" stroke-width="2" opacity="0.5"/>
+  <line x1="660" y1="40" x2="660" y2="370" stroke="#44403c" stroke-width="2" opacity="0.5"/>
+  <!-- Window with moonlight -->
+  <rect x="65" y="65" width="90" height="110" rx="8" fill="#0f172a"/>
+  <rect x="65" y="65" width="90" height="110" rx="8" stroke="#78716c" stroke-width="5" fill="none"/>
+  <line x1="110" y1="67" x2="110" y2="173" stroke="#78716c" stroke-width="3"/>
+  <line x1="67" y1="120" x2="153" y2="120" stroke="#78716c" stroke-width="3"/>
+  <circle cx="110" cy="100" r="18" fill="#fef9c3" opacity="0.7"/>
+  <ellipse cx="110" cy="120" rx="55" ry="60" fill="url(#sam3_moonlight)"/>
+  <!-- Lamp glow -->
+  <ellipse cx="600" cy="120" rx="200" ry="180" fill="url(#sam3_lampglow)"/>
+  <!-- Lamp stand right -->
+  <rect x="618" y="210" width="9" height="85" fill="#92400e"/>
+  <rect x="602" y="204" width="42" height="9" rx="3" fill="#b45309"/>
+  <ellipse cx="623" cy="200" rx="25" ry="11" fill="#d97706"/>
+  <ellipse cx="623" cy="194" rx="9" ry="7" fill="#b45309"/>
+  <path d="M618 194 Q623 174 628 194" fill="#fde047"/>
+  <path d="M620 194 Q623 178 626 194" fill="#fbbf24"/>
+  <path d="M621 194 Q623 181 625 194" fill="white" opacity="0.8"/>
+  <!-- ELI room (right side, sitting on bed) -->
+  <!-- Eli bed/mat -->
+  <ellipse cx="660" cy="340" rx="80" ry="18" fill="#78350f"/>
+  <!-- Eli lying/seated (just woken) -->
+  <ellipse cx="660" cy="310" rx="35" ry="22" fill="#7c3aed"/>
+  <!-- Eli head (sitting up) -->
+  <circle cx="660" cy="282" r="26" fill="#f59e0b"/>
+  <!-- White hair/beard -->
+  <ellipse cx="660" cy="268" rx="26" ry="14" fill="white"/>
+  <path d="M638 275 Q632 288 634 302" stroke="white" stroke-width="7" fill="none"/>
+  <path d="M682 275 Q688 288 686 302" stroke="white" stroke-width="7" fill="none"/>
+  <ellipse cx="660" cy="296" rx="18" ry="12" fill="white"/>
+  <!-- Eli face (just awoken, surprised) -->
+  <circle cx="652" cy="279" r="4" fill="#1c1917"/>
+  <circle cx="668" cy="279" r="4" fill="#1c1917"/>
+  <!-- Wide eyes -->
+  <circle cx="652" cy="277" r="2" fill="white"/>
+  <circle cx="668" cy="277" r="2" fill="white"/>
+  <path d="M652 290 Q660 293 668 290" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <!-- Eli arm pointing back (sending Samuel) -->
+  <path d="M636 295 Q620 285 610 280" stroke="#7c3aed" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- SAMUEL running (left side, toward Eli) -->
+  <!-- Samuel running pose -->
+  <circle cx="290" cy="265" r="22" fill="#fbbf24"/>
+  <!-- Hair -->
+  <ellipse cx="290" cy="250" rx="22" ry="13" fill="#78350f"/>
+  <!-- Body (running, leaning forward) -->
+  <ellipse cx="278" cy="292" rx="22" ry="30" fill="#fde68a" transform="rotate(-12,278,292)"/>
+  <!-- Legs running -->
+  <path d="M270 315 Q258 335 250 345" stroke="#d97706" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M282 318 Q285 338 290 350" stroke="#d97706" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Feet -->
+  <ellipse cx="248" cy="346" rx="12" ry="7" fill="#d97706"/>
+  <ellipse cx="290" cy="352" rx="12" ry="7" fill="#d97706"/>
+  <!-- Arms stretched forward (reaching for Eli) -->
+  <path d="M295 280 Q330 268 360 262" stroke="#fde68a" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Samuel excited face -->
+  <circle cx="284" cy="262" r="3.5" fill="#1c1917"/>
+  <circle cx="296" cy="262" r="3.5" fill="#1c1917"/>
+  <path d="M283 272 Q290 277 297 272" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- Motion lines behind Samuel (running fast) -->
+  <line x1="220" y1="268" x2="246" y2="268" stroke="#4338ca" stroke-width="3" opacity="0.4"/>
+  <line x1="215" y1="280" x2="242" y2="278" stroke="#4338ca" stroke-width="3" opacity="0.4"/>
+  <line x1="218" y1="292" x2="244" y2="290" stroke="#4338ca" stroke-width="3" opacity="0.4"/>
+  <!-- Floor -->
+  <rect x="40" y="355" width="720" height="25" fill="#44403c"/>
+</svg>

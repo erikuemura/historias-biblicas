@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="elias1_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="60%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="elias1_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+  <!-- Dry landscape sky -->
+  <rect width="800" height="380" fill="url(#elias1_sky)"/>
+  <!-- Sun setting -->
+  <circle cx="680" cy="80" r="50" fill="#fde047" opacity="0.9"/>
+  <!-- Clouds (sparse, dry) -->
+  <ellipse cx="150" cy="75" rx="70" ry="25" fill="white" opacity="0.7"/>
+  <ellipse cx="185" cy="62" rx="52" ry="22" fill="white" opacity="0.7"/>
+  <!-- Arid landscape -->
+  <rect x="0" y="300" width="800" height="80" fill="url(#elias1_ground)"/>
+  <ellipse cx="400" cy="300" rx="500" ry="25" fill="#a16207"/>
+  <!-- Rocky hills background -->
+  <polygon points="0,285 90,200 180,285" fill="#92400e" opacity="0.7"/>
+  <polygon points="80,285 190,175 300,285" fill="#b45309" opacity="0.6"/>
+  <polygon points="500,285 620,168 740,285" fill="#92400e" opacity="0.7"/>
+  <polygon points="620,285 720,185 800,285" fill="#b45309" opacity="0.6"/>
+  <!-- Dry path/road -->
+  <path d="M50 330 Q400 315 750 325" stroke="#d97706" stroke-width="18" fill="none"/>
+  <path d="M100 330 Q400 318 700 328" stroke="#fbbf24" stroke-width="6" fill="none" opacity="0.5"/>
+  <!-- Dry grass/shrubs on sides -->
+  <path d="M80 302 Q78 282 75 272" stroke="#a16207" stroke-width="4" fill="none"/>
+  <path d="M75 272 Q68 265 64 270" stroke="#a16207" stroke-width="3" fill="none"/>
+  <path d="M75 272 Q82 263 88 268" stroke="#a16207" stroke-width="3" fill="none"/>
+  <path d="M650 300 Q648 280 645 270" stroke="#a16207" stroke-width="4" fill="none"/>
+  <path d="M645 270 Q638 263 634 268" stroke="#a16207" stroke-width="3" fill="none"/>
+  <path d="M645 270 Q652 261 658 266" stroke="#a16207" stroke-width="3" fill="none"/>
+  <!-- Small rocks on ground -->
+  <ellipse cx="130" cy="318" rx="20" ry="9" fill="#78350f"/>
+  <ellipse cx="600" cy="315" rx="22" ry="10" fill="#78350f"/>
+  <ellipse cx="360" cy="325" rx="15" ry="7" fill="#92400e"/>
+  <!-- ELIAS (left, older prophet figure, white hair) -->
+  <!-- Mantle/cloak (flowing) -->
+  <path d="M240 265 Q215 290 212 330" stroke="#b45309" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M275 265 Q285 295 285 330" stroke="#b45309" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Body (prophet robes) -->
+  <ellipse cx="255" cy="268" rx="35" ry="55" fill="#92400e"/>
+  <ellipse cx="255" cy="275" rx="24" ry="46" fill="#b45309"/>
+  <!-- Belt/rope -->
+  <rect x="226" y="268" width="58" height="9" rx="3" fill="#78350f"/>
+  <!-- Elias arms (one on walking staff, one gesturing to Eliseu) -->
+  <path d="M222 255 Q198 248 182 242" stroke="#92400e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M288 255 Q312 248 326 245" stroke="#92400e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Hand pointing toward Eliseu (companionable) -->
+  <ellipse cx="180" cy="241" rx="14" ry="9" fill="#d97706"/>
+  <!-- Staff (walking stick) -->
+  <rect x="172" y="238" width="6" height="80" rx="2" fill="#92400e"/>
+  <!-- Elias head -->
+  <circle cx="255" cy="215" r="30" fill="#d97706"/>
+  <!-- White hair and beard -->
+  <ellipse cx="255" cy="199" rx="30" ry="16" fill="white"/>
+  <path d="M228 204 Q220 220 222 238" stroke="white" stroke-width="9" fill="none"/>
+  <path d="M282 204 Q290 220 288 238" stroke="white" stroke-width="9" fill="none"/>
+  <ellipse cx="255" cy="232" rx="22" ry="14" fill="white"/>
+  <!-- Elias face (wise, determined) -->
+  <circle cx="247" cy="212" r="4.5" fill="#1c1917"/>
+  <circle cx="263" cy="212" r="4.5" fill="#1c1917"/>
+  <path d="M247 224 Q255 228 263 224" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- ELISEU (right, younger, walking beside Elias) -->
+  <!-- Body (simpler robes) -->
+  <ellipse cx="465" cy="268" rx="32" ry="52" fill="#16a34a"/>
+  <ellipse cx="465" cy="275" rx="22" ry="44" fill="#22c55e"/>
+  <!-- Belt -->
+  <rect x="440" y="268" width="50" height="8" rx="3" fill="#15803d"/>
+  <!-- Eliseu arms (attentive, one near Elias) -->
+  <path d="M435 255 Q410 248 395 245" stroke="#16a34a" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M495 255 Q520 248 535 248" stroke="#16a34a" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <ellipse cx="393" cy="244" rx="13" ry="9" fill="#fbbf24"/>
+  <!-- Eliseu head (younger, dark hair) -->
+  <circle cx="465" cy="215" r="28" fill="#fbbf24"/>
+  <!-- Dark hair -->
+  <ellipse cx="465" cy="200" rx="28" ry="14" fill="#44403c"/>
+  <path d="M440 204 Q432 220 434 240" stroke="#44403c" stroke-width="9" fill="none"/>
+  <path d="M490 204 Q498 220 496 240" stroke="#44403c" stroke-width="9" fill="none"/>
+  <!-- Short beard (young) -->
+  <ellipse cx="465" cy="232" rx="16" ry="9" fill="#57534e" opacity="0.7"/>
+  <!-- Eliseu face (attentive, listening to Elias) -->
+  <circle cx="457" cy="212" r="4.5" fill="#1c1917"/>
+  <circle cx="473" cy="212" r="4.5" fill="#1c1917"/>
+  <path d="M457 224 Q465 228 473 224" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- Eliseu facing Elias (slight turn) -->
+  <!-- Palm tree (arid landscape) -->
+  <rect x="695" y="248" width="9" height="72" fill="#78350f"/>
+  <ellipse cx="699" cy="242" rx="28" ry="16" fill="#22c55e"/>
+  <path d="M699 242 Q678 224 662 232" stroke="#22c55e" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M699 242 Q720 220 735 228" stroke="#22c55e" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M699 242 Q692 220 690 225" stroke="#22c55e" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- Dirt road dust cloud behind them -->
+  <ellipse cx="370" cy="318" rx="55" ry="12" fill="#d97706" opacity="0.3"/>
+</svg>

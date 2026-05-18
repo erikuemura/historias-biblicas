@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="pa_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c4a6e"/>
+      <stop offset="50%" style="stop-color:#0369a1"/>
+      <stop offset="100%" style="stop-color:#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="pa_sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0369a1"/>
+      <stop offset="100%" style="stop-color:#075985"/>
+    </linearGradient>
+    <radialGradient id="pa_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fef9c3;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#fef9c3;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Stormy sky -->
+  <rect width="800" height="400" fill="url(#pa_sky)"/>
+  <!-- Dark storm clouds -->
+  <ellipse cx="150" cy="70" rx="150" ry="60" fill="#0c4a6e" opacity="0.8"/>
+  <ellipse cx="100" cy="55" rx="100" ry="45" fill="#1e3a5f"/>
+  <ellipse cx="200" cy="48" rx="90" ry="42" fill="#164e63"/>
+  <ellipse cx="600" cy="65" rx="160" ry="62" fill="#0c4a6e" opacity="0.8"/>
+  <ellipse cx="650" cy="50" rx="110" ry="48" fill="#164e63"/>
+  <ellipse cx="555" cy="52" rx="85" ry="40" fill="#1e3a5f"/>
+  <ellipse cx="380" cy="45" rx="120" ry="50" fill="#0c4a6e" opacity="0.6"/>
+  <!-- Lightning -->
+  <path d="M350 20 L340 55 L355 55 L340 90" stroke="#fef9c3" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M580 15 L568 52 L583 52 L566 88" stroke="#fef9c3" stroke-width="2.5" fill="none" opacity="0.5"/>
+  <!-- Stormy sea with big waves -->
+  <rect x="0" y="220" width="800" height="180" fill="url(#pa_sea)"/>
+  <!-- Wave crests -->
+  <path d="M0,230 Q50,210 100,235 Q150,260 200,230 Q250,200 300,235 Q350,260 400,225 Q450,200 500,235 Q550,260 600,225 Q650,200 700,235 Q750,260 800,225" fill="#0ea5e9" opacity="0.6"/>
+  <path d="M0,255 Q60,235 120,260 Q180,285 240,250 Q300,220 360,258 Q420,285 480,248 Q540,218 600,258 Q660,285 720,248 Q760,230 800,255" fill="#0284c7" opacity="0.5"/>
+  <path d="M0,285 Q80,265 160,290 Q240,315 320,278 Q400,248 480,288 Q560,318 640,280 Q720,248 800,285" fill="#0369a1" opacity="0.4"/>
+  <!-- White foam on waves -->
+  <ellipse cx="100" cy="232" rx="30" ry="8" fill="white" opacity="0.4"/>
+  <ellipse cx="300" cy="238" rx="35" ry="8" fill="white" opacity="0.4"/>
+  <ellipse cx="500" cy="235" rx="30" ry="8" fill="white" opacity="0.4"/>
+  <ellipse cx="700" cy="238" rx="35" ry="8" fill="white" opacity="0.4"/>
+  <!-- Boat tossing on waves in background -->
+  <ellipse cx="620" cy="278" rx="90" ry="28" fill="#92400e"/>
+  <rect x="545" y="250" width="150" height="32" rx="8" fill="#78350f"/>
+  <!-- Sail bent by wind -->
+  <rect x="610" y="190" width="8" height="65" rx="3" fill="#92400e"/>
+  <polygon points="618,195 618,248 680,230" fill="#f1f5f9" opacity="0.8"/>
+  <!-- Disciples in boat -->
+  <circle cx="570" cy="244" r="12" fill="#fde68a"/>
+  <ellipse cx="570" cy="236" rx="12" ry="7" fill="#374151"/>
+  <circle cx="595" cy="244" r="12" fill="#fbbf24"/>
+  <ellipse cx="595" cy="236" rx="12" ry="7" fill="#1d4ed8"/>
+  <circle cx="660" cy="244" r="12" fill="#fde68a"/>
+  <ellipse cx="660" cy="236" rx="12" ry="7" fill="#92400e"/>
+  <!-- Jesus walking on water - glowing -->
+  <circle cx="270" cy="205" r="70" fill="url(#pa_glow)"/>
+  <rect x="238" y="215" width="70" height="115" rx="14" fill="#ffffff"/>
+  <circle cx="273" cy="199" r="33" fill="#fde68a"/>
+  <ellipse cx="273" cy="187" rx="33" ry="19" fill="#92400e"/>
+  <rect x="250" y="199" width="12" height="38" rx="5" fill="#92400e"/>
+  <rect x="285" y="199" width="12" height="38" rx="5" fill="#92400e"/>
+  <!-- Jesus calm face amid storm -->
+  <circle cx="263" cy="197" r="5" fill="#78350f"/>
+  <circle cx="283" cy="197" r="5" fill="#78350f"/>
+  <path d="M259,209 Q273,220 287,209" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <!-- Jesus feet on water surface -->
+  <ellipse cx="260" cy="332" rx="20" ry="8" fill="#7dd3fc" opacity="0.6"/>
+  <ellipse cx="290" cy="335" rx="20" ry="8" fill="#7dd3fc" opacity="0.6"/>
+  <!-- Jesus arm extended to Peter -->
+  <line x1="308" y1="245" x2="360" y2="260" stroke="#fde68a" stroke-width="11" stroke-linecap="round"/>
+  <ellipse cx="367" cy="263" rx="15" ry="13" fill="#fde68a"/>
+  <!-- Peter sinking but reaching up -->
+  <rect x="400" y="268" width="55" height="90" rx="12" fill="#4b5563"/>
+  <circle cx="427" cy="253" r="26" fill="#fde68a"/>
+  <ellipse cx="427" cy="242" rx="26" ry="15" fill="#78350f"/>
+  <!-- Peter scared face - sinking -->
+  <circle cx="418" cy="252" r="5" fill="#78350f"/>
+  <circle cx="436" cy="252" r="5" fill="#78350f"/>
+  <!-- wide eyes scared -->
+  <circle cx="416" cy="250" r="7" fill="white" opacity="0.5"/>
+  <circle cx="434" cy="250" r="7" fill="white" opacity="0.5"/>
+  <!-- O mouth -->
+  <ellipse cx="427" cy="264" rx="6" ry="7" fill="#92400e"/>
+  <!-- Peter sinking in water - water at chest level -->
+  <ellipse cx="427" cy="280" rx="50" ry="18" fill="#0369a1" opacity="0.7"/>
+  <!-- Peter arm reaching up to Jesus -->
+  <line x1="400" y1="278" x2="370" y2="258" stroke="#fde68a" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="365" cy="255" rx="14" ry="12" fill="#fde68a"/>
+</svg>

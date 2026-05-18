@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="lz5_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e0a3c"/>
+      <stop offset="100%" style="stop-color:#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="lz5_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#92400e"/>
+      <stop offset="100%" style="stop-color:#451a03"/>
+    </linearGradient>
+    <radialGradient id="lz5_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fef9c3;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#fef9c3;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#lz5_sky)"/>
+  <!-- Stars -->
+  <circle cx="60" cy="25" r="2" fill="white" opacity="0.7"/>
+  <circle cx="700" cy="30" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="750" cy="15" r="2" fill="white" opacity="0.8"/>
+  <!-- Miracle glow around scene -->
+  <circle cx="300" cy="220" r="160" fill="url(#lz5_glow)"/>
+  <!-- Cave in background open -->
+  <ellipse cx="120" cy="280" rx="100" ry="85" fill="#78350f"/>
+  <ellipse cx="120" cy="285" rx="82" ry="70" fill="#451a03"/>
+  <ellipse cx="120" cy="290" rx="62" ry="55" fill="#1c0a00"/>
+  <!-- Stone rolled away far -->
+  <circle cx="55" cy="318" r="38" fill="#92400e"/>
+  <circle cx="55" cy="318" r="30" fill="#a16207"/>
+  <!-- Ground -->
+  <rect x="0" y="335" width="800" height="45" fill="url(#lz5_ground)"/>
+  <!-- Lazarus emerging from tomb - alive, bandages, standing -->
+  <rect x="240" y="165" width="56" height="195" rx="10" fill="#f1f5f9"/>
+  <!-- bandage wrap lines all over -->
+  <line x1="240" y1="182" x2="296" y2="182" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="240" y1="198" x2="296" y2="198" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="240" y1="215" x2="296" y2="215" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="240" y1="232" x2="296" y2="232" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="240" y1="249" x2="296" y2="249" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="240" y1="266" x2="296" y2="266" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="240" y1="283" x2="296" y2="283" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="240" y1="300" x2="296" y2="300" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="240" y1="317" x2="296" y2="317" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="240" y1="340" x2="296" y2="340" stroke="#e2e8f0" stroke-width="3"/>
+  <!-- arms out - bandaged -->
+  <rect x="176" y="195" width="65" height="18" rx="8" fill="#f1f5f9"/>
+  <line x1="176" y1="200" x2="240" y2="200" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="176" y1="210" x2="240" y2="210" stroke="#e2e8f0" stroke-width="3"/>
+  <rect x="296" y="195" width="65" height="18" rx="8" fill="#f1f5f9"/>
+  <line x1="296" y1="200" x2="361" y2="200" stroke="#e2e8f0" stroke-width="3"/>
+  <line x1="296" y1="210" x2="361" y2="210" stroke="#e2e8f0" stroke-width="3"/>
+  <!-- Lazarus head wrapped -->
+  <circle cx="268" cy="152" r="30" fill="#f1f5f9"/>
+  <circle cx="268" cy="152" r="26" fill="#e2e8f0"/>
+  <!-- eyes showing life/surprise -->
+  <ellipse cx="259" cy="151" rx="7" ry="7" fill="white"/>
+  <ellipse cx="277" cy="151" rx="7" ry="7" fill="white"/>
+  <circle cx="260" cy="151" r="4.5" fill="#78350f"/>
+  <circle cx="278" cy="151" r="4.5" fill="#78350f"/>
+  <!-- light in eyes -->
+  <circle cx="262" cy="149" r="2" fill="white"/>
+  <circle cx="280" cy="149" r="2" fill="white"/>
+  <!-- surprised O mouth -->
+  <ellipse cx="268" cy="163" rx="5" ry="6" fill="#92400e"/>
+  <!-- Glow around Lazarus -->
+  <circle cx="268" cy="152" r="50" fill="#fef9c3" opacity="0.2"/>
+  <!-- Jesus beside Lazarus - overjoyed smile, hand extended to him -->
+  <rect x="400" y="190" width="70" height="170" rx="14" fill="#ffffff"/>
+  <circle cx="435" cy="174" r="33" fill="#fde68a"/>
+  <ellipse cx="435" cy="162" rx="33" ry="19" fill="#92400e"/>
+  <rect x="412" y="174" width="12" height="38" rx="5" fill="#92400e"/>
+  <rect x="447" y="174" width="12" height="38" rx="5" fill="#92400e"/>
+  <!-- Jesus joyful smile -->
+  <circle cx="425" cy="172" r="5" fill="#78350f"/>
+  <circle cx="445" cy="172" r="5" fill="#78350f"/>
+  <circle cx="418" cy="180" r="7" fill="#fca5a5" opacity="0.5"/>
+  <circle cx="452" cy="180" r="7" fill="#fca5a5" opacity="0.5"/>
+  <path d="M420,185 Q435,197 450,185" stroke="#78350f" stroke-width="3" fill="none"/>
+  <!-- Jesus hand extended to Lazarus -->
+  <line x1="400" y1="220" x2="368" y2="207" stroke="#fde68a" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="363" cy="204" rx="14" ry="12" fill="#fde68a"/>
+  <!-- Mary, Martha running, crying tears of joy -->
+  <!-- Mary running toward Lazarus -->
+  <rect x="500" y="215" width="42" height="155" rx="9" fill="#3b82f6"/>
+  <circle cx="521" cy="203" r="20" fill="#fde68a"/>
+  <ellipse cx="521" cy="194" rx="20" ry="11" fill="#1d4ed8"/>
+  <path d="M513,212 Q521,221 529,212" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <ellipse cx="513" cy="207" rx="2" ry="4" fill="#93c5fd" opacity="0.8"/>
+  <ellipse cx="529" cy="207" rx="2" ry="4" fill="#93c5fd" opacity="0.8"/>
+  <!-- running arms -->
+  <line x1="500" y1="240" x2="472" y2="226" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="542" y1="240" x2="558" y2="225" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  <!-- Martha -->
+  <rect x="552" y="218" width="40" height="152" rx="9" fill="#ec4899"/>
+  <circle cx="572" cy="206" r="20" fill="#fde68a"/>
+  <ellipse cx="572" cy="197" rx="20" ry="11" fill="#be185d"/>
+  <path d="M564,215 Q572,224 580,215" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <ellipse cx="564" cy="210" rx="2" ry="4" fill="#93c5fd" opacity="0.8"/>
+  <!-- Crowd celebrating - arms raised -->
+  <rect x="610" y="222" width="36" height="148" rx="8" fill="#7c3aed"/>
+  <circle cx="628" cy="210" r="18" fill="#fde68a"/>
+  <ellipse cx="628" cy="202" rx="18" ry="10" fill="#5b21b6"/>
+  <path d="M620,219 Q628,228 636,219" stroke="#78350f" stroke-width="2" fill="none"/>
+  <line x1="610" y1="242" x2="590" y2="225" stroke="#7c3aed" stroke-width="7" stroke-linecap="round"/>
+  <line x1="646" y1="242" x2="660" y2="225" stroke="#7c3aed" stroke-width="7" stroke-linecap="round"/>
+  <rect x="655" y="225" width="36" height="145" rx="8" fill="#dc2626"/>
+  <circle cx="673" cy="213" r="18" fill="#d97706"/>
+  <ellipse cx="673" cy="205" rx="18" ry="10" fill="#b91c1c"/>
+  <path d="M665,222 Q673,231 681,222" stroke="#78350f" stroke-width="2" fill="none"/>
+  <line x1="655" y1="245" x2="635" y2="230" stroke="#dc2626" stroke-width="7" stroke-linecap="round"/>
+  <rect x="700" y="228" width="34" height="142" rx="8" fill="#374151"/>
+  <circle cx="717" cy="216" r="17" fill="#b45309"/>
+  <ellipse cx="717" cy="208" rx="17" ry="9" fill="#1f2937"/>
+  <path d="M710,225 Q717,234 724,225" stroke="#78350f" stroke-width="2" fill="none"/>
+</svg>

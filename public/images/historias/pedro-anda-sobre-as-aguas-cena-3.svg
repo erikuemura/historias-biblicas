@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="pa3_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="60%" style="stop-color:#0c4a6e"/>
+      <stop offset="100%" style="stop-color:#0369a1"/>
+    </linearGradient>
+    <linearGradient id="pa3_sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0284c7"/>
+      <stop offset="100%" style="stop-color:#075985"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#pa3_sky)"/>
+  <!-- Storm clouds -->
+  <ellipse cx="150" cy="58" rx="160" ry="65" fill="#1e293b" opacity="0.9"/>
+  <ellipse cx="450" cy="50" rx="180" ry="62" fill="#0c4a6e" opacity="0.85"/>
+  <ellipse cx="700" cy="60" rx="150" ry="60" fill="#1e293b" opacity="0.8"/>
+  <!-- Lightning -->
+  <path d="M580 25 L568 60 L584 60 L567 96" stroke="#fef9c3" stroke-width="2.5" fill="none" opacity="0.7"/>
+  <!-- Sea stormy -->
+  <rect x="0" y="218" width="800" height="162" fill="url(#pa3_sea)"/>
+  <path d="M0,228 Q55,205 110,232 Q165,260 220,225 Q275,192 330,230 Q385,260 440,222 Q495,190 550,230 Q605,262 660,225 Q715,192 800,228" fill="#0ea5e9" opacity="0.6"/>
+  <path d="M0,260 Q80,238 160,265 Q240,290 320,253 Q400,220 480,258 Q560,290 640,252 Q720,218 800,260" fill="#0284c7" opacity="0.4"/>
+  <!-- Foam -->
+  <ellipse cx="110" cy="232" rx="30" ry="8" fill="white" opacity="0.3"/>
+  <ellipse cx="330" cy="232" rx="32" ry="8" fill="white" opacity="0.3"/>
+  <ellipse cx="550" cy="232" rx="30" ry="8" fill="white" opacity="0.3"/>
+  <!-- Boat on right - disciples watching -->
+  <ellipse cx="650" cy="255" rx="120" ry="30" fill="#92400e"/>
+  <rect x="542" y="228" width="216" height="34" rx="10" fill="#78350f"/>
+  <!-- Mast -->
+  <rect x="643" y="160" width="8" height="75" rx="3" fill="#92400e"/>
+  <!-- Disciples heads in boat watching -->
+  <circle cx="565" cy="222" r="13" fill="#fde68a"/>
+  <ellipse cx="565" cy="215" rx="13" ry="7.5" fill="#374151"/>
+  <circle cx="592" cy="222" r="13" fill="#fbbf24"/>
+  <ellipse cx="592" cy="215" rx="13" ry="7.5" fill="#1d4ed8"/>
+  <circle cx="618" cy="222" r="13" fill="#d97706"/>
+  <ellipse cx="618" cy="215" rx="13" ry="7.5" fill="#78350f"/>
+  <circle cx="680" cy="222" r="13" fill="#fde68a"/>
+  <ellipse cx="680" cy="215" rx="13" ry="7.5" fill="#4b5563"/>
+  <circle cx="706" cy="222" r="13" fill="#fbbf24"/>
+  <ellipse cx="706" cy="215" rx="13" ry="7.5" fill="#92400e"/>
+  <!-- Jesus standing on water - gesturing to Peter "come" -->
+  <!-- Jesus glow -->
+  <circle cx="230" cy="195" r="90" fill="#fef9c3" opacity="0.2"/>
+  <rect x="198" y="185" width="68" height="115" rx="14" fill="#ffffff"/>
+  <circle cx="232" cy="170" r="30" fill="#fde68a"/>
+  <ellipse cx="232" cy="158" rx="30" ry="17" fill="#92400e"/>
+  <rect x="210" y="170" width="11" height="35" rx="5" fill="#92400e"/>
+  <rect x="244" y="170" width="11" height="35" rx="5" fill="#92400e"/>
+  <!-- Jesus beckoning face - serene inviting -->
+  <circle cx="223" cy="168" r="4.5" fill="#78350f"/>
+  <circle cx="241" cy="168" r="4.5" fill="#78350f"/>
+  <path d="M219,180 Q232,190 245,180" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <!-- Jesus arm extended beckoning Peter "come" -->
+  <line x1="266" y1="208" x2="318" y2="215" stroke="#fde68a" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="324" cy="217" rx="14" ry="12" fill="#fde68a"/>
+  <!-- Jesus feet ripples on water -->
+  <ellipse cx="222" cy="306" rx="30" ry="10" fill="#7dd3fc" opacity="0.5"/>
+  <ellipse cx="250" cy="308" rx="28" ry="10" fill="#7dd3fc" opacity="0.5"/>
+  <!-- Peter - stepping out of boat onto water! -->
+  <!-- One foot on boat edge, one foot on water -->
+  <rect x="380" y="218" width="56" height="115" rx="12" fill="#4b5563"/>
+  <circle cx="408" cy="203" r="28" fill="#fbbf24"/>
+  <ellipse cx="408" cy="191" rx="28" ry="16" fill="#92400e"/>
+  <!-- Peter face - amazed/brave looking at Jesus -->
+  <circle cx="399" cy="201" r="5" fill="#78350f"/>
+  <circle cx="417" cy="201" r="5" fill="#78350f"/>
+  <path d="M395,213 Q408,222 421,213" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <!-- Peter one arm out for balance -->
+  <line x1="380" y1="238" x2="345" y2="225" stroke="#fbbf24" stroke-width="9" stroke-linecap="round"/>
+  <line x1="436" y1="238" x2="460" y2="225" stroke="#4b5563" stroke-width="9" stroke-linecap="round"/>
+  <!-- Peter's foot touching water surface -->
+  <rect x="390" y="330" width="24" height="12" rx="5" fill="#d97706"/>
+  <ellipse cx="402" cy="340" rx="30" ry="10" fill="#7dd3fc" opacity="0.5"/>
+  <!-- Small boat in background right -->
+  <ellipse cx="560" cy="265" rx="80" ry="22" fill="#92400e" opacity="0.6"/>
+  <rect x="490" y="246" width="140" height="25" rx="8" fill="#78350f" opacity="0.7"/>
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="bc4_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fffbeb"/>
+      <stop offset="100%" style="stop-color:#fef9c3"/>
+    </linearGradient>
+    <linearGradient id="bc4_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#92400e"/>
+    </linearGradient>
+    <linearGradient id="bc4_jar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#92400e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(bc4_bg)"/>
+  <rect width="800" height="380" fill="#fffbeb"/>
+  <!-- Ceiling decoration -->
+  <rect x="0" y="0" width="800" height="8" fill="#f59e0b"/>
+  <!-- Floor -->
+  <rect x="0" y="320" width="800" height="60" fill="url(#bc4_floor)"/>
+  <!-- Six LARGE stone water jars in a row - main scene -->
+  <!-- Jar 1 -->
+  <ellipse cx="100" cy="295" rx="35" ry="22" fill="#92400e"/>
+  <rect x="65" y="175" width="70" height="125" rx="18" fill="url(#bc4_jar)"/>
+  <ellipse cx="100" cy="176" rx="35" ry="18" fill="#b45309"/>
+  <ellipse cx="100" cy="172" rx="28" ry="12" fill="#d97706"/>
+  <!-- Water being poured in (top has water) -->
+  <ellipse cx="100" cy="175" rx="25" ry="10" fill="#bfdbfe" opacity="0.7"/>
+  <!-- Jar 2 -->
+  <ellipse cx="195" cy="295" rx="35" ry="22" fill="#92400e"/>
+  <rect x="160" y="175" width="70" height="125" rx="18" fill="url(#bc4_jar)"/>
+  <ellipse cx="195" cy="176" rx="35" ry="18" fill="#b45309"/>
+  <ellipse cx="195" cy="172" rx="28" ry="12" fill="#d97706"/>
+  <ellipse cx="195" cy="175" rx="25" ry="10" fill="#bfdbfe" opacity="0.7"/>
+  <!-- Jar 3 -->
+  <ellipse cx="290" cy="295" rx="35" ry="22" fill="#92400e"/>
+  <rect x="255" y="175" width="70" height="125" rx="18" fill="url(#bc4_jar)"/>
+  <ellipse cx="290" cy="176" rx="35" ry="18" fill="#b45309"/>
+  <ellipse cx="290" cy="172" rx="28" ry="12" fill="#d97706"/>
+  <ellipse cx="290" cy="175" rx="25" ry="10" fill="#bfdbfe" opacity="0.7"/>
+  <!-- Jar 4 -->
+  <ellipse cx="385" cy="295" rx="35" ry="22" fill="#92400e"/>
+  <rect x="350" y="175" width="70" height="125" rx="18" fill="url(#bc4_jar)"/>
+  <ellipse cx="385" cy="176" rx="35" ry="18" fill="#b45309"/>
+  <ellipse cx="385" cy="172" rx="28" ry="12" fill="#d97706"/>
+  <ellipse cx="385" cy="175" rx="25" ry="10" fill="#bfdbfe" opacity="0.7"/>
+  <!-- Jar 5 -->
+  <ellipse cx="480" cy="295" rx="35" ry="22" fill="#92400e"/>
+  <rect x="445" y="175" width="70" height="125" rx="18" fill="url(#bc4_jar)"/>
+  <ellipse cx="480" cy="176" rx="35" ry="18" fill="#b45309"/>
+  <ellipse cx="480" cy="172" rx="28" ry="12" fill="#d97706"/>
+  <ellipse cx="480" cy="175" rx="25" ry="10" fill="#bfdbfe" opacity="0.7"/>
+  <!-- Jar 6 -->
+  <ellipse cx="575" cy="295" rx="35" ry="22" fill="#92400e"/>
+  <rect x="540" y="175" width="70" height="125" rx="18" fill="url(#bc4_jar)"/>
+  <ellipse cx="575" cy="176" rx="35" ry="18" fill="#b45309"/>
+  <ellipse cx="575" cy="172" rx="28" ry="12" fill="#d97706"/>
+  <ellipse cx="575" cy="175" rx="25" ry="10" fill="#bfdbfe" opacity="0.7"/>
+  <!-- Servant 1 - pouring water from a bucket into jar 3 -->
+  <rect x="255" y="105" width="45" height="100" rx="10" fill="#6b7280"/>
+  <circle cx="277" cy="93" r="20" fill="#fbbf24"/>
+  <ellipse cx="277" cy="84" rx="20" ry="11" fill="#374151"/>
+  <circle cx="270" cy="92" r="4" fill="#78350f"/>
+  <circle cx="284" cy="92" r="4" fill="#78350f"/>
+  <path d="M268,102 Q277,108 286,102" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- carrying bucket pouring -->
+  <line x1="255" y1="130" x2="228" y2="115" stroke="#6b7280" stroke-width="8" stroke-linecap="round"/>
+  <!-- bucket -->
+  <rect x="210" y="108" width="22" height="18" rx="4" fill="#60a5fa"/>
+  <ellipse cx="221" cy="109" rx="11" ry="5" fill="#93c5fd"/>
+  <!-- water stream pouring from bucket to jar -->
+  <path d="M221,126 Q235,145 265,162" stroke="#93c5fd" stroke-width="4" fill="none" opacity="0.7"/>
+  <ellipse cx="265" cy="163" rx="8" ry="4" fill="#93c5fd" opacity="0.7"/>
+  <!-- Servant 2 - pouring water into jar 5 -->
+  <rect x="458" y="108" width="44" height="98" rx="10" fill="#4b5563"/>
+  <circle cx="480" cy="96" r="20" fill="#d97706"/>
+  <ellipse cx="480" cy="87" rx="20" ry="11" fill="#374151"/>
+  <circle cx="473" cy="95" r="4" fill="#78350f"/>
+  <circle cx="487" cy="95" r="4" fill="#78350f"/>
+  <path d="M471,105 Q480,111 489,105" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- carrying large bucket -->
+  <line x1="502" y1="128" x2="532" y2="112" stroke="#4b5563" stroke-width="8" stroke-linecap="round"/>
+  <rect x="528" y="105" width="24" height="20" rx="4" fill="#60a5fa"/>
+  <ellipse cx="540" cy="106" rx="12" ry="5.5" fill="#93c5fd"/>
+  <!-- water stream -->
+  <path d="M540,125 Q520,142 488,158" stroke="#93c5fd" stroke-width="4" fill="none" opacity="0.7"/>
+  <ellipse cx="488" cy="159" rx="8" ry="4" fill="#93c5fd" opacity="0.7"/>
+  <!-- Servant 3 - carrying a jar on head coming with water -->
+  <rect x="640" y="140" width="42" height="95" rx="10" fill="#374151"/>
+  <circle cx="661" cy="128" r="19" fill="#fbbf24"/>
+  <ellipse cx="661" cy="120" rx="19" ry="10" fill="#92400e"/>
+  <!-- balancing jar on head -->
+  <ellipse cx="661" cy="112" rx="22" ry="14" fill="#b45309"/>
+  <rect x="639" y="75" width="44" height="40" rx="10" fill="#d97706"/>
+  <ellipse cx="661" cy="76" rx="22" ry="10" fill="#b45309"/>
+  <!-- water in jar on head -->
+  <ellipse cx="661" cy="78" rx="18" ry="8" fill="#bfdbfe" opacity="0.6"/>
+  <path d="M650,122 Q661,130 672,122" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- Jesus in background watching - calm smile knowing what will happen -->
+  <rect x="660" y="205" width="55" height="115" rx="12" fill="#ffffff" opacity="0.8"/>
+  <circle cx="687" cy="192" r="26" fill="#fde68a" opacity="0.9"/>
+  <ellipse cx="687" cy="181" rx="26" ry="14" fill="#92400e" opacity="0.9"/>
+  <!-- Jesus subtle smile -->
+  <circle cx="679" cy="190" r="4" fill="#78350f" opacity="0.8"/>
+  <circle cx="695" cy="190" r="4" fill="#78350f" opacity="0.8"/>
+  <path d="M675,202 Q687,212 699,202" stroke="#78350f" stroke-width="2.5" fill="none" opacity="0.9"/>
+</svg>

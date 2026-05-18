@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="elias5_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a00"/>
+      <stop offset="20%" stop-color="#7c2d12"/>
+      <stop offset="50%" stop-color="#dc2626"/>
+      <stop offset="75%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <radialGradient id="elias5_whirlwind" cx="50%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="20%" stop-color="#fef9c3"/>
+      <stop offset="45%" stop-color="#fde047"/>
+      <stop offset="70%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="elias5_groundglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="elias5_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+  <!-- Dramatic sky -->
+  <rect width="800" height="380" fill="url(#elias5_sky)"/>
+  <!-- Fire clouds dramatic -->
+  <ellipse cx="160" cy="65" rx="140" ry="60" fill="#ef4444" opacity="0.5"/>
+  <ellipse cx="100" cy="42" rx="95" ry="45" fill="#dc2626" opacity="0.4"/>
+  <ellipse cx="640" cy="55" rx="145" ry="62" fill="#ef4444" opacity="0.5"/>
+  <ellipse cx="700" cy="35" rx="98" ry="46" fill="#dc2626" opacity="0.4"/>
+  <!-- WHIRLWIND/TORNADO OF FIRE (rising center) -->
+  <!-- Ground base (widest) -->
+  <ellipse cx="400" cy="335" rx="100" ry="28" fill="#f97316" opacity="0.9"/>
+  <ellipse cx="400" cy="328" rx="75" ry="20" fill="#fde047" opacity="0.8"/>
+  <!-- Whirlwind body (spiraling upward) -->
+  <!-- Outer spiral layer -->
+  <path d="M310 335 Q280 280 310 220 Q340 160 370 100 Q390 50 400 20" stroke="#f97316" stroke-width="65" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <path d="M490 335 Q520 280 490 220 Q460 160 430 100 Q410 50 400 20" stroke="#f97316" stroke-width="65" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <!-- Mid layer -->
+  <path d="M330 335 Q305 280 328 220 Q350 162 378 105 Q393 52 400 22" stroke="#fbbf24" stroke-width="45" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M470 335 Q495 280 472 220 Q450 162 422 105 Q407 52 400 22" stroke="#fbbf24" stroke-width="45" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Inner bright core -->
+  <path d="M358 335 Q340 280 355 220 Q368 165 388 108 Q396 55 400 22" stroke="#fde047" stroke-width="28" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M442 335 Q460 280 445 220 Q432 165 412 108 Q404 55 400 22" stroke="#fde047" stroke-width="28" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Bright center beam -->
+  <path d="M393 335 Q395 270 397 200 Q399 120 400 22" stroke="white" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Whirlwind radial glow -->
+  <ellipse cx="400" cy="150" rx="220" ry="200" fill="url(#elias5_whirlwind)" opacity="0.8"/>
+  <!-- Ground glow -->
+  <ellipse cx="400" cy="340" rx="220" ry="50" fill="url(#elias5_groundglow)"/>
+  <!-- Ground -->
+  <rect x="0" y="332" width="800" height="48" fill="url(#elias5_ground)"/>
+  <ellipse cx="400" cy="332" rx="480" ry="22" fill="#d97706" opacity="0.5"/>
+  <!-- ELIAS ascending (in upper whirlwind, becoming small/distant) -->
+  <!-- Elias body (small, high up in whirlwind) -->
+  <ellipse cx="400" cy="110" rx="18" ry="28" fill="#1d4ed8" opacity="0.9"/>
+  <!-- Arms raised in praise (ascending) -->
+  <path d="M384 105 Q370 93 362 85" stroke="#fbbf24" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M416 105 Q430 93 438 85" stroke="#fbbf24" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <!-- Elias head (small) -->
+  <circle cx="400" cy="89" r="18" fill="#d97706"/>
+  <!-- White hair (small) -->
+  <ellipse cx="400" cy="78" rx="18" ry="9" fill="white"/>
+  <!-- Face (small, joyful) -->
+  <circle cx="395" cy="87" r="3" fill="#1c1917"/>
+  <circle cx="405" cy="87" r="3" fill="#1c1917"/>
+  <path d="M395 94 Q400 98 405 94" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <!-- MANTO FALLING DOWN -->
+  <!-- Mantle falling through air (large, prominent) -->
+  <path d="M400 140 Q370 180 345 220 Q320 258 310 295 Q305 315 302 330" stroke="#b45309" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M400 145 Q372 183 348 222 Q325 258 315 295" stroke="#d97706" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Mantle edge/hem details -->
+  <ellipse cx="302" cy="332" rx="28" ry="10" fill="#b45309"/>
+  <ellipse cx="302" cy="330" rx="22" ry="7" fill="#d97706"/>
+  <!-- Whirlwind debris (rocks, particles) -->
+  <circle cx="350" cy="200" r="5" fill="#d97706" opacity="0.6"/>
+  <circle cx="455" cy="185" r="4" fill="#b45309" opacity="0.6"/>
+  <circle cx="370" cy="260" r="4" fill="#d97706" opacity="0.5"/>
+  <circle cx="430" cy="240" r="5" fill="#b45309" opacity="0.5"/>
+  <rect x="355" y="155" width="8" height="5" rx="2" fill="#92400e" opacity="0.5" transform="rotate(20,359,157)"/>
+  <rect x="448" y="168" width="8" height="5" rx="2" fill="#92400e" opacity="0.5" transform="rotate(-15,452,170)"/>
+  <!-- ELISEU on ground (large, center-right, picking up mantle) -->
+  <!-- Ground position (kneeling toward fallen mantle) -->
+  <!-- Body leaning toward mantle -->
+  <ellipse cx="540" cy="300" rx="36" ry="55" fill="#22c55e"/>
+  <ellipse cx="540" cy="308" rx="24" ry="46" fill="#4ade80"/>
+  <!-- Belt -->
+  <rect x="515" y="298" width="50" height="8" rx="3" fill="#15803d"/>
+  <!-- Arms reaching toward the falling mantle -->
+  <path d="M506 288 Q478 272 462 262" stroke="#22c55e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M574 295 Q595 288 610 285" stroke="#22c55e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Hands reaching for mantle -->
+  <ellipse cx="460" cy="260" rx="15" ry="10" fill="#fbbf24"/>
+  <ellipse cx="613" cy="284" rx="14" ry="9" fill="#fbbf24"/>
+  <!-- Eliseu head -->
+  <circle cx="540" cy="250" r="26" fill="#fbbf24"/>
+  <!-- Dark hair (wind-blown) -->
+  <ellipse cx="540" cy="236" rx="26" ry="13" fill="#292524"/>
+  <!-- Wind-blown hair -->
+  <path d="M520 238 Q508 228 504 220" stroke="#292524" stroke-width="8" fill="none"/>
+  <path d="M560 238 Q572 228 576 220" stroke="#292524" stroke-width="8" fill="none"/>
+  <!-- Beard -->
+  <ellipse cx="540" cy="264" rx="16" ry="9" fill="#44403c" opacity="0.7"/>
+  <!-- Eliseu face (awe, amazement, wonder) -->
+  <circle cx="532" cy="247" r="4.5" fill="#1c1917"/>
+  <circle cx="548" cy="247" r="4.5" fill="#1c1917"/>
+  <!-- Wide eyes looking UP at ascending Elias -->
+  <circle cx="532" cy="245" r="2.5" fill="white"/>
+  <circle cx="548" cy="245" r="2.5" fill="white"/>
+  <!-- Mouth open in wonder -->
+  <ellipse cx="540" cy="260" rx="5" ry="4" fill="#1c1917"/>
+  <!-- Tears of wonder -->
+  <ellipse cx="530" cy="253" rx="2.5" ry="5" fill="#93c5fd" opacity="0.8"/>
+  <ellipse cx="550" cy="252" rx="2.5" ry="5" fill="#93c5fd" opacity="0.8"/>
+</svg>

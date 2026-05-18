@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="rm3_room" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b0764"/>
+      <stop offset="100%" style="stop-color:#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="rm3_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#92400e"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
+    </linearGradient>
+    <linearGradient id="rm3_throne" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#b45309"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
+    </linearGradient>
+  </defs>
+  <!-- Palace interior background -->
+  <rect width="800" height="380" fill="url(#rm3_room)"/>
+  <!-- Ornate walls -->
+  <rect x="0" y="0" width="30" height="380" fill="#4c1d95"/>
+  <rect x="770" y="0" width="30" height="380" fill="#4c1d95"/>
+  <!-- Decorative wall pattern -->
+  <rect x="30" y="0" width="15" height="380" fill="#5b21b6" opacity="0.5"/>
+  <rect x="755" y="0" width="15" height="380" fill="#5b21b6" opacity="0.5"/>
+  <!-- Columns -->
+  <rect x="100" y="50" width="35" height="280" rx="5" fill="#5b21b6"/>
+  <ellipse cx="117" cy="50" rx="22" ry="12" fill="#6d28d9"/>
+  <ellipse cx="117" cy="330" rx="22" ry="12" fill="#6d28d9"/>
+  <rect x="665" y="50" width="35" height="280" rx="5" fill="#5b21b6"/>
+  <ellipse cx="682" cy="50" rx="22" ry="12" fill="#6d28d9"/>
+  <ellipse cx="682" cy="330" rx="22" ry="12" fill="#6d28d9"/>
+  <!-- Floor -->
+  <rect x="0" y="320" width="800" height="60" fill="url(#rm3_floor)"/>
+  <!-- Floor pattern -->
+  <rect x="0" y="320" width="800" height="5" fill="#a16207"/>
+  <line x1="0" y1="345" x2="800" y2="345" stroke="#a16207" stroke-width="2" opacity="0.4"/>
+  <line x1="100" y1="320" x2="100" y2="380" stroke="#a16207" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="320" x2="200" y2="380" stroke="#a16207" stroke-width="2" opacity="0.4"/>
+  <line x1="300" y1="320" x2="300" y2="380" stroke="#a16207" stroke-width="2" opacity="0.4"/>
+  <line x1="400" y1="320" x2="400" y2="380" stroke="#a16207" stroke-width="2" opacity="0.4"/>
+  <line x1="500" y1="320" x2="500" y2="380" stroke="#a16207" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="320" x2="600" y2="380" stroke="#a16207" stroke-width="2" opacity="0.4"/>
+  <line x1="700" y1="320" x2="700" y2="380" stroke="#a16207" stroke-width="2" opacity="0.4"/>
+  <!-- Steps to throne -->
+  <rect x="280" y="305" width="240" height="20" rx="3" fill="#92400e"/>
+  <rect x="300" y="285" width="200" height="22" rx="3" fill="#a16207"/>
+  <!-- Throne -->
+  <rect x="330" y="180" width="140" height="110" rx="8" fill="url(#rm3_throne)"/>
+  <!-- Throne back -->
+  <rect x="340" y="130" width="120" height="60" rx="8" fill="#b45309"/>
+  <!-- Throne decorations -->
+  <circle cx="350" cy="140" r="8" fill="#fbbf24"/>
+  <circle cx="400" cy="135" r="8" fill="#fbbf24"/>
+  <circle cx="450" cy="140" r="8" fill="#fbbf24"/>
+  <polygon points="400,120 408,138 428,138 413,148 419,168 400,157 381,168 387,148 372,138 392,138" fill="#fcd34d"/>
+  <!-- Herod sitting on throne - malicious expression -->
+  <rect x="355" y="195" width="90" height="85" rx="10" fill="#7c3aed"/>
+  <circle cx="400" cy="188" r="28" fill="#fbbf24"/>
+  <!-- Crown of Herod -->
+  <rect x="372" y="158" width="56" height="16" fill="#b45309"/>
+  <polygon points="372,158 380,144 388,158" fill="#f59e0b"/>
+  <polygon points="388,158 396,144 404,158" fill="#f59e0b"/>
+  <polygon points="404,158 412,144 420,158" fill="#f59e0b"/>
+  <polygon points="420,158 428,144 436,158" fill="#f59e0b"/>
+  <!-- Herod face - sneaky eyes -->
+  <ellipse cx="388" cy="185" rx="6" ry="5" fill="white"/>
+  <ellipse cx="412" cy="185" rx="6" ry="5" fill="white"/>
+  <circle cx="390" cy="186" r="3" fill="#78350f"/>
+  <circle cx="414" cy="186" r="3" fill="#78350f"/>
+  <!-- Eyebrows angled menacingly -->
+  <path d="M382,179 Q388,175 394,179" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <path d="M406,179 Q412,175 418,179" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <!-- Smirk -->
+  <path d="M390,196 Q400,205 410,196" stroke="#92400e" stroke-width="2" fill="none"/>
+  <!-- Beard -->
+  <ellipse cx="400" cy="208" rx="18" ry="10" fill="#78350f"/>
+  <!-- Herod arm raised pointing -->
+  <line x1="355" y1="220" x2="320" y2="200" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  <line x1="445" y1="220" x2="490" y2="200" stroke="#7c3aed" stroke-width="8" stroke-linecap="round"/>
+  <!-- Three wise men bowing -->
+  <!-- Wise man 1 -->
+  <rect x="520" y="255" width="28" height="55" rx="7" fill="#dc2626"/>
+  <circle cx="534" cy="248" r="15" fill="#fbbf24"/>
+  <ellipse cx="534" cy="240" rx="15" ry="8" fill="#dc2626"/>
+  <!-- Bowing -->
+  <line x1="520" y1="260" x2="498" y2="278" stroke="#dc2626" stroke-width="7" stroke-linecap="round"/>
+  <!-- Wise man 2 -->
+  <rect x="575" y="258" width="28" height="55" rx="7" fill="#7c3aed"/>
+  <circle cx="589" cy="251" r="15" fill="#fde68a"/>
+  <ellipse cx="589" cy="243" rx="15" ry="8" fill="#6d28d9"/>
+  <line x1="575" y1="263" x2="553" y2="278" stroke="#7c3aed" stroke-width="7" stroke-linecap="round"/>
+  <!-- Wise man 3 -->
+  <rect x="628" y="255" width="28" height="55" rx="7" fill="#1d4ed8"/>
+  <circle cx="642" cy="248" r="15" fill="#fcd34d"/>
+  <ellipse cx="642" cy="240" rx="15" ry="8" fill="#1e40af"/>
+  <line x1="628" y1="260" x2="606" y2="278" stroke="#1d4ed8" stroke-width="7" stroke-linecap="round"/>
+  <!-- Gift boxes on floor -->
+  <rect x="488" y="302" width="22" height="18" rx="3" fill="#f59e0b"/>
+  <rect x="520" y="302" width="22" height="18" rx="3" fill="#10b981"/>
+  <rect x="552" y="302" width="22" height="18" rx="3" fill="#ef4444"/>
+  <!-- Torches on wall -->
+  <rect x="155" y="130" width="10" height="40" rx="3" fill="#92400e"/>
+  <ellipse cx="160" cy="125" rx="10" ry="18" fill="#f59e0b" opacity="0.9"/>
+  <ellipse cx="160" cy="120" rx="6" ry="12" fill="#fef08a"/>
+  <rect x="635" y="130" width="10" height="40" rx="3" fill="#92400e"/>
+  <ellipse cx="640" cy="125" rx="10" ry="18" fill="#f59e0b" opacity="0.9"/>
+  <ellipse cx="640" cy="120" rx="6" ry="12" fill="#fef08a"/>
+  <!-- Guard soldiers -->
+  <rect x="175" y="240" width="22" height="70" rx="5" fill="#4b5563"/>
+  <circle cx="186" cy="232" r="13" fill="#d97706"/>
+  <rect x="173" y="216" width="26" height="20" rx="2" fill="#6b7280" opacity="0.8"/>
+  <line x1="186" y1="215" x2="186" y2="160" stroke="#9ca3af" stroke-width="4"/>
+  <polygon points="180,162 186,148 192,162" fill="#9ca3af"/>
+</svg>

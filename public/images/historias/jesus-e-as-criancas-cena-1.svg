@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="jc1_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#38bdf8"/>
+      <stop offset="100%" style="stop-color:#bae6fd"/>
+    </linearGradient>
+    <linearGradient id="jc1_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#86efac"/>
+      <stop offset="100%" style="stop-color:#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#jc1_sky)"/>
+  <!-- Clouds -->
+  <ellipse cx="150" cy="55" rx="90" ry="35" fill="white" opacity="0.85"/>
+  <ellipse cx="195" cy="44" rx="65" ry="30" fill="white"/>
+  <ellipse cx="105" cy="50" rx="55" ry="28" fill="white" opacity="0.9"/>
+  <ellipse cx="650" cy="48" rx="85" ry="32" fill="white" opacity="0.8"/>
+  <ellipse cx="693" cy="38" rx="60" ry="28" fill="white"/>
+  <!-- Ground -->
+  <rect x="0" y="290" width="800" height="90" fill="url(#jc1_ground)"/>
+  <!-- Flowers -->
+  <circle cx="50" cy="293" r="5" fill="#f472b6"/>
+  <circle cx="100" cy="295" r="5" fill="#fde047"/>
+  <circle cx="220" cy="292" r="6" fill="#fb923c"/>
+  <circle cx="580" cy="293" r="5" fill="#a78bfa"/>
+  <circle cx="700" cy="294" r="6" fill="#f472b6"/>
+  <!-- Path in middle -->
+  <polygon points="300,380 340,290 460,290 500,380" fill="#d97706" opacity="0.4"/>
+  <!-- Jesus group on right side - Jesus standing with arms out beckoning -->
+  <rect x="560" y="200" width="60" height="115" rx="12" fill="#ffffff"/>
+  <circle cx="590" cy="186" r="28" fill="#fde68a"/>
+  <ellipse cx="590" cy="176" rx="28" ry="16" fill="#92400e"/>
+  <rect x="568" y="168" width="12" height="30" rx="5" fill="#92400e"/>
+  <rect x="610" y="168" width="12" height="30" rx="5" fill="#92400e"/>
+  <!-- Jesus face - gentle smile -->
+  <circle cx="582" cy="185" r="4.5" fill="#78350f"/>
+  <circle cx="598" cy="185" r="4.5" fill="#78350f"/>
+  <path d="M578,194 Q590,203 602,194" stroke="#92400e" stroke-width="2.5" fill="none"/>
+  <!-- Jesus beckoning arms open -->
+  <line x1="560" y1="230" x2="525" y2="215" stroke="#fde68a" stroke-width="9" stroke-linecap="round"/>
+  <line x1="620" y1="230" x2="645" y2="215" stroke="#fde68a" stroke-width="9" stroke-linecap="round"/>
+  <!-- Disciples blocking path - two figures looking stern -->
+  <!-- Disciple 1 - arms out blocking -->
+  <rect x="320" y="215" width="48" height="100" rx="10" fill="#6b7280"/>
+  <circle cx="344" cy="203" r="22" fill="#d97706"/>
+  <ellipse cx="344" cy="193" rx="22" ry="12" fill="#78350f"/>
+  <!-- stern face -->
+  <circle cx="336" cy="202" r="4" fill="#92400e"/>
+  <circle cx="352" cy="202" r="4" fill="#92400e"/>
+  <path d="M334,196 Q344,191 354,196" stroke="#92400e" stroke-width="2.5" fill="none"/>
+  <path d="M335,212 Q344,208 353,212" stroke="#92400e" stroke-width="2" fill="none"/>
+  <!-- arms out blocking -->
+  <line x1="320" y1="240" x2="285" y2="225" stroke="#d97706" stroke-width="9" stroke-linecap="round"/>
+  <line x1="368" y1="240" x2="400" y2="225" stroke="#d97706" stroke-width="9" stroke-linecap="round"/>
+  <!-- Disciple 2 -->
+  <rect x="390" y="218" width="45" height="97" rx="10" fill="#4b5563"/>
+  <circle cx="412" cy="206" r="21" fill="#b45309"/>
+  <ellipse cx="412" cy="196" rx="21" ry="11" fill="#78350f"/>
+  <circle cx="404" cy="205" r="4" fill="#92400e"/>
+  <circle cx="420" cy="205" r="4" fill="#92400e"/>
+  <path d="M402,195 Q412,190 422,195" stroke="#92400e" stroke-width="2.5" fill="none"/>
+  <line x1="435" y1="240" x2="462" y2="225" stroke="#b45309" stroke-width="9" stroke-linecap="round"/>
+  <!-- Family with children approaching from left -->
+  <!-- Parent 1 - mother blue -->
+  <rect x="80" y="225" width="48" height="100" rx="10" fill="#3b82f6"/>
+  <circle cx="104" cy="213" r="22" fill="#fde68a"/>
+  <ellipse cx="104" cy="203" rx="22" ry="12" fill="#1d4ed8"/>
+  <!-- smiling -->
+  <circle cx="96" cy="212" r="4" fill="#78350f"/>
+  <circle cx="112" cy="212" r="4" fill="#78350f"/>
+  <path d="M94,221 Q104,229 114,221" stroke="#92400e" stroke-width="2" fill="none"/>
+  <!-- carrying child -->
+  <circle cx="58" cy="218" r="15" fill="#fbbf24"/>
+  <rect x="46" y="230" width="24" height="40" rx="7" fill="#fde047"/>
+  <line x1="80" y1="240" x2="60" y2="240" stroke="#3b82f6" stroke-width="8" stroke-linecap="round"/>
+  <!-- Parent 2 - father brown -->
+  <rect x="145" y="228" width="45" height="97" rx="10" fill="#92400e"/>
+  <circle cx="167" cy="216" r="21" fill="#d97706"/>
+  <ellipse cx="167" cy="207" rx="21" ry="11" fill="#78350f"/>
+  <circle cx="159" cy="215" r="4" fill="#78350f"/>
+  <circle cx="175" cy="215" r="4" fill="#78350f"/>
+  <path d="M157,224 Q167,231 177,224" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- Child beside parent -->
+  <rect x="195" y="270" width="30" height="55" rx="8" fill="#f472b6"/>
+  <circle cx="210" cy="260" r="16" fill="#fbbf24"/>
+  <ellipse cx="210" cy="252" rx="16" ry="9" fill="#7c3aed"/>
+  <path d="M205,264 Q210,270 215,264" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- Another child running -->
+  <rect x="240" y="268" width="28" height="52" rx="8" fill="#fb923c"/>
+  <circle cx="254" cy="258" r="15" fill="#fde68a"/>
+  <ellipse cx="254" cy="250" rx="15" ry="8" fill="#92400e"/>
+  <path d="M250,262 Q254,268 258,262" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- motion lines for running child -->
+  <line x1="235" y1="270" x2="222" y2="270" stroke="#fb923c" stroke-width="2" stroke-dasharray="4,3" opacity="0.6"/>
+</svg>

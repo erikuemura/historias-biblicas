@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="pa5_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c4a6e"/>
+      <stop offset="60%" style="stop-color:#0369a1"/>
+      <stop offset="100%" style="stop-color:#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="pa5_sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9"/>
+      <stop offset="100%" style="stop-color:#0369a1"/>
+    </linearGradient>
+    <radialGradient id="pa5_calm" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#fef9c3;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#38bdf8;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Sky clearing - storm passing -->
+  <rect width="800" height="380" fill="url(#pa5_sky)"/>
+  <!-- Lighter clouds breaking up -->
+  <ellipse cx="100" cy="60" rx="130" ry="50" fill="#164e63" opacity="0.6"/>
+  <ellipse cx="680" cy="55" rx="140" ry="52" fill="#164e63" opacity="0.5"/>
+  <!-- Moon/stars becoming visible as storm clears -->
+  <circle cx="400" cy="50" r="28" fill="#fef9c3" opacity="0.7"/>
+  <circle cx="500" cy="30" r="5" fill="white" opacity="0.6"/>
+  <circle cx="300" cy="35" r="4" fill="white" opacity="0.5"/>
+  <circle cx="250" cy="55" r="3" fill="white" opacity="0.6"/>
+  <!-- Calm area in sky above boat - aftermath glow -->
+  <ellipse cx="400" cy="180" rx="250" ry="120" fill="url(#pa5_calm)"/>
+  <!-- Sea calming down - smaller waves -->
+  <rect x="0" y="240" width="800" height="140" fill="url(#pa5_sea)"/>
+  <path d="M0,252 Q80,238 160,255 Q240,272 320,248 Q400,228 480,252 Q560,272 640,248 Q720,228 800,252" fill="#38bdf8" opacity="0.5"/>
+  <path d="M0,278 Q100,265 200,280 Q300,295 400,272 Q500,252 600,278 Q700,298 800,278" fill="#0284c7" opacity="0.35"/>
+  <!-- Gentle foam -->
+  <ellipse cx="160" cy="255" rx="25" ry="6" fill="white" opacity="0.25"/>
+  <ellipse cx="400" cy="252" rx="28" ry="6" fill="white" opacity="0.25"/>
+  <ellipse cx="640" cy="255" rx="25" ry="6" fill="white" opacity="0.25"/>
+  <!-- Boat - disciples in boat watching in AWE - hands raised in worship -->
+  <ellipse cx="400" cy="275" rx="190" ry="40" fill="#92400e"/>
+  <rect x="225" y="240" width="350" height="44" rx="12" fill="#78350f"/>
+  <!-- Mast -->
+  <rect x="394" y="158" width="9" height="90" rx="3" fill="#92400e"/>
+  <!-- Calmer sail -->
+  <polygon points="403,165 403,238 468,210" fill="#f1f5f9" opacity="0.7"/>
+  <!-- Jesus in boat with Peter - both on boat now, calm -->
+  <!-- Jesus with hand on Peter's shoulder - warmth -->
+  <rect x="295" y="195" width="68" height="100" rx="13" fill="#ffffff"/>
+  <circle cx="329" cy="181" r="30" fill="#fde68a"/>
+  <ellipse cx="329" cy="169" rx="30" ry="17" fill="#92400e"/>
+  <rect x="307" y="181" width="11" height="35" rx="5" fill="#92400e"/>
+  <rect x="341" y="181" width="11" height="35" rx="5" fill="#92400e"/>
+  <!-- Jesus warm/reassuring smile -->
+  <circle cx="320" cy="179" r="4.5" fill="#78350f"/>
+  <circle cx="338" cy="179" r="4.5" fill="#78350f"/>
+  <path d="M316,191 Q329,202 342,191" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <!-- Jesus hand on Peter's shoulder -->
+  <line x1="363" y1="217" x2="393" y2="215" stroke="#fde68a" stroke-width="9" stroke-linecap="round"/>
+  <!-- Peter - wet, relieved, grateful -->
+  <rect x="375" y="198" width="66" height="97" rx="12" fill="#4b5563"/>
+  <!-- water drops on him -->
+  <circle cx="380" cy="205" r="2.5" fill="#7dd3fc" opacity="0.8"/>
+  <circle cx="430" cy="208" r="2" fill="#7dd3fc" opacity="0.8"/>
+  <circle cx="408" cy="200" r="2" fill="#7dd3fc" opacity="0.8"/>
+  <circle cx="408" cy="183" r="30" fill="#fbbf24"/>
+  <ellipse cx="408" cy="171" rx="30" ry="17" fill="#92400e"/>
+  <!-- Peter relieved face - grateful/tearful -->
+  <circle cx="399" cy="181" r="4.5" fill="#78350f"/>
+  <circle cx="417" cy="181" r="4.5" fill="#78350f"/>
+  <path d="M395,194 Q408,203 421,194" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <!-- tear of relief -->
+  <ellipse cx="398" cy="186" rx="2" ry="3.5" fill="#93c5fd" opacity="0.8"/>
+  <!-- Peter hands clasped in gratitude -->
+  <line x1="375" y1="222" x2="355" y2="212" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="348" cy="209" rx="13" ry="11" fill="#fbbf24"/>
+  <!-- Disciples watching in awe - worshiping Jesus -->
+  <circle cx="250" cy="232" r="14" fill="#fde68a"/>
+  <ellipse cx="250" cy="224" rx="14" ry="8" fill="#374151"/>
+  <line x1="250" y1="246" x2="250" y2="225" stroke="#374151" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="278" cy="232" r="13" fill="#fbbf24"/>
+  <ellipse cx="278" cy="225" rx="13" ry="7.5" fill="#78350f"/>
+  <line x1="278" y1="245" x2="270" y2="228" stroke="#78350f" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="468" cy="232" r="13" fill="#fde68a"/>
+  <ellipse cx="468" cy="225" rx="13" ry="7.5" fill="#4b5563"/>
+  <line x1="468" y1="245" x2="468" y2="226" stroke="#4b5563" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="495" cy="232" r="13" fill="#d97706"/>
+  <ellipse cx="495" cy="225" rx="13" ry="7.5" fill="#92400e"/>
+  <line x1="495" y1="245" x2="502" y2="228" stroke="#d97706" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="520" cy="232" r="13" fill="#fbbf24"/>
+  <ellipse cx="520" cy="225" rx="13" ry="7.5" fill="#1d4ed8"/>
+  <line x1="520" y1="245" x2="528" y2="228" stroke="#1d4ed8" stroke-width="5" stroke-linecap="round"/>
+</svg>

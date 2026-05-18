@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="jc3_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0284c7"/>
+      <stop offset="100%" style="stop-color:#7dd3fc"/>
+    </linearGradient>
+    <linearGradient id="jc3_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80"/>
+      <stop offset="100%" style="stop-color:#166534"/>
+    </linearGradient>
+    <radialGradient id="jc3_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fef9c3;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#fef9c3;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#jc3_sky)"/>
+  <!-- Sun with warm glow -->
+  <circle cx="400" cy="50" r="60" fill="url(#jc3_glow)"/>
+  <circle cx="400" cy="50" r="35" fill="#fef08a"/>
+  <circle cx="400" cy="50" r="25" fill="#fde047"/>
+  <!-- Clouds -->
+  <ellipse cx="100" cy="65" rx="80" ry="30" fill="white" opacity="0.8"/>
+  <ellipse cx="680" cy="55" rx="85" ry="32" fill="white" opacity="0.8"/>
+  <!-- Ground -->
+  <rect x="0" y="295" width="800" height="85" fill="url(#jc3_ground)"/>
+  <!-- Flowers scattered -->
+  <circle cx="40" cy="298" r="5" fill="#f472b6"/>
+  <circle cx="160" cy="300" r="5" fill="#fde047"/>
+  <circle cx="350" cy="298" r="6" fill="#fb923c"/>
+  <circle cx="520" cy="299" r="5" fill="#a78bfa"/>
+  <circle cx="680" cy="298" r="5" fill="#f472b6"/>
+  <circle cx="760" cy="300" r="6" fill="#34d399"/>
+  <!-- Jesus center - arms wide open, warm smile, inviting -->
+  <circle cx="400" cy="50" r="75" fill="url(#jc3_glow)"/>
+  <!-- Light aura around Jesus -->
+  <circle cx="400" cy="195" r="55" fill="#fef9c3" opacity="0.3"/>
+  <rect x="362" y="210" width="76" height="120" rx="15" fill="#ffffff"/>
+  <circle cx="400" cy="196" r="32" fill="#fde68a"/>
+  <!-- Jesus hair -->
+  <ellipse cx="400" cy="185" rx="32" ry="18" fill="#92400e"/>
+  <rect x="376" y="196" width="12" height="35" rx="5" fill="#92400e"/>
+  <rect x="412" y="196" width="12" height="35" rx="5" fill="#92400e"/>
+  <!-- Jesus face - big warm smile -->
+  <circle cx="390" cy="195" r="5" fill="#78350f"/>
+  <circle cx="410" cy="195" r="5" fill="#78350f"/>
+  <!-- Cheeks rosy -->
+  <circle cx="383" cy="203" r="6" fill="#fca5a5" opacity="0.5"/>
+  <circle cx="417" cy="203" r="6" fill="#fca5a5" opacity="0.5"/>
+  <path d="M384,207 Q400,220 416,207" stroke="#92400e" stroke-width="3" fill="none"/>
+  <!-- Wide open welcoming arms -->
+  <line x1="362" y1="238" x2="295" y2="215" stroke="#fde68a" stroke-width="12" stroke-linecap="round"/>
+  <line x1="438" y1="238" x2="505" y2="215" stroke="#fde68a" stroke-width="12" stroke-linecap="round"/>
+  <!-- open hands palm up -->
+  <ellipse cx="290" cy="212" rx="14" ry="18" fill="#fde68a"/>
+  <ellipse cx="510" cy="212" rx="14" ry="18" fill="#fde68a"/>
+  <!-- Children running towards Jesus from both sides -->
+  <!-- Child running from left 1 - yellow -->
+  <rect x="155" y="258" width="32" height="65" rx="10" fill="#fde047"/>
+  <circle cx="171" cy="247" r="17" fill="#fbbf24"/>
+  <ellipse cx="171" cy="239" rx="17" ry="9" fill="#92400e"/>
+  <!-- big smile running -->
+  <path d="M164,251 Q171,258 178,251" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- arms out running -->
+  <line x1="155" y1="272" x2="130" y2="260" stroke="#fde047" stroke-width="7" stroke-linecap="round"/>
+  <line x1="187" y1="272" x2="212" y2="258" stroke="#fde047" stroke-width="7" stroke-linecap="round"/>
+  <!-- motion lines -->
+  <line x1="148" y1="265" x2="130" y2="265" stroke="#fde047" stroke-width="2" stroke-dasharray="5,3" opacity="0.6"/>
+  <!-- Child running from left 2 - pink -->
+  <rect x="215" y="265" width="28" height="60" rx="9" fill="#f472b6"/>
+  <circle cx="229" cy="255" r="15" fill="#fde68a"/>
+  <ellipse cx="229" cy="247" rx="15" ry="8" fill="#7c3aed"/>
+  <!-- pigtails -->
+  <circle cx="215" cy="250" r="6" fill="#7c3aed"/>
+  <circle cx="243" cy="250" r="6" fill="#7c3aed"/>
+  <path d="M224,259 Q229,265 234,259" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- Child running from right 1 - green -->
+  <rect x="555" y="260" width="32" height="63" rx="10" fill="#4ade80"/>
+  <circle cx="571" cy="249" r="17" fill="#fbbf24"/>
+  <ellipse cx="571" cy="241" rx="17" ry="9" fill="#b45309"/>
+  <path d="M564,253 Q571,260 578,253" stroke="#78350f" stroke-width="2" fill="none"/>
+  <line x1="587" y1="274" x2="610" y2="260" stroke="#4ade80" stroke-width="7" stroke-linecap="round"/>
+  <line x1="614" y1="268" x2="632" y2="268" stroke="#4ade80" stroke-width="2" stroke-dasharray="5,3" opacity="0.6"/>
+  <!-- Child running from right 2 - orange -->
+  <rect x="615" y="268" width="28" height="58" rx="9" fill="#fb923c"/>
+  <circle cx="629" cy="258" r="15" fill="#fde68a"/>
+  <ellipse cx="629" cy="250" rx="15" ry="8" fill="#78350f"/>
+  <path d="M624,262 Q629,268 634,262" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- Disciples behind Jesus - head bowed - now understanding -->
+  <rect x="50" y="232" width="42" height="98" rx="9" fill="#4b5563"/>
+  <circle cx="71" cy="220" r="20" fill="#d97706"/>
+  <ellipse cx="71" cy="211" rx="20" ry="11" fill="#78350f"/>
+  <!-- looking down ashamed/understanding -->
+  <circle cx="64" cy="219" r="3.5" fill="#78350f"/>
+  <circle cx="78" cy="219" r="3.5" fill="#78350f"/>
+  <path d="M64,229 Q71,226 78,229" stroke="#78350f" stroke-width="2" fill="none"/>
+  <rect x="708" y="235" width="42" height="95" rx="9" fill="#374151"/>
+  <circle cx="729" cy="223" r="20" fill="#b45309"/>
+  <ellipse cx="729" cy="214" rx="20" ry="11" fill="#78350f"/>
+  <circle cx="722" cy="222" r="3.5" fill="#78350f"/>
+  <circle cx="736" cy="222" r="3.5" fill="#78350f"/>
+</svg>

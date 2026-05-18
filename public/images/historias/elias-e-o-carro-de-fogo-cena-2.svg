@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="elias2_sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="elias2_water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <radialGradient id="elias2_divinepower" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef9c3" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fef9c3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="380" fill="url(#elias2_sky)"/>
+  <!-- Clouds -->
+  <ellipse cx="150" cy="65" rx="75" ry="28" fill="white" opacity="0.9"/>
+  <ellipse cx="190" cy="52" rx="55" ry="24" fill="white" opacity="0.9"/>
+  <ellipse cx="620" cy="58" rx="78" ry="30" fill="white" opacity="0.9"/>
+  <!-- Background landscape -->
+  <ellipse cx="150" cy="305" rx="180" ry="60" fill="#84cc16"/>
+  <ellipse cx="650" cy="308" rx="180" ry="58" fill="#84cc16"/>
+  <!-- Jordan River (parted in the middle) -->
+  <!-- Left bank of river -->
+  <ellipse cx="150" cy="330" rx="170" ry="70" fill="#22c55e"/>
+  <!-- Right bank of river -->
+  <ellipse cx="650" cy="330" rx="170" ry="70" fill="#22c55e"/>
+  <!-- River path (parted) - showing dry ground between walls of water -->
+  <!-- Ground path between the parted waters -->
+  <rect x="220" y="295" width="360" height="75" fill="#d97706"/>
+  <ellipse cx="400" cy="295" rx="180" ry="18" fill="#d97706"/>
+  <!-- Dry ground details (stones, sand) -->
+  <ellipse cx="320" cy="330" rx="18" ry="7" fill="#b45309"/>
+  <ellipse cx="480" cy="325" rx="15" ry="6" fill="#b45309"/>
+  <ellipse cx="400" cy="345" rx="20" ry="8" fill="#b45309"/>
+  <!-- Left WALL OF WATER (Jordão separado) -->
+  <!-- Water wall left -->
+  <rect x="185" y="245" width="55" height="125" rx="5" fill="url(#elias2_water)"/>
+  <!-- Water texture lines left wall -->
+  <path d="M190 258 Q210 252 238 258" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M190 272 Q210 266 238 272" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M190 286 Q210 280 238 286" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M190 300 Q210 294 238 300" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M190 314 Q210 308 238 314" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Water splashing top left -->
+  <path d="M190 248 Q198 232 208 240 Q215 228 225 238 Q232 224 242 236" fill="#3b82f6"/>
+  <path d="M195 248 Q202 238 210 244 Q218 232 228 242 Q236 230 244 240" fill="#93c5fd" opacity="0.7"/>
+  <!-- Right WALL OF WATER -->
+  <rect x="560" y="245" width="55" height="125" rx="5" fill="url(#elias2_water)"/>
+  <!-- Water texture lines right wall -->
+  <path d="M562 258 Q582 252 612 258" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M562 272 Q582 266 612 272" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M562 286 Q582 280 612 286" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M562 300 Q582 294 612 300" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M562 314 Q582 308 612 314" stroke="#93c5fd" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Water splashing top right -->
+  <path d="M562 248 Q570 232 580 240 Q587 228 597 238 Q604 224 614 236" fill="#3b82f6"/>
+  <path d="M567 248 Q574 238 582 244 Q590 232 600 242 Q608 230 616 240" fill="#93c5fd" opacity="0.7"/>
+  <!-- Divine power glow -->
+  <ellipse cx="400" cy="300" rx="200" ry="80" fill="url(#elias2_divinepower)"/>
+  <!-- ELIAS (center of parted river, staff/mantle raised) -->
+  <!-- Body -->
+  <ellipse cx="400" cy="292" rx="30" ry="48" fill="#92400e"/>
+  <ellipse cx="400" cy="298" rx="20" ry="40" fill="#b45309"/>
+  <!-- Belt -->
+  <rect x="377" y="288" width="46" height="8" rx="3" fill="#78350f"/>
+  <!-- Arms raised with mantle/staff -->
+  <path d="M373 278 Q348 258 332 248" stroke="#b45309" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M427 278 Q452 258 468 248" stroke="#b45309" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- MANTLE being struck on water (raised) -->
+  <path d="M332 248 Q310 230 295 215" stroke="#92400e" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <ellipse cx="290" cy="212" rx="22" ry="12" fill="#78350f"/>
+  <!-- Power glow around mantle strike point -->
+  <ellipse cx="285" cy="210" rx="28" ry="16" fill="#fde047" opacity="0.5"/>
+  <!-- Elias head -->
+  <circle cx="400" cy="247" r="28" fill="#d97706"/>
+  <!-- White hair/beard -->
+  <ellipse cx="400" cy="233" rx="28" ry="14" fill="white"/>
+  <path d="M375 238 Q368 252 370 266" stroke="white" stroke-width="9" fill="none"/>
+  <path d="M425 238 Q432 252 430 266" stroke="white" stroke-width="9" fill="none"/>
+  <ellipse cx="400" cy="262" rx="20" ry="12" fill="white"/>
+  <!-- Elias face (determined, powerful) -->
+  <circle cx="392" cy="244" r="4.5" fill="#1c1917"/>
+  <circle cx="408" cy="244" r="4.5" fill="#1c1917"/>
+  <path d="M392 256 Q400 260 408 256" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- ELISEU behind Elias (witnessing) -->
+  <circle cx="530" cy="285" r="20" fill="#fbbf24"/>
+  <ellipse cx="530" cy="285" rx="20" ry="14" fill="#44403c"/><!-- hair -->
+  <ellipse cx="530" cy="308" rx="17" ry="24" fill="#22c55e"/>
+  <path d="M514 295 Q498 285 490 280" stroke="#22c55e" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M546 295 Q562 285 570 280" stroke="#22c55e" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <!-- Eliseu amazed face -->
+  <circle cx="524" cy="282" r="4" fill="#1c1917"/>
+  <circle cx="536" cy="282" r="4" fill="#1c1917"/>
+  <circle cx="524" cy="280" r="2" fill="white"/><!-- wide eyes -->
+  <circle cx="536" cy="280" r="2" fill="white"/>
+  <path d="M524 293 Q530 297 536 293" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <!-- Fish visible in water walls -->
+  <ellipse cx="205" cy="295" rx="12" ry="7" fill="#93c5fd" opacity="0.7"/>
+  <ellipse cx="200" cy="293" rx="6" ry="4" fill="#60a5fa" opacity="0.8"/>
+  <ellipse cx="580" cy="290" rx="12" ry="7" fill="#93c5fd" opacity="0.7"/>
+  <ellipse cx="575" cy="288" rx="6" ry="4" fill="#60a5fa" opacity="0.8"/>
+</svg>

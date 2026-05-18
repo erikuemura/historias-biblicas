@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="bc2_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fffbeb"/>
+      <stop offset="100%" style="stop-color:#fef9c3"/>
+    </linearGradient>
+    <linearGradient id="bc2_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#92400e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#bc2_bg)"/>
+  <!-- Ceiling -->
+  <rect x="0" y="0" width="800" height="8" fill="#f59e0b"/>
+  <!-- Hanging decorations in background (blurred) -->
+  <path d="M0,22 Q100,38 200,22 Q300,6 400,22 Q500,38 600,22 Q700,6 800,22" stroke="#d97706" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Floor -->
+  <rect x="0" y="318" width="800" height="62" fill="url(#bc2_floor)"/>
+  <!-- Empty wine jugs/jars on side table - showing shortage -->
+  <rect x="60" y="160" width="120" height="80" rx="5" fill="#d97706"/>
+  <rect x="60" y="158" width="120" height="12" rx="3" fill="#b45309"/>
+  <!-- Empty large jug 1 -->
+  <ellipse cx="95" cy="162" rx="16" ry="9" fill="#92400e"/>
+  <rect x="79" y="112" width="32" height="55" rx="8" fill="#a16207"/>
+  <ellipse cx="95" cy="113" rx="16" ry="7" fill="#b45309"/>
+  <!-- empty - no liquid -->
+  <!-- Empty jug 2 -->
+  <ellipse cx="145" cy="162" rx="16" ry="9" fill="#92400e"/>
+  <rect x="129" y="115" width="32" height="52" rx="8" fill="#a16207"/>
+  <ellipse cx="145" cy="116" rx="16" ry="7" fill="#b45309"/>
+  <!-- Wine server/servant - worried, showing empty jug -->
+  <!-- Servant 1 - center holding up empty jug showing Mary -->
+  <rect x="320" y="190" width="50" height="138" rx="11" fill="#6b7280"/>
+  <circle cx="345" cy="177" r="24" fill="#fbbf24"/>
+  <ellipse cx="345" cy="167" rx="24" ry="13" fill="#374151"/>
+  <!-- Very worried face -->
+  <circle cx="337" cy="176" r="4.5" fill="#78350f"/>
+  <circle cx="353" cy="176" r="4.5" fill="#78350f"/>
+  <path d="M335,170 Q345,165 355,170" stroke="#92400e" stroke-width="2.5" fill="none"/>
+  <path d="M335,189 Q345,185 355,189" stroke="#92400e" stroke-width="2" fill="none"/>
+  <!-- holding empty jug up -->
+  <line x1="320" y1="215" x2="292" y2="196" stroke="#fbbf24" stroke-width="9" stroke-linecap="round"/>
+  <!-- empty jug in hand -->
+  <ellipse cx="284" cy="192" rx="14" ry="9" fill="#a16207"/>
+  <rect x="270" y="162" width="28" height="34" rx="7" fill="#b45309"/>
+  <ellipse cx="284" cy="163" rx="14" ry="6" fill="#d97706"/>
+  <!-- Servant 2 - another servant also worried -->
+  <rect x="385" y="195" width="48" height="133" rx="11" fill="#4b5563"/>
+  <circle cx="409" cy="182" r="23" fill="#d97706"/>
+  <ellipse cx="409" cy="172" rx="23" ry="13" fill="#374151"/>
+  <!-- Worried -->
+  <circle cx="401" cy="181" r="4" fill="#78350f"/>
+  <circle cx="417" cy="181" r="4" fill="#78350f"/>
+  <path d="M399,173 Q409,168 419,173" stroke="#92400e" stroke-width="2.5" fill="none"/>
+  <path d="M399,193 Q409,189 419,193" stroke="#92400e" stroke-width="2" fill="none"/>
+  <!-- hands wringing/worried gesture -->
+  <line x1="433" y1="218" x2="452" y2="205" stroke="#d97706" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="458" cy="202" rx="12" ry="10" fill="#fbbf24"/>
+  <!-- Mary - listening, calm and trusting face -->
+  <rect x="500" y="185" width="55" height="143" rx="12" fill="#3b82f6"/>
+  <circle cx="527" cy="171" r="26" fill="#fde68a"/>
+  <ellipse cx="527" cy="160" rx="26" ry="15" fill="#1d4ed8"/>
+  <!-- Mary head covering -->
+  <rect x="503" y="153" width="48" height="12" rx="3" fill="#2563eb"/>
+  <!-- Mary calm, reassuring expression - she knows Jesus will help -->
+  <circle cx="519" cy="170" r="5" fill="#78350f"/>
+  <circle cx="535" cy="170" r="5" fill="#78350f"/>
+  <path d="M515,182 Q527,192 539,182" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <!-- Mary hand to chin - thinking/planning -->
+  <line x1="500" y1="210" x2="478" y2="198" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="472" cy="195" rx="13" ry="11" fill="#fde68a"/>
+  <!-- Thought bubble from Mary to Jesus -->
+  <circle cx="562" cy="158" r="6" fill="#bfdbfe" opacity="0.6"/>
+  <circle cx="577" cy="148" r="9" fill="#bfdbfe" opacity="0.6"/>
+  <circle cx="596" cy="138" r="14" fill="#bfdbfe" opacity="0.6"/>
+  <!-- Jesus silhouette in thought bubble -->
+  <circle cx="596" cy="132" r="8" fill="#fde68a" opacity="0.5"/>
+  <rect x="588" y="138" width="16" height="22" rx="4" fill="#fef9c3" opacity="0.4"/>
+  <!-- Background - party in progress behind them -->
+  <rect x="60" y="235" width="730" height="85" rx="8" fill="#b45309" opacity="0.4"/>
+  <!-- Small figures at feast in distance -->
+  <circle cx="680" cy="190" r="14" fill="#fde68a" opacity="0.5"/>
+  <rect x="668" y="202" width="24" height="55" rx="6" fill="#dc2626" opacity="0.4"/>
+  <circle cx="720" cy="193" r="13" fill="#fbbf24" opacity="0.5"/>
+  <rect x="709" y="204" width="22" height="52" rx="6" fill="#7c3aed" opacity="0.4"/>
+  <circle cx="630" cy="192" r="14" fill="#fde68a" opacity="0.5"/>
+  <rect x="618" y="204" width="24" height="53" rx="6" fill="#16a34a" opacity="0.4"/>
+</svg>

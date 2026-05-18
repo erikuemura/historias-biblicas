@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="ester3_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a1a"/>
+      <stop offset="50%" stop-color="#4a0f4a"/>
+      <stop offset="100%" stop-color="#831843"/>
+    </linearGradient>
+    <radialGradient id="ester3_candlelight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde047" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ester3_divinelight" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#fef9c3" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fef9c3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Dark background (night, fasting) -->
+  <rect width="800" height="380" fill="url(#ester3_bg)"/>
+  <!-- Stars (visible through window) -->
+  <circle cx="120" cy="40" r="2" fill="white" opacity="0.7"/>
+  <circle cx="180" cy="25" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="650" cy="35" r="2" fill="white" opacity="0.7"/>
+  <circle cx="700" cy="55" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="740" cy="20" r="2" fill="white" opacity="0.7"/>
+  <!-- Room walls -->
+  <rect x="50" y="50" width="700" height="320" fill="#2d1b2d"/>
+  <!-- Wall texture -->
+  <rect x="50" y="50" width="700" height="16" fill="#3d2a3d"/>
+  <rect x="50" y="85" width="700" height="16" fill="#3d2a3d"/>
+  <rect x="50" y="120" width="700" height="16" fill="#3d2a3d"/>
+  <rect x="50" y="155" width="700" height="16" fill="#3d2a3d"/>
+  <line x1="150" y1="50" x2="150" y2="370" stroke="#3d2a3d" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="50" x2="300" y2="370" stroke="#3d2a3d" stroke-width="2" opacity="0.6"/>
+  <line x1="500" y1="50" x2="500" y2="370" stroke="#3d2a3d" stroke-width="2" opacity="0.6"/>
+  <line x1="650" y1="50" x2="650" y2="370" stroke="#3d2a3d" stroke-width="2" opacity="0.6"/>
+  <!-- Window (night sky visible) -->
+  <rect x="72" y="75" width="100" height="125" rx="10" fill="#0f0721"/>
+  <rect x="72" y="75" width="100" height="125" rx="10" stroke="#6b21a8" stroke-width="5" fill="none"/>
+  <line x1="122" y1="77" x2="122" y2="198" stroke="#6b21a8" stroke-width="3"/>
+  <line x1="74" y1="137" x2="170" y2="137" stroke="#6b21a8" stroke-width="3"/>
+  <!-- Moon through window -->
+  <circle cx="122" cy="110" r="20" fill="#fef9c3" opacity="0.8"/>
+  <!-- Stars through window -->
+  <circle cx="90" cy="90" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="160" cy="95" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="155" cy="175" r="1.5" fill="white" opacity="0.7"/>
+  <!-- Divine light from above -->
+  <ellipse cx="400" cy="50" rx="200" ry="150" fill="url(#ester3_divinelight)"/>
+  <!-- Candles -->
+  <!-- Left candle -->
+  <rect x="175" y="285" width="10" height="45" rx="3" fill="#f5f5dc"/>
+  <ellipse cx="180" cy="248" rx="55" ry="55" fill="url(#ester3_candlelight)"/>
+  <path d="M176 285 Q180 268 184 285" fill="#fde047"/>
+  <path d="M177 285 Q180 272 183 285" fill="#fbbf24"/>
+  <path d="M179 285 Q180 275 181 285" fill="white" opacity="0.8"/>
+  <!-- Right candle -->
+  <rect x="612" y="285" width="10" height="45" rx="3" fill="#f5f5dc"/>
+  <ellipse cx="617" cy="248" rx="55" ry="55" fill="url(#ester3_candlelight)"/>
+  <path d="M613 285 Q617 268 621 285" fill="#fde047"/>
+  <path d="M614 285 Q617 272 620 285" fill="#fbbf24"/>
+  <path d="M616 285 Q617 275 618 285" fill="white" opacity="0.8"/>
+  <!-- Floor -->
+  <rect x="50" y="350" width="700" height="20" fill="#3d2a3d"/>
+  <!-- Prayer mat -->
+  <ellipse cx="400" cy="355" rx="130" ry="20" fill="#9d174d" opacity="0.7"/>
+  <ellipse cx="400" cy="352" rx="110" ry="15" fill="#be185d" opacity="0.5"/>
+  <!-- ESTER KNEELING IN PRAYER (center) -->
+  <!-- Body kneeling -->
+  <ellipse cx="400" cy="320" rx="45" ry="20" fill="#831843"/>
+  <!-- Upper body bowed in prayer -->
+  <ellipse cx="400" cy="292" rx="30" ry="40" fill="#db2777"/>
+  <!-- Inner robe -->
+  <ellipse cx="400" cy="298" rx="20" ry="34" fill="#fce7f3"/>
+  <!-- Gold trim -->
+  <path d="M372 265 Q368 292 370 318" stroke="#fde68a" stroke-width="3" fill="none"/>
+  <path d="M428 265 Q432 292 430 318" stroke="#fde68a" stroke-width="3" fill="none"/>
+  <!-- Arms folded in prayer (hands together) -->
+  <path d="M372 285 Q358 278 348 278" stroke="#db2777" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M428 285 Q442 278 452 278" stroke="#db2777" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <!-- Hands pressed together (prayer) -->
+  <ellipse cx="400" cy="276" rx="22" ry="10" fill="#db2777"/>
+  <ellipse cx="400" cy="272" rx="16" ry="8" fill="#fbbf24"/>
+  <!-- Head bowed -->
+  <circle cx="400" cy="255" r="28" fill="#fbbf24"/>
+  <!-- Crown (still wearing) -->
+  <rect x="376" y="230" width="48" height="13" rx="3" fill="#fde047"/>
+  <polygon points="380,230 386,215 392,230" fill="#fde047"/>
+  <polygon points="394,230 400,212 406,230" fill="#fde047"/>
+  <polygon points="408,230 414,215 420,230" fill="#fde047"/>
+  <circle cx="386" cy="220" r="4" fill="#dc2626"/>
+  <circle cx="400" cy="217" r="5" fill="#7c3aed"/>
+  <circle cx="414" cy="220" r="4" fill="#22c55e"/>
+  <!-- Hair (dark, down/loose in mourning) -->
+  <ellipse cx="400" cy="241" rx="28" ry="14" fill="#1c1917"/>
+  <path d="M374 245 Q366 265 368 290" stroke="#1c1917" stroke-width="10" fill="none"/>
+  <path d="M426 245 Q434 265 432 290" stroke="#1c1917" stroke-width="10" fill="none"/>
+  <!-- Face (eyes closed in prayer, serene) -->
+  <path d="M392 252 Q400 255 408 252" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- Closed eyes -->
+  <path d="M393 246 Q400 249 407 246" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <!-- Tears of prayer -->
+  <ellipse cx="392" cy="256" rx="2.5" ry="4" fill="#93c5fd" opacity="0.7"/>
+  <ellipse cx="408" cy="256" rx="2.5" ry="4" fill="#93c5fd" opacity="0.7"/>
+  <!-- Light sparkles (divine presence) -->
+  <circle cx="360" cy="200" r="3" fill="#fef9c3" opacity="0.6"/>
+  <circle cx="440" cy="195" r="3" fill="#fef9c3" opacity="0.6"/>
+  <circle cx="320" cy="220" r="2.5" fill="#fef9c3" opacity="0.5"/>
+  <circle cx="480" cy="215" r="2.5" fill="#fef9c3" opacity="0.5"/>
+  <circle cx="350" cy="170" r="2" fill="#fef9c3" opacity="0.4"/>
+  <circle cx="450" cy="165" r="2" fill="#fef9c3" opacity="0.4"/>
+  <!-- Small table with water jar (fasting context) -->
+  <rect x="200" y="305" width="55" height="10" rx="3" fill="#78716c"/>
+  <rect x="215" y="295" width="8" height="12" rx="2" fill="#57534e"/>
+  <rect x="230" y="295" width="8" height="12" rx="2" fill="#57534e"/>
+  <!-- Empty plate (fasting) -->
+  <ellipse cx="227" cy="298" rx="20" ry="8" fill="#e7e5e4" opacity="0.6"/>
+</svg>

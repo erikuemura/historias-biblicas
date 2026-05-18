@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="ester4_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fce7f3"/>
+      <stop offset="50%" stop-color="#f9a8d4"/>
+      <stop offset="100%" stop-color="#9d174d"/>
+    </linearGradient>
+    <linearGradient id="ester4_throne" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <radialGradient id="ester4_glow" cx="70%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fef9c3" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fef9c3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Throne room background -->
+  <rect width="800" height="380" fill="url(#ester4_bg)"/>
+  <!-- Arch decoration -->
+  <path d="M50 380 Q50 50 400 30 Q750 50 750 380" stroke="#fde68a" stroke-width="12" fill="none" opacity="0.5"/>
+  <path d="M90 380 Q90 90 400 70 Q710 90 710 380" stroke="#ec4899" stroke-width="6" fill="none" opacity="0.4"/>
+  <!-- Columns -->
+  <rect x="80" y="70" width="32" height="310" rx="8" fill="#be185d" opacity="0.7"/>
+  <ellipse cx="96" cy="70" rx="22" ry="10" fill="#ec4899" opacity="0.7"/>
+  <ellipse cx="96" cy="140" rx="18" ry="8" fill="#fde68a" opacity="0.6"/>
+  <ellipse cx="96" cy="220" rx="18" ry="8" fill="#fde68a" opacity="0.6"/>
+  <ellipse cx="96" cy="300" rx="18" ry="8" fill="#fde68a" opacity="0.6"/>
+  <rect x="690" y="70" width="32" height="310" rx="8" fill="#be185d" opacity="0.7"/>
+  <ellipse cx="706" cy="70" rx="22" ry="10" fill="#ec4899" opacity="0.7"/>
+  <ellipse cx="706" cy="140" rx="18" ry="8" fill="#fde68a" opacity="0.6"/>
+  <ellipse cx="706" cy="220" rx="18" ry="8" fill="#fde68a" opacity="0.6"/>
+  <ellipse cx="706" cy="300" rx="18" ry="8" fill="#fde68a" opacity="0.6"/>
+  <!-- Additional inner columns -->
+  <rect x="195" y="100" width="22" height="280" rx="6" fill="#db2777" opacity="0.5"/>
+  <rect x="583" y="100" width="22" height="280" rx="6" fill="#db2777" opacity="0.5"/>
+  <!-- Throne platform (raised steps) -->
+  <rect x="490" y="288" width="270" height="12" rx="3" fill="#d97706"/>
+  <rect x="475" y="298" width="285" height="12" rx="3" fill="#b45309"/>
+  <rect x="460" y="308" width="300" height="12" rx="3" fill="#d97706"/>
+  <!-- Floor -->
+  <rect x="0" y="345" width="800" height="35" fill="#e7e5e4"/>
+  <!-- Palace floor tiles pattern -->
+  <rect x="0" y="345" width="100" height="35" fill="#fce7f3" opacity="0.3"/>
+  <rect x="100" y="345" width="100" height="35" fill="#f9a8d4" opacity="0.3"/>
+  <rect x="200" y="345" width="100" height="35" fill="#fce7f3" opacity="0.3"/>
+  <rect x="300" y="345" width="100" height="35" fill="#f9a8d4" opacity="0.3"/>
+  <rect x="400" y="345" width="100" height="35" fill="#fce7f3" opacity="0.3"/>
+  <rect x="500" y="345" width="100" height="35" fill="#f9a8d4" opacity="0.3"/>
+  <rect x="600" y="345" width="100" height="35" fill="#fce7f3" opacity="0.3"/>
+  <rect x="700" y="345" width="100" height="35" fill="#f9a8d4" opacity="0.3"/>
+  <!-- Throne glow -->
+  <ellipse cx="620" cy="220" rx="200" ry="180" fill="url(#ester4_glow)"/>
+  <!-- KING on throne (right side, serious face) -->
+  <!-- Throne back -->
+  <rect x="570" y="170" width="150" height="140" rx="8" fill="url(#ester4_throne)"/>
+  <ellipse cx="645" cy="184" rx="62" ry="26" fill="#fbbf24"/>
+  <polygon points="645,155 660,184 630,184" fill="#fde047"/>
+  <!-- Throne seat -->
+  <rect x="560" y="278" width="168" height="24" rx="5" fill="#d97706"/>
+  <rect x="555" y="274" width="178" height="10" rx="4" fill="#fbbf24"/>
+  <!-- Throne armrests -->
+  <rect x="545" y="246" width="20" height="50" rx="5" fill="#d97706"/>
+  <rect x="723" y="246" width="20" height="50" rx="5" fill="#d97706"/>
+  <!-- King (serious expression, not yet raised scepter) -->
+  <!-- King robe (royal blue) -->
+  <ellipse cx="645" cy="260" rx="46" ry="70" fill="#1e40af"/>
+  <ellipse cx="645" cy="270" rx="32" ry="60" fill="#bfdbfe"/>
+  <!-- Belt -->
+  <rect x="616" y="258" width="58" height="10" rx="4" fill="#fde047"/>
+  <!-- King arms (one on armrest, SCEPTER not raised yet) -->
+  <path d="M600 248 Q578 242 560 248" stroke="#1e40af" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M690 248 Q712 242 730 248" stroke="#1e40af" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <ellipse cx="558" cy="249" rx="14" ry="9" fill="#fbbf24"/>
+  <!-- Scepter (still held down, not extended yet) -->
+  <rect x="722" y="246" width="8" height="65" rx="3" fill="#d97706"/>
+  <ellipse cx="726" cy="243" rx="13" ry="8" fill="#fde047"/>
+  <circle cx="726" cy="243" r="7" fill="#dc2626"/>
+  <!-- King head -->
+  <circle cx="645" cy="192" r="32" fill="#f59e0b"/>
+  <!-- Crown -->
+  <rect x="618" y="162" width="54" height="14" rx="3" fill="#fde047"/>
+  <polygon points="622,162 628,146 634,162" fill="#fde047"/>
+  <polygon points="638,162 645,142 652,162" fill="#fde047"/>
+  <polygon points="656,162 662,146 668,162" fill="#fde047"/>
+  <circle cx="628" cy="151" r="4" fill="#dc2626"/>
+  <circle cx="645" cy="147" r="5" fill="#7c3aed"/>
+  <circle cx="662" cy="151" r="4" fill="#22c55e"/>
+  <!-- King face (stern but curious) -->
+  <circle cx="636" cy="190" r="4.5" fill="#1c1917"/>
+  <circle cx="654" cy="190" r="4.5" fill="#1c1917"/>
+  <path d="M636 202 Q645 206 654 202" stroke="#1c1917" stroke-width="2.5" fill="none"/>
+  <path d="M633 184 Q638 180 643 184" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <path d="M647 184 Q652 180 657 184" stroke="#1c1917" stroke-width="2" fill="none"/>
+  <ellipse cx="645" cy="210" rx="18" ry="10" fill="#b45309"/>
+  <!-- ESTER entering (center/left, courageous walk) -->
+  <!-- Ester robe (elaborate, rose/gold) -->
+  <ellipse cx="310" cy="268" rx="42" ry="70" fill="#9d174d"/>
+  <ellipse cx="310" cy="278" rx="28" ry="60" fill="#fce7f3"/>
+  <!-- Gold trim -->
+  <path d="M271 218 Q267 255 269 285" stroke="#fde68a" stroke-width="4" fill="none"/>
+  <path d="M349 218 Q353 255 351 285" stroke="#fde68a" stroke-width="4" fill="none"/>
+  <!-- Belt -->
+  <rect x="282" y="256" width="56" height="9" rx="3" fill="#fde047"/>
+  <circle cx="310" cy="260" r="6" fill="#ec4899"/>
+  <!-- Ester walking forward (slight lean) -->
+  <!-- Legs visible (walking pose) -->
+  <rect x="292" y="315" width="16" height="30" rx="6" fill="#9d174d"/>
+  <rect x="312" y="318" width="16" height="27" rx="6" fill="#9d174d"/>
+  <!-- Arms (one at side, one slightly raised - courage) -->
+  <path d="M272 252 Q250 242 240 238" stroke="#9d174d" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M348 252 Q370 238 382 232" stroke="#9d174d" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <ellipse cx="238" cy="237" rx="14" ry="9" fill="#fbbf24"/>
+  <!-- Ester head -->
+  <circle cx="310" cy="182" r="30" fill="#fbbf24"/>
+  <!-- Crown (queen) -->
+  <rect x="284" y="155" width="52" height="14" rx="3" fill="#fde047"/>
+  <polygon points="288,155 294,138 300,155" fill="#fde047"/>
+  <polygon points="304,155 310,135 316,155" fill="#fde047"/>
+  <polygon points="320,155 326,138 332,155" fill="#fde047"/>
+  <circle cx="294" cy="143" r="4" fill="#dc2626"/>
+  <circle cx="310" cy="140" r="5" fill="#7c3aed"/>
+  <circle cx="326" cy="143" r="4" fill="#22c55e"/>
+  <!-- Ester hair -->
+  <ellipse cx="310" cy="165" rx="30" ry="16" fill="#1c1917"/>
+  <path d="M283 170 Q275 195 277 222" stroke="#1c1917" stroke-width="11" fill="none"/>
+  <path d="M337 170 Q345 195 343 222" stroke="#1c1917" stroke-width="11" fill="none"/>
+  <!-- Ester face (determined, courageous) -->
+  <circle cx="302" cy="180" r="4.5" fill="#1c1917"/>
+  <circle cx="318" cy="180" r="4.5" fill="#1c1917"/>
+  <circle cx="303" cy="178" r="2" fill="white"/>
+  <circle cx="319" cy="178" r="2" fill="white"/>
+  <path d="M302 192 Q310 196 318 192" stroke="#9d174d" stroke-width="2.5" fill="none"/>
+  <!-- Blush cheeks -->
+  <ellipse cx="295" cy="187" rx="8" ry="5" fill="#f9a8d4" opacity="0.5"/>
+  <ellipse cx="325" cy="187" rx="8" ry="5" fill="#f9a8d4" opacity="0.5"/>
+  <!-- Guards on sides (shadowy) -->
+  <ellipse cx="180" cy="268" rx="22" ry="45" fill="#44403c" opacity="0.7"/>
+  <circle cx="180" cy="218" r="20" fill="#57534e" opacity="0.7"/>
+  <rect x="175" y="195" width="10" height="4" fill="#78716c" opacity="0.7"/><!-- helmet -->
+  <!-- Spear -->
+  <rect x="152" y="200" width="5" height="120" fill="#78716c" opacity="0.7"/>
+  <polygon points="152,200 157,200 155,185" fill="#a8a29e" opacity="0.7"/>
+</svg>

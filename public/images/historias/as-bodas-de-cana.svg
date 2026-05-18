@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bc_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7"/>
+      <stop offset="50%" style="stop-color:#fde68a"/>
+      <stop offset="100%" style="stop-color:#d9f99d"/>
+    </linearGradient>
+    <linearGradient id="bc_table" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#b45309"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
+    </linearGradient>
+    <linearGradient id="bc_jug" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#991b1b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background celebration room -->
+  <rect width="800" height="400" fill="url(#bc_bg)"/>
+  <!-- Decorative wall drapes -->
+  <rect x="0" y="0" width="800" height="12" fill="#d97706"/>
+  <!-- Festive banner strings -->
+  <path d="M0,30 Q100,50 200,30 Q300,10 400,30 Q500,50 600,30 Q700,10 800,30" stroke="#f59e0b" stroke-width="3" fill="none"/>
+  <path d="M0,45 Q100,65 200,45 Q300,25 400,45 Q500,65 600,45 Q700,25 800,45" stroke="#84cc16" stroke-width="3" fill="none"/>
+  <!-- Banner triangles -->
+  <polygon points="80,30 100,55 120,30" fill="#ef4444" opacity="0.8"/>
+  <polygon points="180,28 200,53 220,28" fill="#3b82f6" opacity="0.8"/>
+  <polygon points="280,32 300,57 320,32" fill="#10b981" opacity="0.8"/>
+  <polygon points="380,28 400,53 420,28" fill="#f59e0b" opacity="0.8"/>
+  <polygon points="480,32 500,57 520,32" fill="#8b5cf6" opacity="0.8"/>
+  <polygon points="580,28 600,53 620,28" fill="#ec4899" opacity="0.8"/>
+  <polygon points="680,32 700,57 720,32" fill="#ef4444" opacity="0.8"/>
+  <!-- Floor tiles -->
+  <rect x="0" y="340" width="800" height="60" fill="#d97706"/>
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#b45309" stroke-width="2" opacity="0.5"/>
+  <line x1="100" y1="340" x2="100" y2="400" stroke="#b45309" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="340" x2="200" y2="400" stroke="#b45309" stroke-width="2" opacity="0.4"/>
+  <line x1="300" y1="340" x2="300" y2="400" stroke="#b45309" stroke-width="2" opacity="0.4"/>
+  <line x1="400" y1="340" x2="400" y2="400" stroke="#b45309" stroke-width="2" opacity="0.4"/>
+  <line x1="500" y1="340" x2="500" y2="400" stroke="#b45309" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="340" x2="600" y2="400" stroke="#b45309" stroke-width="2" opacity="0.4"/>
+  <line x1="700" y1="340" x2="700" y2="400" stroke="#b45309" stroke-width="2" opacity="0.4"/>
+  <!-- Big feast table -->
+  <rect x="80" y="248" width="640" height="100" rx="10" fill="url(#bc_table)"/>
+  <rect x="80" y="245" width="640" height="18" rx="5" fill="#d97706"/>
+  <!-- Table items - food plates -->
+  <ellipse cx="150" cy="252" rx="30" ry="12" fill="#fef9c3"/>
+  <circle cx="150" cy="248" r="18" fill="#fbbf24" opacity="0.8"/>
+  <ellipse cx="280" cy="250" rx="30" ry="12" fill="#fef9c3"/>
+  <circle cx="280" cy="246" r="18" fill="#ef4444" opacity="0.7"/>
+  <ellipse cx="520" cy="252" rx="30" ry="12" fill="#fef9c3"/>
+  <circle cx="520" cy="248" r="18" fill="#fb923c" opacity="0.8"/>
+  <ellipse cx="650" cy="250" rx="30" ry="12" fill="#fef9c3"/>
+  <circle cx="650" cy="246" r="18" fill="#86efac" opacity="0.8"/>
+  <!-- Wine jugs on table - RED wine prominent -->
+  <!-- Jug 1 -->
+  <ellipse cx="195" cy="244" rx="12" ry="8" fill="#dc2626"/>
+  <rect x="183" y="205" width="24" height="42" rx="6" fill="url(#bc_jug)"/>
+  <ellipse cx="195" cy="206" rx="12" ry="6" fill="#ef4444"/>
+  <!-- Jug 2 -->
+  <ellipse cx="345" cy="244" rx="12" ry="8" fill="#b45309"/>
+  <rect x="333" y="205" width="24" height="42" rx="6" fill="#d97706"/>
+  <ellipse cx="345" cy="206" rx="12" ry="6" fill="#f59e0b"/>
+  <!-- Jug 3 center large -->
+  <ellipse cx="400" cy="242" rx="18" ry="10" fill="#dc2626"/>
+  <rect x="382" y="192" width="36" height="53" rx="8" fill="#ef4444"/>
+  <ellipse cx="400" cy="193" rx="18" ry="8" fill="#f87171"/>
+  <!-- Jug 4 -->
+  <ellipse cx="455" cy="244" rx="12" ry="8" fill="#b45309"/>
+  <rect x="443" y="205" width="24" height="42" rx="6" fill="#d97706"/>
+  <ellipse cx="455" cy="206" rx="12" ry="6" fill="#f59e0b"/>
+  <!-- Jug 5 -->
+  <ellipse cx="608" cy="244" rx="12" ry="8" fill="#dc2626"/>
+  <rect x="596" y="205" width="24" height="42" rx="6" fill="url(#bc_jug)"/>
+  <ellipse cx="608" cy="206" rx="12" ry="6" fill="#ef4444"/>
+  <!-- Flowers on table -->
+  <circle cx="105" cy="242" r="8" fill="#f472b6"/>
+  <circle cx="100" cy="238" r="5" fill="#fbbf24"/>
+  <circle cx="700" cy="242" r="8" fill="#a78bfa"/>
+  <circle cx="695" cy="238" r="5" fill="#fbbf24"/>
+  <!-- Celebratory people - bride, groom, guests -->
+  <!-- Bride - left white dress -->
+  <rect x="88" y="148" width="52" height="110" rx="12" fill="#f1f5f9"/>
+  <circle cx="114" cy="135" r="24" fill="#fde68a"/>
+  <ellipse cx="114" cy="124" rx="24" ry="14" fill="#451a03"/>
+  <!-- veil/flowers -->
+  <ellipse cx="114" cy="116" rx="24" ry="10" fill="white" opacity="0.7"/>
+  <circle cx="95" cy="120" r="5" fill="#f472b6"/>
+  <circle cx="133" cy="120" r="5" fill="#f472b6"/>
+  <path d="M107,142 Q114,150 121,142" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <!-- Groom - next to bride, blue/gold -->
+  <rect x="155" y="150" width="52" height="108" rx="12" fill="#1d4ed8"/>
+  <circle cx="181" cy="137" r="24" fill="#d97706"/>
+  <ellipse cx="181" cy="126" rx="24" ry="14" fill="#78350f"/>
+  <path d="M174,144 Q181,152 188,144" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <!-- Guest 1 - green -->
+  <rect x="225" y="155" width="48" height="103" rx="10" fill="#16a34a"/>
+  <circle cx="249" cy="142" r="22" fill="#fbbf24"/>
+  <ellipse cx="249" cy="132" rx="22" ry="12" fill="#15803d"/>
+  <path d="M242,149 Q249,157 256,149" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- Guest 2 - purple - dancing! -->
+  <rect x="520" y="148" width="52" height="110" rx="12" fill="#7c3aed"/>
+  <circle cx="546" cy="135" r="24" fill="#fde68a"/>
+  <ellipse cx="546" cy="124" rx="24" ry="14" fill="#5b21b6"/>
+  <path d="M539,142 Q546,150 553,142" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <!-- dance arms raised -->
+  <line x1="520" y1="170" x2="492" y2="148" stroke="#fde68a" stroke-width="9" stroke-linecap="round"/>
+  <line x1="572" y1="170" x2="596" y2="148" stroke="#7c3aed" stroke-width="9" stroke-linecap="round"/>
+  <!-- Guest 3 - red - dancing -->
+  <rect x="592" y="152" width="48" height="106" rx="10" fill="#dc2626"/>
+  <circle cx="616" cy="139" r="22" fill="#fbbf24"/>
+  <ellipse cx="616" cy="129" rx="22" ry="12" fill="#b91c1c"/>
+  <path d="M609,146 Q616,154 623,146" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- Guest 4 - orange -->
+  <rect x="648" y="155" width="48" height="103" rx="10" fill="#f59e0b"/>
+  <circle cx="672" cy="142" r="22" fill="#fde68a"/>
+  <ellipse cx="672" cy="132" rx="22" ry="12" fill="#b45309"/>
+  <path d="M665,149 Q672,157 679,149" stroke="#78350f" stroke-width="2" fill="none"/>
+  <!-- Musical instruments hint - music notes floating -->
+  <ellipse cx="410" cy="120" rx="8" ry="6" fill="#78350f" opacity="0.5"/>
+  <rect x="418" y="108" width="3" height="14" rx="1" fill="#78350f" opacity="0.5"/>
+  <ellipse cx="440" cy="130" rx="8" ry="6" fill="#78350f" opacity="0.4"/>
+  <rect x="448" y="118" width="3" height="14" rx="1" fill="#78350f" opacity="0.4"/>
+  <!-- Lamps/lanterns -->
+  <rect x="355" y="90" width="8" height="25" rx="3" fill="#78350f"/>
+  <ellipse cx="359" cy="80" rx="12" ry="18" fill="#fbbf24" opacity="0.85"/>
+  <ellipse cx="359" cy="75" rx="7" ry="12" fill="#fef9c3"/>
+  <rect x="445" y="90" width="8" height="25" rx="3" fill="#78350f"/>
+  <ellipse cx="449" cy="80" rx="12" ry="18" fill="#fbbf24" opacity="0.85"/>
+  <ellipse cx="449" cy="75" rx="7" ry="12" fill="#fef9c3"/>
+</svg>
