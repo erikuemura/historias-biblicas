@@ -17,6 +17,7 @@ export interface Story {
   accentColor: string
   bibleReference: string
   moralLesson: string
+  prayer: string
   scenes: Scene[]
   imageUrl?: string
   testament: "velho" | "novo"
@@ -40,6 +41,7 @@ export const stories: Story[] = [
     testament: "velho",
     moralLesson:
       "Deus fez um mundo lindo cheio de amor. Tudo o que Ele criou é bom — inclusive você!",
+    prayer: `Senhor Deus, obrigado por criar um mundo tão lindo! Obrigado pelo sol, pelas flores, pelos animais e por mim. Obrigado por me ter feito com tanto amor e cuidado. Me ajuda a cuidar da Sua criação e a me lembrar sempre de que sou especial porque Você me fez. Amém!`,
     scenes: [
       {
         title: "Antes de Tudo...",
@@ -135,6 +137,7 @@ E o mais importante de tudo? Você também faz parte dessa criação linda. Deus
     testament: "velho",
     moralLesson:
       "Quando obedecemos a Deus e confiamos Nele, mesmo as situações mais difíceis têm um final lindo — como um arco-íris!",
+    prayer: `Senhor, obrigado por cumprir Suas promessas, assim como fez com Noé. Quando eu sentir medo nas tempestades da vida, me ajuda a confiar em Você e a obedecer. Obrigado pelo arco-íris que nos lembra que Você nunca nos abandona. Amém!`,
     scenes: [
       {
         title: "Noé, o Homem Bom",
@@ -240,6 +243,7 @@ E Noé e sua família abraçaram uns aos outros, cheios de alegria e gratidão.`
     testament: "velho",
     moralLesson:
       "Mesmo quando as coisas parecem muito tristes, Deus tem um plano lindo. Nunca desista!",
+    prayer: `Senhor Jesus, quando as coisas ficarem difíceis e eu me sentir sozinho, me ajuda a lembrar que Você tem um plano lindo para a minha vida, assim como tinha para o José. Obrigado por nunca me abandonar. Amém!`,
     scenes: [
       {
         title: "A Família de Jacó",
@@ -353,6 +357,7 @@ O sonhador que nunca desistiu viu o plano de Deus se cumprir de um jeito que nun
     testament: "velho",
     moralLesson:
       "Deus cuida de cada criança com amor. Você é muito especial para Ele!",
+    prayer: `Senhor, obrigado por cuidar de mim desde pequenininho, assim como cuidou do bebê Moisés. Obrigado pela minha família que me ama e me protege. Me ajuda a crescer sabendo que sou muito especial para Você. Amém!`,
     scenes: [
       {
         title: "O Povo de Deus no Egito",
@@ -454,6 +459,7 @@ E Moisés cresceu forte, sabendo que havia algo muito especial reservado para el
     testament: "velho",
     moralLesson:
       "Não importa o tamanho do problema — com Deus ao seu lado, você pode vencer qualquer gigante!",
+    prayer: `Senhor Deus, obrigado por ser o meu ajudador! Quando eu tiver medo de um problema grande, me ajuda a lembrar que Você é maior do que qualquer gigante. Me dá coragem e fé como a de Davi. Amém!`,
     scenes: [
       {
         title: "O Gigante Aterrorizante",
@@ -587,6 +593,7 @@ E assim o mundo aprendeu uma lição para sempre: não é o tamanho do guerreiro
     testament: "novo",
     moralLesson:
       "Jesus veio ao mundo porque Deus nos ama imensamente. Cada Natal é uma festa de amor!",
+    prayer: `Querido Jesus, obrigado por ter vindo ao mundo como um bebezinho para nos salvar. Obrigado porque Deus nos amou tanto que Te enviou. Que eu sempre Te tenha no meu coração — não só no Natal, mas todos os dias da minha vida. Amém!`,
     scenes: [
       {
         title: "A Longa Viagem",
@@ -708,6 +715,7 @@ Inclusive por você!`,
     testament: "novo",
     moralLesson:
       "Quando Jesus entra na nossa vida, tudo muda para melhor. Ele nos chama para ser seus amigos e ajudar as pessoas!",
+    prayer: `Senhor Jesus, obrigado por me chamar pelo meu nome e querer ser meu amigo. Quero seguir Você todos os dias. Me ajuda a ouvir Sua voz e a levar Seu amor para as pessoas ao meu redor. Amém!`,
     scenes: [
       {
         title: "Uma Noite Sem Peixe",
@@ -825,6 +833,7 @@ E quando você diz sim para Jesus, sua vida também fica cheia, cheia, cheia... 
     testament: "novo",
     moralLesson:
       "Quando você tiver medo, lembre que Jesus está sempre com você. Ele é mais forte do que qualquer tempestade!",
+    prayer: `Senhor Jesus, quando eu tiver medo — de noite, de algo novo ou de um problema grande — me lembra que Você está no barco comigo. Obrigado por ser mais forte do que qualquer tempestade. Amém!`,
     scenes: [
       {
         title: "Um Dia Cheio",
@@ -950,6 +959,7 @@ Quando você estiver com medo — de trovão, de escuro, de qualquer coisa — p
     testament: "novo",
     moralLesson:
       "Quando damos o que temos para Jesus, mesmo que pareça pouco, Ele pode fazer algo incrível com isso!",
+    prayer: `Senhor Jesus, obrigado por cuidar de nós! Me ajuda a compartilhar o que tenho com alegria, assim como o menino que dividiu seu lanche. Quero ser generoso e confiar que Você pode fazer muito com pouco. Amém!`,
     scenes: [
       {
         title: "Uma Multidão no Campo",
@@ -1078,6 +1088,7 @@ Quando você oferece o que tem com amor, coisas incríveis podem acontecer!`,
     testament: "novo",
     moralLesson:
       "Jesus venceu até a morte! Por isso podemos viver sem medo, cheios de alegria e esperança — porque Ele está vivo!",
+    prayer: `Senhor Jesus, obrigado por vencer a morte e estar vivo! Obrigado porque não preciso ter medo de nada, pois Você é o Senhor de tudo. Que eu viva sempre com alegria e esperança por causa da Sua ressurreição. Amém!`,
     scenes: [
       {
         title: "A Sexta-Feira Triste",
@@ -1216,6 +1227,7 @@ E Jesus vive até hoje. No seu coração, quando você fala com Ele, Ele ouve. P
     testament: "velho",
     moralLesson:
       "Quando confiamos em Deus com todo o coração — mesmo quando é difícil — Ele cuida de nós e cumpre cada promessa!",
+    prayer: `Pai Deus, me ajuda a confiar em Você com todo o meu coração, assim como Abraão confiou. Quando vier algo difícil, que eu saiba que Você cuida de mim e cumpre cada promessa que faz. Amém!`,
     scenes: [
       {
         title: "A Grande Promessa",
@@ -1353,6 +1365,7 @@ E aquela família simples — um pai de cabelos brancos e um filho curioso — t
     testament: "velho",
     moralLesson:
       "Quando seguimos o plano de Deus — mesmo quando parece estranho — coisas impossíveis acontecem!",
+    prayer: `Senhor, me ajuda a obedecer Você mesmo quando Seu plano parece diferente ou difícil de entender. Como Josué e o povo, quero confiar que com Você ao meu lado, os muros impossíveis da minha vida vão cair. Amém!`,
     scenes: [
       {
         title: "O Novo Líder",
@@ -1492,6 +1505,7 @@ E isso, meu amigo, é o que a fé faz!`,
     testament: "velho",
     moralLesson:
       "Quando não abrimos mão de Deus — mesmo com medo — Ele nos protege de formas que ninguém consegue explicar!",
+    prayer: `Senhor Deus, obrigado por proteger Daniel — e por me proteger também! Me dá coragem para orar todos os dias e não ter vergonha de Te amar. Quando eu tiver medo, me lembra que Você está comigo. Amém!`,
     scenes: [
       {
         title: "O Homem Das Orações",
@@ -1629,6 +1643,7 @@ Porque nenhum rugido é maior do que o amor de Deus por você.`,
     testament: "velho",
     moralLesson:
       "Quando desobedecemos a Deus as coisas ficam complicadas — mas Ele sempre nos dá uma segunda chance!",
+    prayer: `Senhor, obrigado por sempre me dar uma segunda chance, assim como deu ao Jonas. Me ajuda a obedecer Você desde a primeira vez e a não fugir dos Seus planos. Obrigado pelo Seu amor que nunca desiste de mim. Amém!`,
     scenes: [
       {
         title: "A Missão que Jonas Não Queria",
@@ -1800,6 +1815,7 @@ Sempre tem uma segunda chance.`,
     testament: "velho",
     moralLesson:
       "A verdadeira força não vem dos nossos músculos — vem de Deus. E quando erramos, Deus ainda nos dá chance de recomeçar!",
+    prayer: `Senhor Deus, me ensina que minha verdadeira força vem de Você. Quando eu errar ou me afastar, me ajuda a voltar para perto de Você. Obrigado porque com Você posso sempre recomeçar. Amém!`,
     scenes: [
       {
         title: "O Bebê da Promessa",
@@ -1960,6 +1976,7 @@ Ainda dá segunda chance.`,
     testament: "novo",
     moralLesson:
       "Não importa o que você fez ou para onde foi — o pai sempre está esperando com os braços abertos para te receber de volta!",
+    prayer: `Pai Deus, obrigado por me amar do jeito que sou. Quando eu errar ou me afastar, me ajuda a lembrar que Você está sempre esperando com os braços abertos para me abraçar. Quero estar sempre perto de Você. Amém!`,
     scenes: [
       {
         title: "O Pedido Que Magoou",
@@ -2115,6 +2132,7 @@ Nunca.`,
     testament: "novo",
     moralLesson:
       "Jesus enxerga além dos nossos erros e nos chama pelo nome. Quando Ele entra na nossa vida, tudo muda!",
+    prayer: `Senhor Jesus, obrigado por me ver e me chamar pelo nome, assim como chamou Zaqueu. Me ajuda a mudar o que precisa mudar em mim e a ser cada dia mais parecido com Você. Amém!`,
     scenes: [
       {
         title: "O Homem Que Ninguém Gostava",
@@ -2282,6 +2300,7 @@ E com você também.`,
     testament: "novo",
     moralLesson:
       "Quando clamamos a Jesus com fé — sem desistir — Ele ouve e age. Nossa fé nos cura!",
+    prayer: `Senhor Jesus, obrigado por ouvir minha voz quando eu clamo a Você. Me ensina a ter fé como Bartimeu e a não desistir de pedir a Sua ajuda. Obrigado por me ver, me ouvir e me amar. Amém!`,
     scenes: [
       {
         title: "Na Beira da Estrada",
@@ -2447,6 +2466,7 @@ E a fé de verdade recebe o que pede.`,
     testament: "novo",
     moralLesson:
       "Estar com Jesus e ouvir o que Ele tem a dizer é a coisa mais importante — mais do que qualquer tarefa!",
+    prayer: `Senhor Jesus, me ajuda a sempre escolher ficar perto de Você, como Maria fez. Num mundo cheio de coisas para fazer, que eu nunca esqueça que ouvir Você é o mais importante de tudo. Amém!`,
     scenes: [
       {
         title: "A Casa das Irmãs",
@@ -2616,6 +2636,7 @@ E ninguém pode tirar de você.`,
     testament: "novo",
     moralLesson:
       "Nosso próximo é qualquer pessoa que precisa de ajuda — e amar de verdade é agir, não só sentir!",
+    prayer: `Senhor Jesus, me ajuda a amar meu próximo de verdade — com ações, não só com palavras. Me dá olhos para ver quem precisa de ajuda e coragem para fazer algo por essa pessoa. Amém!`,
     scenes: [
       {
         title: "A Pergunta do Especialista",
@@ -2779,6 +2800,7 @@ E quando você ajuda ela — você está amando a Deus.`,
     testament: "velho",
     moralLesson:
       "Obedecer a Deus nos protege e nos mantém perto do Seu amor. Mesmo quando erramos, Deus nunca deixa de cuidar de nós.",
+    prayer: `Pai Deus, obrigado por me amar mesmo quando eu erro. Me ajuda a obedecer Suas palavras e a me afastar das coisas que me fazem mal. Obrigado porque mesmo quando erramos, Você nos dá um novo começo. Amém!`,
     scenes: [
       {
         imageUrl: "/images/historias/adao-e-eva-cena-1.svg",
@@ -2872,6 +2894,7 @@ Porque o coração de Deus é tão grande que nunca para de amar seus filhos, n�
     testament: "velho",
     moralLesson:
       "A humildade nos ajuda a reconhecer que precisamos de Deus. Os planos Dele são sempre maiores e melhores do que os nossos.",
+    prayer: `Senhor Deus, me ensina a ser humilde e a reconhecer que preciso de Você em tudo. Me ajuda a não querer ser maior do que sou, mas a confiar que os Seus planos são sempre maiores e melhores do que os meus. Amém!`,
     scenes: [
       {
         imageUrl: "/images/historias/a-torre-de-babel-cena-1.svg",
@@ -2963,6 +2986,7 @@ Quando confiamos n'Ele e seguimos Seus caminhos, nossas vidas se tornam muito ma
     testament: "velho",
     moralLesson:
       "Deus pode falar com qualquer pessoa, até mesmo com crianças. Quando ouvimos e obedecemos a Deus, nossa vida tem um propósito especial.",
+    prayer: `Senhor Deus, obrigado por falar comigo, assim como falou com Samuel. Me ensina a ouvir Sua voz com o coração quieto. Aqui estou, Senhor — fala comigo, pois eu quero te ouvir! Amém!`,
     scenes: [
       {
         imageUrl: "/images/historias/samuel-e-a-voz-de-deus-cena-1.svg",
@@ -3072,6 +3096,7 @@ Quando você ora e pede para Deus falar, quando lê a Bíblia e fica quietinho p
     testament: "velho",
     moralLesson:
       "Com fé e coragem, podemos fazer grandes coisas. Às vezes chegamos a lugares especiais justamente para poder ajudar quem precisa.",
+    prayer: `Senhor Deus, obrigado por me dar coragem como a de Ester. Quando eu tiver medo de fazer o certo, me lembra que Você está do meu lado. Me usa para ajudar quem precisa de mim. Amém!`,
     scenes: [
       {
         imageUrl: "/images/historias/ester-a-rainha-corajosa-cena-1.svg",
@@ -3169,6 +3194,7 @@ A história de Ester nos ensina que a coragem não é a ausência do medo. Ester
     testament: "velho",
     moralLesson:
       "Deus está presente nos momentos mais importantes de nossas vidas. Quando seguimos fielmente, Ele nos honra de maneiras que nunca imaginamos.",
+    prayer: `Senhor Deus, obrigado por estar presente nos momentos mais importantes da vida. Assim como honrou Elias, me ajuda a seguir Você com fidelidade todos os dias. Quero que minha vida seja uma história de fé. Amém!`,
     scenes: [
       {
         imageUrl: "/images/historias/elias-e-o-carro-de-fogo-cena-1.svg",
@@ -3280,6 +3306,7 @@ A história de Elias nos lembra que Deus honra aqueles que o seguem fielmente. E
     testament: "novo",
     moralLesson:
       "Jesus é tão importante que vale a pena qualquer viagem para encontrá-Lo. Os melhores presentes que podemos dar a Ele são nosso coração e nosso amor.",
+    prayer: `Senhor Jesus, assim como os Reis Magos viajaram longe para Te encontrar, quero Te buscar todos os dias com todo o meu coração. Obrigado por ser o presente mais precioso que Deus nos deu. Amém!`,
     scenes: [
       {
         imageUrl: "/images/historias/os-reis-magos-cena-1.svg",
@@ -3381,6 +3408,7 @@ E a boa notícia é que você não precisa cruzar nenhum deserto para encontrar 
     testament: "novo",
     moralLesson:
       "Jesus ama cada criança com um amor imenso e especial. Ninguém é pequeno demais para ser importante para Ele.",
+    prayer: `Senhor Jesus, obrigado por amar as crianças tanto! Obrigado por me deixar chegar perto de Você. Quero sempre sentir Seu abraço e saber que sou especial e muito amado por Você. Amém!`,
     scenes: [
       {
         imageUrl: "/images/historias/jesus-e-as-criancas-cena-1.svg",
@@ -3476,6 +3504,7 @@ Você é especial para Jesus. Não importa sua idade, não importa se você aind
     testament: "novo",
     moralLesson:
       "Jesus está com a gente nos momentos mais difíceis. Mesmo quando tudo parece sem esperança, Deus pode fazer algo incrível.",
+    prayer: `Senhor Jesus, obrigado por estar comigo nas horas mais difíceis. Assim como chorou com as irmãs de Lázaro, Você se importa com a minha dor também. Obrigado porque nada é impossível para Você. Amém!`,
     scenes: [
       {
         imageUrl: "/images/historias/a-ressurreicao-de-lazaro-cena-1.svg",
@@ -3593,6 +3622,7 @@ Quando você estiver com medo, ou triste, ou sentindo que está no escuro como n
     testament: "novo",
     moralLesson:
       "Quando mantemos os olhos em Jesus, conseguimos fazer coisas impossíveis. Mas se olharmos para os problemas com medo, precisamos lembrar de pedir ajuda a Ele.",
+    prayer: `Senhor Jesus, me ajuda a manter meus olhos em Você e não nos problemas. Quando eu sentir que estou afundando, me estende a mão como fez com Pedro. Quero confiar em Você sempre. Amém!`,
     scenes: [
       {
         imageUrl: "/images/historias/pedro-anda-sobre-as-aguas-cena-1.svg",
@@ -3710,6 +3740,7 @@ A boa notícia é que Jesus está sempre lá, com a mão estendida, pronto para 
     testament: "novo",
     moralLesson:
       "Jesus se importa com os detalhes da nossa vida, até com os menores problemas. Quando confiamos n'Ele, Ele pode transformar situações difíceis em algo muito melhor.",
+    prayer: `Senhor Jesus, obrigado por se importar com os detalhes da minha vida. Quando eu tiver algum problema, mesmo que pareça pequeno, quero trazer tudo para Você. Obrigado por transformar minhas dificuldades em algo lindo. Amém!`,
     scenes: [
       {
         imageUrl: "/images/historias/as-bodas-de-cana-cena-1.svg",

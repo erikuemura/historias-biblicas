@@ -218,16 +218,23 @@ export default async function StoryPage({ params }: Props) {
         </div>
 
         {/* Prayer suggestion */}
-        <div className="mt-6 bg-purple-50 border border-purple-200 rounded-2xl p-6">
-          <div className="flex items-center gap-3 mb-3">
-            <span className="text-2xl">🙏</span>
-            <h3 className="font-bold text-purple-900">Hora de orar juntos!</h3>
+        <div className="mt-6 relative overflow-hidden bg-gradient-to-br from-violet-50 to-purple-50 border border-purple-200 rounded-2xl p-6 sm:p-8">
+          {/* decorative quote mark */}
+          <div className="absolute top-3 right-5 text-7xl text-purple-100 font-serif leading-none select-none pointer-events-none">"</div>
+          <div className="relative">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-400 to-purple-500 flex items-center justify-center flex-shrink-0 shadow-sm">
+                <span className="text-xl">🙏</span>
+              </div>
+              <div>
+                <h3 className="font-black text-purple-900 text-lg leading-tight">Hora de orar juntos!</h3>
+                <p className="text-purple-400 text-xs font-medium">Pai ou mãe, leia com o seu filho</p>
+              </div>
+            </div>
+            <p className="text-purple-800 text-base leading-relaxed font-medium pl-0 sm:pl-[3.25rem] italic">
+              {story.prayer}
+            </p>
           </div>
-          <p className="text-purple-700 text-sm leading-relaxed">
-            Que tal terminar a história com uma oraçãozinha? Pergunte para seu
-            filho: <strong>„O que você quer agradecer a Deus hoje?"</strong> e
-            orem juntos com as palavras dele. Deus ama ouvir a voz das crianças!
-          </p>
         </div>
 
         {/* Navigation */}
