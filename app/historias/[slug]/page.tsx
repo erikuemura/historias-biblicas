@@ -14,6 +14,7 @@ import { stories, getStoryBySlug } from "@/data/stories"
 import PrintButton from "@/components/PrintButton"
 import AudioPlayer from "@/components/AudioPlayer"
 import ShareButtons from "@/components/ShareButtons"
+import FavoriteButton from "@/components/FavoriteButton"
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -280,7 +281,8 @@ export default async function StoryPage({ params }: Props) {
             Ver outras histórias
           </Link>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 flex-wrap">
+            <FavoriteButton slug={story.slug} title={story.title} />
             <PrintButton />
             <ShareButtons title={story.title} slug={story.slug} />
           </div>
