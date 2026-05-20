@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next"
 import { stories } from "@/data/stories"
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://historias-biblicas.vercel.app"
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://historinhasbiblicas.com.br"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const storyRoutes = stories.map((story) => ({

@@ -10,7 +10,7 @@ interface ShareButtonsProps {
 export default function ShareButtons({ title, slug }: ShareButtonsProps) {
   const [copied, setCopied] = useState<"link" | "instagram" | null>(null)
 
-  const url = `https://historias-biblicas.vercel.app/historias/${slug}`
+  const url = `https://historinhasbiblicas.com.br/historias/${slug}`
   const text = `Leia com seus filhos: "${title}" — histórias bíblicas para crianças 🙏`
 
   const whatsappHref = `https://wa.me/?text=${encodeURIComponent(text + "\n" + url)}`

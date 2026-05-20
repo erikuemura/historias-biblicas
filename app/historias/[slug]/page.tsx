@@ -24,7 +24,7 @@ export async function generateStaticParams() {
   return stories.map((s) => ({ slug: s.slug }))
 }
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://historias-biblicas.vercel.app"
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://historinhasbiblicas.com.br"
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params

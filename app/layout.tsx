@@ -13,7 +13,7 @@ const nunito = Nunito({
   weight: ["400", "500", "600", "700", "800", "900"],
 })
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://historias-biblicas.vercel.app"
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://historinhasbiblicas.com.br"
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),

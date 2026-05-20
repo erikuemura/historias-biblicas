@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Histórias bíblicas ilustradas e narradas, escritas com carinho para pais lerem aos filhos de 3 a 8 anos. Gratuito, com áudio e ilustrações!",
   alternates: {
-    canonical: process.env.NEXT_PUBLIC_SITE_URL ?? "https://historias-biblicas.vercel.app",
+    canonical: process.env.NEXT_PUBLIC_SITE_URL ?? "https://historinhasbiblicas.com.br",
   },
 }
 
