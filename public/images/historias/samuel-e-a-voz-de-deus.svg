@@ -73,7 +73,7 @@
   <!-- Hair -->
   <ellipse cx="455" cy="323" rx="22" ry="13" fill="#92400e"/>
   <!-- Sleeping face (peaceful) -->
-  <path d="M446" cy="336" cx="446" cy="336" fill="none"/>
+  <path d="M446 336" fill="none"/>
   <path d="M446 336 Q455 340 464 336" stroke="#1c1917" stroke-width="2" fill="none"/>
   <!-- Closed eyes -->
   <path d="M449 330 Q455 333 461 330" stroke="#1c1917" stroke-width="2.5" fill="none"/>

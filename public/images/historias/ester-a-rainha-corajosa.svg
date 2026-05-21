@@ -105,7 +105,7 @@
   <path d="M389 173 Q393 170 397 173" stroke="#1c1917" stroke-width="2" fill="none"/>
   <path d="M403 173 Q407 170 411 173" stroke="#1c1917" stroke-width="2" fill="none"/>
   <!-- Jewelry (necklace) -->
-  <path d="M377 203 Q400 215 423 203" stroke="#fde068a" stroke-width="4" fill="none" stroke="#fde047"/>
+  <path d="M377 203 Q400 215 423 203" stroke="#fde047" stroke-width="4" fill="none"/>
   <circle cx="400" cy="212" r="5" fill="#dc2626"/>
   <!-- Floor decorations -->
   <ellipse cx="200" cy="370" rx="60" ry="15" fill="#be185d" opacity="0.3"/>
