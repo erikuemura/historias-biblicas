@@ -364,26 +364,68 @@ export default function AudioPlayer({ slug, scenes, gradient }: AudioPlayerProps
         )}
       </div>
 
-      {/* Scene navigation dots */}
-      {isActive && (
-        <div className="flex items-center justify-center gap-2">
-          {scenes.map((scene, i) => (
-            <button
-              key={i}
-              onClick={() => goToScene(i)}
-              title={`Cena ${i + 1}: ${scene.title}`}
-              aria-label={`Ir para cena ${i + 1}: ${scene.title}`}
-              className={`rounded-full transition-all duration-300 hover:opacity-80 ${
-                i === currentScene
-                  ? "w-6 h-1.5 bg-amber-500"
-                  : i < currentScene
-                  ? "w-3 h-1.5 bg-amber-300"
-                  : "w-3 h-1.5 bg-gray-200"
-              }`}
-            />
-          ))}
+      {/* Scene chapter selector — always visible */}
+      <div className="bg-white border border-amber-200 rounded-2xl overflow-hidden">
+        <div className="flex items-center justify-between px-4 py-2.5 border-b border-amber-100">
+          <span className="text-xs font-bold text-gray-500 uppercase tracking-wide">Capítulos</span>
+          <span className="text-xs text-gray-400">toque para pular</span>
         </div>
-      )}
+        <div className="divide-y divide-amber-50">
+          {scenes.map((scene, i) => {
+            const isCurrentScene = isActive && i === currentScene
+            const isDone = isActive && i < currentScene
+            return (
+              <button
+                key={i}
+                onClick={() => isActive ? goToScene(i) : (setStatus("loading"), loadScene(i))}
+                className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors ${
+                  isCurrentScene
+                    ? "bg-amber-50"
+                    : "hover:bg-gray-50"
+                }`}
+              >
+                {/* Scene number / state indicator */}
+                <div className={`w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 text-xs font-bold transition-all ${
+                  isCurrentScene
+                    ? `bg-gradient-to-br ${gradient} text-white shadow-sm`
+                    : isDone
+                    ? "bg-amber-100 text-amber-600"
+                    : "bg-gray-100 text-gray-400"
+                }`}>
+                  {isDone ? "✓" : i + 1}
+                </div>
+
+                {/* Title */}
+                <div className="flex-1 min-w-0">
+                  <p className={`text-sm font-semibold truncate ${
+                    isCurrentScene ? "text-amber-700" : isDone ? "text-gray-500" : "text-gray-700"
+                  }`}>
+                    {scene.title}
+                  </p>
+                  {isCurrentScene && duration > 0 && (
+                    <p className="text-xs text-amber-500 mt-0.5">{formatTime(currentTime)} · {formatTime(duration)}</p>
+                  )}
+                </div>
+
+                {/* Play icon */}
+                <div className={`flex-shrink-0 transition-opacity ${isCurrentScene ? "opacity-100" : "opacity-0 group-hover:opacity-100"}`}>
+                  {isCurrentScene && (status === "playing") ? (
+                    <div className="flex items-end gap-0.5 h-4">
+                      <span className="w-1 bg-amber-500 rounded-full animate-[bounce_0.8s_ease-in-out_infinite]" style={{height:'60%'}}/>
+                      <span className="w-1 bg-amber-500 rounded-full animate-[bounce_0.8s_ease-in-out_0.15s_infinite]" style={{height:'100%'}}/>
+                      <span className="w-1 bg-amber-500 rounded-full animate-[bounce_0.8s_ease-in-out_0.3s_infinite]" style={{height:'40%'}}/>
+                    </div>
+                  ) : (
+                    <svg className={`w-4 h-4 ${isCurrentScene ? "text-amber-500" : "text-gray-300"}`} viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                  )}
+                </div>
+              </button>
+            )
+          })}
+        </div>
+      </div>
     </div>
   )
 }
