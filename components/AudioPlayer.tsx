@@ -199,7 +199,7 @@ export default function AudioPlayer({ slug, scenes, gradient }: AudioPlayerProps
   useEffect(() => {
     // Check for saved progress on mount
     const progress = loadProgress(slug)
-    if (progress && (progress.scene > 0 || progress.time > 10)) {
+    if (progress && progress.time > 3) {
       setSavedProgress(progress)
       setShowResumeBanner(true)
     }
@@ -232,10 +232,33 @@ export default function AudioPlayer({ slug, scenes, gradient }: AudioPlayerProps
       setStatus("idle")
     })
 
+    // Save immediately when app goes to background (minimize, tab switch, PWA close)
+    function handleVisibilityChange() {
+      if (document.visibilityState === "hidden") {
+        const a = audioRef.current
+        if (a && a.currentTime > 0) {
+          saveProgress(slug, sceneRef.current, a.currentTime)
+        }
+      }
+    }
+
+    // Save on page unload (browser/tab close, navigation away)
+    function handlePageHide() {
+      const a = audioRef.current
+      if (a && a.currentTime > 0) {
+        saveProgress(slug, sceneRef.current, a.currentTime)
+      }
+    }
+
+    document.addEventListener("visibilitychange", handleVisibilityChange)
+    window.addEventListener("pagehide", handlePageHide)
+
     return () => {
       audio.pause()
       audio.src = ""
       stopSaveInterval()
+      document.removeEventListener("visibilitychange", handleVisibilityChange)
+      window.removeEventListener("pagehide", handlePageHide)
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
